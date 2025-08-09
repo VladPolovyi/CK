@@ -1,0 +1,26 @@
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  transition: transform 300ms ease-out;
+}
+
+.cardHoverOverlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: background-color 300ms ease;
+}
+
+.cardHoverOverlay:hover::after {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.cardHoverScale:hover .image {
+  transform: scale(1.03);
+}
+
+

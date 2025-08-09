@@ -9,6 +9,7 @@ import Zoom from 'yet-another-react-lightbox/plugins/zoom'
 import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails'
 import 'yet-another-react-lightbox/styles.css'
 import 'yet-another-react-lightbox/plugins/thumbnails.css'
+import styles from './gallery.module.scss'
 
 export default function Gallery() {
   // Real gallery items based on files in public/images
@@ -99,7 +100,7 @@ export default function Gallery() {
             {galleryItems.map((item, idx) => (
               <div key={item.id} className="blood-card group">
                 <div
-                  className="relative aspect-video bg-dark-gray overflow-hidden cursor-pointer rounded-none"
+                  className={`relative aspect-video bg-dark-gray cursor-pointer rounded-none ${styles.imageContainer} ${styles.cardHoverOverlay} ${styles.cardHoverScale}`}
                   onClick={() => {
                     setLightboxIndex(idx)
                     setLightboxOpen(true)
@@ -110,10 +111,9 @@ export default function Gallery() {
                     alt={item.title}
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover transition-transform duration-300 ease-out group-hover:scale-[1.03]"
+                    className={`object-cover ${styles.image}`}
                     priority={item.id === 1}
                   />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300" />
                 </div>
                 
                 <div className="p-4 md:p-3">

@@ -1,108 +1,29 @@
 import { Trophy, Crown, Star, Medal, Award, Target, Users, Calendar } from 'lucide-react'
 import Navigation from '@/components/Navigation'
+import { gladiators, r1Players, legends, recentAchievements } from '@/data/achievements'
+import { blizzardGet } from '@/lib/blizzard'
 
-export default function Achievements() {
-  // Mock data for achievements
-  const gladiators = [
-    {
-      id: 1,
-      name: "BloodKnight",
-      title: "Gladiator",
-      season: "Season 3",
-      rating: 2450,
-      spec: "Paladin",
-      date: "2024-01-15",
-      icon: Crown
-    },
-    {
-      id: 2,
-      name: "ShadowReaper",
-      title: "Gladiator",
-      season: "Season 2",
-      rating: 2380,
-      spec: "Death Knight",
-      date: "2023-12-20",
-      icon: Crown
-    },
-    {
-      id: 3,
-      name: "DarkMage",
-      title: "Gladiator",
-      season: "Season 1",
-      rating: 2320,
-      spec: "Mage",
-      date: "2023-11-10",
-      icon: Crown
-    }
-  ]
+export default async function Achievements() {
+  // Live guild roster (server-side)
+  let rosterMembers: any[] = []
+  try {
+    const res = await blizzardGet('eu', '/data/wow/guild/ravencrest/cbitahok-kpobi/roster', {
+      namespace: 'profile-eu',
+      locale: 'en_US',
+    })
+    const data = await res.json()
+    rosterMembers = Array.isArray(data?.members) ? data.members : []
+  } catch {
+    rosterMembers = []
+  }
 
-  const r1Players = [
-    {
-      id: 1,
-      name: "BloodKnight",
-      title: "Rank 1",
-      bracket: "3v3",
-      spec: "Paladin",
-      season: "Season 3",
-      date: "2024-01-10",
-      icon: Star
-    },
-    {
-      id: 2,
-      name: "ShadowReaper",
-      title: "Rank 1",
-      bracket: "2v2",
-      spec: "Death Knight",
-      season: "Season 2",
-      date: "2023-12-15",
-      icon: Star
-    }
-  ]
-
-  const legends = [
-    {
-      id: 1,
-      name: "BloodKnight",
-      title: "Legend",
-      achievement: "Arena Master",
-      spec: "Paladin",
-      date: "2024-01-05",
-      icon: Medal
-    },
-    {
-      id: 2,
-      name: "DarkMage",
-      title: "Legend",
-      achievement: "PvP Master",
-      spec: "Mage",
-      date: "2023-12-01",
-      icon: Medal
-    }
-  ]
-
-  const recentAchievements = [
-    {
-      id: 1,
-      player: "BloodPriest",
-      achievement: "Reached 2400 Rating",
-      date: "2 days ago",
-      icon: Target
-    },
-    {
-      id: 2,
-      player: "DeathKnight",
-      achievement: "Won 100 Arena Matches",
-      date: "3 days ago",
-      icon: Trophy
-    },
-    {
-      id: 3,
-      player: "BloodWarrior",
-      achievement: "Completed All PvP Achievements",
-      date: "1 week ago",
-      icon: Award
-    }
-  ]
+  const sortedRoster = rosterMembers
+    .slice()
+    .sort((a: any, b: any) => {
+      const ra = typeof a?.rank === 'number' ? a.rank : Number.POSITIVE_INFINITY
+      const rb = typeof b?.rank === 'number' ? b.rank : Number.POSITIVE_INFINITY
+      return ra - rb
+    })
 
   return (
     <div className="min-h-screen blood-gradient">
@@ -141,6 +62,35 @@ export default function Achievements() {
               <Medal className="h-12 w-12 text-blood-purple mx-auto mb-4" />
               <div className="text-3xl font-bold text-white combat-text">{legends.length}</div>
               <div className="text-gray-300">Legends</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     {/* <pre>{JSON.stringify(rosterMembers, null, 2)}</pre> */}
+
+
+      {/* Guild Roster (live) */}
+      <div className="py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="blood-card rounded-lg p-6">
+            <div className="flex items-center mb-4">
+              <Users className="h-6 w-6 text-blood-glow mr-2" />
+              <h2 className="text-xl font-bold text-white">Guild Roster</h2>
+            </div>
+            <div className="text-gray-300 mb-4">
+              Members: <span className="text-white font-semibold">{rosterMembers.length}</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              {sortedRoster.slice(0, 12).map((m: any, idx: number) => (
+                <div key={idx} className="p-3 bg-dark-gray/50 rounded-md border border-blood-glow/20">
+                  <div className="text-white font-medium">{m?.character?.name ?? 'Unknown'}</div>
+                  <div className="text-gray-400 text-xs">Rank: {m?.rank ?? '—'}</div>
+                </div>
+              ))}
+              {sortedRoster.length === 0 && (
+                <div className="text-gray-400">No roster data available.</div>
+              )}
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-20">
           {/* Left Navigation */}
           <div className="flex items-center space-x-6">
-            <Link href="/gallery" className="text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors">Gallery</Link>
+            <Link href="/achievements" className="text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors">Achievements</Link>
             <Link href="/activity" className="text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors">Activity</Link>
           </div>
           
@@ -38,7 +38,7 @@ export default function Navigation() {
           
           {/* Right Navigation */}
           <div className="flex items-center space-x-6">
-            <Link href="/achievements" className="text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors">Achievements</Link>
+            <Link href="/gallery" className="text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors">Gallery</Link>
             <Link href="#" className="text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors">Join</Link>
           </div>
         </div>
