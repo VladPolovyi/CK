@@ -146,6 +146,47 @@ $blood-purple: #4B0082;
   }
 }
 
+@mixin gothic-guild-text {
+  position: relative;
+  display: inline-block;
+  font-family: var(--font-eczar), serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 15px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, $blood-glow, transparent);
+    transform: translateY(-50%);
+    animation: gothic-glow 3s ease-in-out infinite;
+  }
+  
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    width: 15px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, $blood-glow, transparent);
+    transform: translateY(-50%);
+    animation: gothic-glow 3s ease-in-out infinite reverse;
+  }
+}
+
+@mixin gothic-subtitle {
+  position: relative;
+  display: block;
+  font-family: var(--font-eczar), serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
 // Root styles
 :root {
   --foreground-rgb: #{$foreground-rgb};
@@ -204,6 +245,14 @@ body {
   @include blood-logo;
 }
 
+.gothic-guild-text {
+  @include gothic-guild-text;
+}
+
+.gothic-subtitle {
+  @include gothic-subtitle;
+}
+
 // Animations
 @keyframes glow {
   0% { 
@@ -228,12 +277,44 @@ body {
   }
 }
 
+@keyframes gothic-glow {
+  0% { 
+    opacity: 0.3; 
+    transform: translateY(-50%) scaleX(0.8);
+  }
+  50% { 
+    opacity: 1; 
+    transform: translateY(-50%) scaleX(1.2);
+  }
+  100% { 
+    opacity: 0.3; 
+    transform: translateY(-50%) scaleX(0.8);
+  }
+}
+
+@keyframes gothic-sparkle {
+  0% { 
+    opacity: 0.4; 
+    transform: translateY(-50%) rotate(0deg);
+  }
+  50% { 
+    opacity: 1; 
+    transform: translateY(-50%) rotate(180deg);
+  }
+  100% { 
+    opacity: 0.4; 
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
 // Additional SCSS features
 .arena-stats {
   background: rgba($dark-gray, 0.8);
   border: 1px solid rgba($blood-glow, 0.4);
   backdrop-filter: blur(10px);
 }
+
+
 
 // Responsive blood effects
 @media (max-width: 768px) {

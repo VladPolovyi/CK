@@ -1,7 +1,12 @@
-import { Trophy, Crown, Star, Medal, Award, Target, Users, Calendar } from 'lucide-react'
+import { Trophy, Medal, Award, Target, Users, Calendar } from 'lucide-react'
 import Navigation from '@/components/Navigation'
-import { gladiators, r1Players, legends, recentAchievements } from '@/data/achievements'
+import HeroSection from '@/components/HeroSection'
+import ReadyToBleed from '@/components/ReadyToBleed'
+import { legends, recentAchievements } from '@/data/achievements'
 import { blizzardGet } from '@/lib/blizzard'
+import titles from '@/data/generated/pvp-titles.json'
+
+export const revalidate = 86400
 
 export default async function Achievements() {
   // Live guild roster (server-side)
@@ -25,243 +30,296 @@ export default async function Achievements() {
       return ra - rb
     })
 
+  // Use pre-generated PvP titles (build-time) to avoid runtime calls
+  // Create a map with name+realm as key to avoid conflicts
+  const byNameAndRealm = new Map<string, any>(
+    Array.isArray((titles as any)?.items)
+      ? (titles as any).items.map((t: any) => [`${t.name?.toLowerCase?.() || ''}-${t.realmSlug?.toLowerCase?.() || ''}`, t])
+      : []
+  )
+  
+  // Get members with PvP achievements - include ranks 0-5 (exclude ranks 6+)
+  // Members are only included if they actually have the specific achievements
+  const gladiatorMembers = sortedRoster.filter((m: any) => {
+    const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
+    return memberData && memberData.hasGladiatorEver && m.rank <= 5
+  })
+  const rank1Members = sortedRoster.filter((m: any) => {
+    const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
+    return memberData && memberData.hasRank1Ever && m.rank <= 5
+  })
+  const legendMembers = sortedRoster.filter((m: any) => {
+    const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
+    return memberData && memberData.hasLegendEver && m.rank <= 5
+  })
+  
+  const strategistMembers = sortedRoster.filter((m: any) => {
+    const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
+    
+    // Debug: Log what fields are available for the first few members
+    if (m.rank <= 2 && memberData) {
+      console.log(`Member ${m.character?.name} data:`, Object.keys(memberData))
+    }
+    
+    return memberData && memberData.hasStrategistEver && m.rank <= 5
+  })
+  
+  const blitzRank1Members = sortedRoster.filter((m: any) => {
+    const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
+    return memberData && memberData.hasRank1BlitzEver && m.rank <= 5
+  })
+  
+  const soloRank1Members = sortedRoster.filter((m: any) => {
+    const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
+    return memberData && memberData.hasRank1SoloEver && m.rank <= 5
+  })
+  
+  // Debug: Show what fields are available in the first member data
+  const firstMemberData = byNameAndRealm.values().next().value
+  if (firstMemberData) {
+    console.log('Available fields in member data:', Object.keys(firstMemberData))
+  }
+
+  // Filter members to only include those with max rank 5 (including rank 0 for guild master) for display purposes
+  const maxRank5Members = sortedRoster.filter((m: any) => {
+    return m.rank <= 5
+  })
+
   return (
     <div className="min-h-screen blood-gradient">
       <Navigation />
       <div className="pt-20">
+          
+    
+
       {/* Hero Section */}
-      <div className="blood-hero relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="text-center">
-            <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
-              <span className="block text-blood-glow combat-text">Blood Achievements</span>
-              <span className="block">CBITAHOK KPOBI</span>
-            </h1>
-            <p className="mt-6 text-lg text-gray-300 max-w-3xl mx-auto">
-              The legends of blood and conquest. These warriors have proven their worth in battle and earned their place in history.
-            </p>
-          </div>
-        </div>
-      </div>
+      <HeroSection 
+        title="PvP Achievements"
+        subtitle="Unique players who have ever achieved these PvP titles"
+        backgroundImage="/images/ebo_glad.jpg"
+      />
 
       {/* Achievement Stats */}
       <div className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="blood-card rounded-lg p-6 text-center">
-              <Crown className="h-12 w-12 text-blood-gold mx-auto mb-4" />
-              <div className="text-3xl font-bold text-white combat-text">{gladiators.length}</div>
-              <div className="text-gray-300">Gladiators</div>
-            </div>
-            <div className="blood-card rounded-lg p-6 text-center">
-              <Star className="h-12 w-12 text-blood-glow mx-auto mb-4" />
-              <div className="text-3xl font-bold text-white combat-text">{r1Players.length}</div>
-              <div className="text-gray-300">Rank 1 Players</div>
-            </div>
-            <div className="blood-card rounded-lg p-6 text-center">
-              <Medal className="h-12 w-12 text-blood-purple mx-auto mb-4" />
-              <div className="text-3xl font-bold text-white combat-text">{legends.length}</div>
-              <div className="text-gray-300">Legends</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-     {/* <pre>{JSON.stringify(rosterMembers, null, 2)}</pre> */}
-
-
-      {/* Guild Roster (live) */}
-      <div className="py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="blood-card rounded-lg p-6">
-            <div className="flex items-center mb-4">
-              <Users className="h-6 w-6 text-blood-glow mr-2" />
-              <h2 className="text-xl font-bold text-white">Guild Roster</h2>
-            </div>
-            <div className="text-gray-300 mb-4">
-              Members: <span className="text-white font-semibold">{rosterMembers.length}</span>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-              {sortedRoster.slice(0, 12).map((m: any, idx: number) => (
-                <div key={idx} className="p-3 bg-dark-gray/50 rounded-md border border-blood-glow/20">
-                  <div className="text-white font-medium">{m?.character?.name ?? 'Unknown'}</div>
-                  <div className="text-gray-400 text-xs">Rank: {m?.rank ?? '—'}</div>
-                </div>
-              ))}
-              {sortedRoster.length === 0 && (
-                <div className="text-gray-400">No roster data available.</div>
-              )}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Main Content */}
-      <div className="py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Gladiators */}
-            <div className="blood-card rounded-lg p-6">
-              <div className="flex items-center mb-6">
-                <Crown className="h-6 w-6 text-blood-gold mr-2" />
-                <h2 className="text-xl font-bold text-white">Gladiators</h2>
+                                           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="blood-card rounded-lg p-6 text-center">
+                <img src="/images/r1.webp" alt="Rank 1" className="h-12 w-12 mx-auto mb-4" />
+                <div className="text-3xl font-bold text-white combat-text">{rank1Members.length}</div>
+                <div className="text-gray-300">R1 3v3</div>
               </div>
-              
-              <div className="space-y-4">
-                {gladiators.map((player) => (
-                  <div key={player.id} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-blood-gold/20">
-                    <player.icon className="h-8 w-8 text-blood-gold mr-3" />
-                    <div className="flex-1">
-                      <div className="text-white font-bold">{player.name}</div>
-                      <div className="text-gray-300 text-sm">
-                        {player.title} • {player.season} • {player.spec}
-                      </div>
-                      <div className="text-blood-gold text-sm font-medium">
-                        Rating: {player.rating}
-                      </div>
-                    </div>
-                    <div className="text-right">
-                      <div className="text-gray-400 text-xs">{player.date}</div>
-                    </div>
-                  </div>
-                ))}
+              <div className="blood-card rounded-lg p-6 text-center">
+                <img src="/images/shuffle_r1.webp" alt="Solo Rank 1" className="h-12 w-12 mx-auto mb-4" />
+                <div className="text-3xl font-bold text-white combat-text">{soloRank1Members.length}</div>
+                <div className="text-gray-300">R1 Solo</div>
               </div>
-            </div>
-
-            {/* Rank 1 Players */}
-            <div className="blood-card rounded-lg p-6">
-              <div className="flex items-center mb-6">
-                <Star className="h-6 w-6 text-blood-glow mr-2" />
-                <h2 className="text-xl font-bold text-white">Rank 1 Players</h2>
+              <div className="blood-card rounded-lg p-6 text-center">
+                <img src="/images/blitz_r1.webp" alt="Blitz Rank 1" className="h-12 w-12 mx-auto mb-4" />
+                <div className="text-3xl font-bold text-white combat-text">{blitzRank1Members.length}</div>
+                <div className="text-gray-300">R1 Blitz</div>
               </div>
-              
-              <div className="space-y-4">
-                {r1Players.map((player) => (
-                  <div key={player.id} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-blood-glow/20">
-                    <player.icon className="h-8 w-8 text-blood-glow mr-3" />
-                    <div className="flex-1">
-                      <div className="text-white font-bold">{player.name}</div>
-                      <div className="text-gray-300 text-sm">
-                        {player.title} • {player.bracket} • {player.spec}
-                      </div>
-                      <div className="text-blood-glow text-sm font-medium">
-                        {player.season}
-                      </div>
-                    </div>
-                    <div className="text-right">
-                      <div className="text-gray-400 text-xs">{player.date}</div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Legends Section */}
-      <div className="py-12 bg-dark-gray/80">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-extrabold text-white mb-4">
-              <span className="text-blood-purple">Blood Legends</span>
-            </h2>
-            <p className="text-gray-300">
-              The ultimate warriors who have achieved legendary status
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {legends.map((legend) => (
-              <div key={legend.id} className="blood-card rounded-lg p-6 border border-blood-purple/30">
-                <div className="flex items-center mb-4">
-                  <legend.icon className="h-8 w-8 text-blood-purple mr-3" />
-                  <div>
-                    <h3 className="text-xl font-bold text-white">{legend.name}</h3>
-                    <div className="text-blood-purple font-medium">{legend.title}</div>
-                  </div>
-                </div>
-                
-                <div className="space-y-2">
-                  <div className="flex justify-between">
-                    <span className="text-gray-300">Achievement:</span>
-                    <span className="text-white">{legend.achievement}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-gray-300">Class:</span>
-                    <span className="text-white">{legend.spec}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-gray-300">Date:</span>
-                    <span className="text-white">{legend.date}</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Recent Achievements */}
-      <div className="py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="blood-card rounded-lg p-6">
-            <div className="flex items-center mb-6">
-              <Award className="h-6 w-6 text-blood-glow mr-2" />
-              <h2 className="text-xl font-bold text-white">Recent Achievements</h2>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              {recentAchievements.map((achievement) => (
-                <div key={achievement.id} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-blood-glow/20">
-                  <achievement.icon className="h-5 w-5 text-blood-glow mr-3" />
-                  <div className="flex-1">
-                    <div className="text-white font-medium">{achievement.player}</div>
-                    <div className="text-gray-300 text-sm">{achievement.achievement}</div>
-                  </div>
-                  <div className="text-gray-400 text-xs">{achievement.date}</div>
+            {/* Second Row: Gladiator - Legend - Strategist */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+              <div className="blood-card rounded-lg p-6 text-center">
+                <img src="/images/gladiator.webp" alt="Gladiator" className="h-12 w-12 mx-auto mb-4" />
+                <div className="text-3xl font-bold text-white combat-text">{gladiatorMembers.length}</div>
+                <div className="text-gray-300">Gladiator</div>
+              </div>
+              <div className="blood-card rounded-lg p-6 text-center">
+                <img src="/images/legend.webp" alt="Legend" className="h-12 w-12 mx-auto mb-4" />
+                <div className="text-3xl font-bold text-white combat-text">{legendMembers.length}</div>
+                <div className="text-gray-300">Legend</div>
+              </div>
+              <div className="blood-card rounded-lg p-6 text-center">
+                <img src="/images/strategist.webp" alt="Strategist" className="h-12 w-12 mx-auto mb-4" />
+                <div className="text-3xl font-bold text-white combat-text">{strategistMembers.length}</div>
+                <div className="text-gray-300">Strategist</div>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+
+             {/* Main Content */}
+       <div className="py-12">
+         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+           <div className="space-y-8">
+                           {/* R1 3v3 (live from roster) */}
+              <div className="blood-card rounded-lg p-6 hover:border-orange-400/50 hover:bg-orange-900/20 transition-all duration-200 border border-orange-500/30">
+                <div className="flex items-center mb-6">
+                  <img src="/images/r1.webp" alt="Rank 1" className="h-6 w-6 mr-2" />
+                  <h2 className="text-xl font-bold text-white">R1 3v3</h2>
                 </div>
-              ))}
+                <div className="space-y-4">
+                  {rank1Members.map((m: any, idx: number) => {
+                    const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
+                    return (
+                      <div key={`${m?.character?.id ?? idx}-r1`} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-orange-500/30 hover:border-orange-400/50 hover:bg-orange-900/20 transition-all duration-200">
+                        <img src="/images/r1.webp" alt="Rank 1" className="h-8 w-8 mr-3" />
+                        <div className="flex-1">
+                          <div className="text-white font-bold">{m?.character?.name ?? 'Unknown'}</div>
+                          <div className="text-gray-300 text-sm">{m?.character?.realm?.name?.en_US ?? ''}</div>
+                        </div>
+                        <div className="text-right">
+                          <div className="text-orange-400 text-sm font-medium">{memberData?.realmName ?? ''}</div>
+                        </div>
+                      </div>
+                    )
+                  })}
+                  {rank1Members.length === 0 && (
+                    <div className="text-gray-400">No Rank 1 3v3 players found.</div>
+                  )}
+                </div>
+              </div>
+
+              {/* R1 Solo (live from roster) */}
+              <div className="blood-card rounded-lg p-6 hover:border-orange-400/50 hover:bg-orange-900/20 transition-all duration-200 border border-orange-500/30">
+                <div className="flex items-center mb-6">
+                  <img src="/images/shuffle_r1.webp" alt="Solo Rank 1" className="h-6 w-6 mr-2" />
+                  <h2 className="text-xl font-bold text-white">R1 Solo</h2>
+                </div>
+                <div className="space-y-4">
+                  {soloRank1Members.map((m: any, idx: number) => {
+                    const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
+                    return (
+                      <div key={`${m?.character?.id ?? idx}-solo`} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-orange-500/30 hover:border-orange-400/50 hover:bg-orange-900/20 transition-all duration-200">
+                        <img src="/images/shuffle_r1.webp" alt="Solo Rank 1" className="h-8 w-8 mr-3" />
+                        <div className="flex-1">
+                          <div className="text-white font-bold">{m?.character?.name ?? 'Unknown'}</div>
+                          <div className="text-gray-300 text-sm">{m?.character?.realm?.name?.en_US ?? ''}</div>
+                        </div>
+                        <div className="text-right">
+                          <div className="text-orange-400 text-sm font-medium">{memberData?.realmName ?? ''}</div>
+                        </div>
+                      </div>
+                    )
+                  })}
+                  {soloRank1Members.length === 0 && (
+                    <div className="text-gray-400">No R1 Solo players found.</div>
+                  )}
+                </div>
+              </div>
+
+              {/* R1 Blitz (live from roster) */}
+              <div className="blood-card rounded-lg p-6 hover:border-green-400/50 hover:bg-green-900/20 transition-all duration-200 border border-green-500/30">
+                <div className="flex items-center mb-6">
+                  <img src="/images/blitz_r1.webp" alt="Blitz Rank 1" className="h-6 w-6 mr-2" />
+                  <h2 className="text-xl font-bold text-white">R1 Blitz</h2>
+                </div>
+                <div className="space-y-4">
+                  {blitzRank1Members.map((m: any, idx: number) => {
+                    const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
+                    return (
+                      <div key={`${m?.character?.id ?? idx}-blitz`} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-green-500/30 hover:border-green-400/50 hover:bg-green-900/20 transition-all duration-200">
+                        <img src="/images/blitz_r1.webp" alt="Blitz Rank 1" className="h-8 w-8 mr-3" />
+                        <div className="flex-1">
+                          <div className="text-white font-bold">{m?.character?.name ?? 'Unknown'}</div>
+                          <div className="text-gray-300 text-sm">{m?.character?.realm?.name?.en_US ?? ''}</div>
+                        </div>
+                        <div className="text-right">
+                          <div className="text-green-400 text-sm font-medium">{memberData?.realmName ?? ''}</div>
+                        </div>
+                      </div>
+                    )
+                  })}
+                  {blitzRank1Members.length === 0 && (
+                    <div className="text-gray-400">No R1 Blitz players found.</div>
+                  )}
+                </div>
+              </div>
+
+              {/* Gladiators (live from roster) */}
+              <div className="blood-card rounded-lg p-6 hover:border-purple-400/50 hover:bg-purple-900/20 transition-all duration-200 border border-purple-500/30">
+                <div className="flex items-center mb-6">
+                  <img src="/images/gladiator.webp" alt="Gladiator" className="h-6 w-6 mr-2" />
+                  <h2 className="text-xl font-bold text-white">Gladiators</h2>
+                </div>
+                <div className="space-y-4">
+                  {gladiatorMembers.map((m: any, idx: number) => {
+                    const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
+                    return (
+                      <div key={`${m?.character?.id ?? idx}-glad`} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-purple-500/30 hover:border-purple-400/50 hover:bg-purple-900/20 transition-all duration-200">
+                        <img src="/images/gladiator.webp" alt="Gladiator" className="h-8 w-8 mr-3" />
+                        <div className="flex-1">
+                          <div className="text-white font-bold">{m?.character?.name ?? 'Unknown'}</div>
+                          <div className="text-gray-300 text-sm">{m?.character?.realm?.name?.en_US ?? ''}</div>
+                        </div>
+                        <div className="text-right">
+                          <div className="text-purple-400 text-sm font-medium">{memberData?.realmName ?? ''}</div>
+                        </div>
+                      </div>
+                    )
+                  })}
+                  {gladiatorMembers.length === 0 && (
+                    <div className="text-gray-400">No Gladiators found.</div>
+                  )}
+                </div>
+              </div>
+
+              {/* Legends (live from roster) */}
+              <div className="blood-card rounded-lg p-6 hover:border-yellow-400/50 hover:bg-yellow-900/20 transition-all duration-200 border border-yellow-500/30">
+                <div className="flex items-center mb-6">
+                  <img src="/images/legend.webp" alt="Legend" className="h-6 w-6 mr-2" />
+                  <h2 className="text-xl font-bold text-white">Legends</h2>
+                </div>
+                <div className="space-y-4">
+                  {legendMembers.map((m: any, idx: number) => {
+                    const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
+                    return (
+                      <div key={`${m?.character?.id ?? idx}-legend`} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-yellow-500/30 hover:border-yellow-400/50 hover:bg-yellow-900/20 transition-all duration-200">
+                        <img src="/images/legend.webp" alt="Legend" className="h-8 w-8 mr-3" />
+                        <div className="flex-1">
+                          <div className="text-white font-bold">{m?.character?.name ?? 'Unknown'}</div>
+                          <div className="text-gray-300 text-sm">{m?.character?.realm?.name?.en_US ?? ''}</div>
+                        </div>
+                        <div className="text-right">
+                          <div className="text-yellow-400 text-sm font-medium">{memberData?.realmName ?? ''}</div>
+                        </div>
+                      </div>
+                    )
+                  })}
+                  {legendMembers.length === 0 && (
+                    <div className="text-gray-400">No Legends found.</div>
+                  )}
+                </div>
+              </div>
+
+                             {/* Strategists (live from roster) */}
+               <div className="blood-card rounded-lg p-6 hover:border-green-700/50 hover:bg-green-900/20 transition-all duration-200 border border-green-700/30">
+                 <div className="flex items-center mb-6">
+                   <img src="/images/strategist.webp" alt="Strategist" className="h-6 w-6 mr-2" />
+                   <h2 className="text-xl font-bold text-white">Strategists</h2>
+                 </div>
+                 <div className="space-y-4">
+                   {strategistMembers.map((m: any, idx: number) => {
+                     const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
+                     return (
+                       <div key={`${m?.character?.id ?? idx}-strat`} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-green-700/30 hover:border-green-600/50 hover:bg-green-900/20 transition-all duration-200">
+                         <img src="/images/strategist.webp" alt="Strategist" className="h-8 w-8 mr-3" />
+                         <div className="flex-1">
+                           <div className="text-white font-bold">{m?.character?.name ?? 'Unknown'}</div>
+                           <div className="text-gray-300 text-sm">{m?.character?.realm?.name?.en_US ?? ''}</div>
+                         </div>
+                         <div className="text-right">
+                           <div className="text-green-600 text-sm font-medium">{memberData?.realmName ?? ''}</div>
+                         </div>
+                       </div>
+                     )
+                   })}
+                   {strategistMembers.length === 0 && (
+                     <div className="text-gray-400">No Strategists found.</div>
+                   )}
+                 </div>
+               </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Achievement Progress */}
-      <div className="py-12 bg-dark-gray/80">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-extrabold text-white mb-4">
-            <span className="text-blood-light">Achievement Progress</span>
-          </h2>
-          <p className="text-gray-300 mb-8">
-            Track your progress towards legendary status
-          </p>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="blood-card rounded-lg p-6">
-              <Target className="h-8 w-8 text-blood-glow mx-auto mb-2" />
-              <div className="text-2xl font-bold text-white">2400+</div>
-              <div className="text-gray-300">Rating Goal</div>
-            </div>
-            <div className="blood-card rounded-lg p-6">
-              <Trophy className="h-8 w-8 text-blood-gold mx-auto mb-2" />
-              <div className="text-2xl font-bold text-white">100</div>
-              <div className="text-gray-300">Arena Wins</div>
-            </div>
-            <div className="blood-card rounded-lg p-6">
-              <Users className="h-8 w-8 text-blood-purple mx-auto mb-2" />
-              <div className="text-2xl font-bold text-white">50</div>
-              <div className="text-gray-300">Team Battles</div>
-            </div>
-            <div className="blood-card rounded-lg p-6">
-              <Calendar className="h-8 w-8 text-blood-light mx-auto mb-2" />
-              <div className="text-2xl font-bold text-white">30</div>
-              <div className="text-gray-300">Days Active</div>
-            </div>
-          </div>
-                 </div>
-       </div>
-     </div>
-   </div>
-   )
- }
+      {/* Ready to Bleed Section */}
+      <ReadyToBleed />
+    </div>
+    )
+  }

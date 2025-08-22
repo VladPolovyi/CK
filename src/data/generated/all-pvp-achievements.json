@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2025-08-11T15:27:08.183Z",
+  "totalCount": 5,
+  "gladiatorCount": 2,
+  "legendCount": 2,
+  "rank1Count": 1,
+  "achievements": [
+    {
+      "id": 40381,
+      "name": "Unknown",
+      "description": "",
+      "points": 0,
+      "isAccountWide": false
+    },
+    {
+      "id": 40393,
+      "name": "Unknown",
+      "description": "",
+      "points": 0,
+      "isAccountWide": false
+    },
+    {
+      "id": 40395,
+      "name": "Unknown",
+      "description": "",
+      "points": 0,
+      "isAccountWide": false
+    },
+    {
+      "id": 41032,
+      "name": "Unknown",
+      "description": "",
+      "points": 0,
+      "isAccountWide": false
+    },
+    {
+      "id": 41358,
+      "name": "Unknown",
+      "description": "",
+      "points": 0,
+      "isAccountWide": false
+    }
+  ]
+}

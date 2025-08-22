@@ -1,6 +1,8 @@
 import { Shield, Users, Calendar, Trophy, Sword, Crown, Zap, Target, Skull, Flame, Droplets } from 'lucide-react'
 import Navigation from '@/components/Navigation'
+import ReadyToBleed from '@/components/ReadyToBleed'
 import styles from './page.module.scss'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -8,66 +10,85 @@ export default function Home() {
       <Navigation />
 
       {/* Hero Section */}
-      <div className="blood-hero relative overflow-hidden pt-20">
-        <div className="max-w-7xl mx-auto">
-          <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:pb-28 xl:pb-32">
-            <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-              <div className="sm:text-center lg:text-left">
-                <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
-                  <span className="block text-blood-glow combat-text">CBITAHOK KPOBI</span>
-                  <span className={`block sm:mx-auto lg:mx-0 ${styles.ukrainianPvpText}`}>UKRAINIAN PVP</span>
-                </h1>
-                <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  Where the blood flows and legends are born. Join the elite warriors who embrace the darkness. 
-                  In the down of blood, only the strongest survive.
-                </p>
-                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                  <div className="rounded-md shadow">
-                    <a href="#" className="blood-button w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-white md:py-4 md:text-lg md:px-10">
-                      <Droplets className="mr-2 h-5 w-5" />
-                      Join the Blood
-                    </a>
-                  </div>
-                  <div className="mt-3 sm:mt-0 sm:ml-3">
-                    <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-blood-glow text-base font-medium rounded-md text-blood-glow bg-transparent hover:bg-blood-glow hover:text-white md:py-4 md:text-lg md:px-10 transition-all">
-                      <Target className="mr-2 h-5 w-5" />
-                      View Warriors
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </main>
+      <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/images/morok_glad.jpg"
+            alt="Blood Achievements Background"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/70"></div>
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10 text-center max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          <h1 className="text-6xl font-black text-white sm:text-7xl md:text-8xl mb-8 tracking-wider drop-shadow-2xl">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-red-500 to-red-700">
+              CBITAHOK KPOBI
+            </span>
+          </h1>
+
+                    <div className="text-center mb-6">
+            <div className="gothic-guild-text text-2xl font-medium text-gray-300 tracking-wide">
+              eu ravencrest guild
+            </div>
+          </div>
+          
+          <div className="text-center mb-12">
+            <div className="gothic-subtitle text-xl font-medium text-gray-400 tracking-wide">
+              in World of Warcraft
+            </div>
+          </div>
+
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="inline-block bg-black/50 backdrop-blur-sm border border-red-500/40 rounded-xl px-10 py-6 shadow-2xl">
+              <a href="#" className="text-red-400 font-semibold text-xl hover:text-red-300 transition-colors">
+                <Droplets className="inline mr-2 h-5 w-5" />
+                Join the Blood
+              </a>
+            </div>
+            <div className="inline-block bg-black/50 backdrop-blur-sm border border-red-500/40 rounded-xl px-10 py-6 shadow-2xl">
+              <a href="#" className="text-red-400 font-semibold text-xl hover:text-red-300 transition-colors">
+                <Target className="inline mr-2 h-5 w-5" />
+                View Warriors
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        {/* Decorative Elements */}
+        <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-black/90 to-transparent"></div>
+      </div>
+
+      {/* Achievement Stats Section */}
+      <div className="py-12 bg-dark-gray/80">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+              <span className="text-blood-glow">Blood Achievements</span>
+            </h2>
+            <p className="mt-4 text-lg text-gray-300">
+              The legends of blood and conquest. These warriors have proven their worth in battle.
+            </p>
+          </div>
+          
+      
+          {/* View All Achievements Button */}
+          <div className="text-center">
+            <Link 
+              href="/achievements" 
+              className="inline-block bg-blood-glow hover:bg-red-600 text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+            >
+              <Trophy className="inline mr-2 h-5 w-5" />
+              View All Achievements
+            </Link>
           </div>
         </div>
       </div>
 
-      {/* Blood Stats */}
-      <div className="py-12 bg-dark-gray/80">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            <div className="blood-card rounded-lg p-6 text-center">
-              <Droplets className="h-8 w-8 text-blood-glow mx-auto mb-2 animate-pulse" />
-              <div className="text-2xl font-bold text-white combat-text">666</div>
-              <div className="text-gray-300">Blood Victories</div>
-            </div>
-            <div className="blood-card rounded-lg p-6 text-center">
-              <Trophy className="h-8 w-8 text-blood-gold mx-auto mb-2" />
-              <div className="text-2xl font-bold text-white">13</div>
-              <div className="text-gray-300">Dark Titles</div>
-            </div>
-            <div className="blood-card rounded-lg p-6 text-center">
-              <Target className="h-8 w-8 text-blood-light mx-auto mb-2" />
-              <div className="text-2xl font-bold text-white">99%</div>
-              <div className="text-gray-300">Blood Rate</div>
-            </div>
-            <div className="blood-card rounded-lg p-6 text-center">
-              <Sword className="h-8 w-8 text-blood-glow mx-auto mb-2" />
-              <div className="text-2xl font-bold text-white">13+</div>
-              <div className="text-gray-300">Blood Warriors</div>
-            </div>
-          </div>
-        </div>
-      </div>
+
 
       {/* Guild Features */}
       <div className="py-12">
@@ -106,38 +127,19 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Blood Call */}
-      <div className="py-12 bg-dark-gray/80">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-extrabold text-white sm:text-4xl mb-4">
-            <span className="text-blood-light">Ready to Bleed?</span>
-          </h2>
-          <p className="text-lg text-gray-300 mb-8">
-            Prove your worth in the down of blood. Only the strongest will be remembered.
-          </p>
-          <div className="flex justify-center space-x-4">
-            <a href="#" className="blood-button px-8 py-3 text-white font-medium rounded-md">
-              <Droplets className="inline mr-2 h-5 w-5" />
-              Join the Blood
-            </a>
-            <a href="#" className="border border-blood-glow text-blood-glow px-8 py-3 font-medium rounded-md hover:bg-blood-glow hover:text-white transition-all">
-              <Target className="inline mr-2 h-5 w-5" />
-              Challenge Us
-            </a>
-          </div>
-        </div>
-      </div>
+      {/* Ready to Bleed Section */}
+      <ReadyToBleed />
 
-      {/* Footer */}
-      <footer className="blood-nav border-t border-blood-glow/20">
-        <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <p className="text-gray-300">
-              © 2024 CBITAHOK KPOBI - Down of Blood. All rights reserved. | In blood we trust.
-            </p>
-          </div>
-        </div>
-      </footer>
+             {/* Footer */}
+       <footer className="blood-nav border-t border-blood-glow/20">
+         <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+           <div className="text-center">
+             <p className="text-gray-300">
+               © {new Date().getFullYear()} CBITAHOK KPOBI - Down of Blood. All rights reserved. | In blood we trust.
+             </p>
+           </div>
+         </div>
+       </footer>
     </div>
   )
 }

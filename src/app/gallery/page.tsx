@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Camera, Download, Heart } from 'lucide-react'
 import Navigation from '@/components/Navigation'
+import ReadyToBleed from '@/components/ReadyToBleed'
 import Image from 'next/image'
 import Lightbox from 'yet-another-react-lightbox'
 import Zoom from 'yet-another-react-lightbox/plugins/zoom'
@@ -16,7 +17,7 @@ export default function Gallery() {
   const galleryItems = [
     {
       id: 1,
-      title: "Morok Gladiator",
+      title: "TWW S2 Morok Gladiator",
       description: "Gladiator-season triumph by Morok",
       image: "/images/morok_glad.jpg",
       likes: 42,
@@ -24,7 +25,7 @@ export default function Gallery() {
     },
     {
       id: 2,
-      title: "Ebo Gladiator",
+      title: "TWW S2 Ebo Gladiator",
       description: "Ebo's arena dominance",
       image: "/images/ebo_glad.jpg",
       likes: 38,
@@ -32,7 +33,7 @@ export default function Gallery() {
     },
     {
       id: 3,
-      title: "Jazzcore Gladiator",
+      title: "TWW S2 Jazzcore Gladiator",
       description: "Jazzcore's path to glory",
       image: "/images/jazzcore_glad.jpg",
       likes: 55,
@@ -40,7 +41,7 @@ export default function Gallery() {
     },
     {
       id: 4,
-      title: "Idoru Gladiator",
+      title: "TWW S2 Idoru Gladiator",
       description: "Idoru claims the title",
       image: "/images/idoru_glad.jpg",
       likes: 67,
@@ -48,7 +49,7 @@ export default function Gallery() {
     },
     {
       id: 5,
-      title: "Etazis Gladiator S2",
+      title: "TWW S2 Etazis Gladiator",
       description: "Season 2 ascent by Etazis",
       image: "/images/etazis_glad_s2.jpg",
       likes: 29,
@@ -56,7 +57,7 @@ export default function Gallery() {
     },
     {
       id: 6,
-      title: "Morok Gladiator S1",
+      title: "TWW S1 Morok Gladiator",
       description: "Season 1 highlight for Morok",
       image: "/images/morok_glad_S1.jpg",
       likes: 73,
@@ -150,22 +151,10 @@ export default function Gallery() {
         </div>
       </div>
 
-      {/* Upload Section */}
-      <div className="py-12 bg-dark-gray/80">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-extrabold text-white mb-4">
-            <span className="text-blood-light">Share Your Blood</span>
-          </h2>
-          <p className="text-gray-300 mb-8">
-            Have epic screenshots to share? Upload them to our gallery and let the world see your conquests.
-          </p>
-          <button className="blood-button px-8 py-3 text-white font-medium rounded-md">
-            <Camera className="inline mr-2 h-5 w-5" />
-            Upload Screenshot
-          </button>
-                 </div>
-       </div>
-     </div>
-   </div>
-   )
- }
+
+      {/* Ready to Bleed Section */}
+      <ReadyToBleed />
+    </div>
+  </div>
+  )
+}

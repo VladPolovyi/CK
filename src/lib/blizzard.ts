@@ -63,6 +63,8 @@ export async function blizzardGet(
   }
   return fetch(url.toString(), {
     headers: { Authorization: `Bearer ${token}` },
+    // Avoid Next.js automatic caching limits for large payloads
+    cache: 'no-store',
   })
 }
 
