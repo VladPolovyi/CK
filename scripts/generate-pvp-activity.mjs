@@ -419,8 +419,13 @@ async function main() {
       ].filter(Boolean)
       
       allBracketData.forEach(bracketData => {
-        filteredMember.totalStats.totalWins += bracketData.seasonWins || 0
-        filteredMember.totalStats.totalLosses += bracketData.seasonLosses || 0
+        // For Solo Shuffle, use round statistics; for others, use match statistics
+        const isSoloShuffle = filteredMember.brackets.soloShuffle?.includes(bracketData)
+        const wins = isSoloShuffle ? (bracketData.seasonRoundWins || 0) : (bracketData.seasonWins || 0)
+        const losses = isSoloShuffle ? (bracketData.seasonRoundLosses || 0) : (bracketData.seasonLosses || 0)
+        
+        filteredMember.totalStats.totalWins += wins
+        filteredMember.totalStats.totalLosses += losses
         
         if (bracketData.rating > filteredMember.totalStats.highestRating) {
           filteredMember.totalStats.highestRating = bracketData.rating

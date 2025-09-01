@@ -10,8 +10,8 @@ const eczar = Eczar({
 })
 
 export const metadata: Metadata = {
-  title: 'CBITAHOK KPOBI - Down of Blood',
-  description: 'Welcome to CBITAHOK KPOBI - Down of Blood. Where legends are forged in blood and darkness.',
+  title: 'CBITAHOK KPOBI - Dawn of Blood',
+  description: 'Welcome to CBITAHOK KPOBI - Dawn of Blood. Where legends are forged in blood and darkness.',
 }
 
 export default function RootLayout({

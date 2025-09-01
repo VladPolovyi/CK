@@ -8,92 +8,102 @@ interface GuildPvPOverviewProps {
 }
 
 export default function GuildPvPOverview({ data }: GuildPvPOverviewProps) {
-  const guildWinRate = data.guildStats.totalGames > 0 
-    ? (data.guildStats.totalWins / data.guildStats.totalGames) * 100 
+  const guildWinRate = data.guildStats.totalGames > 0
+    ? (data.guildStats.totalWins / data.guildStats.totalGames) * 100
     : 0
+
+  // Calculate interesting statistics
+  const classCounts: Record<string, number> = {}
+  const bracketCounts = { '2v2': 0, '3v3': 0, 'rbg': 0, 'solo-shuffle': 0, 'solo-blitz': 0 }
+
+  data.members.forEach(member => {
+    // Class distribution
+    if (member.profile?.characterClass) {
+      classCounts[member.profile.characterClass] = (classCounts[member.profile.characterClass] || 0) + 1
+    }
+
+    // Bracket participation
+    if (member.brackets.arena2v2) bracketCounts['2v2']++
+    if (member.brackets.arena3v3) bracketCounts['3v3']++
+    if (member.brackets.rbg) bracketCounts['rbg']++
+    if (member.brackets.soloShuffle && member.brackets.soloShuffle.length > 0) bracketCounts['solo-shuffle']++
+    if (member.brackets.soloBlitz && member.brackets.soloBlitz.length > 0) bracketCounts['solo-blitz']++
+  })
+
+  const mostPopularClass = Object.entries(classCounts).sort((a, b) => b[1] - a[1])[0]
+  const mostActiveBracket = Object.entries(bracketCounts).sort((a, b) => b[1] - a[1])[0]
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-      {/* Total Members */}
+      {/* Active Members */}
       <div className="blood-card rounded-lg p-6">
         <div className="flex items-center justify-between">
           <div>
-            <p className="text-gray-400 text-sm">Active PvP Members</p>
+                            <p className="text-gray-400 text-sm">Active PvP Characters</p>
             <p className="text-3xl font-bold text-white">
               {data.activePvPMembers}
-              <span className="text-lg text-gray-400">/{data.memberCount}</span>
             </p>
           </div>
           <Users className="h-8 w-8 text-blood-glow" />
         </div>
         <div className="mt-4">
-          <div className="flex items-center text-sm">
-            <div className="w-full bg-gray-700 rounded-full h-2">
-              <div 
-                className="bg-blood-glow h-2 rounded-full transition-all duration-300"
-                style={{ width: `${(data.activePvPMembers / data.memberCount) * 100}%` }}
-              />
-            </div>
-            <span className="ml-2 text-gray-400">
-              {((data.activePvPMembers / data.memberCount) * 100).toFixed(1)}%
-            </span>
-          </div>
+                      <p className="text-sm text-gray-400">
+              Season 40 characters
+            </p>
         </div>
       </div>
 
-      {/* Average Rating */}
+
+      {/* Total Games Played */}
       <div className="blood-card rounded-lg p-6">
         <div className="flex items-center justify-between">
           <div>
-            <p className="text-gray-400 text-sm">Average Rating</p>
-            <p className="text-3xl font-bold text-blood-light">
-              {data.guildStats.averageRating.toLocaleString()}
+            <p className="text-gray-400 text-sm">Total Games Played</p>
+            <p className="text-3xl font-bold text-blue-400">
+              {data.guildStats.totalGames.toLocaleString()}
             </p>
           </div>
-          <Trophy className="h-8 w-8 text-blood-gold" />
+          <Activity className="h-8 w-8 text-blue-400" />
         </div>
         <div className="mt-4">
           <p className="text-sm text-gray-400">
-            Across all active PvP members
+            Season 40 total matches
           </p>
         </div>
       </div>
 
-      {/* Guild Win Rate */}
+      {/* Total Wins */}
       <div className="blood-card rounded-lg p-6">
         <div className="flex items-center justify-between">
           <div>
-            <p className="text-gray-400 text-sm">Guild Win Rate</p>
+            <p className="text-gray-400 text-sm">Total Wins</p>
             <p className="text-3xl font-bold text-green-400">
-              {guildWinRate.toFixed(1)}%
+              {data.guildStats.totalWins.toLocaleString()}
             </p>
           </div>
           <TrendingUp className="h-8 w-8 text-green-400" />
         </div>
         <div className="mt-4">
           <p className="text-sm text-gray-400">
-            {data.guildStats.totalWins}W - {data.guildStats.totalLosses}L
+            Season 40 victories
           </p>
         </div>
       </div>
 
-      {/* Highest Rated Member */}
+      {/* Total Losses */}
       <div className="blood-card rounded-lg p-6">
         <div className="flex items-center justify-between">
           <div>
-            <p className="text-gray-400 text-sm">Top Rated</p>
-            <p className="text-xl font-bold text-white">
-              {data.guildStats.highestRatedMember.name}
-            </p>
-            <p className="text-2xl font-bold text-blood-gold">
-              {data.guildStats.highestRatedMember.rating.toLocaleString()}
+            <p className="text-gray-400 text-sm">Total Losses</p>
+            <p className="text-3xl font-bold text-red-400">
+              {data.guildStats.totalLosses.toLocaleString()}
             </p>
           </div>
-          <Target className="h-8 w-8 text-blood-purple" />
+          <TrendingUp className="h-8 w-8 text-red-400 rotate-180" />
         </div>
         <div className="mt-4">
-          <p className="text-sm text-gray-400 capitalize">
-            {data.guildStats.highestRatedMember.bracket.replace('-', ' ')}
+          <p className="text-sm text-gray-400">
+            Season 40 defeats
           </p>
         </div>
       </div>

@@ -59,12 +59,9 @@ export default function PvPBracketStats({ bracket }: PvPBracketStatsProps) {
     <div className="blood-card rounded-lg p-6">
       {/* Header with Stats */}
       <div className="flex items-center mb-6">
-        <div className="flex items-center space-x-3 w-2/5">
-          <Icon className={`h-8 w-8 ${iconColor}`} />
-          <div>
-            <h3 className="text-xl font-bold text-white">{bracketName}</h3>
-            <p className="text-gray-400 text-sm">{bracket.members.length} active members</p>
-          </div>
+        <div className="w-2/5">
+          <h3 className="text-xl font-bold text-white">{bracketName}</h3>
+          <p className="text-gray-400 text-sm">{bracket.members.length} active members</p>
         </div>
         <div className="grid grid-cols-3 gap-4 w-3/5">
           <div className="text-center">

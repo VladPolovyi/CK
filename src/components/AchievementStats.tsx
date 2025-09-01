@@ -13,8 +13,7 @@ interface AchievementStatsProps {
 
 export default function AchievementStats({ data }: AchievementStatsProps) {
   return (
-    <div className="py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div>
         {/* First Row: R1 3v3 - R1 Solo - R1 Blitz */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="blood-card rounded-lg p-6 text-center">
@@ -52,7 +51,6 @@ export default function AchievementStats({ data }: AchievementStatsProps) {
             <div className="text-gray-300">Strategist</div>
           </div>
         </div>
-      </div>
     </div>
   )
 }

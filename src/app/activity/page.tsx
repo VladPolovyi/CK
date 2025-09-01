@@ -97,7 +97,7 @@ export default async function GuildActivity() {
         <div className="pt-20">
           <HeroSection 
             title="Guild Activity"
-            subtitle="Track the bloodshed and conquests of our warriors. Every victory, every achievement, every drop of blood spilled."
+            subtitle="Monitor PvP performance and track guild member statistics across all competitive brackets."
             backgroundImage="/images/maldr.jpg"
           />
           
@@ -134,7 +134,7 @@ export default async function GuildActivity() {
         {/* Hero Section */}
         <HeroSection 
           title="Guild Activity"
-          subtitle="Track the bloodshed and conquests of our warriors. Every victory, every achievement, every drop of blood spilled."
+          subtitle="Monitor PvP performance and track guild member statistics across all competitive brackets."
           backgroundImage="/images/maldr.jpg"
         />
 
@@ -153,7 +153,7 @@ export default async function GuildActivity() {
                 Last updated: {new Date(pvpData.generatedAt).toLocaleString()}
               </p>
               <p className="text-sm text-gray-500 mt-1">
-                Data generated at build time • {pvpData.activePvPMembers} active PvP members
+                Data generated at build time • {pvpData.activePvPMembers} active PvP characters
               </p>
             </div>
 
@@ -166,14 +166,14 @@ export default async function GuildActivity() {
             
             {/* Member Activity Table - 3v3 Recent Activity */}
             <div className="mb-12">
-              <h3 className="text-2xl font-bold text-white mb-6">Arena Activity (Weekly)</h3>
+              <h3 className="text-2xl font-bold text-white mb-6">Arena Activity <span className="text-red-400">(Weekly)</span></h3>
               <PvPActivityTable members={pvpData.members} showRecentActivity={true} />
             </div>
 
              {/* Stats Summary */}
              <div className="text-center text-gray-400 text-sm">
               <p>
-                Showing PvP data for {pvpData.activePvPMembers} out of {pvpData.memberCount} guild members
+                Showing PvP data for {pvpData.activePvPMembers} out of {pvpData.memberCount} guild characters
               </p>
               <p className="mt-1">
                 Data includes 2v2, 3v3 and Solo Shuffle statistics where available

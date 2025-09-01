@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-01T12:28:53.631Z",
+  "generatedAt": "2025-09-01T14:01:52.695Z",
   "guildName": "cbitahok-kpobi",
   "realmSlug": "ravencrest",
   "region": "eu",
@@ -10,9 +10,9 @@
   "filteredOutMembers": 153,
   "currentSeason": 40,
   "guildStats": {
-    "totalGames": 6860,
-    "totalWins": 4325,
-    "totalLosses": 2535,
+    "totalGames": 11786,
+    "totalWins": 6378,
+    "totalLosses": 5408,
     "averageRating": 960,
     "highestRatedMember": {
       "name": "Jankoy",
@@ -24,7 +24,7 @@
     {
       "characterName": "Jankoy",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:24:58.022Z",
+      "lastUpdated": "2025-09-01T13:57:54.337Z",
       "profile": {
         "lastLoginTimestamp": 1756673871000,
         "level": 80,
@@ -144,10 +144,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 93,
-        "totalLosses": 28,
-        "totalGames": 121,
-        "winRate": 76.85950413223141,
+        "totalWins": 184,
+        "totalLosses": 139,
+        "totalGames": 323,
+        "winRate": 56.965944272445824,
         "highestRating": 2544,
         "highestBracket": "shuffle-retribution"
       }
@@ -155,7 +155,7 @@
     {
       "characterName": "Ebøbøla",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:56.743Z",
+      "lastUpdated": "2025-09-01T13:58:53.870Z",
       "profile": {
         "lastLoginTimestamp": 1756716725000,
         "level": 80,
@@ -245,10 +245,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 95,
-        "totalLosses": 27,
-        "totalGames": 122,
-        "winRate": 77.8688524590164,
+        "totalWins": 181,
+        "totalLosses": 120,
+        "totalGames": 301,
+        "winRate": 60.13289036544851,
         "highestRating": 2493,
         "highestBracket": "shuffle-restoration"
       }
@@ -256,9 +256,9 @@
     {
       "characterName": "Dxls",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:50.285Z",
+      "lastUpdated": "2025-09-01T13:58:47.253Z",
       "profile": {
-        "lastLoginTimestamp": 1756708495000,
+        "lastLoginTimestamp": 1756732098000,
         "level": 80,
         "characterClass": "Warrior",
         "race": "Gnome",
@@ -432,10 +432,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 111,
-        "totalLosses": 34,
-        "totalGames": 145,
-        "winRate": 76.55172413793103,
+        "totalWins": 198,
+        "totalLosses": 152,
+        "totalGames": 350,
+        "winRate": 56.57142857142857,
         "highestRating": 2484,
         "highestBracket": "blitz-arms"
       }
@@ -443,9 +443,9 @@
     {
       "characterName": "Dora",
       "realmSlug": "neptulon",
-      "lastUpdated": "2025-09-01T12:27:47.861Z",
+      "lastUpdated": "2025-09-01T14:00:46.066Z",
       "profile": {
-        "lastLoginTimestamp": 1756726389000,
+        "lastLoginTimestamp": 1756731078000,
         "level": 80,
         "characterClass": "Paladin",
         "race": "Human",
@@ -461,15 +461,15 @@
       "brackets": {
         "soloShuffle": [
           {
-            "rating": 2345,
-            "seasonWins": 45,
+            "rating": 2317,
+            "seasonWins": 46,
             "seasonLosses": 1,
-            "weeklyWins": 18,
+            "weeklyWins": 19,
             "weeklyLosses": 0,
-            "seasonRoundWins": 139,
-            "seasonRoundLosses": 133,
-            "weeklyRoundWins": 55,
-            "weeklyRoundLosses": 53,
+            "seasonRoundWins": 141,
+            "seasonRoundLosses": 137,
+            "weeklyRoundWins": 57,
+            "weeklyRoundLosses": 57,
             "tier": {
               "key": {
                 "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/304?namespace=static-11.2.0_62213-eu"
@@ -521,18 +521,18 @@
         ]
       },
       "totalStats": {
-        "totalWins": 54,
-        "totalLosses": 10,
-        "totalGames": 64,
-        "winRate": 84.375,
-        "highestRating": 2345,
+        "totalWins": 150,
+        "totalLosses": 146,
+        "totalGames": 296,
+        "winRate": 50.67567567567568,
+        "highestRating": 2317,
         "highestBracket": "shuffle-retribution"
       }
     },
     {
       "characterName": "Lilnen",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:26:35.350Z",
+      "lastUpdated": "2025-09-01T13:59:32.929Z",
       "profile": {
         "lastLoginTimestamp": 1756647057000,
         "level": 80,
@@ -629,10 +629,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 72,
-        "totalLosses": 27,
-        "totalGames": 99,
-        "winRate": 72.72727272727273,
+        "totalWins": 145,
+        "totalLosses": 126,
+        "totalGames": 271,
+        "winRate": 53.50553505535055,
         "highestRating": 2314,
         "highestBracket": "shuffle-arms"
       }
@@ -640,7 +640,7 @@
     {
       "characterName": "Ebôbôlajun",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:11.286Z",
+      "lastUpdated": "2025-09-01T13:58:07.365Z",
       "profile": {
         "lastLoginTimestamp": 1756650857000,
         "level": 80,
@@ -709,10 +709,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 26,
-        "totalLosses": 3,
-        "totalGames": 29,
-        "winRate": 89.65517241379311,
+        "totalWins": 64,
+        "totalLosses": 41,
+        "totalGames": 105,
+        "winRate": 60.952380952380956,
         "highestRating": 2269,
         "highestBracket": "shuffle-restoration"
       }
@@ -720,7 +720,7 @@
     {
       "characterName": "Felguârd",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:24:58.020Z",
+      "lastUpdated": "2025-09-01T13:57:54.336Z",
       "profile": {
         "lastLoginTimestamp": 1756506351000,
         "level": 80,
@@ -791,7 +791,7 @@
     {
       "characterName": "Nap",
       "realmSlug": "executus",
-      "lastUpdated": "2025-09-01T12:27:00.120Z",
+      "lastUpdated": "2025-09-01T13:59:58.089Z",
       "profile": {
         "lastLoginTimestamp": 1756684083000,
         "level": 80,
@@ -862,7 +862,7 @@
     {
       "characterName": "Shchoor",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:05.195Z",
+      "lastUpdated": "2025-09-01T13:58:01.237Z",
       "profile": {
         "lastLoginTimestamp": 1756715001000,
         "level": 80,
@@ -933,7 +933,7 @@
     {
       "characterName": "Ruins",
       "realmSlug": "executus",
-      "lastUpdated": "2025-09-01T12:27:06.400Z",
+      "lastUpdated": "2025-09-01T14:00:04.468Z",
       "profile": {
         "lastLoginTimestamp": 1756683217000,
         "level": 80,
@@ -1034,7 +1034,7 @@
     {
       "characterName": "Fktph",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:26:03.228Z",
+      "lastUpdated": "2025-09-01T13:59:00.437Z",
       "profile": {
         "lastLoginTimestamp": 1756682100000,
         "level": 80,
@@ -1124,10 +1124,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 49,
-        "totalLosses": 18,
-        "totalGames": 67,
-        "winRate": 73.13432835820896,
+        "totalWins": 85,
+        "totalLosses": 54,
+        "totalGames": 139,
+        "winRate": 61.15107913669065,
         "highestRating": 2245,
         "highestBracket": "shuffle-arms"
       }
@@ -1135,7 +1135,7 @@
     {
       "characterName": "Nuclearjke",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:36.605Z",
+      "lastUpdated": "2025-09-01T13:58:33.362Z",
       "profile": {
         "lastLoginTimestamp": 1756671491000,
         "level": 80,
@@ -1255,10 +1255,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 56,
-        "totalLosses": 23,
-        "totalGames": 79,
-        "winRate": 70.88607594936708,
+        "totalWins": 99,
+        "totalLosses": 85,
+        "totalGames": 184,
+        "winRate": 53.80434782608695,
         "highestRating": 2203,
         "highestBracket": "shuffle-arms"
       }
@@ -1266,7 +1266,7 @@
     {
       "characterName": "Mojoroot",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2025-09-01T12:27:47.862Z",
+      "lastUpdated": "2025-09-01T14:00:46.067Z",
       "profile": {
         "lastLoginTimestamp": 1756678367000,
         "level": 80,
@@ -1335,10 +1335,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 27,
-        "totalLosses": 2,
-        "totalGames": 29,
-        "winRate": 93.10344827586206,
+        "totalWins": 82,
+        "totalLosses": 81,
+        "totalGames": 163,
+        "winRate": 50.306748466257666,
         "highestRating": 2203,
         "highestBracket": "shuffle-balance"
       }
@@ -1346,7 +1346,7 @@
     {
       "characterName": "Schízo",
       "realmSlug": "argent-dawn",
-      "lastUpdated": "2025-09-01T12:25:27.099Z",
+      "lastUpdated": "2025-09-01T13:58:23.849Z",
       "profile": {
         "lastLoginTimestamp": 1756667219000,
         "level": 80,
@@ -1466,10 +1466,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 114,
-        "totalLosses": 53,
-        "totalGames": 167,
-        "winRate": 68.26347305389223,
+        "totalWins": 125,
+        "totalLosses": 62,
+        "totalGames": 187,
+        "winRate": 66.84491978609626,
         "highestRating": 2199,
         "highestBracket": "2v2"
       }
@@ -1477,7 +1477,7 @@
     {
       "characterName": "Fktp",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:24:37.594Z",
+      "lastUpdated": "2025-09-01T13:57:34.041Z",
       "profile": {
         "lastLoginTimestamp": 1756681079000,
         "level": 80,
@@ -1625,10 +1625,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 67,
-        "totalLosses": 44,
-        "totalGames": 111,
-        "winRate": 60.36036036036037,
+        "totalWins": 103,
+        "totalLosses": 82,
+        "totalGames": 185,
+        "winRate": 55.67567567567567,
         "highestRating": 2183,
         "highestBracket": "shuffle-fury"
       }
@@ -1636,7 +1636,7 @@
     {
       "characterName": "Jokemønk",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:27:41.295Z",
+      "lastUpdated": "2025-09-01T14:00:39.505Z",
       "profile": {
         "lastLoginTimestamp": 1756657934000,
         "level": 80,
@@ -1726,10 +1726,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 140,
-        "totalLosses": 73,
-        "totalGames": 213,
-        "winRate": 65.72769953051643,
+        "totalWins": 247,
+        "totalLosses": 187,
+        "totalGames": 434,
+        "winRate": 56.91244239631337,
         "highestRating": 2182,
         "highestBracket": "shuffle-mistweaver"
       }
@@ -1737,7 +1737,7 @@
     {
       "characterName": "Befine",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:41.830Z",
+      "lastUpdated": "2025-09-01T13:59:39.231Z",
       "profile": {
         "lastLoginTimestamp": 1756686944000,
         "level": 80,
@@ -1806,10 +1806,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 61,
-        "totalLosses": 15,
-        "totalGames": 76,
-        "winRate": 80.26315789473685,
+        "totalWins": 124,
+        "totalLosses": 119,
+        "totalGames": 243,
+        "winRate": 51.028806584362144,
         "highestRating": 2171,
         "highestBracket": "shuffle-demonology"
       }
@@ -1817,7 +1817,7 @@
     {
       "characterName": "Shchoor",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:12.854Z",
+      "lastUpdated": "2025-09-01T13:59:10.316Z",
       "profile": {
         "lastLoginTimestamp": 1756669805000,
         "level": 80,
@@ -1888,7 +1888,7 @@
     {
       "characterName": "Ånjìn",
       "realmSlug": "turalyon",
-      "lastUpdated": "2025-09-01T12:26:38.486Z",
+      "lastUpdated": "2025-09-01T13:59:36.092Z",
       "profile": {
         "lastLoginTimestamp": 1756586463000,
         "level": 80,
@@ -1978,10 +1978,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 81,
-        "totalLosses": 61,
-        "totalGames": 142,
-        "winRate": 57.04225352112676,
+        "totalWins": 83,
+        "totalLosses": 64,
+        "totalGames": 147,
+        "winRate": 56.4625850340136,
         "highestRating": 2141,
         "highestBracket": "3v3"
       }
@@ -1989,7 +1989,7 @@
     {
       "characterName": "Notshchoor",
       "realmSlug": "executus",
-      "lastUpdated": "2025-09-01T12:27:00.121Z",
+      "lastUpdated": "2025-09-01T13:59:58.089Z",
       "profile": {
         "lastLoginTimestamp": 1756410759000,
         "level": 80,
@@ -2060,7 +2060,7 @@
     {
       "characterName": "Wlx",
       "realmSlug": "executus",
-      "lastUpdated": "2025-09-01T12:27:06.399Z",
+      "lastUpdated": "2025-09-01T14:00:04.467Z",
       "profile": {
         "lastLoginTimestamp": 1756669804000,
         "level": 80,
@@ -2131,7 +2131,7 @@
     {
       "characterName": "Portaway",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2025-09-01T12:27:54.083Z",
+      "lastUpdated": "2025-09-01T14:00:52.417Z",
       "profile": {
         "lastLoginTimestamp": 1756676234000,
         "level": 80,
@@ -2202,7 +2202,7 @@
     {
       "characterName": "Nencheeck",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:26:22.683Z",
+      "lastUpdated": "2025-09-01T13:59:20.148Z",
       "profile": {
         "lastLoginTimestamp": 1756674422000,
         "level": 80,
@@ -2292,10 +2292,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 83,
-        "totalLosses": 64,
-        "totalGames": 147,
-        "winRate": 56.4625850340136,
+        "totalWins": 84,
+        "totalLosses": 68,
+        "totalGames": 152,
+        "winRate": 55.26315789473685,
         "highestRating": 2121,
         "highestBracket": "3v3"
       }
@@ -2303,9 +2303,9 @@
     {
       "characterName": "Spamplague",
       "realmSlug": "stormscale",
-      "lastUpdated": "2025-09-01T12:26:06.328Z",
+      "lastUpdated": "2025-09-01T13:59:03.614Z",
       "profile": {
-        "lastLoginTimestamp": 1756703733000,
+        "lastLoginTimestamp": 1756734439000,
         "level": 80,
         "characterClass": "Priest",
         "race": "Night Elf",
@@ -2402,10 +2402,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 34,
-        "totalLosses": 8,
-        "totalGames": 42,
-        "winRate": 80.95238095238095,
+        "totalWins": 73,
+        "totalLosses": 61,
+        "totalGames": 134,
+        "winRate": 54.47761194029851,
         "highestRating": 2120,
         "highestBracket": "shuffle-shadow"
       }
@@ -2413,7 +2413,7 @@
     {
       "characterName": "Æåeåeåéåe",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2025-09-01T12:27:00.120Z",
+      "lastUpdated": "2025-09-01T13:59:58.089Z",
       "profile": {
         "lastLoginTimestamp": 1756705920000,
         "level": 80,
@@ -2503,10 +2503,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 97,
-        "totalLosses": 59,
-        "totalGames": 156,
-        "winRate": 62.17948717948718,
+        "totalWins": 100,
+        "totalLosses": 61,
+        "totalGames": 161,
+        "winRate": 62.11180124223602,
         "highestRating": 2110,
         "highestBracket": "3v3"
       }
@@ -2514,7 +2514,7 @@
     {
       "characterName": "Rîddîckx",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:09.870Z",
+      "lastUpdated": "2025-09-01T14:01:08.465Z",
       "profile": {
         "lastLoginTimestamp": 1756390024000,
         "level": 80,
@@ -2604,10 +2604,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 58,
-        "totalLosses": 10,
-        "totalGames": 68,
-        "winRate": 85.29411764705883,
+        "totalWins": 142,
+        "totalLosses": 129,
+        "totalGames": 271,
+        "winRate": 52.398523985239855,
         "highestRating": 2106,
         "highestBracket": "shuffle-restoration"
       }
@@ -2615,7 +2615,7 @@
     {
       "characterName": "Rîddîck",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:06.496Z",
+      "lastUpdated": "2025-09-01T14:01:05.075Z",
       "profile": {
         "lastLoginTimestamp": 1756719958000,
         "level": 80,
@@ -2791,10 +2791,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 39,
-        "totalLosses": 13,
-        "totalGames": 52,
-        "winRate": 75,
+        "totalWins": 81,
+        "totalLosses": 57,
+        "totalGames": 138,
+        "winRate": 58.69565217391305,
         "highestRating": 2103,
         "highestBracket": "shuffle-restoration"
       }
@@ -2802,7 +2802,7 @@
     {
       "characterName": "Jazzcore",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2025-09-01T12:27:28.925Z",
+      "lastUpdated": "2025-09-01T14:00:26.963Z",
       "profile": {
         "lastLoginTimestamp": 1756331810000,
         "level": 80,
@@ -2892,10 +2892,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 98,
-        "totalLosses": 48,
-        "totalGames": 146,
-        "winRate": 67.12328767123287,
+        "totalWins": 102,
+        "totalLosses": 54,
+        "totalGames": 156,
+        "winRate": 65.38461538461539,
         "highestRating": 2088,
         "highestBracket": "3v3"
       }
@@ -2903,7 +2903,7 @@
     {
       "characterName": "Scottlark",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:13.023Z",
+      "lastUpdated": "2025-09-01T14:01:11.639Z",
       "profile": {
         "lastLoginTimestamp": 1756675400000,
         "level": 80,
@@ -2993,10 +2993,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 29,
-        "totalLosses": 9,
-        "totalGames": 38,
-        "winRate": 76.31578947368422,
+        "totalWins": 59,
+        "totalLosses": 49,
+        "totalGames": 108,
+        "winRate": 54.629629629629626,
         "highestRating": 2087,
         "highestBracket": "shuffle-unholy"
       }
@@ -3004,7 +3004,7 @@
     {
       "characterName": "Naoy",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:44.813Z",
+      "lastUpdated": "2025-09-01T13:59:42.825Z",
       "profile": {
         "lastLoginTimestamp": 1756672033000,
         "level": 80,
@@ -3094,10 +3094,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 74,
-        "totalLosses": 59,
-        "totalGames": 133,
-        "winRate": 55.639097744360896,
+        "totalWins": 86,
+        "totalLosses": 62,
+        "totalGames": 148,
+        "winRate": 58.108108108108105,
         "highestRating": 2055,
         "highestBracket": "2v2"
       }
@@ -3105,7 +3105,7 @@
     {
       "characterName": "Rìddìckx",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:16.217Z",
+      "lastUpdated": "2025-09-01T14:01:14.777Z",
       "profile": {
         "lastLoginTimestamp": 1756553922000,
         "level": 80,
@@ -3195,10 +3195,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 51,
-        "totalLosses": 6,
-        "totalGames": 57,
-        "winRate": 89.47368421052632,
+        "totalWins": 127,
+        "totalLosses": 140,
+        "totalGames": 267,
+        "winRate": 47.565543071161045,
         "highestRating": 2050,
         "highestBracket": "shuffle-restoration"
       }
@@ -3206,7 +3206,7 @@
     {
       "characterName": "Wrathfùl",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:23.964Z",
+      "lastUpdated": "2025-09-01T13:58:20.053Z",
       "profile": {
         "lastLoginTimestamp": 1756727075000,
         "level": 80,
@@ -3254,10 +3254,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 10,
-        "totalLosses": 0,
-        "totalGames": 10,
-        "winRate": 100,
+        "totalWins": 33,
+        "totalLosses": 26,
+        "totalGames": 59,
+        "winRate": 55.932203389830505,
         "highestRating": 2040,
         "highestBracket": "shuffle-survival"
       }
@@ -3265,7 +3265,7 @@
     {
       "characterName": "Easyques",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:44.035Z",
+      "lastUpdated": "2025-09-01T13:58:40.939Z",
       "profile": {
         "lastLoginTimestamp": 1756669434000,
         "level": 80,
@@ -3334,10 +3334,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 35,
-        "totalLosses": 21,
-        "totalGames": 56,
-        "winRate": 62.5,
+        "totalWins": 64,
+        "totalLosses": 67,
+        "totalGames": 131,
+        "winRate": 48.854961832061065,
         "highestRating": 2027,
         "highestBracket": "shuffle-assassination"
       }
@@ -3345,7 +3345,7 @@
     {
       "characterName": "Anthém",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:23.965Z",
+      "lastUpdated": "2025-09-01T13:58:20.054Z",
       "profile": {
         "lastLoginTimestamp": 1756133045000,
         "level": 80,
@@ -3393,10 +3393,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 52,
-        "totalLosses": 0,
-        "totalGames": 52,
-        "winRate": 100,
+        "totalWins": 159,
+        "totalLosses": 145,
+        "totalGames": 304,
+        "winRate": 52.30263157894737,
         "highestRating": 2019,
         "highestBracket": "shuffle-holy"
       }
@@ -3404,7 +3404,7 @@
     {
       "characterName": "Chârízãrd",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:00.401Z",
+      "lastUpdated": "2025-09-01T14:00:58.763Z",
       "profile": {
         "lastLoginTimestamp": 1756410965000,
         "level": 80,
@@ -3452,10 +3452,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 14,
-        "totalLosses": 0,
-        "totalGames": 14,
-        "winRate": 100,
+        "totalWins": 42,
+        "totalLosses": 40,
+        "totalGames": 82,
+        "winRate": 51.21951219512195,
         "highestRating": 2010,
         "highestBracket": "shuffle-devastation"
       }
@@ -3463,7 +3463,7 @@
     {
       "characterName": "Voodoonerd",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2025-09-01T12:27:35.349Z",
+      "lastUpdated": "2025-09-01T14:00:33.410Z",
       "profile": {
         "lastLoginTimestamp": 1756499145000,
         "level": 80,
@@ -3534,7 +3534,7 @@
     {
       "characterName": "Nevergodx",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:26:06.328Z",
+      "lastUpdated": "2025-09-01T13:59:03.613Z",
       "profile": {
         "lastLoginTimestamp": 1756722015000,
         "level": 80,
@@ -3624,10 +3624,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 55,
-        "totalLosses": 3,
-        "totalGames": 58,
-        "winRate": 94.82758620689656,
+        "totalWins": 145,
+        "totalLosses": 152,
+        "totalGames": 297,
+        "winRate": 48.821548821548824,
         "highestRating": 1973,
         "highestBracket": "shuffle-arms"
       }
@@ -3635,7 +3635,7 @@
     {
       "characterName": "Butthurtx",
       "realmSlug": "stormscale",
-      "lastUpdated": "2025-09-01T12:25:27.100Z",
+      "lastUpdated": "2025-09-01T13:58:23.849Z",
       "profile": {
         "lastLoginTimestamp": 1756715563000,
         "level": 80,
@@ -3753,10 +3753,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 56,
-        "totalLosses": 29,
-        "totalGames": 85,
-        "winRate": 65.88235294117646,
+        "totalWins": 76,
+        "totalLosses": 54,
+        "totalGames": 130,
+        "winRate": 58.46153846153847,
         "highestRating": 1967,
         "highestBracket": "shuffle-unholy"
       }
@@ -3764,7 +3764,7 @@
     {
       "characterName": "Psiblades",
       "realmSlug": "kazzak",
-      "lastUpdated": "2025-09-01T12:27:57.246Z",
+      "lastUpdated": "2025-09-01T14:00:55.510Z",
       "profile": {
         "lastLoginTimestamp": 1756725283000,
         "level": 80,
@@ -3854,10 +3854,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 70,
-        "totalLosses": 72,
-        "totalGames": 142,
-        "winRate": 49.29577464788733,
+        "totalWins": 72,
+        "totalLosses": 75,
+        "totalGames": 147,
+        "winRate": 48.97959183673469,
         "highestRating": 1935,
         "highestBracket": "3v3"
       }
@@ -3865,7 +3865,7 @@
     {
       "characterName": "Wy",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:26:38.486Z",
+      "lastUpdated": "2025-09-01T13:59:36.093Z",
       "profile": {
         "lastLoginTimestamp": 1756498556000,
         "level": 80,
@@ -3915,7 +3915,7 @@
     {
       "characterName": "Psyche",
       "realmSlug": "executus",
-      "lastUpdated": "2025-09-01T12:27:00.120Z",
+      "lastUpdated": "2025-09-01T13:59:58.088Z",
       "profile": {
         "lastLoginTimestamp": 1756585470000,
         "level": 80,
@@ -3965,7 +3965,7 @@
     {
       "characterName": "Jøkeshaman",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:27:41.295Z",
+      "lastUpdated": "2025-09-01T14:00:39.505Z",
       "profile": {
         "lastLoginTimestamp": 1756634289000,
         "level": 80,
@@ -4055,10 +4055,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 35,
-        "totalLosses": 16,
-        "totalGames": 51,
-        "winRate": 68.62745098039215,
+        "totalWins": 60,
+        "totalLosses": 25,
+        "totalGames": 85,
+        "winRate": 70.58823529411765,
         "highestRating": 1909,
         "highestBracket": "shuffle-restoration"
       }
@@ -4066,7 +4066,7 @@
     {
       "characterName": "Kombowombo",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:25.755Z",
+      "lastUpdated": "2025-09-01T13:59:23.227Z",
       "profile": {
         "lastLoginTimestamp": 1756667945000,
         "level": 80,
@@ -4144,10 +4144,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 58,
-        "totalLosses": 41,
-        "totalGames": 99,
-        "winRate": 58.58585858585859,
+        "totalWins": 104,
+        "totalLosses": 100,
+        "totalGames": 204,
+        "winRate": 50.98039215686274,
         "highestRating": 1901,
         "highestBracket": "shuffle-balance"
       }
@@ -4155,7 +4155,7 @@
     {
       "characterName": "Illidarí",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:08.278Z",
+      "lastUpdated": "2025-09-01T13:58:04.347Z",
       "profile": {
         "lastLoginTimestamp": 1756669123000,
         "level": 80,
@@ -4224,10 +4224,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 51,
-        "totalLosses": 3,
-        "totalGames": 54,
-        "winRate": 94.44444444444444,
+        "totalWins": 153,
+        "totalLosses": 139,
+        "totalGames": 292,
+        "winRate": 52.3972602739726,
         "highestRating": 1877,
         "highestBracket": "shuffle-havoc"
       }
@@ -4235,7 +4235,7 @@
     {
       "characterName": "Odetosleep",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:47.165Z",
+      "lastUpdated": "2025-09-01T13:58:44.136Z",
       "profile": {
         "lastLoginTimestamp": 1756674457000,
         "level": 80,
@@ -4355,10 +4355,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 40,
-        "totalLosses": 35,
-        "totalGames": 75,
-        "winRate": 53.333333333333336,
+        "totalWins": 55,
+        "totalLosses": 55,
+        "totalGames": 110,
+        "winRate": 50,
         "highestRating": 1875,
         "highestBracket": "shuffle-arms"
       }
@@ -4366,7 +4366,7 @@
     {
       "characterName": "Úntrust",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:05.194Z",
+      "lastUpdated": "2025-09-01T13:58:01.236Z",
       "profile": {
         "lastLoginTimestamp": 1756500521000,
         "level": 80,
@@ -4456,10 +4456,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 55,
-        "totalLosses": 61,
-        "totalGames": 116,
-        "winRate": 47.41379310344828,
+        "totalWins": 62,
+        "totalLosses": 64,
+        "totalGames": 126,
+        "winRate": 49.2063492063492,
         "highestRating": 1855,
         "highestBracket": "2v2"
       }
@@ -4467,7 +4467,7 @@
     {
       "characterName": "Sokyra",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:25.207Z",
+      "lastUpdated": "2025-09-01T14:01:23.829Z",
       "profile": {
         "lastLoginTimestamp": 1756670383000,
         "level": 80,
@@ -4587,10 +4587,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 59,
-        "totalLosses": 65,
-        "totalGames": 124,
-        "winRate": 47.58064516129033,
+        "totalWins": 81,
+        "totalLosses": 103,
+        "totalGames": 184,
+        "winRate": 44.02173913043478,
         "highestRating": 1844,
         "highestBracket": "shuffle-retribution"
       }
@@ -4598,7 +4598,7 @@
     {
       "characterName": "Attacms",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:09.512Z",
+      "lastUpdated": "2025-09-01T13:59:06.917Z",
       "profile": {
         "lastLoginTimestamp": 1756724904000,
         "level": 80,
@@ -4739,10 +4739,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 86,
-        "totalLosses": 84,
-        "totalGames": 170,
-        "winRate": 50.588235294117645,
+        "totalWins": 111,
+        "totalLosses": 109,
+        "totalGames": 220,
+        "winRate": 50.45454545454545,
         "highestRating": 1842,
         "highestBracket": "shuffle-arms"
       }
@@ -4750,7 +4750,7 @@
     {
       "characterName": "Ucu",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:26:38.487Z",
+      "lastUpdated": "2025-09-01T13:59:36.093Z",
       "profile": {
         "lastLoginTimestamp": 1756410453000,
         "level": 80,
@@ -4800,7 +4800,7 @@
     {
       "characterName": "Úntrust",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:27:25.463Z",
+      "lastUpdated": "2025-09-01T14:00:23.847Z",
       "profile": {
         "lastLoginTimestamp": 1756394286000,
         "level": 80,
@@ -4850,7 +4850,7 @@
     {
       "characterName": "Jkpurge",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2025-09-01T12:26:51.221Z",
+      "lastUpdated": "2025-09-01T13:59:49.257Z",
       "profile": {
         "lastLoginTimestamp": 1756412059000,
         "level": 80,
@@ -4921,14 +4921,14 @@
     {
       "characterName": "Kengaraxs",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:48.092Z",
+      "lastUpdated": "2025-09-01T13:59:46.066Z",
       "profile": {
-        "lastLoginTimestamp": 1756125399000,
+        "lastLoginTimestamp": 1756732788000,
         "level": 80,
         "characterClass": "Death Knight",
         "race": "Orc",
         "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Unholy",
+        "activeSpec": "Frost",
         "pvpSummary": {
           "href": "https://eu.api.blizzard.com/profile/wow/character/tarren-mill/kengaraxs/pvp-summary?namespace=profile-eu"
         },
@@ -4941,8 +4941,8 @@
           "rating": 1804,
           "seasonWins": 47,
           "seasonLosses": 41,
-          "weeklyWins": 11,
-          "weeklyLosses": 16,
+          "weeklyWins": 0,
+          "weeklyLosses": 0,
           "seasonRoundWins": 0,
           "seasonRoundLosses": 0,
           "weeklyRoundWins": 0,
@@ -4993,12 +4993,12 @@
             "rating": 1776,
             "seasonWins": 8,
             "seasonLosses": 0,
-            "weeklyWins": 1,
+            "weeklyWins": 0,
             "weeklyLosses": 0,
             "seasonRoundWins": 28,
             "seasonRoundLosses": 18,
-            "weeklyRoundWins": 5,
-            "weeklyRoundLosses": 1,
+            "weeklyRoundWins": 0,
+            "weeklyRoundLosses": 0,
             "tier": {
               "key": {
                 "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/307?namespace=static-11.2.0_62213-eu"
@@ -5020,10 +5020,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 59,
-        "totalLosses": 46,
-        "totalGames": 105,
-        "winRate": 56.19047619047619,
+        "totalWins": 79,
+        "totalLosses": 64,
+        "totalGames": 143,
+        "winRate": 55.24475524475524,
         "highestRating": 1804,
         "highestBracket": "2v2"
       }
@@ -5031,7 +5031,7 @@
     {
       "characterName": "Artkov",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:19.029Z",
+      "lastUpdated": "2025-09-01T13:59:16.468Z",
       "profile": {
         "lastLoginTimestamp": 1756320032000,
         "level": 80,
@@ -5151,10 +5151,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 46,
-        "totalLosses": 52,
-        "totalGames": 98,
-        "winRate": 46.93877551020408,
+        "totalWins": 48,
+        "totalLosses": 55,
+        "totalGames": 103,
+        "winRate": 46.601941747572816,
         "highestRating": 1803,
         "highestBracket": "blitz-mistweaver"
       }
@@ -5162,7 +5162,7 @@
     {
       "characterName": "Of",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:26:35.351Z",
+      "lastUpdated": "2025-09-01T13:59:32.930Z",
       "profile": {
         "lastLoginTimestamp": 1756497890000,
         "level": 80,
@@ -5212,7 +5212,7 @@
     {
       "characterName": "Xxolla",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:27:57.246Z",
+      "lastUpdated": "2025-09-01T14:00:55.510Z",
       "profile": {
         "lastLoginTimestamp": 1756631314000,
         "level": 80,
@@ -5311,10 +5311,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 39,
-        "totalLosses": 20,
-        "totalGames": 59,
-        "winRate": 66.10169491525424,
+        "totalWins": 83,
+        "totalLosses": 104,
+        "totalGames": 187,
+        "winRate": 44.38502673796791,
         "highestRating": 1770,
         "highestBracket": "shuffle-arcane"
       }
@@ -5322,7 +5322,7 @@
     {
       "characterName": "Kaisuro",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:28.421Z",
+      "lastUpdated": "2025-09-01T14:01:27.041Z",
       "profile": {
         "lastLoginTimestamp": 1756569172000,
         "level": 80,
@@ -5412,10 +5412,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 41,
-        "totalLosses": 29,
-        "totalGames": 70,
-        "winRate": 58.57142857142858,
+        "totalWins": 57,
+        "totalLosses": 41,
+        "totalGames": 98,
+        "winRate": 58.16326530612245,
         "highestRating": 1770,
         "highestBracket": "shuffle-holy"
       }
@@ -5423,7 +5423,7 @@
     {
       "characterName": "Antisstress",
       "realmSlug": "draenor",
-      "lastUpdated": "2025-09-01T12:26:31.900Z",
+      "lastUpdated": "2025-09-01T13:59:29.460Z",
       "profile": {
         "lastLoginTimestamp": 1756503011000,
         "level": 80,
@@ -5522,10 +5522,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 35,
-        "totalLosses": 23,
-        "totalGames": 58,
-        "winRate": 60.3448275862069,
+        "totalWins": 45,
+        "totalLosses": 33,
+        "totalGames": 78,
+        "winRate": 57.692307692307686,
         "highestRating": 1767,
         "highestBracket": "2v2"
       }
@@ -5533,7 +5533,7 @@
     {
       "characterName": "Goblinatorr",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:22.142Z",
+      "lastUpdated": "2025-09-01T14:01:20.702Z",
       "profile": {
         "lastLoginTimestamp": 1756671201000,
         "level": 80,
@@ -5630,10 +5630,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 17,
-        "totalLosses": 7,
-        "totalGames": 24,
-        "winRate": 70.83333333333334,
+        "totalWins": 34,
+        "totalLosses": 55,
+        "totalGames": 89,
+        "winRate": 38.20224719101123,
         "highestRating": 1758,
         "highestBracket": "shuffle-frost"
       }
@@ -5641,7 +5641,7 @@
     {
       "characterName": "Nojudgement",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2025-09-01T12:27:50.997Z",
+      "lastUpdated": "2025-09-01T14:00:49.292Z",
       "profile": {
         "lastLoginTimestamp": 1756579217000,
         "level": 80,
@@ -5712,7 +5712,7 @@
     {
       "characterName": "Lapendarus",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:24:48.355Z",
+      "lastUpdated": "2025-09-01T13:57:44.705Z",
       "profile": {
         "lastLoginTimestamp": 1756651691000,
         "level": 80,
@@ -5811,10 +5811,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 16,
-        "totalLosses": 15,
-        "totalGames": 31,
-        "winRate": 51.61290322580645,
+        "totalWins": 33,
+        "totalLosses": 42,
+        "totalGames": 75,
+        "winRate": 44,
         "highestRating": 1750,
         "highestBracket": "blitz-frost"
       }
@@ -5822,7 +5822,7 @@
     {
       "characterName": "Kamchs",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:03.425Z",
+      "lastUpdated": "2025-09-01T14:01:01.861Z",
       "profile": {
         "lastLoginTimestamp": 1756727115000,
         "level": 80,
@@ -5921,10 +5921,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 23,
-        "totalLosses": 11,
-        "totalGames": 34,
-        "winRate": 67.64705882352942,
+        "totalWins": 43,
+        "totalLosses": 49,
+        "totalGames": 92,
+        "winRate": 46.73913043478261,
         "highestRating": 1718,
         "highestBracket": "shuffle-discipline"
       }
@@ -5932,7 +5932,7 @@
     {
       "characterName": "Nickrosh",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:26:31.900Z",
+      "lastUpdated": "2025-09-01T13:59:29.460Z",
       "profile": {
         "lastLoginTimestamp": 1756565106000,
         "level": 80,
@@ -6108,10 +6108,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 65,
-        "totalLosses": 53,
-        "totalGames": 118,
-        "winRate": 55.08474576271186,
+        "totalWins": 81,
+        "totalLosses": 69,
+        "totalGames": 150,
+        "winRate": 54,
         "highestRating": 1709,
         "highestBracket": "3v3"
       }
@@ -6119,7 +6119,7 @@
     {
       "characterName": "Remolacha",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:27:35.349Z",
+      "lastUpdated": "2025-09-01T14:00:33.410Z",
       "profile": {
         "lastLoginTimestamp": 1756418458000,
         "level": 80,
@@ -6230,10 +6230,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 107,
-        "totalLosses": 149,
-        "totalGames": 256,
-        "winRate": 41.796875,
+        "totalWins": 108,
+        "totalLosses": 152,
+        "totalGames": 260,
+        "winRate": 41.53846153846154,
         "highestRating": 1685,
         "highestBracket": "2v2"
       }
@@ -6241,7 +6241,7 @@
     {
       "characterName": "Albukerke",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:27:32.174Z",
+      "lastUpdated": "2025-09-01T14:00:30.123Z",
       "profile": {
         "lastLoginTimestamp": 1755939517000,
         "level": 80,
@@ -6312,7 +6312,7 @@
     {
       "characterName": "Soulhero",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:22.684Z",
+      "lastUpdated": "2025-09-01T13:59:20.149Z",
       "profile": {
         "lastLoginTimestamp": 1755637954000,
         "level": 80,
@@ -6362,7 +6362,7 @@
     {
       "characterName": "Kviten",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:26:00.092Z",
+      "lastUpdated": "2025-09-01T13:58:57.286Z",
       "profile": {
         "lastLoginTimestamp": 1756403432000,
         "level": 80,
@@ -6431,10 +6431,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 47,
-        "totalLosses": 70,
-        "totalGames": 117,
-        "winRate": 40.17094017094017,
+        "totalWins": 62,
+        "totalLosses": 100,
+        "totalGames": 162,
+        "winRate": 38.2716049382716,
         "highestRating": 1639,
         "highestBracket": "2v2"
       }
@@ -6442,7 +6442,7 @@
     {
       "characterName": "Uo",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:27:25.463Z",
+      "lastUpdated": "2025-09-01T14:00:23.847Z",
       "profile": {
         "lastLoginTimestamp": 1756411669000,
         "level": 80,
@@ -6492,7 +6492,7 @@
     {
       "characterName": "Anelya",
       "realmSlug": "outland",
-      "lastUpdated": "2025-09-01T12:24:42.034Z",
+      "lastUpdated": "2025-09-01T13:57:38.423Z",
       "profile": {
         "lastLoginTimestamp": 1756627462000,
         "level": 80,
@@ -6561,10 +6561,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 27,
-        "totalLosses": 47,
-        "totalGames": 74,
-        "winRate": 36.486486486486484,
+        "totalWins": 33,
+        "totalLosses": 56,
+        "totalGames": 89,
+        "winRate": 37.07865168539326,
         "highestRating": 1634,
         "highestBracket": "2v2"
       }
@@ -6572,7 +6572,7 @@
     {
       "characterName": "Celoelestis",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2025-09-01T12:27:50.996Z",
+      "lastUpdated": "2025-09-01T14:00:49.291Z",
       "profile": {
         "lastLoginTimestamp": 1756297988000,
         "level": 80,
@@ -6620,10 +6620,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 7,
-        "totalLosses": 1,
-        "totalGames": 8,
-        "winRate": 87.5,
+        "totalWins": 20,
+        "totalLosses": 28,
+        "totalGames": 48,
+        "winRate": 41.66666666666667,
         "highestRating": 1626,
         "highestBracket": "shuffle-havoc"
       }
@@ -6631,7 +6631,7 @@
     {
       "characterName": "Bogdana",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:44.034Z",
+      "lastUpdated": "2025-09-01T13:58:40.938Z",
       "profile": {
         "lastLoginTimestamp": 1756566773000,
         "level": 80,
@@ -6709,10 +6709,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 6,
-        "totalLosses": 2,
-        "totalGames": 8,
-        "winRate": 75,
+        "totalWins": 17,
+        "totalLosses": 21,
+        "totalGames": 38,
+        "winRate": 44.73684210526316,
         "highestRating": 1617,
         "highestBracket": "shuffle-survival"
       }
@@ -6720,7 +6720,7 @@
     {
       "characterName": "Satanloveme",
       "realmSlug": "stormscale",
-      "lastUpdated": "2025-09-01T12:24:37.578Z",
+      "lastUpdated": "2025-09-01T13:57:34.026Z",
       "profile": {
         "lastLoginTimestamp": 1755802846000,
         "level": 80,
@@ -6789,10 +6789,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 24,
-        "totalLosses": 27,
-        "totalGames": 51,
-        "winRate": 47.05882352941176,
+        "totalWins": 28,
+        "totalLosses": 33,
+        "totalGames": 61,
+        "winRate": 45.90163934426229,
         "highestRating": 1614,
         "highestBracket": "3v3"
       }
@@ -6800,7 +6800,7 @@
     {
       "characterName": "Kriplie",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:24:42.033Z",
+      "lastUpdated": "2025-09-01T13:57:38.422Z",
       "profile": {
         "lastLoginTimestamp": 1755994715000,
         "level": 80,
@@ -6850,7 +6850,7 @@
     {
       "characterName": "Gluffy",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:27:03.060Z",
+      "lastUpdated": "2025-09-01T14:00:01.122Z",
       "profile": {
         "lastLoginTimestamp": 1755969892000,
         "level": 80,
@@ -6977,10 +6977,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 70,
-        "totalLosses": 34,
-        "totalGames": 104,
-        "winRate": 67.3076923076923,
+        "totalWins": 156,
+        "totalLosses": 185,
+        "totalGames": 341,
+        "winRate": 45.74780058651026,
         "highestRating": 1611,
         "highestBracket": "shuffle-subtlety"
       }
@@ -6988,7 +6988,7 @@
     {
       "characterName": "Sxyw",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:12.854Z",
+      "lastUpdated": "2025-09-01T13:59:10.315Z",
       "profile": {
         "lastLoginTimestamp": 1756674989000,
         "level": 80,
@@ -7038,7 +7038,7 @@
     {
       "characterName": "Gardnerx",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:23.965Z",
+      "lastUpdated": "2025-09-01T13:58:20.054Z",
       "profile": {
         "lastLoginTimestamp": 1756679071000,
         "level": 80,
@@ -7118,7 +7118,7 @@
     {
       "characterName": "Exelit",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:25.207Z",
+      "lastUpdated": "2025-09-01T14:01:23.829Z",
       "profile": {
         "lastLoginTimestamp": 1756490764000,
         "level": 80,
@@ -7166,10 +7166,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 20,
-        "totalLosses": 0,
-        "totalGames": 20,
-        "winRate": 100,
+        "totalWins": 62,
+        "totalLosses": 56,
+        "totalGames": 118,
+        "winRate": 52.54237288135594,
         "highestRating": 1524,
         "highestBracket": "shuffle-unholy"
       }
@@ -7177,7 +7177,7 @@
     {
       "characterName": "Wls",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:26:06.328Z",
+      "lastUpdated": "2025-09-01T13:59:03.614Z",
       "profile": {
         "lastLoginTimestamp": 1756562242000,
         "level": 80,
@@ -7227,7 +7227,7 @@
     {
       "characterName": "Ammentes",
       "realmSlug": "outland",
-      "lastUpdated": "2025-09-01T12:25:01.321Z",
+      "lastUpdated": "2025-09-01T13:57:57.602Z",
       "profile": {
         "lastLoginTimestamp": 1756485260000,
         "level": 80,
@@ -7305,10 +7305,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 12,
-        "totalLosses": 2,
-        "totalGames": 14,
-        "winRate": 85.71428571428571,
+        "totalWins": 23,
+        "totalLosses": 36,
+        "totalGames": 59,
+        "winRate": 38.983050847457626,
         "highestRating": 1247,
         "highestBracket": "shuffle-affliction"
       }
@@ -7316,7 +7316,7 @@
     {
       "characterName": "Justice",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2025-09-01T12:26:48.092Z",
+      "lastUpdated": "2025-09-01T13:59:46.066Z",
       "profile": {
         "lastLoginTimestamp": 1756496528000,
         "level": 80,
@@ -7387,7 +7387,7 @@
     {
       "characterName": "Ny",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:26:35.350Z",
+      "lastUpdated": "2025-09-01T13:59:32.929Z",
       "profile": {
         "lastLoginTimestamp": 1756502363000,
         "level": 80,
@@ -7458,7 +7458,7 @@
     {
       "characterName": "Deathøfrats",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:41.830Z",
+      "lastUpdated": "2025-09-01T13:59:39.231Z",
       "profile": {
         "lastLoginTimestamp": 1756670709000,
         "level": 80,
@@ -7508,7 +7508,7 @@
     {
       "characterName": "Nebbiros",
       "realmSlug": "outland",
-      "lastUpdated": "2025-09-01T12:28:25.207Z",
+      "lastUpdated": "2025-09-01T14:01:23.829Z",
       "profile": {
         "lastLoginTimestamp": 1756405683000,
         "level": 80,
@@ -7586,10 +7586,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 7,
-        "totalLosses": 5,
-        "totalGames": 12,
-        "winRate": 58.333333333333336,
+        "totalWins": 15,
+        "totalLosses": 36,
+        "totalGames": 51,
+        "winRate": 29.411764705882355,
         "highestRating": 1134,
         "highestBracket": "shuffle-frost"
       }
@@ -7597,7 +7597,7 @@
     {
       "characterName": "Wrathlolz",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:17.652Z",
+      "lastUpdated": "2025-09-01T13:58:13.716Z",
       "profile": {
         "lastLoginTimestamp": 1756060849000,
         "level": 80,
@@ -7645,10 +7645,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 4,
-        "totalLosses": 1,
-        "totalGames": 5,
-        "winRate": 80,
+        "totalWins": 12,
+        "totalLosses": 17,
+        "totalGames": 29,
+        "winRate": 41.37931034482759,
         "highestRating": 1086,
         "highestBracket": "shuffle-outlaw"
       }
@@ -7656,7 +7656,7 @@
     {
       "characterName": "Untrust",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:26:35.350Z",
+      "lastUpdated": "2025-09-01T13:59:32.930Z",
       "profile": {
         "lastLoginTimestamp": 1755791005000,
         "level": 80,
@@ -7706,7 +7706,7 @@
     {
       "characterName": "Rîddíck",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:28.879Z",
+      "lastUpdated": "2025-09-01T13:59:26.420Z",
       "profile": {
         "lastLoginTimestamp": 1756715736000,
         "level": 80,
@@ -7756,7 +7756,7 @@
     {
       "characterName": "Hypøthermia",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:49.103Z",
+      "lastUpdated": "2025-09-01T14:01:47.946Z",
       "profile": {
         "lastLoginTimestamp": 1756654422000,
         "level": 80,
@@ -7860,10 +7860,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 5,
-        "totalLosses": 1,
-        "totalGames": 6,
-        "winRate": 83.33333333333334,
+        "totalWins": 19,
+        "totalLosses": 15,
+        "totalGames": 34,
+        "winRate": 55.88235294117647,
         "highestRating": 864,
         "highestBracket": "shuffle-frost"
       }
@@ -7871,7 +7871,7 @@
     {
       "characterName": "Uarka",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:27:35.349Z",
+      "lastUpdated": "2025-09-01T14:00:33.410Z",
       "profile": {
         "lastLoginTimestamp": 1756296577000,
         "level": 80,
@@ -7949,10 +7949,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 4,
-        "totalLosses": 1,
-        "totalGames": 5,
-        "winRate": 80,
+        "totalWins": 10,
+        "totalLosses": 12,
+        "totalGames": 22,
+        "winRate": 45.45454545454545,
         "highestRating": 863,
         "highestBracket": "shuffle-beast mastery"
       }
@@ -7960,7 +7960,7 @@
     {
       "characterName": "Chidorixd",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:16.217Z",
+      "lastUpdated": "2025-09-01T14:01:14.777Z",
       "profile": {
         "lastLoginTimestamp": 1755341611000,
         "level": 80,
@@ -8031,7 +8031,7 @@
     {
       "characterName": "Shkodnicya",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:47.164Z",
+      "lastUpdated": "2025-09-01T13:58:44.135Z",
       "profile": {
         "lastLoginTimestamp": 1756682150000,
         "level": 80,
@@ -8081,7 +8081,7 @@
     {
       "characterName": "Ierrihon",
       "realmSlug": "outland",
-      "lastUpdated": "2025-09-01T12:24:42.034Z",
+      "lastUpdated": "2025-09-01T13:57:38.423Z",
       "profile": {
         "lastLoginTimestamp": 1756384140000,
         "level": 80,
@@ -8159,10 +8159,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 5,
-        "totalLosses": 3,
-        "totalGames": 8,
-        "winRate": 62.5,
+        "totalWins": 7,
+        "totalLosses": 26,
+        "totalGames": 33,
+        "winRate": 21.21212121212121,
         "highestRating": 576,
         "highestBracket": "shuffle-elemental"
       }
@@ -8170,7 +8170,7 @@
     {
       "characterName": "Vidtinok",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:19.029Z",
+      "lastUpdated": "2025-09-01T13:59:16.468Z",
       "profile": {
         "lastLoginTimestamp": 1755761116000,
         "level": 80,
@@ -8248,10 +8248,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 3,
-        "totalLosses": 0,
-        "totalGames": 3,
-        "winRate": 100,
+        "totalWins": 4,
+        "totalLosses": 4,
+        "totalGames": 8,
+        "winRate": 50,
         "highestRating": 576,
         "highestBracket": "blitz-frost"
       }
@@ -8259,7 +8259,7 @@
     {
       "characterName": "Shinnock",
       "realmSlug": "teldrassil",
-      "lastUpdated": "2025-09-01T12:26:48.092Z",
+      "lastUpdated": "2025-09-01T13:59:46.066Z",
       "profile": {
         "lastLoginTimestamp": 1756667283000,
         "level": 80,
@@ -8349,10 +8349,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 7,
-        "totalLosses": 3,
-        "totalGames": 10,
-        "winRate": 70,
+        "totalWins": 9,
+        "totalLosses": 11,
+        "totalGames": 20,
+        "winRate": 45,
         "highestRating": 480,
         "highestBracket": "2v2"
       }
@@ -8360,7 +8360,7 @@
     {
       "characterName": "Chørt",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:24:48.355Z",
+      "lastUpdated": "2025-09-01T13:57:44.705Z",
       "profile": {
         "lastLoginTimestamp": 1756592355000,
         "level": 80,
@@ -8410,7 +8410,7 @@
     {
       "characterName": "Untrust",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:27:09.464Z",
+      "lastUpdated": "2025-09-01T14:00:07.637Z",
       "profile": {
         "lastLoginTimestamp": 1756677371000,
         "level": 80,
@@ -8460,7 +8460,7 @@
     {
       "characterName": "Shkodnitsya",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:33.472Z",
+      "lastUpdated": "2025-09-01T13:58:30.273Z",
       "profile": {
         "lastLoginTimestamp": 1756629342000,
         "level": 80,
@@ -8510,7 +8510,7 @@
     {
       "characterName": "Marzula",
       "realmSlug": "burning-blade",
-      "lastUpdated": "2025-09-01T12:26:12.854Z",
+      "lastUpdated": "2025-09-01T13:59:10.316Z",
       "profile": {
         "lastLoginTimestamp": 1756592357000,
         "level": 80,
@@ -8569,7 +8569,7 @@
     {
       "characterName": "Gnomik",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:25.755Z",
+      "lastUpdated": "2025-09-01T13:59:23.228Z",
       "profile": {
         "lastLoginTimestamp": 1756134019000,
         "level": 80,
@@ -8647,9 +8647,9 @@
         ]
       },
       "totalStats": {
-        "totalWins": 2,
+        "totalWins": 4,
         "totalLosses": 0,
-        "totalGames": 2,
+        "totalGames": 4,
         "winRate": 100,
         "highestRating": 288,
         "highestBracket": "blitz-frost"
@@ -8658,7 +8658,7 @@
     {
       "characterName": "Undómmiel",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:31.817Z",
+      "lastUpdated": "2025-09-01T14:01:30.169Z",
       "profile": {
         "lastLoginTimestamp": 1756501971000,
         "level": 80,
@@ -8757,10 +8757,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 2,
-        "totalLosses": 1,
-        "totalGames": 3,
-        "winRate": 66.66666666666666,
+        "totalWins": 4,
+        "totalLosses": 4,
+        "totalGames": 8,
+        "winRate": 50,
         "highestRating": 288,
         "highestBracket": "shuffle-fury"
       }
@@ -8768,7 +8768,7 @@
     {
       "characterName": "Moolgorian",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:27:25.463Z",
+      "lastUpdated": "2025-09-01T14:00:23.847Z",
       "profile": {
         "lastLoginTimestamp": 1756729637000,
         "level": 80,
@@ -8816,10 +8816,10 @@
         ]
       },
       "totalStats": {
-        "totalWins": 1,
-        "totalLosses": 0,
-        "totalGames": 1,
-        "winRate": 100,
+        "totalWins": 2,
+        "totalLosses": 3,
+        "totalGames": 5,
+        "winRate": 40,
         "highestRating": 159,
         "highestBracket": "shuffle-balance"
       }
@@ -8827,7 +8827,7 @@
     {
       "characterName": "Morozilla",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:27:00.121Z",
+      "lastUpdated": "2025-09-01T13:59:58.089Z",
       "profile": {
         "lastLoginTimestamp": 1755906711000,
         "level": 80,
@@ -8898,7 +8898,7 @@
     {
       "characterName": "Annihilatiøn",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:24:37.592Z",
+      "lastUpdated": "2025-09-01T13:57:34.040Z",
       "profile": {
         "lastLoginTimestamp": 1753119744000,
         "level": 80,
@@ -8929,7 +8929,7 @@
     {
       "characterName": "Amorfia",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:24:37.593Z",
+      "lastUpdated": "2025-09-01T13:57:34.040Z",
       "profile": {
         "lastLoginTimestamp": 1750310654000,
         "level": 80,
@@ -8960,7 +8960,7 @@
     {
       "characterName": "Hyds",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:24:45.195Z",
+      "lastUpdated": "2025-09-01T13:57:41.565Z",
       "profile": {
         "lastLoginTimestamp": 1739792139000,
         "level": 80,
@@ -8991,7 +8991,7 @@
     {
       "characterName": "Spamrot",
       "realmSlug": "stormscale",
-      "lastUpdated": "2025-09-01T12:24:48.354Z",
+      "lastUpdated": "2025-09-01T13:57:44.704Z",
       "profile": {
         "lastLoginTimestamp": 1749582880000,
         "level": 80,
@@ -9022,7 +9022,7 @@
     {
       "characterName": "Apximekmop",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:24:48.355Z",
+      "lastUpdated": "2025-09-01T13:57:44.705Z",
       "profile": {
         "lastLoginTimestamp": 1752877785000,
         "level": 80,
@@ -9052,7 +9052,7 @@
     {
       "characterName": "Discopium",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:24:54.567Z",
+      "lastUpdated": "2025-09-01T13:57:50.867Z",
       "profile": {
         "lastLoginTimestamp": 1730252053000,
         "level": 80,
@@ -9083,7 +9083,7 @@
     {
       "characterName": "Satanhound",
       "realmSlug": "stormscale",
-      "lastUpdated": "2025-09-01T12:24:58.021Z",
+      "lastUpdated": "2025-09-01T13:57:54.337Z",
       "profile": {
         "lastLoginTimestamp": 1753087756000,
         "level": 80,
@@ -9114,7 +9114,7 @@
     {
       "characterName": "Toodle",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:24:58.021Z",
+      "lastUpdated": "2025-09-01T13:57:54.337Z",
       "profile": {
         "lastLoginTimestamp": 1753994076000,
         "level": 80,
@@ -9144,7 +9144,7 @@
     {
       "characterName": "Rãptør",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:01.321Z",
+      "lastUpdated": "2025-09-01T13:57:57.601Z",
       "profile": {
         "lastLoginTimestamp": 1753811451000,
         "level": 80,
@@ -9174,7 +9174,7 @@
     {
       "characterName": "Dragonkníght",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:01.321Z",
+      "lastUpdated": "2025-09-01T13:57:57.602Z",
       "profile": {
         "lastLoginTimestamp": 1729983680000,
         "level": 80,
@@ -9205,7 +9205,7 @@
     {
       "characterName": "Lostinmana",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:11.286Z",
+      "lastUpdated": "2025-09-01T13:58:07.364Z",
       "profile": {
         "lastLoginTimestamp": 1728841875000,
         "level": 80,
@@ -9236,7 +9236,7 @@
     {
       "characterName": "Xiptodic",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:14.397Z",
+      "lastUpdated": "2025-09-01T13:58:10.513Z",
       "profile": {
         "lastLoginTimestamp": 1753105421000,
         "level": 80,
@@ -9267,7 +9267,7 @@
     {
       "characterName": "Annihilâtiøn",
       "realmSlug": "stormscale",
-      "lastUpdated": "2025-09-01T12:25:14.397Z",
+      "lastUpdated": "2025-09-01T13:58:10.514Z",
       "profile": {
         "lastLoginTimestamp": 1750243802000,
         "level": 80,
@@ -9297,7 +9297,7 @@
     {
       "characterName": "Bergljörd",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:14.397Z",
+      "lastUpdated": "2025-09-01T13:58:10.514Z",
       "profile": {
         "lastLoginTimestamp": 1753656844000,
         "level": 80,
@@ -9328,7 +9328,7 @@
     {
       "characterName": "Heartsbaner",
       "realmSlug": "argent-dawn",
-      "lastUpdated": "2025-09-01T12:25:17.652Z",
+      "lastUpdated": "2025-09-01T13:58:13.715Z",
       "profile": {
         "lastLoginTimestamp": 1750893088000,
         "level": 80,
@@ -9359,7 +9359,7 @@
     {
       "characterName": "Qìrei",
       "realmSlug": "pozzo-delleternità",
-      "lastUpdated": "2025-09-01T12:25:20.763Z",
+      "lastUpdated": "2025-09-01T13:58:16.837Z",
       "profile": {
         "lastLoginTimestamp": 1730402932000,
         "level": 80,
@@ -9390,7 +9390,7 @@
     {
       "characterName": "Pepesorcerer",
       "realmSlug": "stormscale",
-      "lastUpdated": "2025-09-01T12:25:20.764Z",
+      "lastUpdated": "2025-09-01T13:58:16.837Z",
       "profile": {
         "lastLoginTimestamp": 1750242686000,
         "level": 80,
@@ -9420,7 +9420,7 @@
     {
       "characterName": "Synoptick",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:23.964Z",
+      "lastUpdated": "2025-09-01T13:58:20.054Z",
       "profile": {
         "lastLoginTimestamp": 1751809635000,
         "level": 80,
@@ -9451,7 +9451,7 @@
     {
       "characterName": "Daredévil",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:30.287Z",
+      "lastUpdated": "2025-09-01T13:58:27.029Z",
       "profile": {
         "lastLoginTimestamp": 1732544314000,
         "level": 80,
@@ -9482,7 +9482,7 @@
     {
       "characterName": "Nsh",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:33.473Z",
+      "lastUpdated": "2025-09-01T13:58:30.273Z",
       "profile": {
         "lastLoginTimestamp": 1741522471000,
         "level": 80,
@@ -9513,7 +9513,7 @@
     {
       "characterName": "Bonecaller",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:36.605Z",
+      "lastUpdated": "2025-09-01T13:58:33.362Z",
       "profile": {
         "lastLoginTimestamp": 1729174989000,
         "level": 80,
@@ -9544,7 +9544,7 @@
     {
       "characterName": "Åstrax",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:40.897Z",
+      "lastUpdated": "2025-09-01T13:58:37.053Z",
       "profile": {
         "lastLoginTimestamp": 1756637002000,
         "level": 80,
@@ -9594,7 +9594,7 @@
     {
       "characterName": "Lunchalót",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:40.898Z",
+      "lastUpdated": "2025-09-01T13:58:37.054Z",
       "profile": {
         "lastLoginTimestamp": 1754700146000,
         "level": 80,
@@ -9625,7 +9625,7 @@
     {
       "characterName": "Ogastes",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:53.669Z",
+      "lastUpdated": "2025-09-01T13:58:50.783Z",
       "profile": {
         "lastLoginTimestamp": 1741379149000,
         "level": 80,
@@ -9656,7 +9656,7 @@
     {
       "characterName": "Chronowing",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:53.669Z",
+      "lastUpdated": "2025-09-01T13:58:50.784Z",
       "profile": {
         "lastLoginTimestamp": 1750310590000,
         "level": 80,
@@ -9687,7 +9687,7 @@
     {
       "characterName": "Ateyst",
       "realmSlug": "stormscale",
-      "lastUpdated": "2025-09-01T12:25:53.669Z",
+      "lastUpdated": "2025-09-01T13:58:50.784Z",
       "profile": {
         "lastLoginTimestamp": 1750310421000,
         "level": 80,
@@ -9718,7 +9718,7 @@
     {
       "characterName": "Provider",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:25:56.743Z",
+      "lastUpdated": "2025-09-01T13:58:53.871Z",
       "profile": {
         "lastLoginTimestamp": 1754851503000,
         "level": 80,
@@ -9749,7 +9749,7 @@
     {
       "characterName": "Meowrly",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2025-09-01T12:26:00.093Z",
+      "lastUpdated": "2025-09-01T13:58:57.286Z",
       "profile": {
         "lastLoginTimestamp": 1753041118000,
         "level": 80,
@@ -9780,7 +9780,7 @@
     {
       "characterName": "Daikri",
       "realmSlug": "draenor",
-      "lastUpdated": "2025-09-01T12:26:09.511Z",
+      "lastUpdated": "2025-09-01T13:59:06.916Z",
       "profile": {
         "lastLoginTimestamp": 1754039241000,
         "level": 80,
@@ -9811,7 +9811,7 @@
     {
       "characterName": "Kettil",
       "realmSlug": "draenor",
-      "lastUpdated": "2025-09-01T12:26:09.511Z",
+      "lastUpdated": "2025-09-01T13:59:06.917Z",
       "profile": {
         "lastLoginTimestamp": 1754045752000,
         "level": 80,
@@ -9842,7 +9842,7 @@
     {
       "characterName": "Baldbaby",
       "realmSlug": "argent-dawn",
-      "lastUpdated": "2025-09-01T12:26:19.028Z",
+      "lastUpdated": "2025-09-01T13:59:16.468Z",
       "profile": {
         "lastLoginTimestamp": 1745146848000,
         "level": 80,
@@ -9873,7 +9873,7 @@
     {
       "characterName": "Sundowning",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:19.029Z",
+      "lastUpdated": "2025-09-01T13:59:16.468Z",
       "profile": {
         "lastLoginTimestamp": 1755025486000,
         "level": 80,
@@ -9904,7 +9904,7 @@
     {
       "characterName": "Mi",
       "realmSlug": "darkmoon-faire",
-      "lastUpdated": "2025-09-01T12:26:22.684Z",
+      "lastUpdated": "2025-09-01T13:59:20.149Z",
       "profile": {
         "lastLoginTimestamp": 1743461010000,
         "level": 80,
@@ -9935,7 +9935,7 @@
     {
       "characterName": "Azovthyr",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:26:25.755Z",
+      "lastUpdated": "2025-09-01T13:59:23.228Z",
       "profile": {
         "lastLoginTimestamp": 1726836541000,
         "level": 80,
@@ -9966,7 +9966,7 @@
     {
       "characterName": "On",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:26:35.350Z",
+      "lastUpdated": "2025-09-01T13:59:32.930Z",
       "profile": {
         "lastLoginTimestamp": 1751714139000,
         "level": 80,
@@ -9997,7 +9997,7 @@
     {
       "characterName": "Paradigma",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:26:38.487Z",
+      "lastUpdated": "2025-09-01T13:59:36.093Z",
       "profile": {
         "lastLoginTimestamp": 1727732655000,
         "level": 80,
@@ -10028,7 +10028,7 @@
     {
       "characterName": "Mimto",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:26:44.812Z",
+      "lastUpdated": "2025-09-01T13:59:42.825Z",
       "profile": {
         "lastLoginTimestamp": 1750884127000,
         "level": 80,
@@ -10059,7 +10059,7 @@
     {
       "characterName": "Artkow",
       "realmSlug": "argent-dawn",
-      "lastUpdated": "2025-09-01T12:26:48.091Z",
+      "lastUpdated": "2025-09-01T13:59:46.066Z",
       "profile": {
         "lastLoginTimestamp": 1754510708000,
         "level": 80,
@@ -10089,7 +10089,7 @@
     {
       "characterName": "Kruasan",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:27:03.061Z",
+      "lastUpdated": "2025-09-01T14:00:01.122Z",
       "profile": {
         "lastLoginTimestamp": 1754054869000,
         "level": 80,
@@ -10120,7 +10120,7 @@
     {
       "characterName": "Zaychyk",
       "realmSlug": "executus",
-      "lastUpdated": "2025-09-01T12:27:06.399Z",
+      "lastUpdated": "2025-09-01T14:00:04.467Z",
       "profile": {
         "lastLoginTimestamp": 1755033585000,
         "level": 80,
@@ -10151,7 +10151,7 @@
     {
       "characterName": "Shinnock",
       "realmSlug": "stormreaver",
-      "lastUpdated": "2025-09-01T12:27:12.388Z",
+      "lastUpdated": "2025-09-01T14:00:10.562Z",
       "profile": {
         "lastLoginTimestamp": 1745425482000,
         "level": 80,
@@ -10182,7 +10182,7 @@
     {
       "characterName": "Avesalom",
       "realmSlug": "stormreaver",
-      "lastUpdated": "2025-09-01T12:27:12.389Z",
+      "lastUpdated": "2025-09-01T14:00:10.562Z",
       "profile": {
         "lastLoginTimestamp": 1750062189000,
         "level": 80,
@@ -10213,7 +10213,7 @@
     {
       "characterName": "Kurbi",
       "realmSlug": "stormreaver",
-      "lastUpdated": "2025-09-01T12:27:15.869Z",
+      "lastUpdated": "2025-09-01T14:00:14.030Z",
       "profile": {
         "lastLoginTimestamp": 1750963364000,
         "level": 80,
@@ -10244,7 +10244,7 @@
     {
       "characterName": "Motsny",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:27:19.082Z",
+      "lastUpdated": "2025-09-01T14:00:17.233Z",
       "profile": {
         "lastLoginTimestamp": 1734209736000,
         "level": 80,
@@ -10275,7 +10275,7 @@
     {
       "characterName": "Shinnøck",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:27:22.328Z",
+      "lastUpdated": "2025-09-01T14:00:20.659Z",
       "profile": {
         "lastLoginTimestamp": 1751745951000,
         "level": 80,
@@ -10306,7 +10306,7 @@
     {
       "characterName": "Shinnøck",
       "realmSlug": "stormreaver",
-      "lastUpdated": "2025-09-01T12:27:28.924Z",
+      "lastUpdated": "2025-09-01T14:00:26.962Z",
       "profile": {
         "lastLoginTimestamp": 1751403059000,
         "level": 80,
@@ -10337,7 +10337,7 @@
     {
       "characterName": "Panini",
       "realmSlug": "magtheridon",
-      "lastUpdated": "2025-09-01T12:27:32.174Z",
+      "lastUpdated": "2025-09-01T14:00:30.123Z",
       "profile": {
         "lastLoginTimestamp": 1739212065000,
         "level": 80,
@@ -10368,7 +10368,7 @@
     {
       "characterName": "Pidpolkovnuk",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:27:32.175Z",
+      "lastUpdated": "2025-09-01T14:00:30.123Z",
       "profile": {
         "lastLoginTimestamp": 1752252109000,
         "level": 80,
@@ -10399,7 +10399,7 @@
     {
       "characterName": "Inarcadia",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2025-09-01T12:27:32.175Z",
+      "lastUpdated": "2025-09-01T14:00:30.124Z",
       "profile": {
         "lastLoginTimestamp": 1751829076000,
         "level": 80,
@@ -10430,7 +10430,7 @@
     {
       "characterName": "Rainbowdash",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:27:41.295Z",
+      "lastUpdated": "2025-09-01T14:00:39.505Z",
       "profile": {
         "lastLoginTimestamp": 1746816562000,
         "level": 80,
@@ -10461,7 +10461,7 @@
     {
       "characterName": "Purgebaby",
       "realmSlug": "terokkar",
-      "lastUpdated": "2025-09-01T12:27:44.850Z",
+      "lastUpdated": "2025-09-01T14:00:43.013Z",
       "profile": {
         "lastLoginTimestamp": 1752917067000,
         "level": 80,
@@ -10492,7 +10492,7 @@
     {
       "characterName": "Spelcleave",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2025-09-01T12:27:47.862Z",
+      "lastUpdated": "2025-09-01T14:00:46.067Z",
       "profile": {
         "lastLoginTimestamp": 1753755572000,
         "level": 80,
@@ -10522,7 +10522,7 @@
     {
       "characterName": "Aýrim",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2025-09-01T12:27:50.996Z",
+      "lastUpdated": "2025-09-01T14:00:49.291Z",
       "profile": {
         "lastLoginTimestamp": 1753186482000,
         "level": 80,
@@ -10553,7 +10553,7 @@
     {
       "characterName": "Crashor",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:27:54.083Z",
+      "lastUpdated": "2025-09-01T14:00:52.417Z",
       "profile": {
         "lastLoginTimestamp": 1755361088000,
         "level": 80,
@@ -10612,7 +10612,7 @@
     {
       "characterName": "Kobzarion",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:27:54.083Z",
+      "lastUpdated": "2025-09-01T14:00:52.418Z",
       "profile": {
         "lastLoginTimestamp": 1745315653000,
         "level": 80,
@@ -10643,7 +10643,7 @@
     {
       "characterName": "Hildebrandus",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:03.425Z",
+      "lastUpdated": "2025-09-01T14:01:01.861Z",
       "profile": {
         "lastLoginTimestamp": 1742429985000,
         "level": 80,
@@ -10674,7 +10674,7 @@
     {
       "characterName": "Sorrowrogue",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:09.870Z",
+      "lastUpdated": "2025-09-01T14:01:08.465Z",
       "profile": {
         "lastLoginTimestamp": 1743210897000,
         "level": 80,
@@ -10705,7 +10705,7 @@
     {
       "characterName": "Íròh",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:13.023Z",
+      "lastUpdated": "2025-09-01T14:01:11.639Z",
       "profile": {
         "lastLoginTimestamp": 1751025663000,
         "level": 80,
@@ -10736,7 +10736,7 @@
     {
       "characterName": "Fenomenproj",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:13.023Z",
+      "lastUpdated": "2025-09-01T14:01:11.639Z",
       "profile": {
         "lastLoginTimestamp": 1732891492000,
         "level": 80,
@@ -10766,7 +10766,7 @@
     {
       "characterName": "Greshnic",
       "realmSlug": "kazzak",
-      "lastUpdated": "2025-09-01T12:28:25.208Z",
+      "lastUpdated": "2025-09-01T14:01:23.829Z",
       "profile": {
         "lastLoginTimestamp": 1748118989000,
         "level": 80,
@@ -10796,7 +10796,7 @@
     {
       "characterName": "Shadowgrimm",
       "realmSlug": "kazzak",
-      "lastUpdated": "2025-09-01T12:28:28.421Z",
+      "lastUpdated": "2025-09-01T14:01:27.041Z",
       "profile": {
         "lastLoginTimestamp": 1752227640000,
         "level": 80,
@@ -10827,7 +10827,7 @@
     {
       "characterName": "Solopsycho",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:31.817Z",
+      "lastUpdated": "2025-09-01T14:01:30.168Z",
       "profile": {
         "lastLoginTimestamp": 1736021542000,
         "level": 80,
@@ -10858,7 +10858,7 @@
     {
       "characterName": "Stormshadovv",
       "realmSlug": "kazzak",
-      "lastUpdated": "2025-09-01T12:28:31.817Z",
+      "lastUpdated": "2025-09-01T14:01:30.169Z",
       "profile": {
         "lastLoginTimestamp": 1754302152000,
         "level": 80,
@@ -10889,7 +10889,7 @@
     {
       "characterName": "Därthmaul",
       "realmSlug": "kazzak",
-      "lastUpdated": "2025-09-01T12:28:38.117Z",
+      "lastUpdated": "2025-09-01T14:01:36.467Z",
       "profile": {
         "lastLoginTimestamp": 1753180173000,
         "level": 80,
@@ -10920,7 +10920,7 @@
     {
       "characterName": "Därthsidious",
       "realmSlug": "kazzak",
-      "lastUpdated": "2025-09-01T12:28:38.117Z",
+      "lastUpdated": "2025-09-01T14:01:36.468Z",
       "profile": {
         "lastLoginTimestamp": 1747563909000,
         "level": 80,
@@ -10951,7 +10951,7 @@
     {
       "characterName": "Annunakì",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:41.538Z",
+      "lastUpdated": "2025-09-01T14:01:39.929Z",
       "profile": {
         "lastLoginTimestamp": 1748459145000,
         "level": 80,
@@ -10982,7 +10982,7 @@
     {
       "characterName": "Marchick",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:41.538Z",
+      "lastUpdated": "2025-09-01T14:01:39.929Z",
       "profile": {
         "lastLoginTimestamp": 1753980914000,
         "level": 80,
@@ -11013,7 +11013,7 @@
     {
       "characterName": "Sizes",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:45.462Z",
+      "lastUpdated": "2025-09-01T14:01:44.243Z",
       "profile": {
         "lastLoginTimestamp": 1751049903000,
         "level": 80,
@@ -11044,7 +11044,7 @@
     {
       "characterName": "Budanova",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:45.462Z",
+      "lastUpdated": "2025-09-01T14:01:44.244Z",
       "profile": {
         "lastLoginTimestamp": 1753801591000,
         "level": 80,
@@ -11074,7 +11074,7 @@
     {
       "characterName": "Frozendd",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2025-09-01T12:28:49.102Z",
+      "lastUpdated": "2025-09-01T14:01:47.946Z",
       "profile": {
         "lastLoginTimestamp": 1755374346000,
         "level": 80,
@@ -11133,7 +11133,7 @@
     {
       "characterName": "Fiena",
       "realmSlug": "sunstrider",
-      "lastUpdated": "2025-09-01T12:28:52.259Z",
+      "lastUpdated": "2025-09-01T14:01:51.186Z",
       "profile": {
         "lastLoginTimestamp": 1754155450000,
         "level": 80,
@@ -11163,7 +11163,7 @@
     {
       "characterName": "Elisana",
       "realmSlug": "sunstrider",
-      "lastUpdated": "2025-09-01T12:28:52.259Z",
+      "lastUpdated": "2025-09-01T14:01:51.187Z",
       "profile": {
         "lastLoginTimestamp": 1754423553000,
         "level": 80,
@@ -11193,7 +11193,7 @@
     {
       "characterName": "Kotych",
       "realmSlug": "karazhan",
-      "lastUpdated": "2025-09-01T12:28:52.260Z",
+      "lastUpdated": "2025-09-01T14:01:51.187Z",
       "profile": {
         "lastLoginTimestamp": 1744551938000,
         "level": 80,
