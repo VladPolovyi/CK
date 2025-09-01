@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node -r dotenv/config scripts/generate-pvp.mjs",
+    "prebuild": "node -r dotenv/config scripts/generate-pvp.mjs && node -r dotenv/config scripts/generate-achievements-advanced.mjs && node -r dotenv/config scripts/generate-pvp-activity.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate:achievements": "node -r dotenv/config scripts/generate-achievements-advanced.mjs",
+    "generate:pvp-activity": "node -r dotenv/config scripts/generate-pvp-activity.mjs"
   },
   "dependencies": {
     "clsx": "^2.0.0",

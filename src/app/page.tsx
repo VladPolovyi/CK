@@ -1,8 +1,10 @@
 import { Shield, Users, Calendar, Trophy, Sword, Crown, Zap, Target, Skull, Flame, Droplets } from 'lucide-react'
 import Navigation from '@/components/Navigation'
 import ReadyToBleed from '@/components/ReadyToBleed'
+import AchievementStats from '@/components/AchievementStats'
 import styles from './page.module.scss'
 import Link from 'next/link'
+import achievementData from '@/data/generated/achievements-data.json'
 
 export default function Home() {
   return (
@@ -74,9 +76,11 @@ export default function Home() {
             </p>
           </div>
           
+          {/* Achievement Stats Display */}
+          <AchievementStats data={achievementData} />
       
           {/* View All Achievements Button */}
-          <div className="text-center">
+          <div className="text-center mt-8">
             <Link 
               href="/achievements" 
               className="inline-block bg-blood-glow hover:bg-red-600 text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
@@ -90,42 +94,7 @@ export default function Home() {
 
 
 
-      {/* Guild Features */}
-      <div className="py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-              <span className="text-blood-glow">Why Choose</span> CBITAHOK KPOBI?
-            </h2>
-            <p className="mt-4 text-lg text-gray-300">
-              We are the harbingers of blood. Join us or become our prey.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <div className="blood-card rounded-lg p-6">
-              <Shield className="h-12 w-12 text-blood-glow mb-4" />
-              <h3 className="text-xl font-bold text-white mb-2">Blood Dominance</h3>
-              <p className="text-gray-300">
-                Our warriors bathe in the blood of their enemies. We don't just win - we consume.
-              </p>
-            </div>
-            <div className="blood-card rounded-lg p-6">
-              <Users className="h-12 w-12 text-blood-glow mb-4" />
-              <h3 className="text-xl font-bold text-white mb-2">Dark Brotherhood</h3>
-              <p className="text-gray-300">
-                Only those who embrace the darkness are accepted. We are a brotherhood of blood.
-              </p>
-            </div>
-            <div className="blood-card rounded-lg p-6">
-              <Trophy className="h-12 w-12 text-blood-gold mb-4" />
-              <h3 className="text-xl font-bold text-white mb-2">Blood Legacy</h3>
-              <p className="text-gray-300">
-                Our name strikes fear in the hearts of all. We are the lords of blood and shadow.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       {/* Ready to Bleed Section */}
       <ReadyToBleed />
