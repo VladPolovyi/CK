@@ -471,7 +471,7 @@ export default function PvPActivityTable({ members, bracketFilter, showRecentAct
                           const stats = member.brackets.arena3v3
                           return (
                             <div className="flex items-center space-x-2">
-                              <span className="text-yellow-200 font-bold text-lg">{stats.rating}</span>
+                              <span className="text-white font-bold text-lg">{stats.rating}</span>
                               <span className="text-gray-400 text-sm">3v3</span>
                             </div>
                           )
@@ -479,7 +479,7 @@ export default function PvPActivityTable({ members, bracketFilter, showRecentAct
                           const stats = member.brackets.arena2v2
                           return (
                             <div className="flex items-center space-x-2">
-                              <span className="text-yellow-200 font-bold text-lg">{stats.rating}</span>
+                              <span className="text-white font-bold text-lg">{stats.rating}</span>
                               <span className="text-gray-400 text-sm">2v2</span>
                             </div>
                           )
@@ -487,7 +487,7 @@ export default function PvPActivityTable({ members, bracketFilter, showRecentAct
                           const highestRating = Math.max(...member.brackets.soloShuffle.map(spec => spec.rating))
                           return (
                             <div className="flex items-center space-x-2">
-                              <span className="text-yellow-200 font-bold text-lg">{highestRating}</span>
+                              <span className="text-white font-bold text-lg">{highestRating}</span>
                               <span className="text-gray-400 text-sm">Shuffle</span>
                             </div>
                           )
@@ -495,14 +495,14 @@ export default function PvPActivityTable({ members, bracketFilter, showRecentAct
                           const highestRating = Math.max(...member.brackets.soloBlitz.map(spec => spec.rating))
                           return (
                             <div className="flex items-center space-x-2">
-                              <span className="text-yellow-200 font-bold text-lg">{highestRating}</span>
+                              <span className="text-white font-bold text-lg">{highestRating}</span>
                               <span className="text-gray-400 text-sm">Blitz</span>
                             </div>
                           )
                         } else {
                           return (
                             <div className="flex items-center space-x-2">
-                              <span className="text-yellow-200 font-bold text-lg">0</span>
+                              <span className="text-white font-bold text-lg">0</span>
                               <span className="text-gray-400 text-sm">No Data</span>
                             </div>
                           )
@@ -635,7 +635,7 @@ export default function PvPActivityTable({ members, bracketFilter, showRecentAct
                                     <div className="space-y-1 text-sm">
                                       <div className="flex justify-between">
                                         <span className="text-gray-400">Rating:</span>
-                                        <span className="text-yellow-200 font-bold">{stats.rating}</span>
+                                        <span className="text-white font-bold">{stats.rating}</span>
                                       </div>
                                       <div className="flex justify-between">
                                         <span className="text-gray-400">Season:</span>
@@ -667,7 +667,7 @@ export default function PvPActivityTable({ members, bracketFilter, showRecentAct
                                     <div className="space-y-1 text-sm">
                                       <div className="flex justify-between">
                                         <span className="text-gray-400">Rating:</span>
-                                        <span className="text-yellow-200 font-bold">{stats.rating}</span>
+                                        <span className="text-white font-bold">{stats.rating}</span>
                                       </div>
                                       <div className="flex justify-between">
                                         <span className="text-gray-400">Season:</span>
@@ -698,7 +698,7 @@ export default function PvPActivityTable({ members, bracketFilter, showRecentAct
                                         <div key={index} className="text-sm">
                                           <div className="flex justify-between">
                                             <span className="text-gray-400">Rating ({spec.specialization?.name || 'Unknown'}):</span>
-                                            <span className="text-yellow-200 font-bold">{spec.rating}</span>
+                                            <span className="text-white font-bold">{spec.rating}</span>
                                           </div>
                                           <div className="flex justify-between">
                                             <span className="text-gray-400">Season (Rounds):</span>
@@ -739,7 +739,7 @@ export default function PvPActivityTable({ members, bracketFilter, showRecentAct
                                         <div key={index} className="text-sm">
                                           <div className="flex justify-between">
                                             <span className="text-gray-400">Rating ({spec.specialization?.name || 'Unknown'}):</span>
-                                            <span className="text-yellow-200 font-bold">{spec.rating}</span>
+                                            <span className="text-white font-bold">{spec.rating}</span>
                                           </div>
                                           <div className="flex justify-between">
                                             <span className="text-gray-400">Season (Matches):</span>
