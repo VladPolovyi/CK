@@ -1,0 +1,25 @@
+name: Scheduled Vercel Deploy
+
+on:
+  schedule:
+    - cron: "0 12 * * *"   # 12:00 PM UTC daily
+  workflow_dispatch:        # optional: manual run button
+
+concurrency:
+  group: vercel-redeploy
+  cancel-in-progress: true
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Vercel Deploy Hook
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          code=$(curl -s -o /dev/null -w "%{http_code}" -X POST "$VERCEL_DEPLOY_HOOK_URL")
+          echo "HTTP $code"
+          if [ "$code" -lt 200 ] || [ "$code" -ge 300 ]; then
+            echo "Deploy hook failed"
+            exit 1
+          fi
