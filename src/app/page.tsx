@@ -119,17 +119,6 @@ export default function Home() {
       <div id="ready-to-bleed">
         <ReadyToBleed />
       </div>
-
-             {/* Footer */}
-       <footer className="blood-nav border-t border-blood-glow/20">
-         <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-           <div className="text-center">
-             <p className="text-gray-300">
-               © {new Date().getFullYear()} CBITAHOK KPOBI - Dawn of Blood. All rights reserved.
-             </p>
-           </div>
-         </div>
-       </footer>
     </div>
   )
 }
