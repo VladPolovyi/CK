@@ -12,6 +12,7 @@
     "generate:pvp-activity": "node -r dotenv/config scripts/generate-pvp-activity.mjs"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "clsx": "^2.0.0",
     "lucide-react": "^0.294.0",

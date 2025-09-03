@@ -1,5 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter, Eczar } from 'next/font/google'
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 import './globals.scss'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -28,6 +31,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} ${eczar.variable} blood-gradient min-h-screen`}>
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )

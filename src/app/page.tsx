@@ -7,14 +7,12 @@ import styles from './page.module.scss'
 import Link from 'next/link'
 import achievementData from '@/data/generated/achievements-data.json'
 import pvpData from '@/data/generated/pvp-activity.json'
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 export default function Home() {
   return (
     <div className="min-h-screen blood-gradient">
       <Navigation />
-      <SpeedInsights />
       {/* Hero Section */}
       <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image with Overlay */}
