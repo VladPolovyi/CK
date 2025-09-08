@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2025-08-22T22:45:08.433Z",
+  "generatedAt": "2025-09-08T15:49:05.141Z",
   "stats": {
     "gladiatorCount": 19,
     "rank1Count": 3,
-    "legendCount": 13,
+    "legendCount": 14,
     "strategistCount": 10,
     "blitzRank1Count": 0,
     "soloRank1Count": 2
@@ -376,6 +376,17 @@
           "slug": "kazzak"
         },
         "rank": 4
+      },
+      {
+        "id": 174820705,
+        "name": "Nevergodx",
+        "realm": {
+          "name": {
+            "en_US": "ravencrest"
+          },
+          "slug": "ravencrest"
+        },
+        "rank": 5
       },
       {
         "id": 188455304,

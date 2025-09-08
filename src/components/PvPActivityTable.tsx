@@ -443,7 +443,7 @@ export default function PvPActivityTable({ members, bracketFilter, showRecentAct
                           return iconPath ? (
                             <Image 
                               src={iconPath} 
-                              alt={spec} 
+                              alt={spec || 'Unknown spec'} 
                               width={16}
                               height={16}
                               className="h-4 w-4" 

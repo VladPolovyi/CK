@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-08-22T22:45:07.508Z",
-  "rosterCount": 398,
+  "generatedAt": "2025-09-08T15:49:04.175Z",
+  "rosterCount": 411,
   "achievementCounts": {
     "gladiator": 15,
     "legend": 7,
@@ -8,28 +8,28 @@
     "strategist": 3
   },
   "foundCounts": {
-    "gladiator": 129,
-    "legend": 91,
-    "rank1": 32,
-    "strategist": 64,
+    "gladiator": 128,
+    "legend": 89,
+    "rank1": 33,
+    "strategist": 62,
     "blitzRank1": 0,
-    "soloRank1": 26
+    "soloRank1": 29
   },
   "items": [
     {
-      "name": "Satanloveme",
-      "realmSlug": "stormscale",
-      "realmName": "stormscale",
-      "rank": 6,
-      "hasGladiatorEver": true,
+      "name": "Amorfia",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 5,
+      "hasGladiatorEver": false,
       "hasLegendEver": false,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3885,
-      "totalPoints": 25485,
-      "characterId": 105342036
+      "totalAchievements": 3130,
+      "totalPoints": 20790,
+      "characterId": 111240341
     },
     {
       "name": "Annihilatiøn",
@@ -47,19 +47,19 @@
       "characterId": 88000480
     },
     {
-      "name": "Amorfia",
+      "name": "Fktp",
       "realmSlug": "ravencrest",
       "realmName": "ravencrest",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
+      "rank": 4,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3130,
-      "totalPoints": 20790,
-      "characterId": 111240341
+      "totalAchievements": 3502,
+      "totalPoints": 22705,
+      "characterId": 81880719
     },
     {
       "name": "Siphongodx",
@@ -77,64 +77,19 @@
       "characterId": 88530615
     },
     {
-      "name": "Fktp",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 4,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3500,
-      "totalPoints": 22675,
-      "characterId": 81880719
-    },
-    {
-      "name": "Cárnagè",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
+      "name": "Satanloveme",
+      "realmSlug": "stormscale",
+      "realmName": "stormscale",
       "rank": 6,
-      "hasGladiatorEver": false,
+      "hasGladiatorEver": true,
       "hasLegendEver": false,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3182,
-      "totalPoints": 19520,
-      "characterId": 118894854
-    },
-    {
-      "name": "Kriplie",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3210,
-      "totalPoints": 18305,
-      "characterId": 113808635
-    },
-    {
-      "name": "Anelya",
-      "realmSlug": "outland",
-      "realmName": "outland",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3716,
-      "totalPoints": 26405,
-      "characterId": 123108360
+      "totalAchievements": 3892,
+      "totalPoints": 25525,
+      "characterId": 105342036
     },
     {
       "name": "Ierrihon",
@@ -147,9 +102,54 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2250,
-      "totalPoints": 13510,
+      "totalAchievements": 2253,
+      "totalPoints": 13560,
       "characterId": 119915672
+    },
+    {
+      "name": "Kriplie",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3213,
+      "totalPoints": 18330,
+      "characterId": 113808635
+    },
+    {
+      "name": "Cárnagè",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3258,
+      "totalPoints": 19810,
+      "characterId": 118894854
+    },
+    {
+      "name": "Anelya",
+      "realmSlug": "outland",
+      "realmName": "outland",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3717,
+      "totalPoints": 26425,
+      "characterId": 123108360
     },
     {
       "name": "Hirøshima",
@@ -197,19 +197,19 @@
       "characterId": 162645751
     },
     {
-      "name": "Noisestormx",
-      "realmSlug": "stormscale",
-      "realmName": "stormscale",
-      "rank": 6,
-      "hasGladiatorEver": true,
+      "name": "Hyds",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 5,
+      "hasGladiatorEver": false,
       "hasLegendEver": false,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3879,
-      "totalPoints": 25465,
-      "characterId": 163856668
+      "totalAchievements": 2062,
+      "totalPoints": 12330,
+      "characterId": 164154753
     },
     {
       "name": "Amørality",
@@ -227,19 +227,19 @@
       "characterId": 163647487
     },
     {
-      "name": "Hyds",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 5,
-      "hasGladiatorEver": false,
+      "name": "Noisestormx",
+      "realmSlug": "stormscale",
+      "realmName": "stormscale",
+      "rank": 6,
+      "hasGladiatorEver": true,
       "hasLegendEver": false,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2062,
-      "totalPoints": 12330,
-      "characterId": 164154753
+      "totalAchievements": 3879,
+      "totalPoints": 25465,
+      "characterId": 163856668
     },
     {
       "name": "Spamrot",
@@ -275,15 +275,15 @@
       "name": "Lapendarus",
       "realmSlug": "ravencrest",
       "realmName": "ravencrest",
-      "rank": 7,
+      "rank": 5,
       "hasGladiatorEver": false,
       "hasLegendEver": false,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2252,
-      "totalPoints": 11035,
+      "totalAchievements": 2278,
+      "totalPoints": 11190,
       "characterId": 164580928
     },
     {
@@ -312,8 +312,8 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": true,
-      "totalAchievements": 2785,
-      "totalPoints": 16755,
+      "totalAchievements": 2796,
+      "totalPoints": 16965,
       "characterId": 164581328
     },
     {
@@ -332,21 +332,6 @@
       "characterId": 164590045
     },
     {
-      "name": "Slaughtér",
-      "realmSlug": "stormscale",
-      "realmName": "stormscale",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3899,
-      "totalPoints": 25645,
-      "characterId": 164665243
-    },
-    {
       "name": "Haymake",
       "realmSlug": "ravencrest",
       "realmName": "ravencrest",
@@ -362,6 +347,36 @@
       "characterId": 164706535
     },
     {
+      "name": "Spyfly",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3891,
+      "totalPoints": 25430,
+      "characterId": 164669763
+    },
+    {
+      "name": "Slaughtér",
+      "realmSlug": "stormscale",
+      "realmName": "stormscale",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3899,
+      "totalPoints": 25645,
+      "characterId": 164665243
+    },
+    {
       "name": "Shchoør",
       "realmSlug": "ravencrest",
       "realmName": "ravencrest",
@@ -372,8 +387,8 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": true,
-      "totalAchievements": 2798,
-      "totalPoints": 16755,
+      "totalAchievements": 2828,
+      "totalPoints": 17020,
       "characterId": 164750936
     },
     {
@@ -387,8 +402,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3249,
-      "totalPoints": 19725,
+      "totalAchievements": 3260,
+      "totalPoints": 19750,
       "characterId": 164763612
     },
     {
@@ -407,21 +422,6 @@
       "characterId": 164877759
     },
     {
-      "name": "Bombsaway",
-      "realmSlug": "stormscale",
-      "realmName": "stormscale",
-      "rank": 7,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3084,
-      "totalPoints": 19160,
-      "characterId": 164840006
-    },
-    {
       "name": "Vasylstus",
       "realmSlug": "stormscale",
       "realmName": "stormscale",
@@ -435,6 +435,21 @@
       "totalAchievements": 3884,
       "totalPoints": 25645,
       "characterId": 164839393
+    },
+    {
+      "name": "Bombsaway",
+      "realmSlug": "stormscale",
+      "realmName": "stormscale",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3084,
+      "totalPoints": 19160,
+      "characterId": 164840006
     },
     {
       "name": "Shçhoor",
@@ -467,21 +482,6 @@
       "characterId": 165332264
     },
     {
-      "name": "Felguârd",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": true,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": true,
-      "totalAchievements": 2788,
-      "totalPoints": 16785,
-      "characterId": 166010830
-    },
-    {
       "name": "Satanhound",
       "realmSlug": "stormscale",
       "realmName": "stormscale",
@@ -495,21 +495,6 @@
       "totalAchievements": 3888,
       "totalPoints": 25645,
       "characterId": 165498228
-    },
-    {
-      "name": "Toodle",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": true,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": true,
-      "totalAchievements": 2741,
-      "totalPoints": 16645,
-      "characterId": 166166217
     },
     {
       "name": "Otruta",
@@ -537,9 +522,24 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 6021,
-      "totalPoints": 52250,
+      "totalAchievements": 6036,
+      "totalPoints": 52400,
       "characterId": 165496495
+    },
+    {
+      "name": "Felguârd",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": true,
+      "hasStrategistEver": true,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": true,
+      "totalAchievements": 2804,
+      "totalPoints": 17020,
+      "characterId": 166010830
     },
     {
       "name": "Senegos",
@@ -557,6 +557,21 @@
       "characterId": null
     },
     {
+      "name": "Toodle",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": true,
+      "hasStrategistEver": true,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": true,
+      "totalAchievements": 2741,
+      "totalPoints": 16645,
+      "characterId": 166166217
+    },
+    {
       "name": "Rãptør",
       "realmSlug": "ravencrest",
       "realmName": "ravencrest",
@@ -567,8 +582,8 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3220,
-      "totalPoints": 20830,
+      "totalAchievements": 3248,
+      "totalPoints": 20920,
       "characterId": 166179290
     },
     {
@@ -597,8 +612,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2215,
-      "totalPoints": 13415,
+      "totalAchievements": 2218,
+      "totalPoints": 13465,
       "characterId": 166717120
     },
     {
@@ -612,23 +627,23 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3249,
-      "totalPoints": 19740,
+      "totalAchievements": 3255,
+      "totalPoints": 19750,
       "characterId": 166737599
     },
     {
       "name": "Úntrust",
       "realmSlug": "ravencrest",
       "realmName": "ravencrest",
-      "rank": 7,
+      "rank": 6,
       "hasGladiatorEver": false,
       "hasLegendEver": false,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2395,
-      "totalPoints": 14640,
+      "totalAchievements": 2406,
+      "totalPoints": 14775,
       "characterId": 166849474
     },
     {
@@ -672,8 +687,8 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": true,
-      "totalAchievements": 2791,
-      "totalPoints": 16785,
+      "totalAchievements": 2818,
+      "totalPoints": 17020,
       "characterId": 167343299
     },
     {
@@ -702,8 +717,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3915,
-      "totalPoints": 25665,
+      "totalAchievements": 3924,
+      "totalPoints": 25705,
       "characterId": 167415929
     },
     {
@@ -717,9 +732,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3276,
-      "totalPoints": 20325,
+      "totalAchievements": 3287,
+      "totalPoints": 20510,
       "characterId": 167472363
+    },
+    {
+      "name": "Høntåmistyxx",
+      "realmSlug": "stormscale",
+      "realmName": "stormscale",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1248,
+      "totalPoints": 6215,
+      "characterId": 167866244
     },
     {
       "name": "Kohannia",
@@ -750,36 +780,6 @@
       "totalAchievements": 0,
       "totalPoints": 0,
       "characterId": null
-    },
-    {
-      "name": "Høntåmistyxx",
-      "realmSlug": "stormscale",
-      "realmName": "stormscale",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1248,
-      "totalPoints": 6215,
-      "characterId": 167866244
-    },
-    {
-      "name": "Janksta",
-      "realmSlug": "draenor",
-      "realmName": "draenor",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 6024,
-      "totalPoints": 52280,
-      "characterId": 167548570
     },
     {
       "name": "Goblinbaron",
@@ -837,8 +837,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1604,
-      "totalPoints": 8310,
+      "totalAchievements": 1612,
+      "totalPoints": 8360,
       "characterId": 168988156
     },
     {
@@ -852,8 +852,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 4375,
-      "totalPoints": 31770,
+      "totalAchievements": 4402,
+      "totalPoints": 31910,
       "characterId": 168895093
     },
     {
@@ -867,8 +867,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 4358,
-      "totalPoints": 31850,
+      "totalAchievements": 4382,
+      "totalPoints": 31920,
       "characterId": 168999699
     },
     {
@@ -902,21 +902,6 @@
       "characterId": 169429378
     },
     {
-      "name": "Bergljörd",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1582,
-      "totalPoints": 8280,
-      "characterId": 169899674
-    },
-    {
       "name": "Nerevarin",
       "realmSlug": "ravencrest",
       "realmName": "ravencrest",
@@ -930,6 +915,21 @@
       "totalAchievements": 2453,
       "totalPoints": 15650,
       "characterId": 169633917
+    },
+    {
+      "name": "Bergljörd",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1582,
+      "totalPoints": 8280,
+      "characterId": 169899674
     },
     {
       "name": "Heartsbaner",
@@ -957,24 +957,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3287,
-      "totalPoints": 20300,
+      "totalAchievements": 3310,
+      "totalPoints": 20480,
       "characterId": 170120917
-    },
-    {
-      "name": "Wráthful",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": false,
-      "hasRank1Ever": true,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3256,
-      "totalPoints": 20310,
-      "characterId": 170311509
     },
     {
       "name": "Biznisman",
@@ -990,6 +975,21 @@
       "totalAchievements": 0,
       "totalPoints": 0,
       "characterId": null
+    },
+    {
+      "name": "Wráthful",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": false,
+      "hasRank1Ever": true,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3256,
+      "totalPoints": 20310,
+      "characterId": 170311509
     },
     {
       "name": "Høntaxõxõ",
@@ -1022,21 +1022,6 @@
       "characterId": 171112349
     },
     {
-      "name": "Makêmeßjpls",
-      "realmSlug": "stormscale",
-      "realmName": "stormscale",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1223,
-      "totalPoints": 6165,
-      "characterId": 171708669
-    },
-    {
       "name": "Anthëm",
       "realmSlug": "ravencrest",
       "realmName": "ravencrest",
@@ -1052,6 +1037,36 @@
       "characterId": 171307966
     },
     {
+      "name": "Makêmeßjpls",
+      "realmSlug": "stormscale",
+      "realmName": "stormscale",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1223,
+      "totalPoints": 6165,
+      "characterId": 171708669
+    },
+    {
+      "name": "Wrathfùl",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": false,
+      "hasRank1Ever": true,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3307,
+      "totalPoints": 20510,
+      "characterId": 171348575
+    },
+    {
       "name": "Pepesorcerer",
       "realmSlug": "stormscale",
       "realmName": "stormscale",
@@ -1065,21 +1080,6 @@
       "totalAchievements": 3883,
       "totalPoints": 25645,
       "characterId": 171586003
-    },
-    {
-      "name": "Wrathfùl",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": false,
-      "hasRank1Ever": true,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3285,
-      "totalPoints": 20300,
-      "characterId": 171348575
     },
     {
       "name": "Synoptick",
@@ -1107,8 +1107,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1051,
-      "totalPoints": 5400,
+      "totalAchievements": 1072,
+      "totalPoints": 5455,
       "characterId": 171888988
     },
     {
@@ -1137,8 +1137,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3275,
-      "totalPoints": 20325,
+      "totalAchievements": 3286,
+      "totalPoints": 20510,
       "characterId": 171898104
     },
     {
@@ -1152,8 +1152,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2384,
-      "totalPoints": 14570,
+      "totalAchievements": 2408,
+      "totalPoints": 14765,
       "characterId": 172064647
     },
     {
@@ -1170,21 +1170,6 @@
       "totalAchievements": 3250,
       "totalPoints": 20290,
       "characterId": 172078350
-    },
-    {
-      "name": "Schízo",
-      "realmSlug": "argent-dawn",
-      "realmName": "argent-dawn",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": true,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": true,
-      "totalAchievements": 2781,
-      "totalPoints": 16855,
-      "characterId": 172134792
     },
     {
       "name": "Pereverten",
@@ -1212,8 +1197,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3901,
-      "totalPoints": 25485,
+      "totalAchievements": 3908,
+      "totalPoints": 25525,
       "characterId": 172183264
     },
     {
@@ -1242,8 +1227,8 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": true,
-      "totalAchievements": 2729,
-      "totalPoints": 16565,
+      "totalAchievements": 2801,
+      "totalPoints": 17020,
       "characterId": 172251699
     },
     {
@@ -1257,8 +1242,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3491,
-      "totalPoints": 22675,
+      "totalAchievements": 3495,
+      "totalPoints": 22705,
       "characterId": 172296479
     },
     {
@@ -1272,9 +1257,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3119,
-      "totalPoints": 19885,
+      "totalAchievements": 3178,
+      "totalPoints": 20175,
       "characterId": 172308866
+    },
+    {
+      "name": "Perelesnyk",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": true,
+      "hasStrategistEver": true,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": true,
+      "totalAchievements": 2801,
+      "totalPoints": 17020,
+      "characterId": 172344765
     },
     {
       "name": "Daredévil",
@@ -1292,21 +1292,6 @@
       "characterId": 172360030
     },
     {
-      "name": "Anhei",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 6019,
-      "totalPoints": 52250,
-      "characterId": 172356666
-    },
-    {
       "name": "Shkodnitsya",
       "realmSlug": "ravencrest",
       "realmName": "ravencrest",
@@ -1317,8 +1302,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3491,
-      "totalPoints": 22675,
+      "totalAchievements": 3495,
+      "totalPoints": 22705,
       "characterId": 172433050
     },
     {
@@ -1332,8 +1317,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2162,
-      "totalPoints": 12295,
+      "totalAchievements": 2254,
+      "totalPoints": 12610,
       "characterId": 172462077
     },
     {
@@ -1347,8 +1332,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3491,
-      "totalPoints": 22675,
+      "totalAchievements": 3495,
+      "totalPoints": 22705,
       "characterId": 172433059
     },
     {
@@ -1397,36 +1382,6 @@
       "characterId": null
     },
     {
-      "name": "Ucu",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2360,
-      "totalPoints": 14520,
-      "characterId": 172797594
-    },
-    {
-      "name": "Nuclearjke",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 4,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3954,
-      "totalPoints": 28515,
-      "characterId": 172877982
-    },
-    {
       "name": "Bonecaller",
       "realmSlug": "ravencrest",
       "realmName": "ravencrest",
@@ -1442,6 +1397,21 @@
       "characterId": 173049118
     },
     {
+      "name": "Nuclearjke",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 4,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": true,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3983,
+      "totalPoints": 28630,
+      "characterId": 172877982
+    },
+    {
       "name": "Åstrax",
       "realmSlug": "ravencrest",
       "realmName": "ravencrest",
@@ -1452,24 +1422,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2745,
-      "totalPoints": 18325,
+      "totalAchievements": 2756,
+      "totalPoints": 18355,
       "characterId": 173301070
-    },
-    {
-      "name": "Skinnyxõxõ",
-      "realmSlug": "stormscale",
-      "realmName": "stormscale",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1239,
-      "totalPoints": 6235,
-      "characterId": 173428521
     },
     {
       "name": "Lunchalót",
@@ -1485,6 +1440,21 @@
       "totalAchievements": 2451,
       "totalPoints": 15305,
       "characterId": 173310478
+    },
+    {
+      "name": "Skinnyxõxõ",
+      "realmSlug": "stormscale",
+      "realmName": "stormscale",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1239,
+      "totalPoints": 6235,
+      "characterId": 173428521
     },
     {
       "name": "Kárnáge",
@@ -1527,24 +1497,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3615,
-      "totalPoints": 25910,
+      "totalAchievements": 3631,
+      "totalPoints": 26055,
       "characterId": 173593827
-    },
-    {
-      "name": "Easyques",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1078,
-      "totalPoints": 5360,
-      "characterId": 173676976
     },
     {
       "name": "Abiturientka",
@@ -1557,9 +1512,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3486,
-      "totalPoints": 22665,
+      "totalAchievements": 3494,
+      "totalPoints": 22705,
       "characterId": 173617518
+    },
+    {
+      "name": "Easyques",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1105,
+      "totalPoints": 5620,
+      "characterId": 173676976
     },
     {
       "name": "Desplyth",
@@ -1572,8 +1542,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1578,
-      "totalPoints": 8980,
+      "totalAchievements": 1626,
+      "totalPoints": 9215,
       "characterId": 173857627
     },
     {
@@ -1587,9 +1557,39 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 921,
-      "totalPoints": 4785,
+      "totalAchievements": 923,
+      "totalPoints": 4795,
       "characterId": 173867284
+    },
+    {
+      "name": "Odetosleep",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": true,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3981,
+      "totalPoints": 28780,
+      "characterId": 173885830
+    },
+    {
+      "name": "Noveñka",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3510,
+      "totalPoints": 22705,
+      "characterId": 173894659
     },
     {
       "name": "Shkodnicya",
@@ -1602,8 +1602,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3502,
-      "totalPoints": 22675,
+      "totalAchievements": 3504,
+      "totalPoints": 22705,
       "characterId": 173893244
     },
     {
@@ -1637,34 +1637,19 @@
       "characterId": null
     },
     {
-      "name": "Odetosleep",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 6,
+      "name": "Inane",
+      "realmSlug": "stormscale",
+      "realmName": "stormscale",
+      "rank": 5,
       "hasGladiatorEver": false,
       "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3925,
-      "totalPoints": 28390,
-      "characterId": 173885830
-    },
-    {
-      "name": "Noveñka",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3506,
-      "totalPoints": 22675,
-      "characterId": 173894659
+      "totalAchievements": 443,
+      "totalPoints": 1955,
+      "characterId": 174048071
     },
     {
       "name": "Amanogawa",
@@ -1677,24 +1662,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1561,
-      "totalPoints": 8890,
+      "totalAchievements": 1619,
+      "totalPoints": 9215,
       "characterId": 173955214
-    },
-    {
-      "name": "Inane",
-      "realmSlug": "stormscale",
-      "realmName": "stormscale",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 408,
-      "totalPoints": 1695,
-      "characterId": 174048071
     },
     {
       "name": "Andatra",
@@ -1707,24 +1677,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1983,
-      "totalPoints": 11905,
+      "totalAchievements": 2015,
+      "totalPoints": 12000,
       "characterId": 174070553
-    },
-    {
-      "name": "Dxls",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 4,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3785,
-      "totalPoints": 26340,
-      "characterId": 174089224
     },
     {
       "name": "Betrayèr",
@@ -1740,6 +1695,36 @@
       "totalAchievements": 3082,
       "totalPoints": 19160,
       "characterId": 174148416
+    },
+    {
+      "name": "Dxls",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 4,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": true,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3801,
+      "totalPoints": 26465,
+      "characterId": 174089224
+    },
+    {
+      "name": "Chronowing",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3131,
+      "totalPoints": 20790,
+      "characterId": 174207865
     },
     {
       "name": "Ogastes",
@@ -1772,21 +1757,6 @@
       "characterId": null
     },
     {
-      "name": "Chronowing",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3131,
-      "totalPoints": 20790,
-      "characterId": 174207865
-    },
-    {
       "name": "Ateyst",
       "realmSlug": "stormscale",
       "realmName": "stormscale",
@@ -1812,8 +1782,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 4349,
-      "totalPoints": 31800,
+      "totalAchievements": 4363,
+      "totalPoints": 31890,
       "characterId": 174363766
     },
     {
@@ -1827,8 +1797,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1618,
-      "totalPoints": 8320,
+      "totalAchievements": 1626,
+      "totalPoints": 8370,
       "characterId": 174390394
     },
     {
@@ -1872,8 +1842,8 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3924,
-      "totalPoints": 28380,
+      "totalAchievements": 3978,
+      "totalPoints": 28630,
       "characterId": 174544138
     },
     {
@@ -1887,9 +1857,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1073,
-      "totalPoints": 5335,
+      "totalAchievements": 1107,
+      "totalPoints": 5600,
       "characterId": 174546917
+    },
+    {
+      "name": "Kviten",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3625,
+      "totalPoints": 25990,
+      "characterId": 174548280
     },
     {
       "name": "Swithen",
@@ -1907,7 +1892,7 @@
       "characterId": 174618439
     },
     {
-      "name": "Kviten",
+      "name": "Legállyblind",
       "realmSlug": "ravencrest",
       "realmName": "ravencrest",
       "rank": 6,
@@ -1917,9 +1902,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3623,
-      "totalPoints": 25960,
-      "characterId": 174548280
+      "totalAchievements": 0,
+      "totalPoints": 0,
+      "characterId": null
     },
     {
       "name": "Mirøn",
@@ -1935,21 +1920,6 @@
       "totalAchievements": 1660,
       "totalPoints": 9545,
       "characterId": 174580442
-    },
-    {
-      "name": "Legállyblind",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 0,
-      "totalPoints": 0,
-      "characterId": null
     },
     {
       "name": "Meowrly",
@@ -1977,24 +1947,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 494,
-      "totalPoints": 1950,
+      "totalAchievements": 499,
+      "totalPoints": 2000,
       "characterId": 174722416
-    },
-    {
-      "name": "Asstier",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3497,
-      "totalPoints": 22665,
-      "characterId": 174752290
     },
     {
       "name": "Picolodaimao",
@@ -2012,6 +1967,21 @@
       "characterId": 174727615
     },
     {
+      "name": "Asstier",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3505,
+      "totalPoints": 22705,
+      "characterId": 174752290
+    },
+    {
       "name": "Skodnitsya",
       "realmSlug": "ravencrest",
       "realmName": "ravencrest",
@@ -2022,8 +1992,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3494,
-      "totalPoints": 22675,
+      "totalAchievements": 3498,
+      "totalPoints": 22705,
       "characterId": 174752292
     },
     {
@@ -2037,39 +2007,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3510,
-      "totalPoints": 22675,
+      "totalAchievements": 3513,
+      "totalPoints": 22705,
       "characterId": 174752300
     },
     {
       "name": "Nevergodx",
       "realmSlug": "ravencrest",
       "realmName": "ravencrest",
-      "rank": 7,
+      "rank": 5,
       "hasGladiatorEver": false,
       "hasLegendEver": true,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2983,
-      "totalPoints": 17280,
+      "totalAchievements": 2989,
+      "totalPoints": 17290,
       "characterId": 174820705
-    },
-    {
-      "name": "Notidoru",
-      "realmSlug": "ravencrest",
-      "realmName": "ravencrest",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": true,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": true,
-      "totalAchievements": 2752,
-      "totalPoints": 16645,
-      "characterId": 174927239
     },
     {
       "name": "Wls",
@@ -2082,9 +2037,24 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": true,
-      "totalAchievements": 2795,
-      "totalPoints": 16755,
+      "totalAchievements": 2814,
+      "totalPoints": 17020,
       "characterId": 174889479
+    },
+    {
+      "name": "Notidoru",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": true,
+      "hasStrategistEver": true,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": true,
+      "totalAchievements": 2802,
+      "totalPoints": 17020,
+      "characterId": 174927239
     },
     {
       "name": "Spamplague",
@@ -2097,9 +2067,39 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3247,
-      "totalPoints": 19725,
+      "totalAchievements": 3271,
+      "totalPoints": 19810,
       "characterId": 174946204
+    },
+    {
+      "name": "Baydykuvaty",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 4170,
+      "totalPoints": 29730,
+      "characterId": 175026536
+    },
+    {
+      "name": "Daikri",
+      "realmSlug": "draenor",
+      "realmName": "draenor",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2220,
+      "totalPoints": 12725,
+      "characterId": 175391904
     },
     {
       "name": "Darkjazz",
@@ -2117,19 +2117,19 @@
       "characterId": 175258373
     },
     {
-      "name": "Daikri",
-      "realmSlug": "draenor",
-      "realmName": "draenor",
+      "name": "Rawfear",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
       "rank": 6,
       "hasGladiatorEver": false,
       "hasLegendEver": false,
       "hasRank1Ever": false,
-      "hasStrategistEver": false,
+      "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2220,
-      "totalPoints": 12725,
-      "characterId": 175391904
+      "totalAchievements": 3980,
+      "totalPoints": 28780,
+      "characterId": 175094344
     },
     {
       "name": "Kettil",
@@ -2162,6 +2162,21 @@
       "characterId": 175787470
     },
     {
+      "name": "Kronesx",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1798,
+      "totalPoints": 10370,
+      "characterId": 176728061
+    },
+    {
       "name": "Krivonis",
       "realmSlug": "tarren-mill",
       "realmName": "tarren-mill",
@@ -2172,12 +2187,12 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3617,
-      "totalPoints": 25785,
+      "totalAchievements": 3635,
+      "totalPoints": 25965,
       "characterId": 176393143
     },
     {
-      "name": "Attacms",
+      "name": "Pidkova",
       "realmSlug": "tarren-mill",
       "realmName": "tarren-mill",
       "rank": 6,
@@ -2187,9 +2202,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3623,
-      "totalPoints": 25970,
-      "characterId": 177434365
+      "totalAchievements": 3633,
+      "totalPoints": 25965,
+      "characterId": 176613512
     },
     {
       "name": "Kickmagnet",
@@ -2202,9 +2217,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3089,
-      "totalPoints": 22145,
+      "totalAchievements": 3112,
+      "totalPoints": 22240,
       "characterId": 176898530
+    },
+    {
+      "name": "Attacms",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3629,
+      "totalPoints": 26080,
+      "characterId": 177434365
     },
     {
       "name": "Sxyw",
@@ -2217,8 +2247,8 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2483,
-      "totalPoints": 15005,
+      "totalAchievements": 2504,
+      "totalPoints": 15115,
       "characterId": 177863694
     },
     {
@@ -2237,6 +2267,21 @@
       "characterId": 178030241
     },
     {
+      "name": "Marychka",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3630,
+      "totalPoints": 25950,
+      "characterId": 177746751
+    },
+    {
       "name": "Shchoor",
       "realmSlug": "tarren-mill",
       "realmName": "tarren-mill",
@@ -2247,8 +2292,8 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": true,
-      "totalAchievements": 2809,
-      "totalPoints": 16755,
+      "totalAchievements": 2838,
+      "totalPoints": 17020,
       "characterId": 178437053
     },
     {
@@ -2262,8 +2307,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1525,
-      "totalPoints": 7360,
+      "totalAchievements": 1580,
+      "totalPoints": 7590,
       "characterId": 178521966
     },
     {
@@ -2277,24 +2322,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3083,
-      "totalPoints": 19700,
+      "totalAchievements": 3090,
+      "totalPoints": 19720,
       "characterId": 178689743
     },
     {
-      "name": "Nuclearjke",
+      "name": "Babychill",
       "realmSlug": "tarren-mill",
       "realmName": "tarren-mill",
       "rank": 6,
       "hasGladiatorEver": false,
-      "hasLegendEver": false,
+      "hasLegendEver": true,
       "hasRank1Ever": false,
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3974,
-      "totalPoints": 28515,
-      "characterId": 179114016
+      "totalAchievements": 2520,
+      "totalPoints": 15120,
+      "characterId": 179157417
     },
     {
       "name": "Endlessly",
@@ -2322,24 +2367,9 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 6019,
-      "totalPoints": 52250,
+      "totalAchievements": 6036,
+      "totalPoints": 52390,
       "characterId": 179069691
-    },
-    {
-      "name": "Babychill",
-      "realmSlug": "tarren-mill",
-      "realmName": "tarren-mill",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2498,
-      "totalPoints": 15005,
-      "characterId": 179157417
     },
     {
       "name": "Baldbaby",
@@ -2357,21 +2387,6 @@
       "characterId": 179158920
     },
     {
-      "name": "Vidtinok",
-      "realmSlug": "tarren-mill",
-      "realmName": "tarren-mill",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1972,
-      "totalPoints": 10250,
-      "characterId": 180073887
-    },
-    {
       "name": "Sundowning",
       "realmSlug": "tarren-mill",
       "realmName": "tarren-mill",
@@ -2387,21 +2402,6 @@
       "characterId": 179295748
     },
     {
-      "name": "Artkov",
-      "realmSlug": "tarren-mill",
-      "realmName": "tarren-mill",
-      "rank": 4,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2815,
-      "totalPoints": 16255,
-      "characterId": 179762647
-    },
-    {
       "name": "Noobik",
       "realmSlug": "tarren-mill",
       "realmName": "tarren-mill",
@@ -2412,9 +2412,39 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1468,
-      "totalPoints": 7285,
+      "totalAchievements": 1483,
+      "totalPoints": 7325,
       "characterId": 180206177
+    },
+    {
+      "name": "Artkov",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 4,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2822,
+      "totalPoints": 16295,
+      "characterId": 179762647
+    },
+    {
+      "name": "Vidtinok",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1972,
+      "totalPoints": 10250,
+      "characterId": 180073887
     },
     {
       "name": "Nencheeck",
@@ -2427,8 +2457,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2276,
-      "totalPoints": 12515,
+      "totalAchievements": 2288,
+      "totalPoints": 12610,
       "characterId": 180548136
     },
     {
@@ -2442,24 +2472,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 995,
+      "totalAchievements": 994,
       "totalPoints": 4830,
       "characterId": 180808467
-    },
-    {
-      "name": "Omi",
-      "realmSlug": "darkmoon-faire",
-      "realmName": "darkmoon-faire",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2407,
-      "totalPoints": 14085,
-      "characterId": 180847524
     },
     {
       "name": "Mi",
@@ -2487,9 +2502,24 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": true,
-      "totalAchievements": 2746,
-      "totalPoints": 16645,
+      "totalAchievements": 2804,
+      "totalPoints": 17020,
       "characterId": 180948619
+    },
+    {
+      "name": "Omi",
+      "realmSlug": "darkmoon-faire",
+      "realmName": "darkmoon-faire",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2407,
+      "totalPoints": 14085,
+      "characterId": 180847524
     },
     {
       "name": "Kombowombo",
@@ -2502,24 +2532,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2864,
-      "totalPoints": 18930,
+      "totalAchievements": 2895,
+      "totalPoints": 19150,
       "characterId": 180993045
-    },
-    {
-      "name": "Rïddïck",
-      "realmSlug": "tarren-mill",
-      "realmName": "tarren-mill",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2872,
-      "totalPoints": 19425,
-      "characterId": 181517072
     },
     {
       "name": "Gnomik",
@@ -2532,8 +2547,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3948,
-      "totalPoints": 27150,
+      "totalAchievements": 3955,
+      "totalPoints": 27165,
       "characterId": 181328732
     },
     {
@@ -2562,9 +2577,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2889,
-      "totalPoints": 19425,
+      "totalAchievements": 2896,
+      "totalPoints": 19485,
       "characterId": 181517074
+    },
+    {
+      "name": "Rïddïck",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2879,
+      "totalPoints": 19485,
+      "characterId": 181517072
     },
     {
       "name": "Rîddíck",
@@ -2577,9 +2607,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2888,
-      "totalPoints": 19455,
+      "totalAchievements": 2891,
+      "totalPoints": 19485,
       "characterId": 181517109
+    },
+    {
+      "name": "Heimdell",
+      "realmSlug": "terokkar",
+      "realmName": "terokkar",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1558,
+      "totalPoints": 8100,
+      "characterId": 181532897
     },
     {
       "name": "Bothvar",
@@ -2597,7 +2642,7 @@
       "characterId": 181532095
     },
     {
-      "name": "Heimdell",
+      "name": "Furyboy",
       "realmSlug": "terokkar",
       "realmName": "terokkar",
       "rank": 6,
@@ -2607,9 +2652,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1558,
-      "totalPoints": 8100,
-      "characterId": 181532897
+      "totalAchievements": 1513,
+      "totalPoints": 7975,
+      "characterId": 181533162
     },
     {
       "name": "Hollypower",
@@ -2642,34 +2687,19 @@
       "characterId": 181781765
     },
     {
-      "name": "Furyboy",
-      "realmSlug": "terokkar",
-      "realmName": "terokkar",
-      "rank": 6,
+      "name": "Antisstress",
+      "realmSlug": "draenor",
+      "realmName": "draenor",
+      "rank": 5,
       "hasGladiatorEver": false,
-      "hasLegendEver": true,
+      "hasLegendEver": false,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1513,
-      "totalPoints": 7975,
-      "characterId": 181533162
-    },
-    {
-      "name": "Nickrosh",
-      "realmSlug": "terokkar",
-      "realmName": "terokkar",
-      "rank": 4,
-      "hasGladiatorEver": false,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1668,
-      "totalPoints": 7950,
-      "characterId": 182292865
+      "totalAchievements": 1449,
+      "totalPoints": 6140,
+      "characterId": 182279218
     },
     {
       "name": "Ææsolarxõxõ",
@@ -2682,24 +2712,9 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": true,
-      "totalAchievements": 2733,
-      "totalPoints": 16585,
+      "totalAchievements": 2803,
+      "totalPoints": 17020,
       "characterId": 182216171
-    },
-    {
-      "name": "Antisstress",
-      "realmSlug": "draenor",
-      "realmName": "draenor",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1418,
-      "totalPoints": 5985,
-      "characterId": 182279218
     },
     {
       "name": "Djayy",
@@ -2717,6 +2732,21 @@
       "characterId": 182497635
     },
     {
+      "name": "Nickrosh",
+      "realmSlug": "terokkar",
+      "realmName": "terokkar",
+      "rank": 4,
+      "hasGladiatorEver": false,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1671,
+      "totalPoints": 7960,
+      "characterId": 182292865
+    },
+    {
       "name": "Lilnen",
       "realmSlug": "terokkar",
       "realmName": "terokkar",
@@ -2727,8 +2757,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2252,
-      "totalPoints": 12635,
+      "totalAchievements": 2264,
+      "totalPoints": 12730,
       "characterId": 182514017
     },
     {
@@ -2742,24 +2772,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2363,
-      "totalPoints": 14550,
+      "totalAchievements": 2409,
+      "totalPoints": 14775,
       "characterId": 182610554
-    },
-    {
-      "name": "Untrust",
-      "realmSlug": "terokkar",
-      "realmName": "terokkar",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2396,
-      "totalPoints": 14640,
-      "characterId": 182610557
     },
     {
       "name": "On",
@@ -2772,8 +2787,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2360,
-      "totalPoints": 14520,
+      "totalAchievements": 2408,
+      "totalPoints": 14765,
       "characterId": 182610558
     },
     {
@@ -2787,24 +2802,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2400,
-      "totalPoints": 14640,
+      "totalAchievements": 2411,
+      "totalPoints": 14765,
       "characterId": 182610619
     },
     {
-      "name": "Ånjìn",
-      "realmSlug": "turalyon",
-      "realmName": "turalyon",
-      "rank": 7,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": true,
+      "name": "Untrust",
+      "realmSlug": "terokkar",
+      "realmName": "terokkar",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 765,
-      "totalPoints": 4040,
-      "characterId": 182628640
+      "totalAchievements": 2407,
+      "totalPoints": 14775,
+      "characterId": 182610557
     },
     {
       "name": "Wy",
@@ -2817,8 +2832,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2415,
-      "totalPoints": 14640,
+      "totalAchievements": 2426,
+      "totalPoints": 14775,
       "characterId": 182610638
     },
     {
@@ -2832,8 +2847,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2401,
-      "totalPoints": 14640,
+      "totalAchievements": 2413,
+      "totalPoints": 14775,
       "characterId": 182688069
     },
     {
@@ -2852,21 +2867,6 @@
       "characterId": 182710196
     },
     {
-      "name": "Censo",
-      "realmSlug": "doomhammer",
-      "realmName": "doomhammer",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 890,
-      "totalPoints": 4605,
-      "characterId": 182858674
-    },
-    {
       "name": "Cpakamotyka",
       "realmSlug": "terokkar",
       "realmName": "terokkar",
@@ -2882,21 +2882,6 @@
       "characterId": 182825241
     },
     {
-      "name": "Befine",
-      "realmSlug": "tarren-mill",
-      "realmName": "tarren-mill",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2487,
-      "totalPoints": 15015,
-      "characterId": 182925110
-    },
-    {
       "name": "Deathøfrats",
       "realmSlug": "tarren-mill",
       "realmName": "tarren-mill",
@@ -2907,9 +2892,39 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3242,
-      "totalPoints": 20870,
+      "totalAchievements": 3253,
+      "totalPoints": 20920,
       "characterId": 182838424
+    },
+    {
+      "name": "Censo",
+      "realmSlug": "doomhammer",
+      "realmName": "doomhammer",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 890,
+      "totalPoints": 4605,
+      "characterId": 182858674
+    },
+    {
+      "name": "Befine",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": true,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2510,
+      "totalPoints": 15125,
+      "characterId": 182925110
     },
     {
       "name": "Healmebro",
@@ -2927,7 +2942,7 @@
       "characterId": 182997635
     },
     {
-      "name": "Kadavrician",
+      "name": "Patriotika",
       "realmSlug": "terokkar",
       "realmName": "terokkar",
       "rank": 6,
@@ -2937,24 +2952,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1984,
-      "totalPoints": 11475,
-      "characterId": 182997724
-    },
-    {
-      "name": "Mimto",
-      "realmSlug": "tarren-mill",
-      "realmName": "tarren-mill",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2352,
-      "totalPoints": 14445,
-      "characterId": 183433176
+      "totalAchievements": 1728,
+      "totalPoints": 10325,
+      "characterId": 182997692
     },
     {
       "name": "Kicum",
@@ -2972,7 +2972,7 @@
       "characterId": 182997720
     },
     {
-      "name": "Patriotika",
+      "name": "Kadavrician",
       "realmSlug": "terokkar",
       "realmName": "terokkar",
       "rank": 6,
@@ -2982,9 +2982,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1728,
-      "totalPoints": 10325,
-      "characterId": 182997692
+      "totalAchievements": 1984,
+      "totalPoints": 11475,
+      "characterId": 182997724
     },
     {
       "name": "Naoy",
@@ -2997,24 +2997,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2398,
-      "totalPoints": 14640,
+      "totalAchievements": 2408,
+      "totalPoints": 14775,
       "characterId": 183433204
-    },
-    {
-      "name": "Bairaktar",
-      "realmSlug": "terokkar",
-      "realmName": "terokkar",
-      "rank": 7,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1172,
-      "totalPoints": 5880,
-      "characterId": 183621645
     },
     {
       "name": "Sfbbchv",
@@ -3027,8 +3012,8 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2481,
-      "totalPoints": 15005,
+      "totalAchievements": 2501,
+      "totalPoints": 15110,
       "characterId": 183447455
     },
     {
@@ -3047,6 +3032,21 @@
       "characterId": 183483092
     },
     {
+      "name": "Bairaktar",
+      "realmSlug": "terokkar",
+      "realmName": "terokkar",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1172,
+      "totalPoints": 5880,
+      "characterId": 183621645
+    },
+    {
       "name": "Kengaraxs",
       "realmSlug": "tarren-mill",
       "realmName": "tarren-mill",
@@ -3057,8 +3057,8 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3733,
-      "totalPoints": 24260,
+      "totalAchievements": 3735,
+      "totalPoints": 24300,
       "characterId": 183860312
     },
     {
@@ -3072,8 +3072,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3403,
-      "totalPoints": 21215,
+      "totalAchievements": 3412,
+      "totalPoints": 21235,
       "characterId": 183908105
     },
     {
@@ -3087,8 +3087,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 908,
-      "totalPoints": 4560,
+      "totalAchievements": 914,
+      "totalPoints": 4590,
       "characterId": 184023247
     },
     {
@@ -3110,15 +3110,15 @@
       "name": "Jkpurge",
       "realmSlug": "twisting-nether",
       "realmName": "twisting-nether",
-      "rank": 7,
+      "rank": 6,
       "hasGladiatorEver": true,
       "hasLegendEver": true,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3418,
-      "totalPoints": 21225,
+      "totalAchievements": 3423,
+      "totalPoints": 21235,
       "characterId": 183915336
     },
     {
@@ -3132,24 +3132,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2385,
-      "totalPoints": 14520,
+      "totalAchievements": 2418,
+      "totalPoints": 14615,
       "characterId": 184036950
-    },
-    {
-      "name": "Jinnxx",
-      "realmSlug": "dragonmaw",
-      "realmName": "dragonmaw",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1089,
-      "totalPoints": 5505,
-      "characterId": 184324328
     },
     {
       "name": "Ryujikuro",
@@ -3167,21 +3152,6 @@
       "characterId": 184286057
     },
     {
-      "name": "Fatalhealing",
-      "realmSlug": "terokkar",
-      "realmName": "terokkar",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1972,
-      "totalPoints": 11475,
-      "characterId": 184346403
-    },
-    {
       "name": "Bisqa",
       "realmSlug": "dentarg",
       "realmName": "dentarg",
@@ -3197,9 +3167,24 @@
       "characterId": 184565185
     },
     {
-      "name": "Untrust",
-      "realmSlug": "doomhammer",
-      "realmName": "doomhammer",
+      "name": "Jinnxx",
+      "realmSlug": "dragonmaw",
+      "realmName": "dragonmaw",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1089,
+      "totalPoints": 5505,
+      "characterId": 184324328
+    },
+    {
+      "name": "Fatalhealing",
+      "realmSlug": "terokkar",
+      "realmName": "terokkar",
       "rank": 6,
       "hasGladiatorEver": false,
       "hasLegendEver": false,
@@ -3207,9 +3192,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2360,
-      "totalPoints": 14550,
-      "characterId": 184543109
+      "totalAchievements": 1972,
+      "totalPoints": 11475,
+      "characterId": 184346403
     },
     {
       "name": "Loipoia",
@@ -3225,21 +3210,6 @@
       "totalAchievements": 963,
       "totalPoints": 4415,
       "characterId": 184640083
-    },
-    {
-      "name": "Uco",
-      "realmSlug": "doomhammer",
-      "realmName": "doomhammer",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2390,
-      "totalPoints": 14580,
-      "characterId": 184648999
     },
     {
       "name": "Crizaar",
@@ -3282,8 +3252,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3616,
-      "totalPoints": 25795,
+      "totalAchievements": 3632,
+      "totalPoints": 25950,
       "characterId": 184784260
     },
     {
@@ -3302,19 +3272,19 @@
       "characterId": 184900087
     },
     {
-      "name": "Sharpbroxd",
-      "realmSlug": "dentarg",
-      "realmName": "dentarg",
-      "rank": 7,
-      "hasGladiatorEver": false,
+      "name": "Æåeåeåéåe",
+      "realmSlug": "twisting-nether",
+      "realmName": "twisting-nether",
+      "rank": 4,
+      "hasGladiatorEver": true,
       "hasLegendEver": false,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 713,
-      "totalPoints": 3160,
-      "characterId": 185064344
+      "totalAchievements": 3600,
+      "totalPoints": 22860,
+      "characterId": 185001023
     },
     {
       "name": "Psyche",
@@ -3327,24 +3297,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": true,
-      "totalAchievements": 1811,
-      "totalPoints": 10360,
+      "totalAchievements": 1818,
+      "totalPoints": 10430,
       "characterId": 185026496
     },
     {
-      "name": "Æåeåeåéåe",
-      "realmSlug": "twisting-nether",
-      "realmName": "twisting-nether",
-      "rank": 4,
-      "hasGladiatorEver": true,
+      "name": "Sharpbroxd",
+      "realmSlug": "dentarg",
+      "realmName": "dentarg",
+      "rank": 7,
+      "hasGladiatorEver": false,
       "hasLegendEver": false,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3588,
-      "totalPoints": 22835,
-      "characterId": 185001023
+      "totalAchievements": 718,
+      "totalPoints": 3160,
+      "characterId": 185064344
     },
     {
       "name": "Nap",
@@ -3357,8 +3327,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": true,
-      "totalAchievements": 1811,
-      "totalPoints": 10360,
+      "totalAchievements": 1834,
+      "totalPoints": 10605,
       "characterId": 185149373
     },
     {
@@ -3377,19 +3347,19 @@
       "characterId": 185150850
     },
     {
-      "name": "Notshchoor",
-      "realmSlug": "executus",
-      "realmName": "executus",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
+      "name": "Wrongplace",
+      "realmSlug": "area-52",
+      "realmName": "area-52",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": true,
-      "totalAchievements": 1819,
-      "totalPoints": 10360,
-      "characterId": 185313125
+      "hasRank1SoloEver": false,
+      "totalAchievements": 918,
+      "totalPoints": 4660,
+      "characterId": 185193452
     },
     {
       "name": "Cxyd",
@@ -3405,6 +3375,21 @@
       "totalAchievements": 2478,
       "totalPoints": 14995,
       "characterId": 185296261
+    },
+    {
+      "name": "Notshchoor",
+      "realmSlug": "executus",
+      "realmName": "executus",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": true,
+      "totalAchievements": 1841,
+      "totalPoints": 10575,
+      "characterId": 185313125
     },
     {
       "name": "Transfarmër",
@@ -3432,8 +3417,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2231,
-      "totalPoints": 13355,
+      "totalAchievements": 2238,
+      "totalPoints": 13495,
       "characterId": 185388061
     },
     {
@@ -3455,6 +3440,21 @@
       "name": "Äsägrimma",
       "realmSlug": "tarren-mill",
       "realmName": "tarren-mill",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1144,
+      "totalPoints": 5815,
+      "characterId": 185436556
+    },
+    {
+      "name": "Saepenumero",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
       "rank": 7,
       "hasGladiatorEver": false,
       "hasLegendEver": false,
@@ -3462,9 +3462,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1122,
-      "totalPoints": 5620,
-      "characterId": 185436556
+      "totalAchievements": 1781,
+      "totalPoints": 9380,
+      "characterId": 185492466
+    },
+    {
+      "name": "Wrathlee",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": false,
+      "hasRank1Ever": true,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3273,
+      "totalPoints": 20520,
+      "characterId": 185470486
     },
     {
       "name": "Glevera",
@@ -3480,21 +3495,6 @@
       "totalAchievements": 1840,
       "totalPoints": 10810,
       "characterId": 185606842
-    },
-    {
-      "name": "Wrathlee",
-      "realmSlug": "tarren-mill",
-      "realmName": "tarren-mill",
-      "rank": 7,
-      "hasGladiatorEver": true,
-      "hasLegendEver": false,
-      "hasRank1Ever": true,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3235,
-      "totalPoints": 20290,
-      "characterId": 185470486
     },
     {
       "name": "Zaychyk",
@@ -3522,8 +3522,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": true,
-      "totalAchievements": 1810,
-      "totalPoints": 10360,
+      "totalAchievements": 1859,
+      "totalPoints": 10680,
       "characterId": 185671308
     },
     {
@@ -3537,9 +3537,39 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": true,
-      "totalAchievements": 1815,
-      "totalPoints": 10360,
+      "totalAchievements": 1865,
+      "totalPoints": 10680,
       "characterId": 185735645
+    },
+    {
+      "name": "Avesalom",
+      "realmSlug": "stormreaver",
+      "realmName": "stormreaver",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 894,
+      "totalPoints": 4540,
+      "characterId": 185789657
+    },
+    {
+      "name": "Februus",
+      "realmSlug": "terokkar",
+      "realmName": "terokkar",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3404,
+      "totalPoints": 21550,
+      "characterId": 185824271
     },
     {
       "name": "Izaha",
@@ -3567,24 +3597,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3526,
-      "totalPoints": 22805,
+      "totalAchievements": 3534,
+      "totalPoints": 22845,
       "characterId": 185895800
-    },
-    {
-      "name": "Untrust",
-      "realmSlug": "tarren-mill",
-      "realmName": "tarren-mill",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2352,
-      "totalPoints": 14500,
-      "characterId": 185931651
     },
     {
       "name": "Hollypøwer",
@@ -3602,19 +3617,19 @@
       "characterId": 185938026
     },
     {
-      "name": "Februus",
-      "realmSlug": "terokkar",
-      "realmName": "terokkar",
-      "rank": 5,
+      "name": "Untrust",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 6,
       "hasGladiatorEver": false,
       "hasLegendEver": false,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3404,
-      "totalPoints": 21550,
-      "characterId": 185824271
+      "totalAchievements": 2398,
+      "totalPoints": 14725,
+      "characterId": 185931651
     },
     {
       "name": "Shinnock",
@@ -3632,21 +3647,6 @@
       "characterId": 185968978
     },
     {
-      "name": "Smakpelmenu",
-      "realmSlug": "tarren-mill",
-      "realmName": "tarren-mill",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3527,
-      "totalPoints": 22805,
-      "characterId": 185996433
-    },
-    {
       "name": "Autorotation",
       "realmSlug": "tarren-mill",
       "realmName": "tarren-mill",
@@ -3657,24 +3657,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3546,
-      "totalPoints": 22805,
+      "totalAchievements": 3554,
+      "totalPoints": 22845,
       "characterId": 185952686
     },
     {
-      "name": "Avesalom",
-      "realmSlug": "stormreaver",
-      "realmName": "stormreaver",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
+      "name": "Smakpelmenu",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 894,
-      "totalPoints": 4540,
-      "characterId": 185789657
+      "totalAchievements": 3535,
+      "totalPoints": 22845,
+      "characterId": 185996433
     },
     {
       "name": "Kiçum",
@@ -3690,6 +3690,21 @@
       "totalAchievements": 1965,
       "totalPoints": 11485,
       "characterId": 186045579
+    },
+    {
+      "name": "Fktpww",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3535,
+      "totalPoints": 22845,
+      "characterId": 186091080
     },
     {
       "name": "Galadrielka",
@@ -3720,21 +3735,6 @@
       "totalAchievements": 895,
       "totalPoints": 4520,
       "characterId": 186157074
-    },
-    {
-      "name": "Fktpww",
-      "realmSlug": "tarren-mill",
-      "realmName": "tarren-mill",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3527,
-      "totalPoints": 22805,
-      "characterId": 186091080
     },
     {
       "name": "Rydge",
@@ -3777,8 +3777,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1559,
-      "totalPoints": 8890,
+      "totalAchievements": 1617,
+      "totalPoints": 9215,
       "characterId": 186262534
     },
     {
@@ -3797,6 +3797,21 @@
       "characterId": 186266061
     },
     {
+      "name": "Strongarm",
+      "realmSlug": "terokkar",
+      "realmName": "terokkar",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3434,
+      "totalPoints": 21750,
+      "characterId": 186293022
+    },
+    {
       "name": "Darrin",
       "realmSlug": "terokkar",
       "realmName": "terokkar",
@@ -3812,6 +3827,21 @@
       "characterId": 186367538
     },
     {
+      "name": "Arthasxx",
+      "realmSlug": "argent-dawn",
+      "realmName": "argent-dawn",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 618,
+      "totalPoints": 2590,
+      "characterId": 186481094
+    },
+    {
       "name": "Tokuchi",
       "realmSlug": "terokkar",
       "realmName": "terokkar",
@@ -3825,21 +3855,6 @@
       "totalAchievements": 2154,
       "totalPoints": 12870,
       "characterId": 186412870
-    },
-    {
-      "name": "Strongarm",
-      "realmSlug": "terokkar",
-      "realmName": "terokkar",
-      "rank": 7,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3434,
-      "totalPoints": 21750,
-      "characterId": 186293022
     },
     {
       "name": "Millicáno",
@@ -3902,21 +3917,6 @@
       "characterId": 186534097
     },
     {
-      "name": "Shinnøck",
-      "realmSlug": "tarren-mill",
-      "realmName": "tarren-mill",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 907,
-      "totalPoints": 4550,
-      "characterId": 186703089
-    },
-    {
       "name": "Neldraheim",
       "realmSlug": "tarren-mill",
       "realmName": "tarren-mill",
@@ -3932,19 +3932,19 @@
       "characterId": 186678027
     },
     {
-      "name": "Moolgorian",
+      "name": "Shinnøck",
       "realmSlug": "tarren-mill",
       "realmName": "tarren-mill",
       "rank": 5,
       "hasGladiatorEver": false,
       "hasLegendEver": false,
       "hasRank1Ever": false,
-      "hasStrategistEver": true,
+      "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3699,
-      "totalPoints": 24180,
-      "characterId": 186739655
+      "totalAchievements": 907,
+      "totalPoints": 4550,
+      "characterId": 186703089
     },
     {
       "name": "Úntrust",
@@ -3957,9 +3957,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2397,
-      "totalPoints": 14640,
+      "totalAchievements": 2409,
+      "totalPoints": 14775,
       "characterId": 186789088
+    },
+    {
+      "name": "Moolgorian",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": true,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3733,
+      "totalPoints": 24300,
+      "characterId": 186739655
     },
     {
       "name": "Ñeñ",
@@ -3977,21 +3992,6 @@
       "characterId": 186790522
     },
     {
-      "name": "Uo",
-      "realmSlug": "terokkar",
-      "realmName": "terokkar",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2396,
-      "totalPoints": 14640,
-      "characterId": 186830218
-    },
-    {
       "name": "Jumpscaré",
       "realmSlug": "tarren-mill",
       "realmName": "tarren-mill",
@@ -4002,9 +4002,39 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": true,
-      "totalAchievements": 2782,
-      "totalPoints": 16755,
+      "totalAchievements": 2801,
+      "totalPoints": 17020,
       "characterId": 186809828
+    },
+    {
+      "name": "Uo",
+      "realmSlug": "terokkar",
+      "realmName": "terokkar",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2406,
+      "totalPoints": 14765,
+      "characterId": 186830218
+    },
+    {
+      "name": "Shinnøck",
+      "realmSlug": "stormreaver",
+      "realmName": "stormreaver",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 912,
+      "totalPoints": 4590,
+      "characterId": 186946088
     },
     {
       "name": "Nizh",
@@ -4020,21 +4050,6 @@
       "totalAchievements": 2160,
       "totalPoints": 13680,
       "characterId": 186907039
-    },
-    {
-      "name": "Shinnøck",
-      "realmSlug": "stormreaver",
-      "realmName": "stormreaver",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 895,
-      "totalPoints": 4550,
-      "characterId": 186946088
     },
     {
       "name": "Lyho",
@@ -4062,8 +4077,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2472,
-      "totalPoints": 14645,
+      "totalAchievements": 2479,
+      "totalPoints": 14685,
       "characterId": 186946695
     },
     {
@@ -4077,9 +4092,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1620,
+      "totalAchievements": 1621,
       "totalPoints": 8955,
       "characterId": 186982847
+    },
+    {
+      "name": "Inarcadia",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": true,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3897,
+      "totalPoints": 28250,
+      "characterId": 187047591
     },
     {
       "name": "Panini",
@@ -4122,24 +4152,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1087,
-      "totalPoints": 5530,
+      "totalAchievements": 1131,
+      "totalPoints": 5755,
       "characterId": 187087818
-    },
-    {
-      "name": "Inarcadia",
-      "realmSlug": "tarren-mill",
-      "realmName": "tarren-mill",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3897,
-      "totalPoints": 28250,
-      "characterId": 187047591
     },
     {
       "name": "Remolacha",
@@ -4153,23 +4168,8 @@
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
       "totalAchievements": 1622,
-      "totalPoints": 8940,
+      "totalPoints": 8950,
       "characterId": 187101475
-    },
-    {
-      "name": "Uarka",
-      "realmSlug": "tarren-mill",
-      "realmName": "tarren-mill",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3616,
-      "totalPoints": 25855,
-      "characterId": 187154129
     },
     {
       "name": "Voodoonerd",
@@ -4182,24 +4182,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2445,
-      "totalPoints": 14645,
+      "totalAchievements": 2454,
+      "totalPoints": 14695,
       "characterId": 187181008
-    },
-    {
-      "name": "Oneiqclass",
-      "realmSlug": "tarren-mill",
-      "realmName": "tarren-mill",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3546,
-      "totalPoints": 22805,
-      "characterId": 187185279
     },
     {
       "name": "Twoiqclass",
@@ -4212,8 +4197,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3530,
-      "totalPoints": 22805,
+      "totalAchievements": 3538,
+      "totalPoints": 22845,
       "characterId": 187185277
     },
     {
@@ -4232,6 +4217,36 @@
       "characterId": 187190429
     },
     {
+      "name": "Oneiqclass",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3554,
+      "totalPoints": 22845,
+      "characterId": 187185279
+    },
+    {
+      "name": "Uarka",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3619,
+      "totalPoints": 25895,
+      "characterId": 187154129
+    },
+    {
       "name": "Karayi",
       "realmSlug": "terokkar",
       "realmName": "terokkar",
@@ -4242,8 +4257,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1780,
-      "totalPoints": 9100,
+      "totalAchievements": 1828,
+      "totalPoints": 9590,
       "characterId": 187274859
     },
     {
@@ -4277,21 +4292,6 @@
       "characterId": 187295064
     },
     {
-      "name": "Nanachi",
-      "realmSlug": "executus",
-      "realmName": "executus",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1782,
-      "totalPoints": 10265,
-      "characterId": 187442683
-    },
-    {
       "name": "Casca",
       "realmSlug": "executus",
       "realmName": "executus",
@@ -4301,10 +4301,40 @@
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1792,
-      "totalPoints": 10285,
+      "hasRank1SoloEver": true,
+      "totalAchievements": 1823,
+      "totalPoints": 10430,
       "characterId": 187417682
+    },
+    {
+      "name": "Ñeñ",
+      "realmSlug": "terokkar",
+      "realmName": "terokkar",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2265,
+      "totalPoints": 12720,
+      "characterId": 187300520
+    },
+    {
+      "name": "Nanachi",
+      "realmSlug": "executus",
+      "realmName": "executus",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": true,
+      "totalAchievements": 1813,
+      "totalPoints": 10400,
+      "characterId": 187442683
     },
     {
       "name": "Jokemønk",
@@ -4317,9 +4347,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1268,
-      "totalPoints": 6365,
+      "totalAchievements": 1275,
+      "totalPoints": 6435,
       "characterId": 187460893
+    },
+    {
+      "name": "Rainbowdash",
+      "realmSlug": "terokkar",
+      "realmName": "terokkar",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3579,
+      "totalPoints": 23690,
+      "characterId": 187445956
     },
     {
       "name": "Jøkeshaman",
@@ -4332,8 +4377,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1266,
-      "totalPoints": 6345,
+      "totalAchievements": 1268,
+      "totalPoints": 6365,
       "characterId": 187484098
     },
     {
@@ -4352,21 +4397,6 @@
       "characterId": 187493743
     },
     {
-      "name": "Rainbowdash",
-      "realmSlug": "terokkar",
-      "realmName": "terokkar",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3579,
-      "totalPoints": 23690,
-      "characterId": 187445956
-    },
-    {
       "name": "Magicstick",
       "realmSlug": "terokkar",
       "realmName": "terokkar",
@@ -4382,6 +4412,36 @@
       "characterId": 187507513
     },
     {
+      "name": "Schízo",
+      "realmSlug": "argent-dawn",
+      "realmName": "argent-dawn",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": true,
+      "hasStrategistEver": true,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": true,
+      "totalAchievements": 2803,
+      "totalPoints": 17020,
+      "characterId": 187558201
+    },
+    {
+      "name": "Loipoimo",
+      "realmSlug": "terokkar",
+      "realmName": "terokkar",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 978,
+      "totalPoints": 4545,
+      "characterId": 187571952
+    },
+    {
       "name": "Dirtyop",
       "realmSlug": "terokkar",
       "realmName": "terokkar",
@@ -4392,9 +4452,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 843,
-      "totalPoints": 3160,
+      "totalAchievements": 867,
+      "totalPoints": 3225,
       "characterId": 187588831
+    },
+    {
+      "name": "Dora",
+      "realmSlug": "neptulon",
+      "realmName": "neptulon",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": true,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 6036,
+      "totalPoints": 52400,
+      "characterId": 187573106
     },
     {
       "name": "Aminor",
@@ -4407,24 +4482,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1756,
-      "totalPoints": 9000,
+      "totalAchievements": 1813,
+      "totalPoints": 9735,
       "characterId": 187615958
-    },
-    {
-      "name": "Gnombo",
-      "realmSlug": "terokkar",
-      "realmName": "terokkar",
-      "rank": 7,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 920,
-      "totalPoints": 4120,
-      "characterId": 187658230
     },
     {
       "name": "Purgebaby",
@@ -4442,21 +4502,6 @@
       "characterId": 187620007
     },
     {
-      "name": "Dora",
-      "realmSlug": "neptulon",
-      "realmName": "neptulon",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 6020,
-      "totalPoints": 52250,
-      "characterId": 187573106
-    },
-    {
       "name": "Xytko",
       "realmSlug": "azjolnerub",
       "realmName": "azjolnerub",
@@ -4470,6 +4515,21 @@
       "totalAchievements": 247,
       "totalPoints": 960,
       "characterId": 187788158
+    },
+    {
+      "name": "Gnombo",
+      "realmSlug": "terokkar",
+      "realmName": "terokkar",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 920,
+      "totalPoints": 4120,
+      "characterId": 187658230
     },
     {
       "name": "Qll",
@@ -4487,6 +4547,21 @@
       "characterId": 187791385
     },
     {
+      "name": "Er",
+      "realmSlug": "terokkar",
+      "realmName": "terokkar",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2406,
+      "totalPoints": 14775,
+      "characterId": 187907596
+    },
+    {
       "name": "Spelcleave",
       "realmSlug": "twisting-nether",
       "realmName": "twisting-nether",
@@ -4497,8 +4572,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2392,
-      "totalPoints": 14570,
+      "totalAchievements": 2423,
+      "totalPoints": 14645,
       "characterId": 188162089
     },
     {
@@ -4512,8 +4587,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2733,
-      "totalPoints": 16965,
+      "totalAchievements": 2753,
+      "totalPoints": 17080,
       "characterId": 188455274
     },
     {
@@ -4527,8 +4602,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2733,
-      "totalPoints": 16965,
+      "totalAchievements": 2752,
+      "totalPoints": 17080,
       "characterId": 188455304
     },
     {
@@ -4562,36 +4637,6 @@
       "characterId": 193562468
     },
     {
-      "name": "Nichts",
-      "realmSlug": "die-aldor",
-      "realmName": "die-aldor",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 6017,
-      "totalPoints": 52235,
-      "characterId": 192350808
-    },
-    {
-      "name": "Nojudgement",
-      "realmSlug": "twisting-nether",
-      "realmName": "twisting-nether",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3398,
-      "totalPoints": 21225,
-      "characterId": 193666818
-    },
-    {
       "name": "Portaway",
       "realmSlug": "twisting-nether",
       "realmName": "twisting-nether",
@@ -4602,8 +4647,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3419,
-      "totalPoints": 21365,
+      "totalAchievements": 3425,
+      "totalPoints": 21375,
       "characterId": 193645693
     },
     {
@@ -4617,9 +4662,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1688,
+      "totalAchievements": 1689,
       "totalPoints": 9785,
       "characterId": 202419461
+    },
+    {
+      "name": "Nojudgement",
+      "realmSlug": "twisting-nether",
+      "realmName": "twisting-nether",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3405,
+      "totalPoints": 21235,
+      "characterId": 193666818
     },
     {
       "name": "Javelinus",
@@ -4652,6 +4712,21 @@
       "characterId": 205859383
     },
     {
+      "name": "Psiblades",
+      "realmSlug": "kazzak",
+      "realmName": "kazzak",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3384,
+      "totalPoints": 21215,
+      "characterId": 205719417
+    },
+    {
       "name": "Shoty",
       "realmSlug": "kazzak",
       "realmName": "kazzak",
@@ -4662,8 +4737,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2070,
-      "totalPoints": 11610,
+      "totalAchievements": 2077,
+      "totalPoints": 11620,
       "characterId": 206142165
     },
     {
@@ -4697,36 +4772,6 @@
       "characterId": 206356218
     },
     {
-      "name": "Xxolla",
-      "realmSlug": "silvermoon",
-      "realmName": "silvermoon",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3252,
-      "totalPoints": 19730,
-      "characterId": 206408232
-    },
-    {
-      "name": "Psiblades",
-      "realmSlug": "kazzak",
-      "realmName": "kazzak",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3381,
-      "totalPoints": 21205,
-      "characterId": 205719417
-    },
-    {
       "name": "Whytoosxy",
       "realmSlug": "silvermoon",
       "realmName": "silvermoon",
@@ -4737,9 +4782,39 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2498,
-      "totalPoints": 15015,
+      "totalAchievements": 2519,
+      "totalPoints": 15125,
       "characterId": 206661011
+    },
+    {
+      "name": "Xxolla",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3273,
+      "totalPoints": 19810,
+      "characterId": 206408232
+    },
+    {
+      "name": "Sxyd",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 4,
+      "hasGladiatorEver": false,
+      "hasLegendEver": true,
+      "hasRank1Ever": false,
+      "hasStrategistEver": true,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2520,
+      "totalPoints": 15125,
+      "characterId": 206665882
     },
     {
       "name": "Sfbbchv",
@@ -4755,21 +4830,6 @@
       "totalAchievements": 2480,
       "totalPoints": 14995,
       "characterId": 206671190
-    },
-    {
-      "name": "Sxyd",
-      "realmSlug": "silvermoon",
-      "realmName": "silvermoon",
-      "rank": 4,
-      "hasGladiatorEver": false,
-      "hasLegendEver": true,
-      "hasRank1Ever": false,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2499,
-      "totalPoints": 15015,
-      "characterId": 206665882
     },
     {
       "name": "Chugaister",
@@ -4797,24 +4857,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2870,
-      "totalPoints": 17270,
+      "totalAchievements": 2887,
+      "totalPoints": 17400,
       "characterId": 206828681
-    },
-    {
-      "name": "Herétìc",
-      "realmSlug": "silvermoon",
-      "realmName": "silvermoon",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3230,
-      "totalPoints": 19665,
-      "characterId": 207953884
     },
     {
       "name": "Frozendrozd",
@@ -4847,6 +4892,21 @@
       "characterId": 210805410
     },
     {
+      "name": "Herétìc",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3230,
+      "totalPoints": 19665,
+      "characterId": 207953884
+    },
+    {
       "name": "Hetaxata",
       "realmSlug": "kazzak",
       "realmName": "kazzak",
@@ -4857,9 +4917,24 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 4331,
-      "totalPoints": 31705,
+      "totalAchievements": 4345,
+      "totalPoints": 31775,
       "characterId": 210494368
+    },
+    {
+      "name": "Kamchs",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2122,
+      "totalPoints": 12635,
+      "characterId": 212335027
     },
     {
       "name": "Borrcsh",
@@ -4877,9 +4952,9 @@
       "characterId": 210946577
     },
     {
-      "name": "Kamchs",
-      "realmSlug": "silvermoon",
-      "realmName": "silvermoon",
+      "name": "Stepangiga",
+      "realmSlug": "kazzak",
+      "realmName": "kazzak",
       "rank": 5,
       "hasGladiatorEver": false,
       "hasLegendEver": false,
@@ -4887,9 +4962,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2105,
-      "totalPoints": 12535,
-      "characterId": 212335027
+      "totalAchievements": 1869,
+      "totalPoints": 10910,
+      "characterId": 213194421
     },
     {
       "name": "Slavius",
@@ -4907,21 +4982,6 @@
       "characterId": 212867369
     },
     {
-      "name": "Stepangiga",
-      "realmSlug": "kazzak",
-      "realmName": "kazzak",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1869,
-      "totalPoints": 10910,
-      "characterId": 213194421
-    },
-    {
       "name": "Rîddîck",
       "realmSlug": "silvermoon",
       "realmName": "silvermoon",
@@ -4932,24 +4992,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2875,
-      "totalPoints": 19470,
+      "totalAchievements": 2878,
+      "totalPoints": 19500,
       "characterId": 213724328
-    },
-    {
-      "name": "Rìddíck",
-      "realmSlug": "silvermoon",
-      "realmName": "silvermoon",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2866,
-      "totalPoints": 19440,
-      "characterId": 213895460
     },
     {
       "name": "Exxorccist",
@@ -4962,54 +5007,9 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1042,
-      "totalPoints": 5470,
+      "totalAchievements": 1062,
+      "totalPoints": 5515,
       "characterId": 214289410
-    },
-    {
-      "name": "Sorrowrogue",
-      "realmSlug": "silvermoon",
-      "realmName": "silvermoon",
-      "rank": 7,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1156,
-      "totalPoints": 5795,
-      "characterId": 214980221
-    },
-    {
-      "name": "Rîddîckx",
-      "realmSlug": "silvermoon",
-      "realmName": "silvermoon",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2871,
-      "totalPoints": 19470,
-      "characterId": 214787322
-    },
-    {
-      "name": "Rìddìck",
-      "realmSlug": "silvermoon",
-      "realmName": "silvermoon",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2863,
-      "totalPoints": 19430,
-      "characterId": 214646637
     },
     {
       "name": "Torsteid",
@@ -5027,7 +5027,7 @@
       "characterId": 214315485
     },
     {
-      "name": "Riddichka",
+      "name": "Rìddíck",
       "realmSlug": "silvermoon",
       "realmName": "silvermoon",
       "rank": 6,
@@ -5037,9 +5037,69 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2864,
-      "totalPoints": 19440,
-      "characterId": 214983475
+      "totalAchievements": 2873,
+      "totalPoints": 19500,
+      "characterId": 213895460
+    },
+    {
+      "name": "Rìddìck",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2871,
+      "totalPoints": 19500,
+      "characterId": 214646637
+    },
+    {
+      "name": "Rîddîckx",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2874,
+      "totalPoints": 19500,
+      "characterId": 214787322
+    },
+    {
+      "name": "Darado",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1972,
+      "totalPoints": 12095,
+      "characterId": 214801388
+    },
+    {
+      "name": "Sorrowrogue",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1156,
+      "totalPoints": 5795,
+      "characterId": 214980221
     },
     {
       "name": "Scottlark",
@@ -5052,9 +5112,24 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2484,
-      "totalPoints": 15005,
+      "totalAchievements": 2505,
+      "totalPoints": 15115,
       "characterId": 215508469
+    },
+    {
+      "name": "Riddichka",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2871,
+      "totalPoints": 19500,
+      "characterId": 214983475
     },
     {
       "name": "Íròh",
@@ -5097,8 +5172,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3372,
-      "totalPoints": 21205,
+      "totalAchievements": 3376,
+      "totalPoints": 21215,
       "characterId": 216487546
     },
     {
@@ -5157,8 +5232,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2866,
-      "totalPoints": 19440,
+      "totalAchievements": 2873,
+      "totalPoints": 19500,
       "characterId": 216807026
     },
     {
@@ -5172,8 +5247,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2870,
-      "totalPoints": 19470,
+      "totalAchievements": 2873,
+      "totalPoints": 19500,
       "characterId": 216868090
     },
     {
@@ -5187,8 +5262,8 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": true,
-      "totalAchievements": 2779,
-      "totalPoints": 16725,
+      "totalAchievements": 2801,
+      "totalPoints": 17020,
       "characterId": 216878329
     },
     {
@@ -5202,8 +5277,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2865,
-      "totalPoints": 19440,
+      "totalAchievements": 2872,
+      "totalPoints": 19500,
       "characterId": 216970326
     },
     {
@@ -5222,21 +5297,6 @@
       "characterId": 217038742
     },
     {
-      "name": "Felloria",
-      "realmSlug": "silvermoon",
-      "realmName": "silvermoon",
-      "rank": 7,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 0,
-      "totalPoints": 0,
-      "characterId": null
-    },
-    {
       "name": "Veseniaq",
       "realmSlug": "silvermoon",
       "realmName": "silvermoon",
@@ -5247,8 +5307,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 674,
-      "totalPoints": 3070,
+      "totalAchievements": 783,
+      "totalPoints": 3415,
       "characterId": 217181075
     },
     {
@@ -5262,9 +5322,24 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2483,
-      "totalPoints": 15005,
+      "totalAchievements": 2506,
+      "totalPoints": 15120,
       "characterId": 217065708
+    },
+    {
+      "name": "Felloria",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 0,
+      "totalPoints": 0,
+      "characterId": null
     },
     {
       "name": "Djayer",
@@ -5322,8 +5397,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1760,
-      "totalPoints": 9785,
+      "totalAchievements": 1770,
+      "totalPoints": 9835,
       "characterId": 218021900
     },
     {
@@ -5337,8 +5412,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3634,
-      "totalPoints": 25960,
+      "totalAchievements": 3637,
+      "totalPoints": 26010,
       "characterId": 218899622
     },
     {
@@ -5352,8 +5427,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2065,
-      "totalPoints": 12515,
+      "totalAchievements": 2113,
+      "totalPoints": 13080,
       "characterId": 218921243
     },
     {
@@ -5367,8 +5442,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 3627,
-      "totalPoints": 25910,
+      "totalAchievements": 3642,
+      "totalPoints": 26080,
       "characterId": 218899634
     },
     {
@@ -5382,8 +5457,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2222,
-      "totalPoints": 13375,
+      "totalAchievements": 2229,
+      "totalPoints": 13465,
       "characterId": 218941593
     },
     {
@@ -5417,21 +5492,6 @@
       "characterId": 219078222
     },
     {
-      "name": "Taviskin",
-      "realmSlug": "silvermoon",
-      "realmName": "silvermoon",
-      "rank": 7,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 3055,
-      "totalPoints": 18350,
-      "characterId": 219102828
-    },
-    {
       "name": "Shadowgrimm",
       "realmSlug": "kazzak",
       "realmName": "kazzak",
@@ -5442,9 +5502,24 @@
       "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2819,
-      "totalPoints": 18150,
+      "totalAchievements": 2822,
+      "totalPoints": 18160,
       "characterId": 219131332
+    },
+    {
+      "name": "Taviskin",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3080,
+      "totalPoints": 18475,
+      "characterId": 219102828
     },
     {
       "name": "Walvery",
@@ -5472,8 +5547,8 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 2018,
-      "totalPoints": 11020,
+      "totalAchievements": 2035,
+      "totalPoints": 11080,
       "characterId": 219376588
     },
     {
@@ -5537,6 +5612,21 @@
       "characterId": 220068685
     },
     {
+      "name": "Undómmiel",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 4118,
+      "totalPoints": 29190,
+      "characterId": 220249237
+    },
+    {
       "name": "Stormshadovv",
       "realmSlug": "kazzak",
       "realmName": "kazzak",
@@ -5552,19 +5642,19 @@
       "characterId": 220300183
     },
     {
-      "name": "Undómmiel",
+      "name": "Shchoor",
       "realmSlug": "silvermoon",
       "realmName": "silvermoon",
-      "rank": 7,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
+      "rank": 6,
+      "hasGladiatorEver": true,
+      "hasLegendEver": true,
+      "hasRank1Ever": true,
+      "hasStrategistEver": true,
       "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 4106,
-      "totalPoints": 29120,
-      "characterId": 220249237
+      "hasRank1SoloEver": true,
+      "totalAchievements": 2767,
+      "totalPoints": 16705,
+      "characterId": 220331587
     },
     {
       "name": "Shaksu",
@@ -5595,21 +5685,6 @@
       "totalAchievements": 938,
       "totalPoints": 5210,
       "characterId": 220454173
-    },
-    {
-      "name": "Shchoor",
-      "realmSlug": "silvermoon",
-      "realmName": "silvermoon",
-      "rank": 6,
-      "hasGladiatorEver": true,
-      "hasLegendEver": true,
-      "hasRank1Ever": true,
-      "hasStrategistEver": true,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": true,
-      "totalAchievements": 2767,
-      "totalPoints": 16705,
-      "characterId": 220331587
     },
     {
       "name": "Tvoyiochi",
@@ -5687,21 +5762,6 @@
       "characterId": 220639084
     },
     {
-      "name": "Veldraks",
-      "realmSlug": "outland",
-      "realmName": "outland",
-      "rank": 7,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1326,
-      "totalPoints": 6615,
-      "characterId": 220626742
-    },
-    {
       "name": "Slygba",
       "realmSlug": "silvermoon",
       "realmName": "silvermoon",
@@ -5732,21 +5792,6 @@
       "characterId": 220662462
     },
     {
-      "name": "Kyløren",
-      "realmSlug": "kazzak",
-      "realmName": "kazzak",
-      "rank": 6,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 2344,
-      "totalPoints": 15570,
-      "characterId": 220737806
-    },
-    {
       "name": "Annunakì",
       "realmSlug": "silvermoon",
       "realmName": "silvermoon",
@@ -5760,6 +5805,21 @@
       "totalAchievements": 547,
       "totalPoints": 2400,
       "characterId": 220812727
+    },
+    {
+      "name": "Kyløren",
+      "realmSlug": "kazzak",
+      "realmName": "kazzak",
+      "rank": 6,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2344,
+      "totalPoints": 15570,
+      "characterId": 220737806
     },
     {
       "name": "Skiffrin",
@@ -5777,21 +5837,6 @@
       "characterId": 220887919
     },
     {
-      "name": "Marchick",
-      "realmSlug": "silvermoon",
-      "realmName": "silvermoon",
-      "rank": 5,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1028,
-      "totalPoints": 5640,
-      "characterId": 220888087
-    },
-    {
       "name": "Sizes",
       "realmSlug": "silvermoon",
       "realmName": "silvermoon",
@@ -5807,19 +5852,19 @@
       "characterId": 220982482
     },
     {
-      "name": "Kvytka",
+      "name": "Marchick",
       "realmSlug": "silvermoon",
       "realmName": "silvermoon",
-      "rank": 7,
+      "rank": 5,
       "hasGladiatorEver": false,
       "hasLegendEver": false,
       "hasRank1Ever": false,
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 490,
-      "totalPoints": 1650,
-      "characterId": 221614467
+      "totalAchievements": 1028,
+      "totalPoints": 5640,
+      "characterId": 220888087
     },
     {
       "name": "Skifrael",
@@ -5867,6 +5912,21 @@
       "characterId": 221183562
     },
     {
+      "name": "Kvytka",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 490,
+      "totalPoints": 1650,
+      "characterId": 221614467
+    },
+    {
       "name": "Frozendd",
       "realmSlug": "silvermoon",
       "realmName": "silvermoon",
@@ -5880,6 +5940,51 @@
       "totalAchievements": 712,
       "totalPoints": 3015,
       "characterId": 221652403
+    },
+    {
+      "name": "Darnogal",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1439,
+      "totalPoints": 8430,
+      "characterId": 221740985
+    },
+    {
+      "name": "Frilante",
+      "realmSlug": "kazzak",
+      "realmName": "kazzak",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2023,
+      "totalPoints": 12020,
+      "characterId": 221715914
+    },
+    {
+      "name": "Hypøthermia",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1769,
+      "totalPoints": 10960,
+      "characterId": 221743049
     },
     {
       "name": "Kapitoszka",
@@ -5897,6 +6002,21 @@
       "characterId": 257767834
     },
     {
+      "name": "Adaloha",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 5,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1958,
+      "totalPoints": 12075,
+      "characterId": 221828133
+    },
+    {
       "name": "Grimsson",
       "realmSlug": "arathor",
       "realmName": "arathor",
@@ -5912,21 +6032,6 @@
       "characterId": 257900319
     },
     {
-      "name": "Hypøthermia",
-      "realmSlug": "silvermoon",
-      "realmName": "silvermoon",
-      "rank": 7,
-      "hasGladiatorEver": false,
-      "hasLegendEver": false,
-      "hasRank1Ever": false,
-      "hasStrategistEver": false,
-      "hasRank1BlitzEver": false,
-      "hasRank1SoloEver": false,
-      "totalAchievements": 1753,
-      "totalPoints": 10890,
-      "characterId": 221743049
-    },
-    {
       "name": "Elyssa",
       "realmSlug": "sunstrider",
       "realmName": "sunstrider",
@@ -5937,7 +6042,7 @@
       "hasStrategistEver": false,
       "hasRank1BlitzEver": false,
       "hasRank1SoloEver": false,
-      "totalAchievements": 1785,
+      "totalAchievements": 1787,
       "totalPoints": 9525,
       "characterId": 259835389
     },
@@ -5985,6 +6090,96 @@
       "totalAchievements": 1293,
       "totalPoints": 7355,
       "characterId": 262661537
+    },
+    {
+      "name": "Natrixx",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2289,
+      "totalPoints": 13200,
+      "characterId": 176426732
+    },
+    {
+      "name": "Wallgard",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3436,
+      "totalPoints": 20840,
+      "characterId": 210100253
+    },
+    {
+      "name": "Rødtang",
+      "realmSlug": "tarren-mill",
+      "realmName": "tarren-mill",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 1273,
+      "totalPoints": 6435,
+      "characterId": 187643478
+    },
+    {
+      "name": "Kyivghost",
+      "realmSlug": "silvermoon",
+      "realmName": "silvermoon",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2879,
+      "totalPoints": 17400,
+      "characterId": 209664610
+    },
+    {
+      "name": "Wrathy",
+      "realmSlug": "ravencrest",
+      "realmName": "ravencrest",
+      "rank": 7,
+      "hasGladiatorEver": true,
+      "hasLegendEver": false,
+      "hasRank1Ever": true,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 3273,
+      "totalPoints": 20520,
+      "characterId": 175094329
+    },
+    {
+      "name": "Ligmund",
+      "realmSlug": "terokkar",
+      "realmName": "terokkar",
+      "rank": 7,
+      "hasGladiatorEver": false,
+      "hasLegendEver": false,
+      "hasRank1Ever": false,
+      "hasStrategistEver": false,
+      "hasRank1BlitzEver": false,
+      "hasRank1SoloEver": false,
+      "totalAchievements": 2049,
+      "totalPoints": 12050,
+      "characterId": 187881654
     }
   ]
 }
