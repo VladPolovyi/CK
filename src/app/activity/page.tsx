@@ -92,7 +92,7 @@ export default async function GuildActivity() {
   // Handle case where no data is available
   if (!pvpData) {
     return (
-      <div className="min-h-screen blood-gradient">
+      <div className="blood-gradient">
         <Navigation />
         <div className="pt-20">
           <HeroSection 
@@ -128,7 +128,7 @@ export default async function GuildActivity() {
   const bracketSummaries = generateBracketSummaries(pvpData)
 
   return (
-    <div className="min-h-screen blood-gradient">
+    <div className="blood-gradient">
       <Navigation />
       <div className="pt-20">
         {/* Hero Section */}

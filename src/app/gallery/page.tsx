@@ -71,7 +71,7 @@ export default function Gallery() {
   const [lightboxIndex, setLightboxIndex] = useState(0)
 
   return (
-    <div className="min-h-screen blood-gradient">
+    <div className="blood-gradient">
       <Navigation />
       <div className="pt-20">
       {/* Hero Section */}
@@ -97,7 +97,9 @@ export default function Gallery() {
                   <Image
                     src={item.image}
                     alt={item.title}
-                    fill
+                    width={400}
+                    height={225}
+                    quality={85}
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className={`object-cover ${styles.image}`}
                     priority={item.id === 1}

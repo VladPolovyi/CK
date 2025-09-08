@@ -7,7 +7,7 @@ import achievementData from '@/data/generated/achievements-data.json'
 
 export default function Achievements() {
   return (
-    <div className="min-h-screen blood-gradient">
+    <div className="blood-gradient">
       <Navigation />
       <div className="pt-20">
         {/* Hero Section */}

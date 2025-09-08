@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import { ChevronDown, ChevronUp, Trophy, Users, Target, Sword, TrendingUp } from 'lucide-react'
+import Image from 'next/image'
 import type { PvPActivityData } from '@/types/pvp-activity'
 
 interface PvPActivityTableProps {
@@ -440,9 +441,11 @@ export default function PvPActivityTable({ members, bracketFilter, showRecentAct
                           }
                           
                           return iconPath ? (
-                            <img 
+                            <Image 
                               src={iconPath} 
                               alt={spec} 
+                              width={16}
+                              height={16}
                               className="h-4 w-4" 
                               title={spec}
                             />

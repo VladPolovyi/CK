@@ -5,22 +5,28 @@ import AchievementStats from '@/components/AchievementStats'
 import GuildPvPOverview from '@/components/GuildPvPOverview'
 import styles from './page.module.scss'
 import Link from 'next/link'
+import Image from 'next/image'
 import achievementData from '@/data/generated/achievements-data.json'
 import pvpData from '@/data/generated/pvp-activity.json'
 
 
 export default function Home() {
   return (
-    <div className="min-h-screen blood-gradient">
+    <div className="blood-gradient">
       <Navigation />
       {/* Hero Section */}
       <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
-          <img
+          <Image
             src="/images/morok_glad.jpg"
             alt="Blood Achievements Background"
+            width={1920}
+            height={1080}
+            priority
+            quality={90}
             className="w-full h-full object-cover"
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-black/30"></div>
         </div>
