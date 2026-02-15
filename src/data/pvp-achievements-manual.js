@@ -28,7 +28,12 @@ export const PVP_ACHIEVEMENTS = [
   },
   {
     id: 40235,
-    name: "Rank 1 Blitz: The War Within Season 1",
+    name: "Rank 1 Blitz: The War Within Season 1 (Marshal)",
+    type: "rank1blitz"
+  },
+  {
+    id: 40234,
+    name: "Rank 1 Blitz: The War Within Season 1 (Warlord)",
     type: "rank1blitz"
   },
   // The War Within Season 2
@@ -59,9 +64,14 @@ export const PVP_ACHIEVEMENTS = [
   },
   {
     id: 41357,
-    name: "Rank 1 Blitz: The War Within Season 2",
+    name: "Rank 1 Blitz: The War Within Season 2 (Marshal)",
     type: "rank1blitz"
   },
+  {
+    id: 41356,
+    name: "Rank 1 Blitz: The War Within Season 2 (Warlord)",
+    type: "rank1blitz"
+  },  
   // The War Within Season 3
   {
     id: 41049,
@@ -90,7 +100,12 @@ export const PVP_ACHIEVEMENTS = [
   },
   {
     id: 42035,
-    name: "Rank 1 Blitz: The War Within Season 3",
+    name: "Rank 1 Blitz: The War Within Season 3 (Marshal)",
+    type: "rank1blitz"
+  },
+  {
+    id: 42034,
+    name: "Rank 1 Blitz: The War Within Season 3 (Warlord)",
     type: "rank1blitz"
   },
   // The Dragonflight Season 1

@@ -42,7 +42,7 @@ export default function Gallery() {
     },
     {
       id: 4,
-      title: "TWW S2 Idoru Gladiator",
+      title: "TWW S2 Idoru & Shchoor Gladiator",
       description: "Gladiator title achievement in Season 2 of The War Within",
       image: "/images/idoru_glad.jpg",
       likes: 67,

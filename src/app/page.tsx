@@ -19,7 +19,7 @@ export default function Home() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/morok_glad.jpg"
+            src="/images/karesh_glad.png"
             alt="Blood Achievements Background"
             width={1920}
             height={1080}
@@ -40,7 +40,7 @@ export default function Home() {
             </span>
           </h1>
 
-                    <div className="text-center mb-6">
+          <div className="text-center mb-6">
             <div className="gothic-guild-text text-2xl font-medium text-white tracking-wide drop-shadow-lg">
               ukrainian pvp guild
             </div>
@@ -52,7 +52,7 @@ export default function Home() {
             </div>
           </div>
 
-                    <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center">
             <a href="#ready-to-bleed" className="inline-block bg-black/50 backdrop-blur-sm border border-red-500/40 rounded-xl px-10 py-6 shadow-2xl hover:bg-black/70 hover:border-red-500/60 transition-all duration-200 cursor-pointer">
               <span className="text-red-400 font-semibold text-xl hover:text-red-300 transition-colors">
                 JOIN US

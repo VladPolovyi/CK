@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   title: 'CBITAHOK KPOBI - Dawn of Blood',
   description: 'Welcome to CBITAHOK KPOBI - Dawn of Blood. Where legends are forged in blood and darkness.',
   icons: {
-    icon: '/images/logo.png',
-    shortcut: '/images/logo.png',
-    apple: '/images/logo.png',
+    icon: '/images/logo2.png',
+    shortcut: '/images/logo2.png',
+    apple: '/images/logo2.png',
   },
 }
 

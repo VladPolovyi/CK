@@ -39,7 +39,7 @@ export default function Navigation() {
               <div className="flex flex-col items-center">
                 <div className="mb-2">
                   <Image 
-                    src="/images/logo.png" 
+                    src="/images/logo_main.png" 
                     alt="CBITAHOK KPOBI Logo" 
                     width={120} 
                     height={120} 
