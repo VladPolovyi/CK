@@ -31,32 +31,27 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/30"></div>
         </div>
 
-        {/* Content */}
-        <div className="relative z-10 text-center max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-
-          <h1 className="text-6xl font-black text-white sm:text-7xl md:text-8xl mb-8 tracking-wider drop-shadow-2xl">
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-red-500 to-red-700">
-              CBITAHOK KPOBI
-            </span>
-          </h1>
-
-          <div className="text-center mb-6">
+        {/* Content: text on top, button at bottom */}
+        <div className="relative z-10 flex flex-col justify-between min-h-screen w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-56 sm:pt-64 pb-12 sm:pb-16">
+          <div className="text-center">
             <div className="gothic-guild-text text-2xl font-medium text-white tracking-wide drop-shadow-lg">
               ukrainian pvp guild
             </div>
-          </div>
-          
-          <div className="text-center mb-12">
+            <h1 className="text-6xl font-black text-white sm:text-7xl md:text-8xl mt-4 mb-4 tracking-wider drop-shadow-2xl">
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-red-500 to-red-700">
+                CBITAHOK KPOBI
+              </span>
+            </h1>
             <div className="gothic-subtitle text-xl font-medium text-white tracking-wide drop-shadow-lg">
               in World of Warcraft
             </div>
           </div>
-
           <div className="flex justify-center items-center">
-            <a href="#ready-to-bleed" className="inline-block bg-black/50 backdrop-blur-sm border border-red-500/40 rounded-xl px-10 py-6 shadow-2xl hover:bg-black/70 hover:border-red-500/60 transition-all duration-200 cursor-pointer">
-              <span className="text-red-400 font-semibold text-xl hover:text-red-300 transition-colors">
-                JOIN US
-              </span>
+            <a
+              href="#ready-to-bleed"
+              className="inline-block rounded-xl px-16 py-5 bg-black/60 border border-red-500/50 text-white font-semibold text-lg tracking-widest uppercase cursor-pointer"
+            >
+              JOIN US
             </a>
           </div>
         </div>
