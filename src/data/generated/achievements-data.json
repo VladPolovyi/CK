@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2025-09-08T15:49:05.141Z",
+  "generatedAt": "2026-02-15T00:22:27.700Z",
   "stats": {
-    "gladiatorCount": 19,
-    "rank1Count": 3,
-    "legendCount": 14,
-    "strategistCount": 10,
-    "blitzRank1Count": 0,
-    "soloRank1Count": 2
+    "gladiatorCount": 28,
+    "rank1Count": 4,
+    "legendCount": 22,
+    "strategistCount": 12,
+    "blitzRank1Count": 1,
+    "soloRank1Count": 1
   },
   "members": {
     "gladiatorMembers": [
       {
-        "id": 167343299,
+        "id": 175838075,
         "name": "Shchoor",
         "realm": {
           "name": {
@@ -55,28 +55,6 @@
         "rank": 1
       },
       {
-        "id": 185735645,
-        "name": "Ruins",
-        "realm": {
-          "name": {
-            "en_US": "executus"
-          },
-          "slug": "executus"
-        },
-        "rank": 2
-      },
-      {
-        "id": 81880719,
-        "name": "Fktp",
-        "realm": {
-          "name": {
-            "en_US": "ravencrest"
-          },
-          "slug": "ravencrest"
-        },
-        "rank": 4
-      },
-      {
         "id": 162447785,
         "name": "Foxbidden",
         "realm": {
@@ -121,199 +99,19 @@
         "rank": 4
       },
       {
-        "id": 180548136,
-        "name": "Nencheeck",
-        "realm": {
-          "name": {
-            "en_US": "terokkar"
-          },
-          "slug": "terokkar"
-        },
-        "rank": 4
-      },
-      {
-        "id": 183908105,
-        "name": "Justice",
-        "realm": {
-          "name": {
-            "en_US": "twisting-nether"
-          },
-          "slug": "twisting-nether"
-        },
-        "rank": 4
-      },
-      {
-        "id": 185001023,
-        "name": "Æåeåeåéåe",
-        "realm": {
-          "name": {
-            "en_US": "twisting-nether"
-          },
-          "slug": "twisting-nether"
-        },
-        "rank": 4
-      },
-      {
-        "id": 186946695,
-        "name": "Jazzcore",
-        "realm": {
-          "name": {
-            "en_US": "twisting-nether"
-          },
-          "slug": "twisting-nether"
-        },
-        "rank": 4
-      },
-      {
-        "id": 213724328,
-        "name": "Rîddîck",
-        "realm": {
-          "name": {
-            "en_US": "silvermoon"
-          },
-          "slug": "silvermoon"
-        },
-        "rank": 4
-      },
-      {
-        "id": 216487546,
-        "name": "Shàðøwrázé",
-        "realm": {
-          "name": {
-            "en_US": "kazzak"
-          },
-          "slug": "kazzak"
-        },
-        "rank": 4
-      },
-      {
-        "id": 167496413,
-        "name": "Kohannia",
+        "id": 174946204,
+        "name": "Spamplague",
         "realm": {
           "name": {
             "en_US": "stormscale"
           },
           "slug": "stormscale"
         },
-        "rank": 5
-      },
-      {
-        "id": 216806606,
-        "name": "Chidorixd",
-        "realm": {
-          "name": {
-            "en_US": "silvermoon"
-          },
-          "slug": "silvermoon"
-        },
-        "rank": 5
-      },
-      {
-        "id": 217038742,
-        "name": "Çhmö",
-        "realm": {
-          "name": {
-            "en_US": "silvermoon"
-          },
-          "slug": "silvermoon"
-        },
-        "rank": 5
-      }
-    ],
-    "rank1Members": [
-      {
-        "id": 167343299,
-        "name": "Shchoor",
-        "realm": {
-          "name": {
-            "en_US": "ravencrest"
-          },
-          "slug": "ravencrest"
-        },
-        "rank": 0
-      },
-      {
-        "id": 170120917,
-        "name": "Wrathlolz",
-        "realm": {
-          "name": {
-            "en_US": "ravencrest"
-          },
-          "slug": "ravencrest"
-        },
-        "rank": 1
-      },
-      {
-        "id": 171112349,
-        "name": "Qìrei",
-        "realm": {
-          "name": {
-            "en_US": "pozzo-delleternità"
-          },
-          "slug": "pozzo-delleternità"
-        },
-        "rank": 4
-      }
-    ],
-    "legendMembers": [
-      {
-        "id": 167343299,
-        "name": "Shchoor",
-        "realm": {
-          "name": {
-            "en_US": "ravencrest"
-          },
-          "slug": "ravencrest"
-        },
-        "rank": 0
-      },
-      {
-        "id": 174390394,
-        "name": "Ebøbøla",
-        "realm": {
-          "name": {
-            "en_US": "ravencrest"
-          },
-          "slug": "ravencrest"
-        },
-        "rank": 1
-      },
-      {
-        "id": 185735645,
-        "name": "Ruins",
-        "realm": {
-          "name": {
-            "en_US": "executus"
-          },
-          "slug": "executus"
-        },
-        "rank": 2
-      },
-      {
-        "id": 81880719,
-        "name": "Fktp",
-        "realm": {
-          "name": {
-            "en_US": "ravencrest"
-          },
-          "slug": "ravencrest"
-        },
         "rank": 4
       },
       {
-        "id": 165496495,
-        "name": "Jankoy",
-        "realm": {
-          "name": {
-            "en_US": "silvermoon"
-          },
-          "slug": "silvermoon"
-        },
-        "rank": 4
-      },
-      {
-        "id": 174089224,
-        "name": "Dxls",
+        "id": 176075916,
+        "name": "Prejudiceww",
         "realm": {
           "name": {
             "en_US": "ravencrest"
@@ -356,8 +154,41 @@
         "rank": 4
       },
       {
-        "id": 206665882,
-        "name": "Sxyd",
+        "id": 186946695,
+        "name": "Jazzcore",
+        "realm": {
+          "name": {
+            "en_US": "twisting-nether"
+          },
+          "slug": "twisting-nether"
+        },
+        "rank": 4
+      },
+      {
+        "id": 187460893,
+        "name": "Jokemønk",
+        "realm": {
+          "name": {
+            "en_US": "tarren-mill"
+          },
+          "slug": "tarren-mill"
+        },
+        "rank": 4
+      },
+      {
+        "id": 195313175,
+        "name": "Hêtman",
+        "realm": {
+          "name": {
+            "en_US": "twisting-nether"
+          },
+          "slug": "twisting-nether"
+        },
+        "rank": 4
+      },
+      {
+        "id": 213724328,
+        "name": "Rîddîck",
         "realm": {
           "name": {
             "en_US": "silvermoon"
@@ -378,13 +209,57 @@
         "rank": 4
       },
       {
-        "id": 174820705,
-        "name": "Nevergodx",
+        "id": 223435216,
+        "name": "Nehidnyk",
         "realm": {
           "name": {
-            "en_US": "ravencrest"
+            "en_US": "silvermoon"
           },
-          "slug": "ravencrest"
+          "slug": "silvermoon"
+        },
+        "rank": 4
+      },
+      {
+        "id": 167496413,
+        "name": "Kohannia",
+        "realm": {
+          "name": {
+            "en_US": "stormscale"
+          },
+          "slug": "stormscale"
+        },
+        "rank": 5
+      },
+      {
+        "id": 185434574,
+        "name": "Hetmän",
+        "realm": {
+          "name": {
+            "en_US": "twisting-nether"
+          },
+          "slug": "twisting-nether"
+        },
+        "rank": 5
+      },
+      {
+        "id": 186648026,
+        "name": "Sëdy",
+        "realm": {
+          "name": {
+            "en_US": "argent-dawn"
+          },
+          "slug": "argent-dawn"
+        },
+        "rank": 5
+      },
+      {
+        "id": 188412296,
+        "name": "Miamalkovaxx",
+        "realm": {
+          "name": {
+            "en_US": "tarren-mill"
+          },
+          "slug": "tarren-mill"
         },
         "rank": 5
       },
@@ -400,8 +275,331 @@
         "rank": 5
       },
       {
+        "id": 188502273,
+        "name": "Vague",
+        "realm": {
+          "name": {
+            "en_US": "agamaggan"
+          },
+          "slug": "agamaggan"
+        },
+        "rank": 5
+      },
+      {
         "id": 216806606,
         "name": "Chidorixd",
+        "realm": {
+          "name": {
+            "en_US": "silvermoon"
+          },
+          "slug": "silvermoon"
+        },
+        "rank": 5
+      },
+      {
+        "id": 217038742,
+        "name": "Çhmö",
+        "realm": {
+          "name": {
+            "en_US": "silvermoon"
+          },
+          "slug": "silvermoon"
+        },
+        "rank": 5
+      },
+      {
+        "id": 223313413,
+        "name": "Mymedicine",
+        "realm": {
+          "name": {
+            "en_US": "silvermoon"
+          },
+          "slug": "silvermoon"
+        },
+        "rank": 5
+      }
+    ],
+    "rank1Members": [
+      {
+        "id": 175838075,
+        "name": "Shchoor",
+        "realm": {
+          "name": {
+            "en_US": "ravencrest"
+          },
+          "slug": "ravencrest"
+        },
+        "rank": 0
+      },
+      {
+        "id": 170120917,
+        "name": "Wrathlolz",
+        "realm": {
+          "name": {
+            "en_US": "ravencrest"
+          },
+          "slug": "ravencrest"
+        },
+        "rank": 1
+      },
+      {
+        "id": 171112349,
+        "name": "Qìrei",
+        "realm": {
+          "name": {
+            "en_US": "pozzo-delleternità"
+          },
+          "slug": "pozzo-delleternità"
+        },
+        "rank": 4
+      },
+      {
+        "id": 176075916,
+        "name": "Prejudiceww",
+        "realm": {
+          "name": {
+            "en_US": "ravencrest"
+          },
+          "slug": "ravencrest"
+        },
+        "rank": 4
+      }
+    ],
+    "legendMembers": [
+      {
+        "id": 175838075,
+        "name": "Shchoor",
+        "realm": {
+          "name": {
+            "en_US": "ravencrest"
+          },
+          "slug": "ravencrest"
+        },
+        "rank": 0
+      },
+      {
+        "id": 174390394,
+        "name": "Ebøbøla",
+        "realm": {
+          "name": {
+            "en_US": "ravencrest"
+          },
+          "slug": "ravencrest"
+        },
+        "rank": 1
+      },
+      {
+        "id": 165496495,
+        "name": "Jankoy",
+        "realm": {
+          "name": {
+            "en_US": "silvermoon"
+          },
+          "slug": "silvermoon"
+        },
+        "rank": 4
+      },
+      {
+        "id": 174089224,
+        "name": "Dxls",
+        "realm": {
+          "name": {
+            "en_US": "ravencrest"
+          },
+          "slug": "ravencrest"
+        },
+        "rank": 4
+      },
+      {
+        "id": 174946204,
+        "name": "Spamplague",
+        "realm": {
+          "name": {
+            "en_US": "stormscale"
+          },
+          "slug": "stormscale"
+        },
+        "rank": 4
+      },
+      {
+        "id": 176075916,
+        "name": "Prejudiceww",
+        "realm": {
+          "name": {
+            "en_US": "ravencrest"
+          },
+          "slug": "ravencrest"
+        },
+        "rank": 4
+      },
+      {
+        "id": 180548136,
+        "name": "Nencheeck",
+        "realm": {
+          "name": {
+            "en_US": "terokkar"
+          },
+          "slug": "terokkar"
+        },
+        "rank": 4
+      },
+      {
+        "id": 182292865,
+        "name": "Nickrosh",
+        "realm": {
+          "name": {
+            "en_US": "terokkar"
+          },
+          "slug": "terokkar"
+        },
+        "rank": 4
+      },
+      {
+        "id": 183908105,
+        "name": "Justice",
+        "realm": {
+          "name": {
+            "en_US": "twisting-nether"
+          },
+          "slug": "twisting-nether"
+        },
+        "rank": 4
+      },
+      {
+        "id": 186417999,
+        "name": "Millicáno",
+        "realm": {
+          "name": {
+            "en_US": "terokkar"
+          },
+          "slug": "terokkar"
+        },
+        "rank": 4
+      },
+      {
+        "id": 195313175,
+        "name": "Hêtman",
+        "realm": {
+          "name": {
+            "en_US": "twisting-nether"
+          },
+          "slug": "twisting-nether"
+        },
+        "rank": 4
+      },
+      {
+        "id": 206665882,
+        "name": "Sxyd",
+        "realm": {
+          "name": {
+            "en_US": "silvermoon"
+          },
+          "slug": "silvermoon"
+        },
+        "rank": 4
+      },
+      {
+        "id": 213724328,
+        "name": "Rîddîck",
+        "realm": {
+          "name": {
+            "en_US": "silvermoon"
+          },
+          "slug": "silvermoon"
+        },
+        "rank": 4
+      },
+      {
+        "id": 216487546,
+        "name": "Shàðøwrázé",
+        "realm": {
+          "name": {
+            "en_US": "kazzak"
+          },
+          "slug": "kazzak"
+        },
+        "rank": 4
+      },
+      {
+        "id": 223435216,
+        "name": "Nehidnyk",
+        "realm": {
+          "name": {
+            "en_US": "silvermoon"
+          },
+          "slug": "silvermoon"
+        },
+        "rank": 4
+      },
+      {
+        "id": 174820705,
+        "name": "Nevergodx",
+        "realm": {
+          "name": {
+            "en_US": "ravencrest"
+          },
+          "slug": "ravencrest"
+        },
+        "rank": 5
+      },
+      {
+        "id": 185434574,
+        "name": "Hetmän",
+        "realm": {
+          "name": {
+            "en_US": "twisting-nether"
+          },
+          "slug": "twisting-nether"
+        },
+        "rank": 5
+      },
+      {
+        "id": 186648026,
+        "name": "Sëdy",
+        "realm": {
+          "name": {
+            "en_US": "argent-dawn"
+          },
+          "slug": "argent-dawn"
+        },
+        "rank": 5
+      },
+      {
+        "id": 188455304,
+        "name": "Celoelestis",
+        "realm": {
+          "name": {
+            "en_US": "twisting-nether"
+          },
+          "slug": "twisting-nether"
+        },
+        "rank": 5
+      },
+      {
+        "id": 188502273,
+        "name": "Vague",
+        "realm": {
+          "name": {
+            "en_US": "agamaggan"
+          },
+          "slug": "agamaggan"
+        },
+        "rank": 5
+      },
+      {
+        "id": 216806606,
+        "name": "Chidorixd",
+        "realm": {
+          "name": {
+            "en_US": "silvermoon"
+          },
+          "slug": "silvermoon"
+        },
+        "rank": 5
+      },
+      {
+        "id": 223313413,
+        "name": "Mymedicine",
         "realm": {
           "name": {
             "en_US": "silvermoon"
@@ -413,7 +611,7 @@
     ],
     "strategistMembers": [
       {
-        "id": 167343299,
+        "id": 175838075,
         "name": "Shchoor",
         "realm": {
           "name": {
@@ -446,6 +644,17 @@
         "rank": 4
       },
       {
+        "id": 168895093,
+        "name": "Presacanario",
+        "realm": {
+          "name": {
+            "en_US": "ravencrest"
+          },
+          "slug": "ravencrest"
+        },
+        "rank": 4
+      },
+      {
         "id": 172877982,
         "name": "Nuclearjke",
         "realm": {
@@ -459,6 +668,17 @@
       {
         "id": 174089224,
         "name": "Dxls",
+        "realm": {
+          "name": {
+            "en_US": "ravencrest"
+          },
+          "slug": "ravencrest"
+        },
+        "rank": 4
+      },
+      {
+        "id": 176075916,
+        "name": "Prejudiceww",
         "realm": {
           "name": {
             "en_US": "ravencrest"
@@ -490,24 +710,24 @@
         "rank": 4
       },
       {
-        "id": 183860312,
-        "name": "Kengaraxs",
+        "id": 173421521,
+        "name": "Ladíslaus",
         "realm": {
           "name": {
-            "en_US": "tarren-mill"
+            "en_US": "ravencrest"
           },
-          "slug": "tarren-mill"
+          "slug": "ravencrest"
         },
         "rank": 5
       },
       {
-        "id": 186739655,
-        "name": "Moolgorian",
+        "id": 188465171,
+        "name": "Anderson",
         "realm": {
           "name": {
-            "en_US": "tarren-mill"
+            "en_US": "terokkar"
           },
-          "slug": "tarren-mill"
+          "slug": "terokkar"
         },
         "rank": 5
       },
@@ -523,10 +743,22 @@
         "rank": 5
       }
     ],
-    "blitzRank1Members": [],
+    "blitzRank1Members": [
+      {
+        "id": 176075916,
+        "name": "Prejudiceww",
+        "realm": {
+          "name": {
+            "en_US": "ravencrest"
+          },
+          "slug": "ravencrest"
+        },
+        "rank": 4
+      }
+    ],
     "soloRank1Members": [
       {
-        "id": 167343299,
+        "id": 175838075,
         "name": "Shchoor",
         "realm": {
           "name": {
@@ -535,17 +767,6 @@
           "slug": "ravencrest"
         },
         "rank": 0
-      },
-      {
-        "id": 185735645,
-        "name": "Ruins",
-        "realm": {
-          "name": {
-            "en_US": "executus"
-          },
-          "slug": "executus"
-        },
-        "rank": 2
       }
     ]
   }

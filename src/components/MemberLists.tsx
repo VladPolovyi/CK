@@ -1,5 +1,14 @@
 import Image from 'next/image'
 
+const CHECK_PVP_BASE = 'https://check-pvp.fr/eu'
+
+function checkPvpUrl(realmNameOrSlug: string, characterName: string): string {
+  // Check PvP expects realm with spaces (e.g. "twisting nether"), not slug ("twisting-nether")
+  const realm = (realmNameOrSlug || 'Ravencrest').replace(/-/g, ' ')
+  const name = characterName || ''
+  return `${CHECK_PVP_BASE}/${encodeURIComponent(realm)}/${encodeURIComponent(name)}`
+}
+
 interface Member {
   id: number
   name: string
@@ -25,158 +34,131 @@ interface MemberListsProps {
   }
 }
 
+function MemberRow({
+  m,
+  idx,
+  iconSrc,
+  iconAlt,
+  borderClass,
+  keySuffix,
+}: {
+  m: Member
+  idx: number
+  iconSrc: string
+  iconAlt: string
+  borderClass: string
+  keySuffix: string
+}) {
+  const realmDisplayName = m.realm?.name?.en_US ?? m.realm?.slug ?? 'Ravencrest'
+  const url = checkPvpUrl(realmDisplayName, m.name ?? '')
+  return (
+    <div
+      key={`${m.id ?? idx}-${keySuffix}`}
+      className={`flex items-center gap-3 py-2 px-3 rounded-md border ${borderClass} hover:opacity-90 transition-opacity`}
+    >
+      <Image src={iconSrc} alt={iconAlt} width={24} height={24} className="h-6 w-6 shrink-0" />
+      <div className="flex-1 min-w-0">
+        <span className="text-white font-medium">{m.name ?? 'Unknown'}</span>
+        <span className="text-gray-400 text-sm ml-1.5">· {realmDisplayName}</span>
+      </div>
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="shrink-0 text-sm font-medium px-3 py-1.5 rounded border border-current text-gray-300 hover:text-white hover:bg-white/10 transition-colors"
+      >
+        Check PvP
+      </a>
+    </div>
+  )
+}
+
 export default function MemberLists({ data }: MemberListsProps) {
   return (
-    <div className="py-12">
+    <div className="py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="space-y-8">
-          {/* R1 3v3 (live from roster) */}
-          <div className="blood-card rounded-lg p-6 hover:border-orange-400/50 hover:bg-orange-900/20 transition-all duration-200 border border-orange-500/30">
-            <div className="flex items-center mb-6">
+        <div className="space-y-6">
+          {/* R1 3v3 */}
+          <div className="blood-card rounded-lg p-4 border border-orange-500/30">
+            <div className="flex items-center mb-3">
               <Image src="/images/r1.webp" alt="Rank 1" width={24} height={24} className="h-6 w-6 mr-2" />
-              <h2 className="text-xl font-bold text-white">R1 3v3</h2>
+              <h2 className="text-lg font-bold text-white">R1 3v3</h2>
             </div>
-            <div className="space-y-4">
+            <div className="space-y-1.5">
               {data.members.rank1Members.map((m, idx) => (
-                <div key={`${m.id ?? idx}-r1`} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-orange-500/30 hover:border-orange-400/50 hover:bg-orange-900/20 transition-all duration-200">
-                  <Image src="/images/r1.webp" alt="Rank 1" width={32} height={32} className="h-8 w-8 mr-3" />
-                  <div className="flex-1">
-                    <div className="text-white font-bold">{m.name ?? 'Unknown'}</div>
-                    <div className="text-gray-300 text-sm">{m.realm?.name?.en_US ?? ''}</div>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-orange-400 text-sm font-medium">Rank {m.rank}</div>
-                  </div>
-                </div>
+                <MemberRow m={m} idx={idx} iconSrc="/images/r1.webp" iconAlt="Rank 1" borderClass="border-orange-500/30" keySuffix="r1" />
               ))}
-              {data.members.rank1Members.length === 0 && (
-                <div className="text-gray-400">No Rank 1 3v3 players found.</div>
-              )}
+              {data.members.rank1Members.length === 0 && <div className="text-gray-400 text-sm py-2">No Rank 1 3v3 players found.</div>}
             </div>
           </div>
 
-          {/* R1 Solo (live from roster) */}
-          <div className="blood-card rounded-lg p-6 hover:border-orange-400/50 hover:bg-orange-900/20 transition-all duration-200 border border-orange-500/30">
-            <div className="flex items-center mb-6">
+          {/* R1 Solo */}
+          <div className="blood-card rounded-lg p-4 border border-orange-500/30">
+            <div className="flex items-center mb-3">
               <Image src="/images/shuffle_r1.webp" alt="Solo Rank 1" width={24} height={24} className="h-6 w-6 mr-2" />
-              <h2 className="text-xl font-bold text-white">R1 Solo</h2>
+              <h2 className="text-lg font-bold text-white">R1 Solo</h2>
             </div>
-            <div className="space-y-4">
+            <div className="space-y-1.5">
               {data.members.soloRank1Members.map((m, idx) => (
-                <div key={`${m.id ?? idx}-solo`} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-orange-500/30 hover:border-orange-400/50 hover:bg-orange-900/20 transition-all duration-200">
-                  <Image src="/images/shuffle_r1.webp" alt="Solo Rank 1" width={32} height={32} className="h-8 w-8 mr-3" />
-                  <div className="flex-1">
-                    <div className="text-white font-bold">{m.name ?? 'Unknown'}</div>
-                    <div className="text-gray-300 text-sm">{m.realm?.name?.en_US ?? ''}</div>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-orange-400 text-sm font-medium">Rank {m.rank}</div>
-                  </div>
-                </div>
+                <MemberRow m={m} idx={idx} iconSrc="/images/shuffle_r1.webp" iconAlt="Solo Rank 1" borderClass="border-orange-500/30" keySuffix="solo" />
               ))}
-              {data.members.soloRank1Members.length === 0 && (
-                <div className="text-gray-400">No R1 Solo players found.</div>
-              )}
+              {data.members.soloRank1Members.length === 0 && <div className="text-gray-400 text-sm py-2">No R1 Solo players found.</div>}
             </div>
           </div>
 
-          {/* R1 Blitz (live from roster) */}
-          <div className="blood-card rounded-lg p-6 hover:border-green-400/50 hover:bg-green-900/20 transition-all duration-200 border border-green-500/30">
-            <div className="flex items-center mb-6">
+          {/* R1 Blitz */}
+          <div className="blood-card rounded-lg p-4 border border-green-500/30">
+            <div className="flex items-center mb-3">
               <Image src="/images/blitz_r1.webp" alt="Blitz Rank 1" width={24} height={24} className="h-6 w-6 mr-2" />
-              <h2 className="text-xl font-bold text-white">R1 Blitz</h2>
+              <h2 className="text-lg font-bold text-white">R1 Blitz</h2>
             </div>
-            <div className="space-y-4">
+            <div className="space-y-1.5">
               {data.members.blitzRank1Members.map((m, idx) => (
-                <div key={`${m.id ?? idx}-blitz`} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-green-500/30 hover:border-green-400/50 hover:bg-green-900/20 transition-all duration-200">
-                  <Image src="/images/blitz_r1.webp" alt="Blitz Rank 1" width={32} height={32} className="h-8 w-8 mr-3" />
-                  <div className="flex-1">
-                    <div className="text-white font-bold">{m.name ?? 'Unknown'}</div>
-                    <div className="text-gray-300 text-sm">{m.realm?.name?.en_US ?? ''}</div>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-green-400 text-sm font-medium">Rank {m.rank}</div>
-                  </div>
-                </div>
+                <MemberRow m={m} idx={idx} iconSrc="/images/blitz_r1.webp" iconAlt="Blitz Rank 1" borderClass="border-green-500/30" keySuffix="blitz" />
               ))}
-              {data.members.blitzRank1Members.length === 0 && (
-                <div className="text-gray-400">No R1 Blitz players found.</div>
-              )}
+              {data.members.blitzRank1Members.length === 0 && <div className="text-gray-400 text-sm py-2">No R1 Blitz players found.</div>}
             </div>
           </div>
 
-          {/* Gladiators (live from roster) */}
-          <div className="blood-card rounded-lg p-6 hover:border-purple-400/50 hover:bg-purple-900/20 transition-all duration-200 border border-purple-500/30">
-            <div className="flex items-center mb-6">
+          {/* Gladiators */}
+          <div className="blood-card rounded-lg p-4 border border-purple-500/30">
+            <div className="flex items-center mb-3">
               <Image src="/images/gladiator.webp" alt="Gladiator" width={24} height={24} className="h-6 w-6 mr-2" />
-              <h2 className="text-xl font-bold text-white">Gladiators</h2>
+              <h2 className="text-lg font-bold text-white">Gladiators</h2>
             </div>
-            <div className="space-y-4">
+            <div className="space-y-1.5">
               {data.members.gladiatorMembers.map((m, idx) => (
-                <div key={`${m.id ?? idx}-glad`} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-purple-500/30 hover:border-purple-400/50 hover:bg-purple-900/20 transition-all duration-200">
-                  <Image src="/images/gladiator.webp" alt="Gladiator" width={32} height={32} className="h-8 w-8 mr-3" />
-                  <div className="flex-1">
-                    <div className="text-white font-bold">{m.name ?? 'Unknown'}</div>
-                    <div className="text-gray-300 text-sm">{m.realm?.name?.en_US ?? ''}</div>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-purple-400 text-sm font-medium">Rank {m.rank}</div>
-                  </div>
-                </div>
+                <MemberRow m={m} idx={idx} iconSrc="/images/gladiator.webp" iconAlt="Gladiator" borderClass="border-purple-500/30" keySuffix="glad" />
               ))}
-              {data.members.gladiatorMembers.length === 0 && (
-                <div className="text-gray-400">No Gladiators found.</div>
-              )}
+              {data.members.gladiatorMembers.length === 0 && <div className="text-gray-400 text-sm py-2">No Gladiators found.</div>}
             </div>
           </div>
 
-          {/* Legends (live from roster) */}
-          <div className="blood-card rounded-lg p-6 hover:border-yellow-400/50 hover:bg-yellow-900/20 transition-all duration-200 border border-yellow-500/30">
-            <div className="flex items-center mb-6">
+          {/* Legends */}
+          <div className="blood-card rounded-lg p-4 border border-yellow-500/30">
+            <div className="flex items-center mb-3">
               <Image src="/images/legend.webp" alt="Legend" width={24} height={24} className="h-6 w-6 mr-2" />
-              <h2 className="text-xl font-bold text-white">Legends</h2>
+              <h2 className="text-lg font-bold text-white">Legends</h2>
             </div>
-            <div className="space-y-4">
+            <div className="space-y-1.5">
               {data.members.legendMembers.map((m, idx) => (
-                <div key={`${m.id ?? idx}-legend`} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-yellow-500/30 hover:border-yellow-400/50 hover:bg-yellow-900/20 transition-all duration-200">
-                  <Image src="/images/legend.webp" alt="Legend" width={32} height={32} className="h-8 w-8 mr-3" />
-                  <div className="flex-1">
-                    <div className="text-white font-bold">{m.name ?? 'Unknown'}</div>
-                    <div className="text-gray-300 text-sm">{m.realm?.name?.en_US ?? ''}</div>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-yellow-400 text-sm font-medium">Rank {m.rank}</div>
-                  </div>
-                </div>
+                <MemberRow m={m} idx={idx} iconSrc="/images/legend.webp" iconAlt="Legend" borderClass="border-yellow-500/30" keySuffix="legend" />
               ))}
-              {data.members.legendMembers.length === 0 && (
-                <div className="text-gray-400">No Legends found.</div>
-              )}
+              {data.members.legendMembers.length === 0 && <div className="text-gray-400 text-sm py-2">No Legends found.</div>}
             </div>
           </div>
 
-          {/* Strategists (live from roster) */}
-          <div className="blood-card rounded-lg p-6 hover:border-green-700/50 hover:bg-green-900/20 transition-all duration-200 border border-green-700/30">
-            <div className="flex items-center mb-6">
+          {/* Strategists */}
+          <div className="blood-card rounded-lg p-4 border border-green-700/30">
+            <div className="flex items-center mb-3">
               <Image src="/images/strategist.webp" alt="Strategist" width={24} height={24} className="h-6 w-6 mr-2" />
-              <h2 className="text-xl font-bold text-white">Strategists</h2>
+              <h2 className="text-lg font-bold text-white">Strategists</h2>
             </div>
-            <div className="space-y-4">
+            <div className="space-y-1.5">
               {data.members.strategistMembers.map((m, idx) => (
-                <div key={`${m.id ?? idx}-strat`} className="flex items-center p-4 bg-dark-gray/50 rounded-lg border border-green-700/30 hover:border-green-600/50 hover:bg-green-900/20 transition-all duration-200">
-                  <Image src="/images/strategist.webp" alt="Strategist" width={32} height={32} className="h-8 w-8 mr-3" />
-                  <div className="flex-1">
-                    <div className="text-white font-bold">{m.name ?? 'Unknown'}</div>
-                    <div className="text-gray-300 text-sm">{m.realm?.name?.en_US ?? ''}</div>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-green-600 text-sm font-medium">Rank {m.rank}</div>
-                  </div>
-                </div>
+                <MemberRow m={m} idx={idx} iconSrc="/images/strategist.webp" iconAlt="Strategist" borderClass="border-green-700/30" keySuffix="strat" />
               ))}
-              {data.members.strategistMembers.length === 0 && (
-                <div className="text-gray-400">No Strategists found.</div>
-              )}
+              {data.members.strategistMembers.length === 0 && <div className="text-gray-400 text-sm py-2">No Strategists found.</div>}
             </div>
           </div>
         </div>
