@@ -178,7 +178,7 @@ export default function MemberLists({ data }: MemberListsProps) {
             Complete overview of all PvP achievements earned by our guild members.
           </p>
         </div>
-        <div className="blood-card blood-card-no-hover rounded-lg border-0 p-0">
+        <div className="rounded-lg">
           <div className="space-y-2">
             {playersWithAchievements.length === 0 ? (
               <div className="text-gray-400 text-sm py-2">No players with PvP achievements found.</div>
@@ -196,24 +196,27 @@ export default function MemberLists({ data }: MemberListsProps) {
                       style={{ borderColor }}
                     >
                       <div className="min-w-0 col-start-1 row-start-1">
-                        <span
-                          className="font-medium text-base"
+                        <a
+                          href={url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="font-medium text-base hover:underline"
                           style={{ color: p.characterClass ? (WOW_CLASS_COLORS[p.characterClass] ?? '#9CA3AF') : '#FFFFFF' }}
                         >
                           {p.name ?? 'Unknown'}
-                        </span>
+                        </a>
                         <span className="text-gray-400"> · {realmDisplayName}</span>
                       </div>
                       <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 col-span-2 col-start-1 row-start-2 pt-2 md:pt-0 md:col-span-1 md:col-start-2 md:row-start-1">
                         <PlayerCounts player={p} />
                       </div>
-                      <div className="col-start-2 row-start-1 md:col-start-3 md:row-start-1 justify-self-end md:justify-self-auto">
+                      <div className="col-start-2 row-start-1 md:col-start-3 md:row-start-1 justify-self-end md:justify-self-auto hidden md:block">
                         <a
                           href={url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-base font-medium px-4 py-2 rounded border text-gray-300 hover:text-white hover:bg-white/10 transition-colors"
-                          style={{ borderColor }}
+                          className="text-base font-medium px-4 py-2 rounded border hover:text-white hover:bg-white/10 transition-colors"
+                          style={{ borderColor, color: borderColor }}
                         >
                           Check PvP
                         </a>

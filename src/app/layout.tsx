@@ -30,7 +30,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${eczar.variable} blood-gradient min-h-screen flex flex-col`}>
+      <body className={`${inter.className} ${eczar.variable} blood-gradient min-h-screen min-h-[100dvh] flex flex-col`}>
         <main className="flex-1">
           {children}
         </main>

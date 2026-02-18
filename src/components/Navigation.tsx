@@ -15,7 +15,7 @@ export default function Navigation() {
   return (
     <nav className="blood-nav fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="relative flex justify-between items-center h-20">
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
@@ -34,27 +34,23 @@ export default function Navigation() {
           </div>
           
           {/* Centered Logo */}
-          <div className="flex items-center justify-center flex-1 md:flex-none">
-            <Link href="/" className="blood-logo">
-              <div className="flex flex-col items-center">
-                <div className="mb-2">
-                  <Image 
-                    src="/images/logo_main.png" 
-                    alt="CBITAHOK KPOBI Logo" 
-                    width={120} 
-                    height={120} 
-                    priority
-                    quality={100}
-                    placeholder="blur"
-                    blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
-                    className="w-20 h-20 md:w-[100px] md:h-[100px]"
-                    style={{
-                      objectFit: 'contain',
-                      filter: 'drop-shadow(0 0 8px rgba(255, 0, 0, 0.5))'
-                    }}
-                  />
-                </div>
-              </div>
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center md:static md:translate-x-0 md:translate-y-0 md:flex-1">
+            <Link href="/" className="blood-logo flex items-center justify-center">
+              <Image 
+                src="/images/logo_main.png" 
+                alt="CBITAHOK KPOBI Logo" 
+                width={120} 
+                height={120} 
+                priority
+                quality={100}
+                placeholder="blur"
+                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+                className="w-20 h-20 md:w-[100px] md:h-[100px] block"
+                style={{
+                  objectFit: 'contain',
+                  filter: 'drop-shadow(0 0 8px rgba(255, 0, 0, 0.5))'
+                }}
+              />
             </Link>
           </div>
           
