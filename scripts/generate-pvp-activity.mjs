@@ -59,44 +59,6 @@ async function fetchCharacterProfile(realmSlug, characterName) {
 
     if (profileRes.ok) {
       const profileData = await profileRes.json()
-      console.log(`      ✅ Profile data fields for ${characterName}:`, Object.keys(profileData))
-      
-      // Log PvP summary data for investigation
-      if (characterName.toLowerCase() === 'shchoor') {
-        console.log(`      🔍 PvP Summary data for ${characterName}:`, profileData.pvp_summary)
-        console.log(`      📊 Statistics data for ${characterName}:`, profileData.statistics)
-        
-        // Fetch the actual PvP summary data
-        if (profileData.pvp_summary?.href) {
-          try {
-            const pvpSummaryRes = await fetch(profileData.pvp_summary.href, {
-              headers: { Authorization: `Bearer ${await getToken()}` }
-            })
-            if (pvpSummaryRes.ok) {
-              const pvpSummaryData = await pvpSummaryRes.json()
-              console.log(`      🎯 PvP Summary actual data:`, JSON.stringify(pvpSummaryData, null, 2))
-            }
-          } catch (error) {
-            console.log(`      ❌ Error fetching PvP summary:`, error.message)
-          }
-        }
-        
-        // Fetch the actual statistics data
-        if (profileData.statistics?.href) {
-          try {
-            const statsRes = await fetch(profileData.statistics.href, {
-              headers: { Authorization: `Bearer ${await getToken()}` }
-            })
-            if (statsRes.ok) {
-              const statsData = await statsRes.json()
-              console.log(`      📈 Statistics actual data:`, JSON.stringify(statsData, null, 2))
-            }
-          } catch (error) {
-            console.log(`      ❌ Error fetching statistics:`, error.message)
-          }
-        }
-      }
-      
       return {
         lastLoginTimestamp: profileData.last_login_timestamp || null,
         level: profileData.level || null,
@@ -107,20 +69,15 @@ async function fetchCharacterProfile(realmSlug, characterName) {
         pvpSummary: profileData.pvp_summary || null,
         statistics: profileData.statistics || null
       }
-    } else {
-      console.log(`      ⚠️ No profile data for ${characterName} (${profileRes.status})`)
-      return null
     }
-  } catch (error) {
-    console.log(`      ❌ Error fetching profile for ${characterName}:`, error.message)
+    return null
+  } catch {
     return null
   }
 }
 
 async function fetchCharacterPvPData(realmSlug, characterName) {
   try {
-    console.log(`    📊 Fetching PvP data for ${characterName}...`)
-    
     const characterData = {
       characterName,
       realmSlug,
@@ -178,13 +135,6 @@ async function fetchCharacterPvPData(realmSlug, characterName) {
 
         if (bracketRes.ok) {
           const bracketData = await bracketRes.json()
-          
-          // Log all available fields to see what timestamp data exists
-          if (characterName.toLowerCase() === 'shchoor') {
-            console.log(`      🔍 All fields in ${bracketKey} data for ${characterName}:`, Object.keys(bracketData))
-            console.log(`      📅 Full ${bracketKey} data:`, JSON.stringify(bracketData, null, 2))
-          }
-          
           const stats = {
             rating: bracketData.rating || 0,
             seasonWins: bracketData.season_match_statistics?.won || 0,
@@ -232,11 +182,9 @@ async function fetchCharacterPvPData(realmSlug, characterName) {
             characterData.totalStats.highestRating = stats.rating
             characterData.totalStats.highestBracket = bracketKey
           }
-        } else {
-          console.log(`      ⚠️ No ${bracketKey} data for ${characterName} (${bracketRes.status})`)
         }
-      } catch (error) {
-        console.log(`      ❌ Error fetching ${bracketKey} data for ${characterName}:`, error.message)
+      } catch {
+        // skip bracket
       }
     }
 
@@ -248,8 +196,7 @@ async function fetchCharacterPvPData(realmSlug, characterName) {
 
     return characterData.totalStats.totalGames > 0 ? characterData : null
 
-  } catch (error) {
-    console.log(`    ❌ Error fetching PvP data for ${characterName}:`, error.message)
+  } catch {
     return null
   }
 }
@@ -262,10 +209,6 @@ async function loadGuildMembers() {
     
     // Include all guild members from all servers
     const guildMembers = pvpTitlesData.items
-    
-    console.log(`📋 Found ${pvpTitlesData.rosterCount} total guild members`)
-    console.log(`🎯 Found ${guildMembers.length} guild members to process (all servers)`)
-    
     return {
       members: guildMembers,
       totalCount: pvpTitlesData.rosterCount
@@ -277,11 +220,6 @@ async function loadGuildMembers() {
 }
 
 async function main() {
-  console.log('🚀 Starting PvP activity data generation...')
-  console.log(`🌍 Region: ${REGION}`)
-  console.log(`🏰 Realm: ${REALM}`)
-  console.log(`⚔️ Guild: ${GUILD_NAME}`)
-  
   try {
     // Load guild members from existing data
     const { members: guildMembers, totalCount } = await loadGuildMembers()
@@ -289,7 +227,6 @@ async function main() {
     // Process all guild members with season filtering
     const membersToProcess = guildMembers
     
-    console.log(`🔥 Processing all ${membersToProcess.length} guild members`)
     
     // Process members in batches to respect rate limits
     const batchSize = 5
@@ -297,8 +234,6 @@ async function main() {
     
     for (let i = 0; i < membersToProcess.length; i += batchSize) {
       const batch = membersToProcess.slice(i, i + batchSize)
-      console.log(`\n📦 Processing batch ${Math.floor(i / batchSize) + 1}/${Math.ceil(membersToProcess.length / batchSize)}`)
-      
       const batchPromises = batch.map(member => 
         fetchCharacterPvPData(member.realmSlug, member.name)
       )
@@ -306,9 +241,7 @@ async function main() {
       const batchResults = await Promise.all(batchPromises)
       pvpDataResults.push(...batchResults)
       
-      // Delay between batches
       if (i + batchSize < membersToProcess.length) {
-        console.log('    ⏳ Waiting 2 seconds before next batch...')
         await new Promise(resolve => setTimeout(resolve, 2000))
       }
     }
@@ -353,16 +286,6 @@ async function main() {
             hasCurrentSeasonData = true
           }
         })
-      }
-      
-      if (!hasCurrentSeasonData) {
-        console.log(`      🚫 Filtering out ${member.characterName} (no current season ${CURRENT_SEASON} data)`)
-        // Debug: show what season data we have
-        if (member.brackets.arena2v2) console.log(`        - 2v2 season: ${member.brackets.arena2v2.season}`)
-        if (member.brackets.arena3v3) console.log(`        - 3v3 season: ${member.brackets.arena3v3.season}`)
-        if (member.brackets.rbg) console.log(`        - RBG season: ${member.brackets.rbg.season}`)
-      } else {
-        console.log(`      ✅ Including ${member.characterName} (has current season ${CURRENT_SEASON} data)`)
       }
       
       return hasCurrentSeasonData
@@ -452,11 +375,6 @@ async function main() {
       return filteredMember
     })
     
-    console.log(`\n✅ Successfully processed ${pvpMembers.length} members with PvP activity`)
-    console.log(`🔍 Filtered out ${filteredOutMembers} members (no current season ${CURRENT_SEASON} data)`)
-    console.log(`🎯 Final active members: ${seasonFilteredMembers.length}`)
-    console.log(`🔧 Filtered bracket data to Season ${CURRENT_SEASON} only`)
-    
     // Calculate guild-wide statistics
     const guildStats = {
       totalGames: seasonFilteredMembers.reduce((sum, member) => sum + member.totalStats.totalGames, 0),
@@ -502,17 +420,7 @@ async function main() {
     // Write to file
     const outputPath = 'src/data/generated/pvp-activity.json'
     await fs.writeFile(outputPath, JSON.stringify(pvpActivityData, null, 2))
-    
-    console.log(`\n📝 Generated PvP activity data:`)
-    console.log(`   📊 Total guild members: ${totalCount}`)
-    console.log(`   🎯 Processed members: ${membersToProcess.length}`)
-    console.log(`   ⚔️ Total PvP members: ${pvpMembers.length}`)
-    console.log(`   🔥 Active PvP members: ${seasonFilteredMembers.length}`)
-    console.log(`   🚫 Filtered out: ${filteredOutMembers} (no season ${CURRENT_SEASON} data)`)
-    console.log(`   🏆 Average rating: ${guildStats.averageRating}`)
-    console.log(`   🥇 Highest rated: ${guildStats.highestRatedMember?.characterName} (${guildStats.highestRatedMember?.totalStats.highestRating})`)
-    console.log(`   💾 Saved to: ${outputPath}`)
-    
+    console.log(`✅ PvP activity: ${seasonFilteredMembers.length} active → ${outputPath}`)
   } catch (error) {
     console.error('❌ Error generating PvP activity data:', error.message)
     process.exit(1)

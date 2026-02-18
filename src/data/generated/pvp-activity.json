@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-02-15T00:28:37.786Z",
+  "generatedAt": "2026-02-18T00:46:44.942Z",
   "guildName": "cbitahok-kpobi",
   "realmSlug": "ravencrest",
   "region": "eu",
-  "memberCount": 550,
-  "processedMembers": 550,
+  "memberCount": 552,
+  "processedMembers": 552,
   "totalPvPMembers": 417,
   "activePvPMembers": 319,
   "filteredOutMembers": 98,
   "currentSeason": 40,
   "guildStats": {
-    "totalGames": 94567,
-    "totalWins": 49843,
-    "totalLosses": 44724,
-    "averageRating": 1735,
+    "totalGames": 93388,
+    "totalWins": 49282,
+    "totalLosses": 44106,
+    "averageRating": 1736,
     "highestRatedMember": {
       "name": "Prejudiceww",
       "rating": 3434,
@@ -24,7 +24,7 @@
     {
       "characterName": "Prejudiceww",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:30.591Z",
+      "lastUpdated": "2026-02-18T00:42:39.235Z",
       "profile": {
         "lastLoginTimestamp": 1770843409000,
         "level": 80,
@@ -155,7 +155,7 @@
     {
       "characterName": "Rearplumbing",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:34.197Z",
+      "lastUpdated": "2026-02-18T00:42:42.702Z",
       "profile": {
         "lastLoginTimestamp": 1770812009000,
         "level": 80,
@@ -265,7 +265,7 @@
     {
       "characterName": "Shchoor",
       "realmSlug": "executus",
-      "lastUpdated": "2026-02-15T00:26:50.448Z",
+      "lastUpdated": "2026-02-18T00:44:56.239Z",
       "profile": {
         "lastLoginTimestamp": 1770802372000,
         "level": 80,
@@ -394,9 +394,9 @@
     {
       "characterName": "Shchoor",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:24.206Z",
+      "lastUpdated": "2026-02-18T00:42:32.934Z",
       "profile": {
-        "lastLoginTimestamp": 1771101279000,
+        "lastLoginTimestamp": 1771361370000,
         "level": 80,
         "characterClass": "Warrior",
         "race": "Gnome",
@@ -495,7 +495,7 @@
     {
       "characterName": "Rønièl",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:34.956Z",
+      "lastUpdated": "2026-02-18T00:40:44.506Z",
       "profile": {
         "lastLoginTimestamp": 1771023855000,
         "level": 80,
@@ -710,7 +710,7 @@
     {
       "characterName": "Felguârd",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:20.872Z",
+      "lastUpdated": "2026-02-18T00:42:29.688Z",
       "profile": {
         "lastLoginTimestamp": 1770802432000,
         "level": 80,
@@ -839,7 +839,7 @@
     {
       "characterName": "Indomítable",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:09.327Z",
+      "lastUpdated": "2026-02-18T00:43:16.940Z",
       "profile": {
         "lastLoginTimestamp": 1770802490000,
         "level": 80,
@@ -968,9 +968,9 @@
     {
       "characterName": "Jankoy",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:22:51.856Z",
+      "lastUpdated": "2026-02-18T00:41:01.472Z",
       "profile": {
-        "lastLoginTimestamp": 1771026868000,
+        "lastLoginTimestamp": 1771373746000,
         "level": 80,
         "characterClass": "Paladin",
         "race": "Human",
@@ -1099,14 +1099,14 @@
     {
       "characterName": "Dxls",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:46.628Z",
+      "lastUpdated": "2026-02-18T00:41:55.860Z",
       "profile": {
-        "lastLoginTimestamp": 1771097270000,
+        "lastLoginTimestamp": 1771363381000,
         "level": 80,
         "characterClass": "Warrior",
         "race": "Gnome",
         "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Arms",
+        "activeSpec": "Fury",
         "pvpSummary": {
           "href": "https://eu.api.blizzard.com/profile/wow/character/ravencrest/dxls/pvp-summary?namespace=profile-eu"
         },
@@ -1286,7 +1286,7 @@
     {
       "characterName": "Callmegoose",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:43.722Z",
+      "lastUpdated": "2026-02-18T00:44:52.909Z",
       "profile": {
         "lastLoginTimestamp": 1769006539000,
         "level": 80,
@@ -1445,7 +1445,7 @@
     {
       "characterName": "Hetmän",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2026-02-15T00:25:53.415Z",
+      "lastUpdated": "2026-02-18T00:43:59.801Z",
       "profile": {
         "lastLoginTimestamp": 1770907857000,
         "level": 80,
@@ -1602,7 +1602,7 @@
     {
       "characterName": "Ebøbøla",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:53.488Z",
+      "lastUpdated": "2026-02-18T00:42:02.439Z",
       "profile": {
         "lastLoginTimestamp": 1770227341000,
         "level": 80,
@@ -1703,7 +1703,7 @@
     {
       "characterName": "Nuclearjke",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:33.121Z",
+      "lastUpdated": "2026-02-18T00:41:42.527Z",
       "profile": {
         "lastLoginTimestamp": 1770397472000,
         "level": 80,
@@ -1834,7 +1834,7 @@
     {
       "characterName": "Shchoor",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:24:54.859Z",
+      "lastUpdated": "2026-02-18T00:43:02.702Z",
       "profile": {
         "lastLoginTimestamp": 1770802837000,
         "level": 80,
@@ -1905,9 +1905,9 @@
     {
       "characterName": "Attima",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:00.410Z",
+      "lastUpdated": "2026-02-18T00:42:09.368Z",
       "profile": {
-        "lastLoginTimestamp": 1770498490000,
+        "lastLoginTimestamp": 1771324971000,
         "level": 80,
         "characterClass": "Druid",
         "race": "Night Elf",
@@ -1933,7 +1933,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/4?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/4?namespace=static-12.0.1_65617-eu"
             },
             "id": 4
           },
@@ -1954,7 +1954,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/8?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/8?namespace=static-12.0.1_65617-eu"
             },
             "id": 8
           },
@@ -1976,13 +1976,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/388?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/388?namespace=static-12.0.1_65617-eu"
               },
               "id": 388
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/103?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/103?namespace=static-12.0.1_65617-eu"
               },
               "name": "Feral",
               "id": 103
@@ -2006,13 +2006,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/312?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/312?namespace=static-12.0.1_65617-eu"
               },
               "id": 312
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/103?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/103?namespace=static-12.0.1_65617-eu"
               },
               "name": "Feral",
               "id": 103
@@ -2036,9 +2036,9 @@
     {
       "characterName": "Äßcypð",
       "realmSlug": "blackhand",
-      "lastUpdated": "2026-02-15T00:24:10.667Z",
+      "lastUpdated": "2026-02-18T00:42:19.389Z",
       "profile": {
-        "lastLoginTimestamp": 1771082242000,
+        "lastLoginTimestamp": 1771344962000,
         "level": 80,
         "characterClass": "Priest",
         "race": "Undead",
@@ -2053,11 +2053,11 @@
       },
       "brackets": {
         "arena2v2": {
-          "rating": 2300,
+          "rating": 2287,
           "seasonWins": 103,
           "seasonLosses": 54,
           "weeklyWins": 0,
-          "weeklyLosses": 0,
+          "weeklyLosses": 1,
           "seasonRoundWins": 0,
           "seasonRoundLosses": 0,
           "weeklyRoundWins": 0,
@@ -2195,7 +2195,7 @@
     {
       "characterName": "Xiptodic",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:08.968Z",
+      "lastUpdated": "2026-02-18T00:41:18.633Z",
       "profile": {
         "lastLoginTimestamp": 1770076250000,
         "level": 80,
@@ -2326,9 +2326,9 @@
     {
       "characterName": "Jazzcore",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2026-02-15T00:26:17.160Z",
+      "lastUpdated": "2026-02-18T00:44:23.339Z",
       "profile": {
-        "lastLoginTimestamp": 1770852504000,
+        "lastLoginTimestamp": 1771357084000,
         "level": 80,
         "characterClass": "Shaman",
         "race": "Orc",
@@ -2343,11 +2343,11 @@
       },
       "brackets": {
         "arena2v2": {
-          "rating": 2232,
+          "rating": 2237,
           "seasonWins": 54,
           "seasonLosses": 19,
-          "weeklyWins": 0,
-          "weeklyLosses": 0,
+          "weeklyWins": 1,
+          "weeklyLosses": 3,
           "seasonRoundWins": 0,
           "seasonRoundLosses": 0,
           "weeklyRoundWins": 0,
@@ -2427,9 +2427,9 @@
     {
       "characterName": "Butthurtx",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:23:25.792Z",
+      "lastUpdated": "2026-02-18T00:41:35.425Z",
       "profile": {
-        "lastLoginTimestamp": 1771113907000,
+        "lastLoginTimestamp": 1771373750000,
         "level": 80,
         "characterClass": "Death Knight",
         "race": "Orc",
@@ -2444,20 +2444,20 @@
       },
       "brackets": {
         "arena2v2": {
-          "rating": 2207,
+          "rating": 2384,
           "seasonWins": 36,
           "seasonLosses": 15,
-          "weeklyWins": 0,
-          "weeklyLosses": 0,
+          "weeklyWins": 11,
+          "weeklyLosses": 9,
           "seasonRoundWins": 0,
           "seasonRoundLosses": 0,
           "weeklyRoundWins": 0,
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/5?namespace=static-12.0.1_65617-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/6?namespace=static-12.0.1_65617-eu"
             },
-            "id": 5
+            "id": 6
           },
           "season": 40,
           "lastUpdated": null,
@@ -2485,6 +2485,36 @@
           "seasonStart": null,
           "seasonEnd": null
         },
+        "soloBlitz": [
+          {
+            "rating": 0,
+            "seasonWins": 0,
+            "seasonLosses": 2,
+            "weeklyWins": 0,
+            "weeklyLosses": 0,
+            "seasonRoundWins": 0,
+            "seasonRoundLosses": 0,
+            "weeklyRoundWins": 0,
+            "weeklyRoundLosses": 0,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 383
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Unholy",
+              "id": 252
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          }
+        ],
         "soloShuffle": [
           {
             "rating": 192,
@@ -2542,36 +2572,6 @@
             "seasonStart": null,
             "seasonEnd": null
           }
-        ],
-        "soloBlitz": [
-          {
-            "rating": 0,
-            "seasonWins": 0,
-            "seasonLosses": 2,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 0,
-            "seasonRoundLosses": 0,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
-              },
-              "id": 383
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.1_65617-eu"
-              },
-              "name": "Unholy",
-              "id": 252
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          }
         ]
       },
       "totalStats": {
@@ -2586,7 +2586,7 @@
     {
       "characterName": "Ebõ",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:17.211Z",
+      "lastUpdated": "2026-02-18T00:42:22.736Z",
       "profile": {
         "lastLoginTimestamp": 1768336947000,
         "level": 80,
@@ -2687,9 +2687,9 @@
     {
       "characterName": "Dora",
       "realmSlug": "neptulon",
-      "lastUpdated": "2026-02-15T00:26:37.307Z",
+      "lastUpdated": "2026-02-18T00:44:43.018Z",
       "profile": {
-        "lastLoginTimestamp": 1770642058000,
+        "lastLoginTimestamp": 1771366950000,
         "level": 80,
         "characterClass": "Paladin",
         "race": "Human",
@@ -2715,7 +2715,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/1?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/1?namespace=static-12.0.1_65617-eu"
             },
             "id": 1
           },
@@ -2736,7 +2736,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/13?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/13?namespace=static-12.0.1_65617-eu"
             },
             "id": 13
           },
@@ -2758,13 +2758,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/303?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/303?namespace=static-12.0.1_65617-eu"
               },
               "id": 303
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/70?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/70?namespace=static-12.0.1_65617-eu"
               },
               "name": "Retribution",
               "id": 70
@@ -2788,13 +2788,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/388?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/388?namespace=static-12.0.1_65617-eu"
               },
               "id": 388
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/70?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/70?namespace=static-12.0.1_65617-eu"
               },
               "name": "Retribution",
               "id": 70
@@ -2818,9 +2818,9 @@
     {
       "characterName": "Nehidnyk",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:29.989Z",
+      "lastUpdated": "2026-02-18T00:46:34.293Z",
       "profile": {
-        "lastLoginTimestamp": 1770982791000,
+        "lastLoginTimestamp": 1771318048000,
         "level": 80,
         "characterClass": "Rogue",
         "race": "Night Elf",
@@ -2919,7 +2919,7 @@
     {
       "characterName": "Nenpa",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:27.454Z",
+      "lastUpdated": "2026-02-18T00:42:36.020Z",
       "profile": {
         "lastLoginTimestamp": 1770817346000,
         "level": 80,
@@ -3029,7 +3029,7 @@
     {
       "characterName": "Nickrosh",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:25:22.913Z",
+      "lastUpdated": "2026-02-18T00:43:29.889Z",
       "profile": {
         "lastLoginTimestamp": 1770987221000,
         "level": 80,
@@ -3216,9 +3216,9 @@
     {
       "characterName": "Befine",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:30.264Z",
+      "lastUpdated": "2026-02-18T00:43:36.588Z",
       "profile": {
-        "lastLoginTimestamp": 1771078633000,
+        "lastLoginTimestamp": 1771340081000,
         "level": 80,
         "characterClass": "Warlock",
         "race": "Dark Iron Dwarf",
@@ -3317,7 +3317,7 @@
     {
       "characterName": "Hêtman",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2026-02-15T00:27:09.874Z",
+      "lastUpdated": "2026-02-18T00:45:15.127Z",
       "profile": {
         "lastLoginTimestamp": 1770395098000,
         "level": 80,
@@ -3397,14 +3397,14 @@
     {
       "characterName": "Versaçe",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:34.196Z",
+      "lastUpdated": "2026-02-18T00:42:42.702Z",
       "profile": {
-        "lastLoginTimestamp": 1771001154000,
+        "lastLoginTimestamp": 1771364174000,
         "level": 80,
         "characterClass": "Priest",
         "race": "Blood Elf",
         "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Shadow",
+        "activeSpec": "Holy",
         "pvpSummary": {
           "href": "https://eu.api.blizzard.com/profile/wow/character/ravencrest/versa%C3%A7e/pvp-summary?namespace=profile-eu"
         },
@@ -3414,10 +3414,10 @@
       },
       "brackets": {
         "arena2v2": {
-          "rating": 2363,
+          "rating": 2371,
           "seasonWins": 56,
           "seasonLosses": 21,
-          "weeklyWins": 4,
+          "weeklyWins": 5,
           "weeklyLosses": 3,
           "seasonRoundWins": 0,
           "seasonRoundLosses": 0,
@@ -3435,11 +3435,11 @@
           "seasonEnd": null
         },
         "arena3v3": {
-          "rating": 2208,
+          "rating": 2202,
           "seasonWins": 111,
           "seasonLosses": 97,
-          "weeklyWins": 4,
-          "weeklyLosses": 2,
+          "weeklyWins": 13,
+          "weeklyLosses": 11,
           "seasonRoundWins": 0,
           "seasonRoundLosses": 0,
           "weeklyRoundWins": 0,
@@ -3524,121 +3524,11 @@
       }
     },
     {
-      "characterName": "Antisstress",
-      "realmSlug": "draenor",
-      "lastUpdated": "2026-02-15T00:25:19.364Z",
-      "profile": {
-        "lastLoginTimestamp": 1770898098000,
-        "level": 80,
-        "characterClass": "Shaman",
-        "race": "Dark Iron Dwarf",
-        "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Enhancement",
-        "pvpSummary": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/draenor/antisstress/pvp-summary?namespace=profile-eu"
-        },
-        "statistics": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/draenor/antisstress/statistics?namespace=profile-eu"
-        }
-      },
-      "brackets": {
-        "arena2v2": {
-          "rating": 2061,
-          "seasonWins": 86,
-          "seasonLosses": 81,
-          "weeklyWins": 0,
-          "weeklyLosses": 0,
-          "seasonRoundWins": 0,
-          "seasonRoundLosses": 0,
-          "weeklyRoundWins": 0,
-          "weeklyRoundLosses": 0,
-          "tier": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/208?namespace=static-12.0.1_65617-eu"
-            },
-            "id": 208
-          },
-          "season": 40,
-          "lastUpdated": null,
-          "seasonStart": null,
-          "seasonEnd": null
-        },
-        "soloBlitz": [
-          {
-            "rating": 859,
-            "seasonWins": 3,
-            "seasonLosses": 2,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 0,
-            "seasonRoundLosses": 0,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
-              },
-              "id": 383
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/263?namespace=static-12.0.1_65617-eu"
-              },
-              "name": "Enhancement",
-              "id": 263
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          }
-        ],
-        "soloShuffle": [
-          {
-            "rating": 2550,
-            "seasonWins": 295,
-            "seasonLosses": 10,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 907,
-            "seasonRoundLosses": 882,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/303?namespace=static-12.0.1_65617-eu"
-              },
-              "id": 303
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/263?namespace=static-12.0.1_65617-eu"
-              },
-              "name": "Enhancement",
-              "id": 263
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          }
-        ]
-      },
-      "totalStats": {
-        "totalWins": 996,
-        "totalLosses": 965,
-        "totalGames": 1961,
-        "winRate": 50.790413054564,
-        "highestRating": 2550,
-        "highestBracket": "shuffle-enhancement"
-      }
-    },
-    {
       "characterName": "Äßcypð",
       "realmSlug": "blackmoore",
-      "lastUpdated": "2026-02-15T00:25:22.914Z",
+      "lastUpdated": "2026-02-18T00:43:33.420Z",
       "profile": {
-        "lastLoginTimestamp": 1771081672000,
+        "lastLoginTimestamp": 1771344048000,
         "level": 80,
         "characterClass": "Shaman",
         "race": "Orc",
@@ -3765,7 +3655,7 @@
     {
       "characterName": "Scottlark",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:34.418Z",
+      "lastUpdated": "2026-02-18T00:45:42.515Z",
       "profile": {
         "lastLoginTimestamp": 1770716318000,
         "level": 80,
@@ -3866,7 +3756,7 @@
     {
       "characterName": "Yamakasi",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:47.069Z",
+      "lastUpdated": "2026-02-18T00:44:52.910Z",
       "profile": {
         "lastLoginTimestamp": 1764013303000,
         "level": 80,
@@ -3983,7 +3873,7 @@
     {
       "characterName": "Odetosleep",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:43.423Z",
+      "lastUpdated": "2026-02-18T00:41:52.629Z",
       "profile": {
         "lastLoginTimestamp": 1770397496000,
         "level": 80,
@@ -4114,9 +4004,9 @@
     {
       "characterName": "Sxyw",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:24:51.603Z",
+      "lastUpdated": "2026-02-18T00:42:59.379Z",
       "profile": {
-        "lastLoginTimestamp": 1771079901000,
+        "lastLoginTimestamp": 1771341961000,
         "level": 80,
         "characterClass": "Warlock",
         "race": "Orc",
@@ -4172,36 +4062,6 @@
           "seasonStart": null,
           "seasonEnd": null
         },
-        "soloBlitz": [
-          {
-            "rating": 288,
-            "seasonWins": 1,
-            "seasonLosses": 0,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 0,
-            "seasonRoundLosses": 0,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
-              },
-              "id": 383
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/266?namespace=static-12.0.1_65617-eu"
-              },
-              "name": "Demonology",
-              "id": 266
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          }
-        ],
         "soloShuffle": [
           {
             "rating": 2525,
@@ -4231,6 +4091,36 @@
             "seasonStart": null,
             "seasonEnd": null
           }
+        ],
+        "soloBlitz": [
+          {
+            "rating": 288,
+            "seasonWins": 1,
+            "seasonLosses": 0,
+            "weeklyWins": 0,
+            "weeklyLosses": 0,
+            "seasonRoundWins": 0,
+            "seasonRoundLosses": 0,
+            "weeklyRoundWins": 0,
+            "weeklyRoundLosses": 0,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 383
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/266?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Demonology",
+              "id": 266
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          }
         ]
       },
       "totalStats": {
@@ -4245,9 +4135,9 @@
     {
       "characterName": "Ladíslaus",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:36.942Z",
+      "lastUpdated": "2026-02-18T00:41:42.527Z",
       "profile": {
-        "lastLoginTimestamp": 1770933614000,
+        "lastLoginTimestamp": 1771317600000,
         "level": 80,
         "characterClass": "Paladin",
         "race": "Human",
@@ -4376,7 +4266,7 @@
     {
       "characterName": "Shádowpaw",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:30.327Z",
+      "lastUpdated": "2026-02-18T00:44:36.502Z",
       "profile": {
         "lastLoginTimestamp": 1767126256000,
         "level": 80,
@@ -4507,9 +4397,9 @@
     {
       "characterName": "Røttenøath",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:20.871Z",
+      "lastUpdated": "2026-02-18T00:42:29.688Z",
       "profile": {
-        "lastLoginTimestamp": 1771077380000,
+        "lastLoginTimestamp": 1771330046000,
         "level": 80,
         "characterClass": "Death Knight",
         "race": "Orc",
@@ -4638,7 +4528,7 @@
     {
       "characterName": "Jumpscaré",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:26:13.833Z",
+      "lastUpdated": "2026-02-18T00:44:20.077Z",
       "profile": {
         "lastLoginTimestamp": 1770392948000,
         "level": 80,
@@ -4709,7 +4599,7 @@
     {
       "characterName": "Ebôbôlajun",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:05.632Z",
+      "lastUpdated": "2026-02-18T00:41:15.358Z",
       "profile": {
         "lastLoginTimestamp": 1766510250000,
         "level": 80,
@@ -4810,7 +4700,7 @@
     {
       "characterName": "Nencheeck",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:25:05.646Z",
+      "lastUpdated": "2026-02-18T00:43:16.939Z",
       "profile": {
         "lastLoginTimestamp": 1770817694000,
         "level": 80,
@@ -4969,7 +4859,7 @@
     {
       "characterName": "Lilnen",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:25:22.914Z",
+      "lastUpdated": "2026-02-18T00:43:29.889Z",
       "profile": {
         "lastLoginTimestamp": 1770820564000,
         "level": 80,
@@ -5098,7 +4988,7 @@
     {
       "characterName": "Soulflare",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:53.489Z",
+      "lastUpdated": "2026-02-18T00:42:05.891Z",
       "profile": {
         "lastLoginTimestamp": 1768687468000,
         "level": 80,
@@ -5197,9 +5087,119 @@
       }
     },
     {
+      "characterName": "Antisstress",
+      "realmSlug": "draenor",
+      "lastUpdated": "2026-02-18T00:43:26.674Z",
+      "profile": {
+        "lastLoginTimestamp": 1771275170000,
+        "level": 80,
+        "characterClass": "Shaman",
+        "race": "Dark Iron Dwarf",
+        "guild": "CBITAHOK KPOBI",
+        "activeSpec": "Enhancement",
+        "pvpSummary": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/draenor/antisstress/pvp-summary?namespace=profile-eu"
+        },
+        "statistics": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/draenor/antisstress/statistics?namespace=profile-eu"
+        }
+      },
+      "brackets": {
+        "arena2v2": {
+          "rating": 2061,
+          "seasonWins": 86,
+          "seasonLosses": 81,
+          "weeklyWins": 0,
+          "weeklyLosses": 0,
+          "seasonRoundWins": 0,
+          "seasonRoundLosses": 0,
+          "weeklyRoundWins": 0,
+          "weeklyRoundLosses": 0,
+          "tier": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/208?namespace=static-12.0.1_65617-eu"
+            },
+            "id": 208
+          },
+          "season": 40,
+          "lastUpdated": null,
+          "seasonStart": null,
+          "seasonEnd": null
+        },
+        "soloBlitz": [
+          {
+            "rating": 859,
+            "seasonWins": 3,
+            "seasonLosses": 2,
+            "weeklyWins": 0,
+            "weeklyLosses": 0,
+            "seasonRoundWins": 0,
+            "seasonRoundLosses": 0,
+            "weeklyRoundWins": 0,
+            "weeklyRoundLosses": 0,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 383
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/263?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Enhancement",
+              "id": 263
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          }
+        ],
+        "soloShuffle": [
+          {
+            "rating": 2486,
+            "seasonWins": 295,
+            "seasonLosses": 10,
+            "weeklyWins": 4,
+            "weeklyLosses": 0,
+            "seasonRoundWins": 907,
+            "seasonRoundLosses": 882,
+            "weeklyRoundWins": 9,
+            "weeklyRoundLosses": 15,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/303?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 303
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/263?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Enhancement",
+              "id": 263
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          }
+        ]
+      },
+      "totalStats": {
+        "totalWins": 996,
+        "totalLosses": 965,
+        "totalGames": 1961,
+        "winRate": 50.790413054564,
+        "highestRating": 2486,
+        "highestBracket": "shuffle-enhancement"
+      }
+    },
+    {
       "characterName": "Anthëm",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:15.704Z",
+      "lastUpdated": "2026-02-18T00:41:28.687Z",
       "profile": {
         "lastLoginTimestamp": 1770400420000,
         "level": 80,
@@ -5309,7 +5309,7 @@
     {
       "characterName": "Worstinwørld",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:27:00.444Z",
+      "lastUpdated": "2026-02-18T00:45:09.082Z",
       "profile": {
         "lastLoginTimestamp": 1769609409000,
         "level": 80,
@@ -5410,7 +5410,7 @@
     {
       "characterName": "Worstinworld",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:26:53.773Z",
+      "lastUpdated": "2026-02-18T00:44:59.456Z",
       "profile": {
         "lastLoginTimestamp": 1769267748000,
         "level": 80,
@@ -5511,7 +5511,7 @@
     {
       "characterName": "Rîddîck",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:30.827Z",
+      "lastUpdated": "2026-02-18T00:45:35.433Z",
       "profile": {
         "lastLoginTimestamp": 1771068590000,
         "level": 80,
@@ -5698,7 +5698,7 @@
     {
       "characterName": "Nuclearjke",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:24:58.351Z",
+      "lastUpdated": "2026-02-18T00:43:06.146Z",
       "profile": {
         "lastLoginTimestamp": 1770397443000,
         "level": 80,
@@ -5829,7 +5829,7 @@
     {
       "characterName": "Kaisu",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:24:51.603Z",
+      "lastUpdated": "2026-02-18T00:43:02.702Z",
       "profile": {
         "lastLoginTimestamp": 1769078810000,
         "level": 80,
@@ -5958,7 +5958,7 @@
     {
       "characterName": "Sëdy",
       "realmSlug": "argent-dawn",
-      "lastUpdated": "2026-02-15T00:26:10.486Z",
+      "lastUpdated": "2026-02-18T00:44:16.753Z",
       "profile": {
         "lastLoginTimestamp": 1764608712000,
         "level": 80,
@@ -6087,7 +6087,7 @@
     {
       "characterName": "Notkas",
       "realmSlug": "doomhammer",
-      "lastUpdated": "2026-02-15T00:26:23.808Z",
+      "lastUpdated": "2026-02-18T00:44:33.345Z",
       "profile": {
         "lastLoginTimestamp": 1769635492000,
         "level": 80,
@@ -6216,9 +6216,9 @@
     {
       "characterName": "Prysmerti",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:24:27.454Z",
+      "lastUpdated": "2026-02-18T00:42:36.021Z",
       "profile": {
-        "lastLoginTimestamp": 1770945908000,
+        "lastLoginTimestamp": 1771370596000,
         "level": 80,
         "characterClass": "Death Knight",
         "race": "Highmountain Tauren",
@@ -6276,15 +6276,15 @@
         },
         "soloShuffle": [
           {
-            "rating": 1992,
+            "rating": 2062,
             "seasonWins": 8,
             "seasonLosses": 0,
-            "weeklyWins": 0,
+            "weeklyWins": 1,
             "weeklyLosses": 0,
             "seasonRoundWins": 33,
             "seasonRoundLosses": 14,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
+            "weeklyRoundWins": 3,
+            "weeklyRoundLosses": 3,
             "tier": {
               "key": {
                 "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/305?namespace=static-12.0.1_65617-eu"
@@ -6315,9 +6315,175 @@
       }
     },
     {
+      "characterName": "Gluffy",
+      "realmSlug": "terokkar",
+      "lastUpdated": "2026-02-18T00:43:56.166Z",
+      "profile": {
+        "lastLoginTimestamp": 1771371469000,
+        "level": 80,
+        "characterClass": "Rogue",
+        "race": "Blood Elf",
+        "guild": "CBITAHOK KPOBI",
+        "activeSpec": "Subtlety",
+        "pvpSummary": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/terokkar/gluffy/pvp-summary?namespace=profile-eu"
+        },
+        "statistics": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/terokkar/gluffy/statistics?namespace=profile-eu"
+        }
+      },
+      "brackets": {
+        "arena2v2": {
+          "rating": 672,
+          "seasonWins": 0,
+          "seasonLosses": 1,
+          "weeklyWins": 0,
+          "weeklyLosses": 0,
+          "seasonRoundWins": 0,
+          "seasonRoundLosses": 0,
+          "weeklyRoundWins": 0,
+          "weeklyRoundLosses": 0,
+          "tier": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/1?namespace=static-12.0.1_65617-eu"
+            },
+            "id": 1
+          },
+          "season": 40,
+          "lastUpdated": null,
+          "seasonStart": null,
+          "seasonEnd": null
+        },
+        "soloShuffle": [
+          {
+            "rating": 1900,
+            "seasonWins": 14,
+            "seasonLosses": 1,
+            "weeklyWins": 0,
+            "weeklyLosses": 0,
+            "seasonRoundWins": 50,
+            "seasonRoundLosses": 40,
+            "weeklyRoundWins": 0,
+            "weeklyRoundLosses": 0,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 306
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/260?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Outlaw",
+              "id": 260
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          },
+          {
+            "rating": 2436,
+            "seasonWins": 85,
+            "seasonLosses": 2,
+            "weeklyWins": 2,
+            "weeklyLosses": 0,
+            "seasonRoundWins": 255,
+            "seasonRoundLosses": 250,
+            "weeklyRoundWins": 7,
+            "weeklyRoundLosses": 5,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/303?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 303
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/261?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Subtlety",
+              "id": 261
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          },
+          {
+            "rating": 1433,
+            "seasonWins": 5,
+            "seasonLosses": 1,
+            "weeklyWins": 0,
+            "weeklyLosses": 0,
+            "seasonRoundWins": 15,
+            "seasonRoundLosses": 21,
+            "weeklyRoundWins": 0,
+            "weeklyRoundLosses": 0,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/309?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 309
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/259?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Assassination",
+              "id": 259
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          }
+        ],
+        "soloBlitz": [
+          {
+            "rating": 2121,
+            "seasonWins": 53,
+            "seasonLosses": 60,
+            "weeklyWins": 1,
+            "weeklyLosses": 3,
+            "seasonRoundWins": 0,
+            "seasonRoundLosses": 0,
+            "weeklyRoundWins": 0,
+            "weeklyRoundLosses": 0,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/389?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 389
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/261?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Subtlety",
+              "id": 261
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          }
+        ]
+      },
+      "totalStats": {
+        "totalWins": 373,
+        "totalLosses": 372,
+        "totalGames": 745,
+        "winRate": 50.06711409395973,
+        "highestRating": 2436,
+        "highestBracket": "shuffle-subtlety"
+      }
+    },
+    {
       "characterName": "Rìddìck",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:30.827Z",
+      "lastUpdated": "2026-02-18T00:45:39.111Z",
       "profile": {
         "lastLoginTimestamp": 1770394302000,
         "level": 80,
@@ -6418,9 +6584,9 @@
     {
       "characterName": "Wy",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:25:26.458Z",
+      "lastUpdated": "2026-02-18T00:43:33.420Z",
       "profile": {
-        "lastLoginTimestamp": 1771110359000,
+        "lastLoginTimestamp": 1771198326000,
         "level": 80,
         "characterClass": "Monk",
         "race": "Human",
@@ -6519,9 +6685,9 @@
     {
       "characterName": "Spamplague",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:24:06.993Z",
+      "lastUpdated": "2026-02-18T00:42:15.833Z",
       "profile": {
-        "lastLoginTimestamp": 1771018998000,
+        "lastLoginTimestamp": 1771350096000,
         "level": 80,
         "characterClass": "Priest",
         "race": "Night Elf",
@@ -6706,7 +6872,7 @@
     {
       "characterName": "Jøkeshaman",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:26:30.326Z",
+      "lastUpdated": "2026-02-18T00:44:39.688Z",
       "profile": {
         "lastLoginTimestamp": 1769437885000,
         "level": 80,
@@ -6807,7 +6973,7 @@
     {
       "characterName": "Mojoroot",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2026-02-15T00:26:50.449Z",
+      "lastUpdated": "2026-02-18T00:44:59.456Z",
       "profile": {
         "lastLoginTimestamp": 1770395446000,
         "level": 80,
@@ -6887,7 +7053,7 @@
     {
       "characterName": "Hormoneed",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:03.725Z",
+      "lastUpdated": "2026-02-18T00:46:07.619Z",
       "profile": {
         "lastLoginTimestamp": 1771011608000,
         "level": 80,
@@ -7025,7 +7191,7 @@
     {
       "characterName": "Yolokas",
       "realmSlug": "doomhammer",
-      "lastUpdated": "2026-02-15T00:23:12.254Z",
+      "lastUpdated": "2026-02-18T00:41:21.889Z",
       "profile": {
         "lastLoginTimestamp": 1769108788000,
         "level": 80,
@@ -7184,7 +7350,7 @@
     {
       "characterName": "Jokemønk",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:26:30.326Z",
+      "lastUpdated": "2026-02-18T00:44:36.502Z",
       "profile": {
         "lastLoginTimestamp": 1769267800000,
         "level": 80,
@@ -7313,7 +7479,7 @@
     {
       "characterName": "Satanhound",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:22:51.857Z",
+      "lastUpdated": "2026-02-18T00:41:04.945Z",
       "profile": {
         "lastLoginTimestamp": 1770848928000,
         "level": 80,
@@ -7444,7 +7610,7 @@
     {
       "characterName": "Rîddíck",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:16.125Z",
+      "lastUpdated": "2026-02-18T00:43:23.470Z",
       "profile": {
         "lastLoginTimestamp": 1770455205000,
         "level": 80,
@@ -7524,9 +7690,9 @@
     {
       "characterName": "Psiblades",
       "realmSlug": "kazzak",
-      "lastUpdated": "2026-02-15T00:27:09.875Z",
+      "lastUpdated": "2026-02-18T00:45:18.295Z",
       "profile": {
-        "lastLoginTimestamp": 1771019059000,
+        "lastLoginTimestamp": 1771241264000,
         "level": 80,
         "characterClass": "Rogue",
         "race": "Orc",
@@ -7655,7 +7821,7 @@
     {
       "characterName": "Rìddìckx",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:44.389Z",
+      "lastUpdated": "2026-02-18T00:45:51.974Z",
       "profile": {
         "lastLoginTimestamp": 1770394261000,
         "level": 80,
@@ -7756,9 +7922,9 @@
     {
       "characterName": "Áßcypð",
       "realmSlug": "blackmoore",
-      "lastUpdated": "2026-02-15T00:25:02.283Z",
+      "lastUpdated": "2026-02-18T00:43:10.054Z",
       "profile": {
-        "lastLoginTimestamp": 1771082068000,
+        "lastLoginTimestamp": 1771339805000,
         "level": 80,
         "characterClass": "Evoker",
         "race": "Dracthyr",
@@ -7915,7 +8081,7 @@
     {
       "characterName": "Rîddîckx",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:34.417Z",
+      "lastUpdated": "2026-02-18T00:45:39.111Z",
       "profile": {
         "lastLoginTimestamp": 1770394155000,
         "level": 80,
@@ -8016,7 +8182,7 @@
     {
       "characterName": "Kaisuro",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:57.019Z",
+      "lastUpdated": "2026-02-18T00:46:04.249Z",
       "profile": {
         "lastLoginTimestamp": 1769031514000,
         "level": 80,
@@ -8173,175 +8339,9 @@
       }
     },
     {
-      "characterName": "Gluffy",
-      "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:25:49.841Z",
-      "profile": {
-        "lastLoginTimestamp": 1770930937000,
-        "level": 80,
-        "characterClass": "Rogue",
-        "race": "Blood Elf",
-        "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Subtlety",
-        "pvpSummary": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/terokkar/gluffy/pvp-summary?namespace=profile-eu"
-        },
-        "statistics": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/terokkar/gluffy/statistics?namespace=profile-eu"
-        }
-      },
-      "brackets": {
-        "arena2v2": {
-          "rating": 672,
-          "seasonWins": 0,
-          "seasonLosses": 1,
-          "weeklyWins": 0,
-          "weeklyLosses": 0,
-          "seasonRoundWins": 0,
-          "seasonRoundLosses": 0,
-          "weeklyRoundWins": 0,
-          "weeklyRoundLosses": 0,
-          "tier": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/1?namespace=static-12.0.1_65617-eu"
-            },
-            "id": 1
-          },
-          "season": 40,
-          "lastUpdated": null,
-          "seasonStart": null,
-          "seasonEnd": null
-        },
-        "soloShuffle": [
-          {
-            "rating": 1900,
-            "seasonWins": 14,
-            "seasonLosses": 1,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 50,
-            "seasonRoundLosses": 40,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.1_65617-eu"
-              },
-              "id": 306
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/260?namespace=static-12.0.1_65617-eu"
-              },
-              "name": "Outlaw",
-              "id": 260
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          },
-          {
-            "rating": 2402,
-            "seasonWins": 85,
-            "seasonLosses": 2,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 255,
-            "seasonRoundLosses": 250,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/303?namespace=static-12.0.1_65617-eu"
-              },
-              "id": 303
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/261?namespace=static-12.0.1_65617-eu"
-              },
-              "name": "Subtlety",
-              "id": 261
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          },
-          {
-            "rating": 1433,
-            "seasonWins": 5,
-            "seasonLosses": 1,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 15,
-            "seasonRoundLosses": 21,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/309?namespace=static-12.0.1_65617-eu"
-              },
-              "id": 309
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/259?namespace=static-12.0.1_65617-eu"
-              },
-              "name": "Assassination",
-              "id": 259
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          }
-        ],
-        "soloBlitz": [
-          {
-            "rating": 2115,
-            "seasonWins": 53,
-            "seasonLosses": 60,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 0,
-            "seasonRoundLosses": 0,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/389?namespace=static-12.0.1_65617-eu"
-              },
-              "id": 389
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/261?namespace=static-12.0.1_65617-eu"
-              },
-              "name": "Subtlety",
-              "id": 261
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          }
-        ]
-      },
-      "totalStats": {
-        "totalWins": 373,
-        "totalLosses": 372,
-        "totalGames": 745,
-        "winRate": 50.06711409395973,
-        "highestRating": 2402,
-        "highestBracket": "shuffle-subtlety"
-      }
-    },
-    {
       "characterName": "Untrust",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:47.070Z",
+      "lastUpdated": "2026-02-18T00:44:56.239Z",
       "profile": {
         "lastLoginTimestamp": 1769360008000,
         "level": 80,
@@ -8449,7 +8449,7 @@
     {
       "characterName": "Wrathfùl",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:18.945Z",
+      "lastUpdated": "2026-02-18T00:41:25.433Z",
       "profile": {
         "lastLoginTimestamp": 1770400367000,
         "level": 80,
@@ -8580,7 +8580,7 @@
     {
       "characterName": "Provider",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:56.844Z",
+      "lastUpdated": "2026-02-18T00:42:05.891Z",
       "profile": {
         "lastLoginTimestamp": 1770397612000,
         "level": 80,
@@ -8767,7 +8767,7 @@
     {
       "characterName": "Anthém",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:22.476Z",
+      "lastUpdated": "2026-02-18T00:41:32.149Z",
       "profile": {
         "lastLoginTimestamp": 1770452013000,
         "level": 80,
@@ -8868,9 +8868,9 @@
     {
       "characterName": "Spamrot",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:22:38.735Z",
+      "lastUpdated": "2026-02-18T00:40:48.205Z",
       "profile": {
-        "lastLoginTimestamp": 1770998025000,
+        "lastLoginTimestamp": 1771259417000,
         "level": 80,
         "characterClass": "Warlock",
         "race": "Orc",
@@ -8997,9 +8997,9 @@
     {
       "characterName": "Yrpin",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:20.572Z",
+      "lastUpdated": "2026-02-18T00:45:28.666Z",
       "profile": {
-        "lastLoginTimestamp": 1770917453000,
+        "lastLoginTimestamp": 1771367310000,
         "level": 80,
         "characterClass": "Death Knight",
         "race": "Lightforged Draenei",
@@ -9098,7 +9098,7 @@
     {
       "characterName": "Luminthera",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:12.254Z",
+      "lastUpdated": "2026-02-18T00:41:21.888Z",
       "profile": {
         "lastLoginTimestamp": 1771108517000,
         "level": 80,
@@ -9199,7 +9199,7 @@
     {
       "characterName": "Oleski",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:18.946Z",
+      "lastUpdated": "2026-02-18T00:41:28.688Z",
       "profile": {
         "lastLoginTimestamp": 1770929003000,
         "level": 80,
@@ -9386,9 +9386,9 @@
     {
       "characterName": "Bigrât",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:24.206Z",
+      "lastUpdated": "2026-02-18T00:42:32.934Z",
       "profile": {
-        "lastLoginTimestamp": 1770802537000,
+        "lastLoginTimestamp": 1771187432000,
         "level": 80,
         "characterClass": "Warrior",
         "race": "Highmountain Tauren",
@@ -9466,7 +9466,7 @@
     {
       "characterName": "Wrathful",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:25:30.264Z",
+      "lastUpdated": "2026-02-18T00:43:36.588Z",
       "profile": {
         "lastLoginTimestamp": 1770400452000,
         "level": 80,
@@ -9546,7 +9546,7 @@
     {
       "characterName": "Natrixx",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:24:44.638Z",
+      "lastUpdated": "2026-02-18T00:42:52.645Z",
       "profile": {
         "lastLoginTimestamp": 1766581899000,
         "level": 80,
@@ -9733,9 +9733,9 @@
     {
       "characterName": "Cløwnxêxêxd",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:23:25.792Z",
+      "lastUpdated": "2026-02-18T00:41:35.425Z",
       "profile": {
-        "lastLoginTimestamp": 1770406575000,
+        "lastLoginTimestamp": 1771275026000,
         "level": 80,
         "characterClass": "Death Knight",
         "race": "Human",
@@ -9761,7 +9761,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/3?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/3?namespace=static-12.0.1_65617-eu"
             },
             "id": 3
           },
@@ -9782,7 +9782,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/13?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/13?namespace=static-12.0.1_65617-eu"
             },
             "id": 13
           },
@@ -9804,13 +9804,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.1_65617-eu"
               },
               "id": 306
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.1_65617-eu"
               },
               "name": "Unholy",
               "id": 252
@@ -9834,7 +9834,7 @@
     {
       "characterName": "Nodispel",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2026-02-15T00:26:34.026Z",
+      "lastUpdated": "2026-02-18T00:44:39.688Z",
       "profile": {
         "lastLoginTimestamp": 1769638896000,
         "level": 80,
@@ -9935,7 +9935,7 @@
     {
       "characterName": "Paizulord",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:24:30.590Z",
+      "lastUpdated": "2026-02-18T00:42:39.234Z",
       "profile": {
         "lastLoginTimestamp": 1770843527000,
         "level": 80,
@@ -10036,7 +10036,7 @@
     {
       "characterName": "Darado",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:34.417Z",
+      "lastUpdated": "2026-02-18T00:45:42.515Z",
       "profile": {
         "lastLoginTimestamp": 1762022967000,
         "level": 80,
@@ -10167,7 +10167,7 @@
     {
       "characterName": "Dobrotron",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:05.645Z",
+      "lastUpdated": "2026-02-18T00:43:13.380Z",
       "profile": {
         "lastLoginTimestamp": 1769634754000,
         "level": 80,
@@ -10354,7 +10354,7 @@
     {
       "characterName": "Félrat",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:41.999Z",
+      "lastUpdated": "2026-02-18T00:40:51.472Z",
       "profile": {
         "lastLoginTimestamp": 1770392784000,
         "level": 80,
@@ -10455,7 +10455,7 @@
     {
       "characterName": "Endlessly",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:24:58.351Z",
+      "lastUpdated": "2026-02-18T00:43:06.146Z",
       "profile": {
         "lastLoginTimestamp": 1770397558000,
         "level": 80,
@@ -10556,7 +10556,7 @@
     {
       "characterName": "Enakin",
       "realmSlug": "kazzak",
-      "lastUpdated": "2026-02-15T00:28:00.460Z",
+      "lastUpdated": "2026-02-18T00:46:04.249Z",
       "profile": {
         "lastLoginTimestamp": 1769704191000,
         "level": 80,
@@ -10664,7 +10664,7 @@
     {
       "characterName": "Schízo",
       "realmSlug": "argent-dawn",
-      "lastUpdated": "2026-02-15T00:26:34.027Z",
+      "lastUpdated": "2026-02-18T00:44:39.688Z",
       "profile": {
         "lastLoginTimestamp": 1770392840000,
         "level": 80,
@@ -10795,7 +10795,7 @@
     {
       "characterName": "Easyques",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:40.141Z",
+      "lastUpdated": "2026-02-18T00:41:49.439Z",
       "profile": {
         "lastLoginTimestamp": 1764493951000,
         "level": 80,
@@ -10875,7 +10875,7 @@
     {
       "characterName": "Bedrat",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:48.408Z",
+      "lastUpdated": "2026-02-18T00:40:57.912Z",
       "profile": {
         "lastLoginTimestamp": 1770844187000,
         "level": 80,
@@ -10976,7 +10976,7 @@
     {
       "characterName": "Lapendarus",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:41.999Z",
+      "lastUpdated": "2026-02-18T00:40:51.472Z",
       "profile": {
         "lastLoginTimestamp": 1769963502000,
         "level": 80,
@@ -11086,7 +11086,7 @@
     {
       "characterName": "Kaspr",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:16.125Z",
+      "lastUpdated": "2026-02-18T00:43:26.674Z",
       "profile": {
         "lastLoginTimestamp": 1768070696000,
         "level": 80,
@@ -11215,7 +11215,7 @@
     {
       "characterName": "Easyrogue",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:56.844Z",
+      "lastUpdated": "2026-02-18T00:42:05.891Z",
       "profile": {
         "lastLoginTimestamp": 1764825497000,
         "level": 80,
@@ -11295,7 +11295,7 @@
     {
       "characterName": "Albukerke",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:17.160Z",
+      "lastUpdated": "2026-02-18T00:44:26.622Z",
       "profile": {
         "lastLoginTimestamp": 1770161918000,
         "level": 80,
@@ -11396,7 +11396,7 @@
     {
       "characterName": "Kárnáge",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:23:36.943Z",
+      "lastUpdated": "2026-02-18T00:41:46.339Z",
       "profile": {
         "lastLoginTimestamp": 1768993593000,
         "level": 80,
@@ -11497,9 +11497,9 @@
     {
       "characterName": "Ny",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:47.069Z",
+      "lastUpdated": "2026-02-18T00:44:52.910Z",
       "profile": {
-        "lastLoginTimestamp": 1770928576000,
+        "lastLoginTimestamp": 1771182559000,
         "level": 80,
         "characterClass": "Shaman",
         "race": "Orc",
@@ -11626,7 +11626,7 @@
     {
       "characterName": "Vague",
       "realmSlug": "agamaggan",
-      "lastUpdated": "2026-02-15T00:26:53.773Z",
+      "lastUpdated": "2026-02-18T00:45:02.690Z",
       "profile": {
         "lastLoginTimestamp": 1769806547000,
         "level": 80,
@@ -11757,7 +11757,7 @@
     {
       "characterName": "Lexús",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:36.943Z",
+      "lastUpdated": "2026-02-18T00:41:49.438Z",
       "profile": {
         "lastLoginTimestamp": 1768777565000,
         "level": 80,
@@ -11828,7 +11828,7 @@
     {
       "characterName": "Ricardokaka",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:47.423Z",
+      "lastUpdated": "2026-02-18T00:45:55.059Z",
       "profile": {
         "lastLoginTimestamp": 1770394968000,
         "level": 80,
@@ -11929,7 +11929,7 @@
     {
       "characterName": "Losecontrol",
       "realmSlug": "doomhammer",
-      "lastUpdated": "2026-02-15T00:23:43.422Z",
+      "lastUpdated": "2026-02-18T00:41:52.629Z",
       "profile": {
         "lastLoginTimestamp": 1769038163000,
         "level": 80,
@@ -12030,7 +12030,7 @@
     {
       "characterName": "Sencha",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:27.301Z",
+      "lastUpdated": "2026-02-18T00:45:35.432Z",
       "profile": {
         "lastLoginTimestamp": 1768133594000,
         "level": 80,
@@ -12131,7 +12131,7 @@
     {
       "characterName": "Jkpurge",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2026-02-15T00:25:37.183Z",
+      "lastUpdated": "2026-02-18T00:43:43.990Z",
       "profile": {
         "lastLoginTimestamp": 1766186095000,
         "level": 80,
@@ -12202,9 +12202,9 @@
     {
       "characterName": "Satanhøund",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:24:17.212Z",
+      "lastUpdated": "2026-02-18T00:42:26.016Z",
       "profile": {
-        "lastLoginTimestamp": 1770763823000,
+        "lastLoginTimestamp": 1771162368000,
         "level": 80,
         "characterClass": "Death Knight",
         "race": "Orc",
@@ -12222,7 +12222,7 @@
           "rating": 1056,
           "seasonWins": 10,
           "seasonLosses": 0,
-          "weeklyWins": 1,
+          "weeklyWins": 0,
           "weeklyLosses": 0,
           "seasonRoundWins": 0,
           "seasonRoundLosses": 0,
@@ -12230,7 +12230,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/2?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/2?namespace=static-12.0.1_65617-eu"
             },
             "id": 2
           },
@@ -12243,15 +12243,15 @@
           "rating": 2179,
           "seasonWins": 52,
           "seasonLosses": 31,
-          "weeklyWins": 26,
-          "weeklyLosses": 19,
+          "weeklyWins": 0,
+          "weeklyLosses": 0,
           "seasonRoundWins": 0,
           "seasonRoundLosses": 0,
           "weeklyRoundWins": 0,
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/13?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/13?namespace=static-12.0.1_65617-eu"
             },
             "id": 13
           },
@@ -12273,13 +12273,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.1_65617-eu"
               },
               "id": 306
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.1_65617-eu"
               },
               "name": "Unholy",
               "id": 252
@@ -12303,7 +12303,7 @@
     {
       "characterName": "Strahovydlo",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:17.160Z",
+      "lastUpdated": "2026-02-18T00:44:26.622Z",
       "profile": {
         "lastLoginTimestamp": 1769041629000,
         "level": 80,
@@ -12455,9 +12455,9 @@
     {
       "characterName": "Mimto",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:33.662Z",
+      "lastUpdated": "2026-02-18T00:43:40.386Z",
       "profile": {
-        "lastLoginTimestamp": 1770920809000,
+        "lastLoginTimestamp": 1771183890000,
         "level": 80,
         "characterClass": "Mage",
         "race": "Gnome",
@@ -12612,7 +12612,7 @@
     {
       "characterName": "Satanloveme",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:22:27.766Z",
+      "lastUpdated": "2026-02-18T00:40:37.733Z",
       "profile": {
         "lastLoginTimestamp": 1770406852000,
         "level": 80,
@@ -12743,7 +12743,7 @@
     {
       "characterName": "Perelesnyk",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:29.322Z",
+      "lastUpdated": "2026-02-18T00:41:38.897Z",
       "profile": {
         "lastLoginTimestamp": 1770392873000,
         "level": 80,
@@ -12814,7 +12814,7 @@
     {
       "characterName": "Voodoonerd",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2026-02-15T00:26:23.808Z",
+      "lastUpdated": "2026-02-18T00:44:33.345Z",
       "profile": {
         "lastLoginTimestamp": 1761514239000,
         "level": 80,
@@ -12915,7 +12915,7 @@
     {
       "characterName": "Celoelestis",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2026-02-15T00:26:53.773Z",
+      "lastUpdated": "2026-02-18T00:44:59.456Z",
       "profile": {
         "lastLoginTimestamp": 1770395486000,
         "level": 80,
@@ -12995,7 +12995,7 @@
     {
       "characterName": "Sâint",
       "realmSlug": "kazzak",
-      "lastUpdated": "2026-02-15T00:22:31.647Z",
+      "lastUpdated": "2026-02-18T00:40:41.299Z",
       "profile": {
         "lastLoginTimestamp": 1766000149000,
         "level": 80,
@@ -13105,7 +13105,7 @@
     {
       "characterName": "Bombsaway",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:22:48.408Z",
+      "lastUpdated": "2026-02-18T00:40:57.912Z",
       "profile": {
         "lastLoginTimestamp": 1769957394000,
         "level": 80,
@@ -13215,7 +13215,7 @@
     {
       "characterName": "Illidarí",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:02.564Z",
+      "lastUpdated": "2026-02-18T00:41:12.284Z",
       "profile": {
         "lastLoginTimestamp": 1769710346000,
         "level": 80,
@@ -13316,7 +13316,7 @@
     {
       "characterName": "Portaway",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2026-02-15T00:27:06.797Z",
+      "lastUpdated": "2026-02-18T00:45:12.061Z",
       "profile": {
         "lastLoginTimestamp": 1766185775000,
         "level": 80,
@@ -13417,7 +13417,7 @@
     {
       "characterName": "Desplyth",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:40.141Z",
+      "lastUpdated": "2026-02-18T00:41:52.629Z",
       "profile": {
         "lastLoginTimestamp": 1769896651000,
         "level": 80,
@@ -13548,7 +13548,7 @@
     {
       "characterName": "Shotyx",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:26:03.906Z",
+      "lastUpdated": "2026-02-18T00:44:10.334Z",
       "profile": {
         "lastLoginTimestamp": 1770311190000,
         "level": 80,
@@ -13679,7 +13679,7 @@
     {
       "characterName": "Lacomba",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:43.722Z",
+      "lastUpdated": "2026-02-18T00:44:49.706Z",
       "profile": {
         "lastLoginTimestamp": 1760742327000,
         "level": 80,
@@ -13789,7 +13789,7 @@
     {
       "characterName": "Syaivo",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:20.571Z",
+      "lastUpdated": "2026-02-18T00:45:25.273Z",
       "profile": {
         "lastLoginTimestamp": 1769370467000,
         "level": 80,
@@ -13888,9 +13888,98 @@
       }
     },
     {
+      "characterName": "Skeeva",
+      "realmSlug": "tarren-mill",
+      "lastUpdated": "2026-02-18T00:46:40.563Z",
+      "profile": {
+        "lastLoginTimestamp": 1771359978000,
+        "level": 80,
+        "characterClass": "Shaman",
+        "race": "Orc",
+        "guild": "CBITAHOK KPOBI",
+        "activeSpec": "Restoration",
+        "pvpSummary": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/tarren-mill/skeeva/pvp-summary?namespace=profile-eu"
+        },
+        "statistics": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/tarren-mill/skeeva/statistics?namespace=profile-eu"
+        }
+      },
+      "brackets": {
+        "soloShuffle": [
+          {
+            "rating": 2139,
+            "seasonWins": 37,
+            "seasonLosses": 0,
+            "weeklyWins": 2,
+            "weeklyLosses": 0,
+            "seasonRoundWins": 109,
+            "seasonRoundLosses": 110,
+            "weeklyRoundWins": 6,
+            "weeklyRoundLosses": 5,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/304?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 304
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/264?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Restoration",
+              "id": 264
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          }
+        ],
+        "soloBlitz": [
+          {
+            "rating": 1434,
+            "seasonWins": 5,
+            "seasonLosses": 4,
+            "weeklyWins": 0,
+            "weeklyLosses": 0,
+            "seasonRoundWins": 0,
+            "seasonRoundLosses": 0,
+            "weeklyRoundWins": 0,
+            "weeklyRoundLosses": 0,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/386?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 386
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/264?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Restoration",
+              "id": 264
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          }
+        ]
+      },
+      "totalStats": {
+        "totalWins": 114,
+        "totalLosses": 114,
+        "totalGames": 228,
+        "winRate": 50,
+        "highestRating": 2139,
+        "highestBracket": "shuffle-restoration"
+      }
+    },
+    {
       "characterName": "Alicebadtrip",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:02.565Z",
+      "lastUpdated": "2026-02-18T00:41:12.284Z",
       "profile": {
         "lastLoginTimestamp": 1768862121000,
         "level": 80,
@@ -13991,7 +14080,7 @@
     {
       "characterName": "Nevergodx",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:03.731Z",
+      "lastUpdated": "2026-02-18T00:42:12.565Z",
       "profile": {
         "lastLoginTimestamp": 1762686336000,
         "level": 80,
@@ -14120,7 +14209,7 @@
     {
       "characterName": "Remolacha",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:23.807Z",
+      "lastUpdated": "2026-02-18T00:44:30.023Z",
       "profile": {
         "lastLoginTimestamp": 1768860359000,
         "level": 80,
@@ -14300,7 +14389,7 @@
     {
       "characterName": "Hollypøwer",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:00.407Z",
+      "lastUpdated": "2026-02-18T00:44:10.333Z",
       "profile": {
         "lastLoginTimestamp": 1762979873000,
         "level": 80,
@@ -14401,7 +14490,7 @@
     {
       "characterName": "Millicáno",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:07.388Z",
+      "lastUpdated": "2026-02-18T00:44:16.753Z",
       "profile": {
         "lastLoginTimestamp": 1766782417000,
         "level": 80,
@@ -14451,7 +14540,7 @@
     {
       "characterName": "Wrathy",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:10.667Z",
+      "lastUpdated": "2026-02-18T00:42:19.389Z",
       "profile": {
         "lastLoginTimestamp": 1764790113000,
         "level": 80,
@@ -14531,7 +14620,7 @@
     {
       "characterName": "Lifed",
       "realmSlug": "kazzak",
-      "lastUpdated": "2026-02-15T00:22:34.955Z",
+      "lastUpdated": "2026-02-18T00:40:44.506Z",
       "profile": {
         "lastLoginTimestamp": 1760179011000,
         "level": 80,
@@ -14632,7 +14721,7 @@
     {
       "characterName": "Olesky",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:34.197Z",
+      "lastUpdated": "2026-02-18T00:42:45.908Z",
       "profile": {
         "lastLoginTimestamp": 1770503115000,
         "level": 80,
@@ -14770,7 +14859,7 @@
     {
       "characterName": "Miamalkovaxx",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:26:50.448Z",
+      "lastUpdated": "2026-02-18T00:44:56.239Z",
       "profile": {
         "lastLoginTimestamp": 1769090169000,
         "level": 80,
@@ -14871,7 +14960,7 @@
     {
       "characterName": "Euphòrie",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:15.703Z",
+      "lastUpdated": "2026-02-18T00:41:25.433Z",
       "profile": {
         "lastLoginTimestamp": 1768750159000,
         "level": 80,
@@ -14942,7 +15031,7 @@
     {
       "characterName": "Riddicheg",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:12.673Z",
+      "lastUpdated": "2026-02-18T00:43:23.470Z",
       "profile": {
         "lastLoginTimestamp": 1770455240000,
         "level": 80,
@@ -15001,7 +15090,7 @@
     {
       "characterName": "Alphalushpak",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:53.488Z",
+      "lastUpdated": "2026-02-18T00:42:02.439Z",
       "profile": {
         "lastLoginTimestamp": 1769086430000,
         "level": 80,
@@ -15139,7 +15228,7 @@
     {
       "characterName": "Kaisury",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:24:54.859Z",
+      "lastUpdated": "2026-02-18T00:43:02.702Z",
       "profile": {
         "lastLoginTimestamp": 1769081261000,
         "level": 80,
@@ -15268,7 +15357,7 @@
     {
       "characterName": "Rïddïck",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:12.673Z",
+      "lastUpdated": "2026-02-18T00:43:20.228Z",
       "profile": {
         "lastLoginTimestamp": 1770455314000,
         "level": 80,
@@ -15369,7 +15458,7 @@
     {
       "characterName": "Sokyra",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:50.543Z",
+      "lastUpdated": "2026-02-18T00:45:58.097Z",
       "profile": {
         "lastLoginTimestamp": 1768593697000,
         "level": 80,
@@ -15521,9 +15610,9 @@
     {
       "characterName": "Kós",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:32.942Z",
+      "lastUpdated": "2026-02-18T00:46:37.414Z",
       "profile": {
-        "lastLoginTimestamp": 1771027001000,
+        "lastLoginTimestamp": 1771196047000,
         "level": 80,
         "characterClass": "Warrior",
         "race": "Highmountain Tauren",
@@ -15652,7 +15741,7 @@
     {
       "characterName": "Djay",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:23:43.422Z",
+      "lastUpdated": "2026-02-18T00:41:49.439Z",
       "profile": {
         "lastLoginTimestamp": 1760639976000,
         "level": 80,
@@ -15753,7 +15842,7 @@
     {
       "characterName": "Sfor",
       "realmSlug": "doomhammer",
-      "lastUpdated": "2026-02-15T00:22:31.646Z",
+      "lastUpdated": "2026-02-18T00:40:41.298Z",
       "profile": {
         "lastLoginTimestamp": 1769454483000,
         "level": 80,
@@ -15882,7 +15971,7 @@
     {
       "characterName": "Wrathfuki",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:25.791Z",
+      "lastUpdated": "2026-02-18T00:41:32.149Z",
       "profile": {
         "lastLoginTimestamp": 1770451925000,
         "level": 80,
@@ -15971,9 +16060,9 @@
     {
       "characterName": "Shâdöw",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:24:40.457Z",
+      "lastUpdated": "2026-02-18T00:42:49.273Z",
       "profile": {
-        "lastLoginTimestamp": 1770921151000,
+        "lastLoginTimestamp": 1771356181000,
         "level": 80,
         "characterClass": "Priest",
         "race": "Undead",
@@ -16009,20 +16098,20 @@
           "seasonEnd": null
         },
         "arena3v3": {
-          "rating": 672,
+          "rating": 1572,
           "seasonWins": 7,
           "seasonLosses": 0,
-          "weeklyWins": 0,
-          "weeklyLosses": 0,
+          "weeklyWins": 11,
+          "weeklyLosses": 9,
           "seasonRoundWins": 0,
           "seasonRoundLosses": 0,
           "weeklyRoundWins": 0,
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/8?namespace=static-12.0.1_65617-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/11?namespace=static-12.0.1_65617-eu"
             },
-            "id": 8
+            "id": 11
           },
           "season": 40,
           "lastUpdated": null,
@@ -16031,20 +16120,20 @@
         },
         "soloShuffle": [
           {
-            "rating": 1809,
+            "rating": 2048,
             "seasonWins": 8,
             "seasonLosses": 0,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
+            "weeklyWins": 3,
+            "weeklyLosses": 1,
             "seasonRoundWins": 27,
             "seasonRoundLosses": 19,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
+            "weeklyRoundWins": 11,
+            "weeklyRoundLosses": 13,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.1_65617-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/305?namespace=static-12.0.1_65617-eu"
               },
-              "id": 306
+              "id": 305
             },
             "specialization": {
               "key": {
@@ -16130,9 +16219,9 @@
     {
       "characterName": "Untrust",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:40.141Z",
+      "lastUpdated": "2026-02-18T00:41:49.439Z",
       "profile": {
-        "lastLoginTimestamp": 1769987549000,
+        "lastLoginTimestamp": 1771191363000,
         "level": 80,
         "characterClass": "Monk",
         "race": "Orc",
@@ -16158,7 +16247,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/208?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/208?namespace=static-12.0.1_65617-eu"
             },
             "id": 208
           },
@@ -16179,7 +16268,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/9?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/9?namespace=static-12.0.1_65617-eu"
             },
             "id": 9
           },
@@ -16201,13 +16290,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/305?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/305?namespace=static-12.0.1_65617-eu"
               },
               "id": 305
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/269?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/269?namespace=static-12.0.1_65617-eu"
               },
               "name": "Windwalker",
               "id": 269
@@ -16231,7 +16320,7 @@
     {
       "characterName": "Skymønkey",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:26:40.496Z",
+      "lastUpdated": "2026-02-18T00:44:46.517Z",
       "profile": {
         "lastLoginTimestamp": 1766228737000,
         "level": 80,
@@ -16362,9 +16451,9 @@
     {
       "characterName": "Hannikohl",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:22:59.080Z",
+      "lastUpdated": "2026-02-18T00:41:08.819Z",
       "profile": {
-        "lastLoginTimestamp": 1770989511000,
+        "lastLoginTimestamp": 1771281779000,
         "level": 80,
         "characterClass": "Paladin",
         "race": "Human",
@@ -16521,7 +16610,7 @@
     {
       "characterName": "Anderson",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:53.773Z",
+      "lastUpdated": "2026-02-18T00:44:59.456Z",
       "profile": {
         "lastLoginTimestamp": 1764849443000,
         "level": 80,
@@ -16610,7 +16699,7 @@
     {
       "characterName": "Presacanario",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:05.632Z",
+      "lastUpdated": "2026-02-18T00:41:15.358Z",
       "profile": {
         "lastLoginTimestamp": 1769042920000,
         "level": 80,
@@ -16741,7 +16830,7 @@
     {
       "characterName": "Nickrosh",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:24:54.858Z",
+      "lastUpdated": "2026-02-18T00:42:59.379Z",
       "profile": {
         "lastLoginTimestamp": 1770463256000,
         "level": 80,
@@ -16900,7 +16989,7 @@
     {
       "characterName": "Wrathlolz",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:12.254Z",
+      "lastUpdated": "2026-02-18T00:41:21.889Z",
       "profile": {
         "lastLoginTimestamp": 1770755407000,
         "level": 80,
@@ -17038,7 +17127,7 @@
     {
       "characterName": "Nenbl",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:24:48.335Z",
+      "lastUpdated": "2026-02-18T00:42:56.126Z",
       "profile": {
         "lastLoginTimestamp": 1759132070000,
         "level": 80,
@@ -17167,9 +17256,9 @@
     {
       "characterName": "Rögnär",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:27.455Z",
+      "lastUpdated": "2026-02-18T00:42:36.021Z",
       "profile": {
-        "lastLoginTimestamp": 1770905942000,
+        "lastLoginTimestamp": 1771312935000,
         "level": 80,
         "characterClass": "Death Knight",
         "race": "Human",
@@ -17256,7 +17345,7 @@
     {
       "characterName": "Hirøshima",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:22:34.956Z",
+      "lastUpdated": "2026-02-18T00:40:44.506Z",
       "profile": {
         "lastLoginTimestamp": 1770407015000,
         "level": 80,
@@ -17387,7 +17476,7 @@
     {
       "characterName": "Amorfia",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:27.751Z",
+      "lastUpdated": "2026-02-18T00:40:37.717Z",
       "profile": {
         "lastLoginTimestamp": 1769307274000,
         "level": 80,
@@ -17444,9 +17533,110 @@
       }
     },
     {
+      "characterName": "Meido",
+      "realmSlug": "stormscale",
+      "lastUpdated": "2026-02-18T00:42:42.701Z",
+      "profile": {
+        "lastLoginTimestamp": 1771271219000,
+        "level": 80,
+        "characterClass": "Death Knight",
+        "race": "Nightborne",
+        "guild": "CBITAHOK KPOBI",
+        "activeSpec": "Unholy",
+        "pvpSummary": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/stormscale/meido/pvp-summary?namespace=profile-eu"
+        },
+        "statistics": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/stormscale/meido/statistics?namespace=profile-eu"
+        }
+      },
+      "brackets": {
+        "arena2v2": {
+          "rating": 672,
+          "seasonWins": 7,
+          "seasonLosses": 0,
+          "weeklyWins": 0,
+          "weeklyLosses": 0,
+          "seasonRoundWins": 0,
+          "seasonRoundLosses": 0,
+          "weeklyRoundWins": 0,
+          "weeklyRoundLosses": 0,
+          "tier": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/1?namespace=static-12.0.1_65617-eu"
+            },
+            "id": 1
+          },
+          "season": 40,
+          "lastUpdated": null,
+          "seasonStart": null,
+          "seasonEnd": null
+        },
+        "arena3v3": {
+          "rating": 2021,
+          "seasonWins": 37,
+          "seasonLosses": 15,
+          "weeklyWins": 4,
+          "weeklyLosses": 2,
+          "seasonRoundWins": 0,
+          "seasonRoundLosses": 0,
+          "weeklyRoundWins": 0,
+          "weeklyRoundLosses": 0,
+          "tier": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/211?namespace=static-12.0.1_65617-eu"
+            },
+            "id": 211
+          },
+          "season": 40,
+          "lastUpdated": null,
+          "seasonStart": null,
+          "seasonEnd": null
+        },
+        "soloShuffle": [
+          {
+            "rating": 1663,
+            "seasonWins": 1,
+            "seasonLosses": 0,
+            "weeklyWins": 3,
+            "weeklyLosses": 1,
+            "seasonRoundWins": 6,
+            "seasonRoundLosses": 0,
+            "weeklyRoundWins": 12,
+            "weeklyRoundLosses": 6,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/307?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 307
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Unholy",
+              "id": 252
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          }
+        ]
+      },
+      "totalStats": {
+        "totalWins": 50,
+        "totalLosses": 15,
+        "totalGames": 65,
+        "winRate": 76.92307692307693,
+        "highestRating": 2021,
+        "highestBracket": "3v3"
+      }
+    },
+    {
       "characterName": "Naprat",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:45.264Z",
+      "lastUpdated": "2026-02-18T00:40:54.808Z",
       "profile": {
         "lastLoginTimestamp": 1770802930000,
         "level": 80,
@@ -17517,7 +17707,7 @@
     {
       "characterName": "Kamchs",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:27.301Z",
+      "lastUpdated": "2026-02-18T00:45:32.060Z",
       "profile": {
         "lastLoginTimestamp": 1770374804000,
         "level": 80,
@@ -17676,7 +17866,7 @@
     {
       "characterName": "Anelya",
       "realmSlug": "outland",
-      "lastUpdated": "2026-02-15T00:22:31.646Z",
+      "lastUpdated": "2026-02-18T00:40:41.298Z",
       "profile": {
         "lastLoginTimestamp": 1761773686000,
         "level": 80,
@@ -17756,7 +17946,7 @@
     {
       "characterName": "Chârízãrd",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:17.090Z",
+      "lastUpdated": "2026-02-18T00:45:25.272Z",
       "profile": {
         "lastLoginTimestamp": 1759067971000,
         "level": 80,
@@ -17857,7 +18047,7 @@
     {
       "characterName": "Riddìk",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:27:00.444Z",
+      "lastUpdated": "2026-02-18T00:45:05.882Z",
       "profile": {
         "lastLoginTimestamp": 1769959949000,
         "level": 80,
@@ -17965,7 +18155,7 @@
     {
       "characterName": "Herétìc",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:17.090Z",
+      "lastUpdated": "2026-02-18T00:45:25.273Z",
       "profile": {
         "lastLoginTimestamp": 1770763401000,
         "level": 80,
@@ -18124,7 +18314,7 @@
     {
       "characterName": "Morozilla",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:25:46.496Z",
+      "lastUpdated": "2026-02-18T00:43:56.166Z",
       "profile": {
         "lastLoginTimestamp": 1770128459000,
         "level": 80,
@@ -18276,7 +18466,7 @@
     {
       "characterName": "Pvpjivotnoex",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:03.731Z",
+      "lastUpdated": "2026-02-18T00:42:15.833Z",
       "profile": {
         "lastLoginTimestamp": 1762725187000,
         "level": 80,
@@ -18384,9 +18574,9 @@
     {
       "characterName": "Vanhéll",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:20.871Z",
+      "lastUpdated": "2026-02-18T00:42:29.688Z",
       "profile": {
-        "lastLoginTimestamp": 1771067785000,
+        "lastLoginTimestamp": 1771348876000,
         "level": 80,
         "characterClass": "Warrior",
         "race": "Human",
@@ -18473,7 +18663,7 @@
     {
       "characterName": "Deathøfrats",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:26.458Z",
+      "lastUpdated": "2026-02-18T00:43:36.588Z",
       "profile": {
         "lastLoginTimestamp": 1770757518000,
         "level": 80,
@@ -18688,9 +18878,9 @@
     {
       "characterName": "Crashor",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:09.874Z",
+      "lastUpdated": "2026-02-18T00:45:15.127Z",
       "profile": {
-        "lastLoginTimestamp": 1770660666000,
+        "lastLoginTimestamp": 1771351716000,
         "level": 80,
         "characterClass": "Warrior",
         "race": "Worgen",
@@ -18706,24 +18896,24 @@
       "brackets": {
         "soloShuffle": [
           {
-            "rating": 1816,
+            "rating": 1934,
             "seasonWins": 36,
             "seasonLosses": 1,
             "weeklyWins": 4,
             "weeklyLosses": 0,
             "seasonRoundWins": 102,
             "seasonRoundLosses": 114,
-            "weeklyRoundWins": 13,
-            "weeklyRoundLosses": 11,
+            "weeklyRoundWins": 14,
+            "weeklyRoundLosses": 10,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.1_65617-eu"
               },
               "id": 306
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/72?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/72?namespace=static-12.0.1_65617-eu"
               },
               "name": "Fury",
               "id": 72
@@ -18745,13 +18935,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/305?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/305?namespace=static-12.0.1_65617-eu"
               },
               "id": 305
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/71?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/71?namespace=static-12.0.1_65617-eu"
               },
               "name": "Arms",
               "id": 71
@@ -18775,7 +18965,7 @@
     {
       "characterName": "Wallgard",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:24.108Z",
+      "lastUpdated": "2026-02-18T00:45:28.667Z",
       "profile": {
         "lastLoginTimestamp": 1769950003000,
         "level": 80,
@@ -18832,11 +19022,121 @@
       }
     },
     {
+      "characterName": "Nevmyrayka",
+      "realmSlug": "silvermoon",
+      "lastUpdated": "2026-02-18T00:45:28.667Z",
+      "profile": {
+        "lastLoginTimestamp": 1771197448000,
+        "level": 80,
+        "characterClass": "Death Knight",
+        "race": "Human",
+        "guild": "CBITAHOK KPOBI",
+        "activeSpec": "Unholy",
+        "pvpSummary": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/silvermoon/nevmyrayka/pvp-summary?namespace=profile-eu"
+        },
+        "statistics": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/silvermoon/nevmyrayka/statistics?namespace=profile-eu"
+        }
+      },
+      "brackets": {
+        "arena2v2": {
+          "rating": 864,
+          "seasonWins": 9,
+          "seasonLosses": 12,
+          "weeklyWins": 0,
+          "weeklyLosses": 0,
+          "seasonRoundWins": 0,
+          "seasonRoundLosses": 0,
+          "weeklyRoundWins": 0,
+          "weeklyRoundLosses": 0,
+          "tier": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/1?namespace=static-12.0.1_65617-eu"
+            },
+            "id": 1
+          },
+          "season": 40,
+          "lastUpdated": null,
+          "seasonStart": null,
+          "seasonEnd": null
+        },
+        "soloBlitz": [
+          {
+            "rating": 1570,
+            "seasonWins": 24,
+            "seasonLosses": 37,
+            "weeklyWins": 0,
+            "weeklyLosses": 0,
+            "seasonRoundWins": 0,
+            "seasonRoundLosses": 0,
+            "weeklyRoundWins": 0,
+            "weeklyRoundLosses": 0,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/386?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 386
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Unholy",
+              "id": 252
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          }
+        ],
+        "soloShuffle": [
+          {
+            "rating": 1971,
+            "seasonWins": 44,
+            "seasonLosses": 1,
+            "weeklyWins": 1,
+            "weeklyLosses": 0,
+            "seasonRoundWins": 134,
+            "seasonRoundLosses": 132,
+            "weeklyRoundWins": 2,
+            "weeklyRoundLosses": 3,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/305?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 305
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Unholy",
+              "id": 252
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          }
+        ]
+      },
+      "totalStats": {
+        "totalWins": 167,
+        "totalLosses": 181,
+        "totalGames": 348,
+        "winRate": 47.98850574712644,
+        "highestRating": 1971,
+        "highestBracket": "shuffle-unholy"
+      }
+    },
+    {
       "characterName": "Xltfzq",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:26:27.125Z",
+      "lastUpdated": "2026-02-18T00:44:36.502Z",
       "profile": {
-        "lastLoginTimestamp": 1771096853000,
+        "lastLoginTimestamp": 1771330150000,
         "level": 80,
         "characterClass": "Demon Hunter",
         "race": "Night Elf",
@@ -18965,9 +19265,9 @@
     {
       "characterName": "Oldaltuha",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:24:06.993Z",
+      "lastUpdated": "2026-02-18T00:42:15.833Z",
       "profile": {
-        "lastLoginTimestamp": 1769972368000,
+        "lastLoginTimestamp": 1771332085000,
         "level": 80,
         "characterClass": "Druid",
         "race": "Night Elf",
@@ -18993,7 +19293,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/4?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/4?namespace=static-12.0.1_65617-eu"
             },
             "id": 4
           },
@@ -19015,13 +19315,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/387?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/387?namespace=static-12.0.1_65617-eu"
               },
               "id": 387
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/102?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/102?namespace=static-12.0.1_65617-eu"
               },
               "name": "Balance",
               "id": 102
@@ -19043,13 +19343,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/390?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/390?namespace=static-12.0.1_65617-eu"
               },
               "id": 390
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/105?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/105?namespace=static-12.0.1_65617-eu"
               },
               "name": "Restoration",
               "id": 105
@@ -19073,13 +19373,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.1_65617-eu"
               },
               "id": 306
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/105?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/105?namespace=static-12.0.1_65617-eu"
               },
               "name": "Restoration",
               "id": 105
@@ -19103,9 +19403,9 @@
     {
       "characterName": "Xxolla",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:13.237Z",
+      "lastUpdated": "2026-02-18T00:45:21.476Z",
       "profile": {
-        "lastLoginTimestamp": 1769957113000,
+        "lastLoginTimestamp": 1771238885000,
         "level": 80,
         "characterClass": "Mage",
         "race": "Lightforged Draenei",
@@ -19131,7 +19431,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/3?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/3?namespace=static-12.0.1_65617-eu"
             },
             "id": 3
           },
@@ -19152,7 +19452,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/11?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/11?namespace=static-12.0.1_65617-eu"
             },
             "id": 11
           },
@@ -19174,13 +19474,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/309?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/309?namespace=static-12.0.1_65617-eu"
               },
               "id": 309
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/64?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/64?namespace=static-12.0.1_65617-eu"
               },
               "name": "Frost",
               "id": 64
@@ -19202,13 +19502,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/305?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/305?namespace=static-12.0.1_65617-eu"
               },
               "id": 305
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/62?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/62?namespace=static-12.0.1_65617-eu"
               },
               "name": "Arcane",
               "id": 62
@@ -19230,13 +19530,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/310?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/310?namespace=static-12.0.1_65617-eu"
               },
               "id": 310
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/63?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/63?namespace=static-12.0.1_65617-eu"
               },
               "name": "Fire",
               "id": 63
@@ -19260,13 +19560,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
               },
               "id": 383
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/62?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/62?namespace=static-12.0.1_65617-eu"
               },
               "name": "Arcane",
               "id": 62
@@ -19288,13 +19588,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
               },
               "id": 383
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/63?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/63?namespace=static-12.0.1_65617-eu"
               },
               "name": "Fire",
               "id": 63
@@ -19316,220 +19616,9 @@
       }
     },
     {
-      "characterName": "Nevmyrayka",
-      "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:24.108Z",
-      "profile": {
-        "lastLoginTimestamp": 1770159420000,
-        "level": 80,
-        "characterClass": "Death Knight",
-        "race": "Human",
-        "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Unholy",
-        "pvpSummary": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/silvermoon/nevmyrayka/pvp-summary?namespace=profile-eu"
-        },
-        "statistics": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/silvermoon/nevmyrayka/statistics?namespace=profile-eu"
-        }
-      },
-      "brackets": {
-        "arena2v2": {
-          "rating": 864,
-          "seasonWins": 9,
-          "seasonLosses": 12,
-          "weeklyWins": 0,
-          "weeklyLosses": 0,
-          "seasonRoundWins": 0,
-          "seasonRoundLosses": 0,
-          "weeklyRoundWins": 0,
-          "weeklyRoundLosses": 0,
-          "tier": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/1?namespace=static-12.0.0_65028-eu"
-            },
-            "id": 1
-          },
-          "season": 40,
-          "lastUpdated": null,
-          "seasonStart": null,
-          "seasonEnd": null
-        },
-        "soloBlitz": [
-          {
-            "rating": 1570,
-            "seasonWins": 24,
-            "seasonLosses": 37,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 0,
-            "seasonRoundLosses": 0,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/386?namespace=static-12.0.0_65028-eu"
-              },
-              "id": 386
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.0_65028-eu"
-              },
-              "name": "Unholy",
-              "id": 252
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          }
-        ],
-        "soloShuffle": [
-          {
-            "rating": 1957,
-            "seasonWins": 44,
-            "seasonLosses": 1,
-            "weeklyWins": 2,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 134,
-            "seasonRoundLosses": 132,
-            "weeklyRoundWins": 8,
-            "weeklyRoundLosses": 4,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/305?namespace=static-12.0.0_65028-eu"
-              },
-              "id": 305
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.0_65028-eu"
-              },
-              "name": "Unholy",
-              "id": 252
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          }
-        ]
-      },
-      "totalStats": {
-        "totalWins": 167,
-        "totalLosses": 181,
-        "totalGames": 348,
-        "winRate": 47.98850574712644,
-        "highestRating": 1957,
-        "highestBracket": "shuffle-unholy"
-      }
-    },
-    {
-      "characterName": "Meido",
-      "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:24:34.196Z",
-      "profile": {
-        "lastLoginTimestamp": 1770406691000,
-        "level": 80,
-        "characterClass": "Death Knight",
-        "race": "Nightborne",
-        "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Unholy",
-        "pvpSummary": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/stormscale/meido/pvp-summary?namespace=profile-eu"
-        },
-        "statistics": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/stormscale/meido/statistics?namespace=profile-eu"
-        }
-      },
-      "brackets": {
-        "arena2v2": {
-          "rating": 672,
-          "seasonWins": 7,
-          "seasonLosses": 0,
-          "weeklyWins": 0,
-          "weeklyLosses": 0,
-          "seasonRoundWins": 0,
-          "seasonRoundLosses": 0,
-          "weeklyRoundWins": 0,
-          "weeklyRoundLosses": 0,
-          "tier": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/1?namespace=static-12.0.0_65028-eu"
-            },
-            "id": 1
-          },
-          "season": 40,
-          "lastUpdated": null,
-          "seasonStart": null,
-          "seasonEnd": null
-        },
-        "arena3v3": {
-          "rating": 1953,
-          "seasonWins": 37,
-          "seasonLosses": 15,
-          "weeklyWins": 0,
-          "weeklyLosses": 0,
-          "seasonRoundWins": 0,
-          "seasonRoundLosses": 0,
-          "weeklyRoundWins": 0,
-          "weeklyRoundLosses": 0,
-          "tier": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/211?namespace=static-12.0.0_65028-eu"
-            },
-            "id": 211
-          },
-          "season": 40,
-          "lastUpdated": null,
-          "seasonStart": null,
-          "seasonEnd": null
-        },
-        "soloShuffle": [
-          {
-            "rating": 576,
-            "seasonWins": 1,
-            "seasonLosses": 0,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 6,
-            "seasonRoundLosses": 0,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/312?namespace=static-12.0.0_65028-eu"
-              },
-              "id": 312
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.0_65028-eu"
-              },
-              "name": "Unholy",
-              "id": 252
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          }
-        ]
-      },
-      "totalStats": {
-        "totalWins": 50,
-        "totalLosses": 15,
-        "totalGames": 65,
-        "winRate": 76.92307692307693,
-        "highestRating": 1953,
-        "highestBracket": "3v3"
-      }
-    },
-    {
       "characterName": "Kyivghost",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:20.571Z",
+      "lastUpdated": "2026-02-18T00:45:25.273Z",
       "profile": {
         "lastLoginTimestamp": 1759907681000,
         "level": 80,
@@ -19660,7 +19749,7 @@
     {
       "characterName": "Gardnerx",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:22.475Z",
+      "lastUpdated": "2026-02-18T00:41:32.148Z",
       "profile": {
         "lastLoginTimestamp": 1759700109000,
         "level": 80,
@@ -19791,7 +19880,7 @@
     {
       "characterName": "Rawfear",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:14.071Z",
+      "lastUpdated": "2026-02-18T00:42:19.389Z",
       "profile": {
         "lastLoginTimestamp": 1770398065000,
         "level": 80,
@@ -19892,7 +19981,7 @@
     {
       "characterName": "Därthmaul",
       "realmSlug": "kazzak",
-      "lastUpdated": "2026-02-15T00:28:03.726Z",
+      "lastUpdated": "2026-02-18T00:46:10.979Z",
       "profile": {
         "lastLoginTimestamp": 1769725687000,
         "level": 80,
@@ -20037,7 +20126,7 @@
     {
       "characterName": "Morteùs",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:02.282Z",
+      "lastUpdated": "2026-02-18T00:43:10.054Z",
       "profile": {
         "lastLoginTimestamp": 1770025548000,
         "level": 80,
@@ -20124,7 +20213,7 @@
     {
       "characterName": "Rãptør",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:55.094Z",
+      "lastUpdated": "2026-02-18T00:41:04.945Z",
       "profile": {
         "lastLoginTimestamp": 1770413058000,
         "level": 80,
@@ -20234,14 +20323,14 @@
     {
       "characterName": "Frilante",
       "realmSlug": "kazzak",
-      "lastUpdated": "2026-02-15T00:28:13.523Z",
+      "lastUpdated": "2026-02-18T00:46:17.659Z",
       "profile": {
-        "lastLoginTimestamp": 1769954335000,
+        "lastLoginTimestamp": 1771258771000,
         "level": 80,
         "characterClass": "Warlock",
         "race": "Undead",
         "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Destruction",
+        "activeSpec": "Affliction",
         "pvpSummary": {
           "href": "https://eu.api.blizzard.com/profile/wow/character/kazzak/frilante/pvp-summary?namespace=profile-eu"
         },
@@ -20262,7 +20351,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/207?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/207?namespace=static-12.0.1_65617-eu"
             },
             "id": 207
           },
@@ -20284,13 +20373,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/390?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/390?namespace=static-12.0.1_65617-eu"
               },
               "id": 390
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/267?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/267?namespace=static-12.0.1_65617-eu"
               },
               "name": "Destruction",
               "id": 267
@@ -20312,13 +20401,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
               },
               "id": 383
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/265?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/265?namespace=static-12.0.1_65617-eu"
               },
               "name": "Affliction",
               "id": 265
@@ -20340,13 +20429,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
               },
               "id": 383
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/266?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/266?namespace=static-12.0.1_65617-eu"
               },
               "name": "Demonology",
               "id": 266
@@ -20370,13 +20459,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/311?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/311?namespace=static-12.0.1_65617-eu"
               },
               "id": 311
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/265?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/265?namespace=static-12.0.1_65617-eu"
               },
               "name": "Affliction",
               "id": 265
@@ -20398,13 +20487,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.1_65617-eu"
               },
               "id": 306
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/267?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/267?namespace=static-12.0.1_65617-eu"
               },
               "name": "Destruction",
               "id": 267
@@ -20428,7 +20517,7 @@
     {
       "characterName": "Scourgehound",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:24:30.591Z",
+      "lastUpdated": "2026-02-18T00:42:39.235Z",
       "profile": {
         "lastLoginTimestamp": 1770406621000,
         "level": 80,
@@ -20529,9 +20618,9 @@
     {
       "characterName": "Grüneteufel",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:26:57.177Z",
+      "lastUpdated": "2026-02-18T00:45:05.882Z",
       "profile": {
-        "lastLoginTimestamp": 1768529386000,
+        "lastLoginTimestamp": 1771346800000,
         "level": 80,
         "characterClass": "Rogue",
         "race": "Undead",
@@ -20549,15 +20638,15 @@
           "rating": 1911,
           "seasonWins": 87,
           "seasonLosses": 102,
-          "weeklyWins": 10,
-          "weeklyLosses": 14,
+          "weeklyWins": 0,
+          "weeklyLosses": 0,
           "seasonRoundWins": 0,
           "seasonRoundLosses": 0,
           "weeklyRoundWins": 0,
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/4?namespace=static-11.2.7_64397-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/4?namespace=static-12.0.1_65617-eu"
             },
             "id": 4
           },
@@ -20578,7 +20667,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/210?namespace=static-11.2.7_64397-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/210?namespace=static-12.0.1_65617-eu"
             },
             "id": 210
           },
@@ -20600,13 +20689,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-11.2.7_64397-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
               },
               "id": 383
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/259?namespace=static-11.2.7_64397-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/259?namespace=static-12.0.1_65617-eu"
               },
               "name": "Assassination",
               "id": 259
@@ -20630,13 +20719,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-11.2.7_64397-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.1_65617-eu"
               },
               "id": 306
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/259?namespace=static-11.2.7_64397-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/259?namespace=static-12.0.1_65617-eu"
               },
               "name": "Assassination",
               "id": 259
@@ -20660,9 +20749,9 @@
     {
       "characterName": "Amørality",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:22:38.734Z",
+      "lastUpdated": "2026-02-18T00:40:48.205Z",
       "profile": {
-        "lastLoginTimestamp": 1770406737000,
+        "lastLoginTimestamp": 1771358769000,
         "level": 80,
         "characterClass": "Demon Hunter",
         "race": "Blood Elf",
@@ -20688,7 +20777,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/1?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/1?namespace=static-12.0.1_65617-eu"
             },
             "id": 1
           },
@@ -20698,20 +20787,20 @@
           "seasonEnd": null
         },
         "arena3v3": {
-          "rating": 1152,
+          "rating": 1343,
           "seasonWins": 6,
           "seasonLosses": 3,
-          "weeklyWins": 0,
-          "weeklyLosses": 0,
+          "weeklyWins": 2,
+          "weeklyLosses": 5,
           "seasonRoundWins": 0,
           "seasonRoundLosses": 0,
           "weeklyRoundWins": 0,
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/9?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/209?namespace=static-12.0.1_65617-eu"
             },
-            "id": 9
+            "id": 209
           },
           "season": 40,
           "lastUpdated": null,
@@ -20731,13 +20820,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/306?namespace=static-12.0.1_65617-eu"
               },
               "id": 306
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/577?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/577?namespace=static-12.0.1_65617-eu"
               },
               "name": "Havoc",
               "id": 577
@@ -20761,7 +20850,7 @@
     {
       "characterName": "Oleskii",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:46.628Z",
+      "lastUpdated": "2026-02-18T00:41:55.860Z",
       "profile": {
         "lastLoginTimestamp": 1769961363000,
         "level": 80,
@@ -20878,7 +20967,7 @@
     {
       "characterName": "Kombowombo",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:09.328Z",
+      "lastUpdated": "2026-02-18T00:43:16.940Z",
       "profile": {
         "lastLoginTimestamp": 1757109656000,
         "level": 80,
@@ -20967,7 +21056,7 @@
     {
       "characterName": "Normiska",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:24:03.731Z",
+      "lastUpdated": "2026-02-18T00:42:12.565Z",
       "profile": {
         "lastLoginTimestamp": 1769972449000,
         "level": 80,
@@ -21026,7 +21115,7 @@
     {
       "characterName": "Wrathfúl",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:25:53.415Z",
+      "lastUpdated": "2026-02-18T00:44:03.185Z",
       "profile": {
         "lastLoginTimestamp": 1770452087000,
         "level": 80,
@@ -21136,7 +21225,7 @@
     {
       "characterName": "Fokaloveme",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:27:03.733Z",
+      "lastUpdated": "2026-02-18T00:45:12.061Z",
       "profile": {
         "lastLoginTimestamp": 1769346303000,
         "level": 80,
@@ -21237,7 +21326,7 @@
     {
       "characterName": "Bogdana",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:40.140Z",
+      "lastUpdated": "2026-02-18T00:41:49.438Z",
       "profile": {
         "lastLoginTimestamp": 1769968327000,
         "level": 80,
@@ -21347,9 +21436,9 @@
     {
       "characterName": "Artkov",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:05.645Z",
+      "lastUpdated": "2026-02-18T00:43:10.054Z",
       "profile": {
-        "lastLoginTimestamp": 1770899565000,
+        "lastLoginTimestamp": 1771349014000,
         "level": 80,
         "characterClass": "Monk",
         "race": "Gnome",
@@ -21478,7 +21567,7 @@
     {
       "characterName": "Ristretto",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:37.307Z",
+      "lastUpdated": "2026-02-18T00:44:46.517Z",
       "profile": {
         "lastLoginTimestamp": 1764717609000,
         "level": 80,
@@ -21567,7 +21656,7 @@
     {
       "characterName": "Attacms",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:24:51.602Z",
+      "lastUpdated": "2026-02-18T00:42:59.379Z",
       "profile": {
         "lastLoginTimestamp": 1768675907000,
         "level": 80,
@@ -21719,9 +21808,9 @@
     {
       "characterName": "Shkodnica",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:29.321Z",
+      "lastUpdated": "2026-02-18T00:41:35.425Z",
       "profile": {
-        "lastLoginTimestamp": 1771019686000,
+        "lastLoginTimestamp": 1771337945000,
         "level": 80,
         "characterClass": "Warrior",
         "race": "Draenei",
@@ -21820,7 +21909,7 @@
     {
       "characterName": "Soulhero",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:05.646Z",
+      "lastUpdated": "2026-02-18T00:43:13.381Z",
       "profile": {
         "lastLoginTimestamp": 1759515735000,
         "level": 80,
@@ -21900,7 +21989,7 @@
     {
       "characterName": "Kriplie",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:27.766Z",
+      "lastUpdated": "2026-02-18T00:40:37.733Z",
       "profile": {
         "lastLoginTimestamp": 1770331552000,
         "level": 80,
@@ -21948,9 +22037,110 @@
       }
     },
     {
+      "characterName": "Slaughtér",
+      "realmSlug": "stormscale",
+      "lastUpdated": "2026-02-18T00:40:54.807Z",
+      "profile": {
+        "lastLoginTimestamp": 1771272737000,
+        "level": 80,
+        "characterClass": "Druid",
+        "race": "Night Elf",
+        "guild": "CBITAHOK KPOBI",
+        "activeSpec": "Feral",
+        "pvpSummary": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/stormscale/slaught%C3%A9r/pvp-summary?namespace=profile-eu"
+        },
+        "statistics": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/stormscale/slaught%C3%A9r/statistics?namespace=profile-eu"
+        }
+      },
+      "brackets": {
+        "arena2v2": {
+          "rating": 1852,
+          "seasonWins": 29,
+          "seasonLosses": 22,
+          "weeklyWins": 2,
+          "weeklyLosses": 2,
+          "seasonRoundWins": 0,
+          "seasonRoundLosses": 0,
+          "weeklyRoundWins": 0,
+          "weeklyRoundLosses": 0,
+          "tier": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/4?namespace=static-12.0.1_65617-eu"
+            },
+            "id": 4
+          },
+          "season": 40,
+          "lastUpdated": null,
+          "seasonStart": null,
+          "seasonEnd": null
+        },
+        "arena3v3": {
+          "rating": 480,
+          "seasonWins": 5,
+          "seasonLosses": 6,
+          "weeklyWins": 0,
+          "weeklyLosses": 0,
+          "seasonRoundWins": 0,
+          "seasonRoundLosses": 0,
+          "weeklyRoundWins": 0,
+          "weeklyRoundLosses": 0,
+          "tier": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/8?namespace=static-12.0.1_65617-eu"
+            },
+            "id": 8
+          },
+          "season": 40,
+          "lastUpdated": null,
+          "seasonStart": null,
+          "seasonEnd": null
+        },
+        "soloShuffle": [
+          {
+            "rating": 192,
+            "seasonWins": 1,
+            "seasonLosses": 0,
+            "weeklyWins": 0,
+            "weeklyLosses": 0,
+            "seasonRoundWins": 2,
+            "seasonRoundLosses": 4,
+            "weeklyRoundWins": 0,
+            "weeklyRoundLosses": 0,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/312?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 312
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/103?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Feral",
+              "id": 103
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          }
+        ]
+      },
+      "totalStats": {
+        "totalWins": 36,
+        "totalLosses": 32,
+        "totalGames": 68,
+        "winRate": 52.94117647058824,
+        "highestRating": 1852,
+        "highestBracket": "2v2"
+      }
+    },
+    {
       "characterName": "Nojudgement",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2026-02-15T00:27:06.797Z",
+      "lastUpdated": "2026-02-18T00:45:12.061Z",
       "profile": {
         "lastLoginTimestamp": 1766185933000,
         "level": 80,
@@ -22021,7 +22211,7 @@
     {
       "characterName": "Uarka",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:26:23.808Z",
+      "lastUpdated": "2026-02-18T00:44:30.023Z",
       "profile": {
         "lastLoginTimestamp": 1764017681000,
         "level": 80,
@@ -22110,7 +22300,7 @@
     {
       "characterName": "Dentrag",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:20.387Z",
+      "lastUpdated": "2026-02-18T00:46:24.630Z",
       "profile": {
         "lastLoginTimestamp": 1761114233000,
         "level": 80,
@@ -22169,7 +22359,7 @@
     {
       "characterName": "Hardlifeinua",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:47.422Z",
+      "lastUpdated": "2026-02-18T00:45:51.975Z",
       "profile": {
         "lastLoginTimestamp": 1770455364000,
         "level": 80,
@@ -22228,7 +22418,7 @@
     {
       "characterName": "Pidkova",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:24:48.335Z",
+      "lastUpdated": "2026-02-18T00:42:56.125Z",
       "profile": {
         "lastLoginTimestamp": 1768593889000,
         "level": 80,
@@ -22378,9 +22568,110 @@
       }
     },
     {
+      "characterName": "Hatredsoul",
+      "realmSlug": "stormscale",
+      "lastUpdated": "2026-02-18T00:41:04.945Z",
+      "profile": {
+        "lastLoginTimestamp": 1771363615000,
+        "level": 80,
+        "characterClass": "Death Knight",
+        "race": "Night Elf",
+        "guild": "CBITAHOK KPOBI",
+        "activeSpec": "Unholy",
+        "pvpSummary": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/stormscale/hatredsoul/pvp-summary?namespace=profile-eu"
+        },
+        "statistics": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/stormscale/hatredsoul/statistics?namespace=profile-eu"
+        }
+      },
+      "brackets": {
+        "arena2v2": {
+          "rating": 1734,
+          "seasonWins": 2,
+          "seasonLosses": 0,
+          "weeklyWins": 23,
+          "weeklyLosses": 16,
+          "seasonRoundWins": 0,
+          "seasonRoundLosses": 0,
+          "weeklyRoundWins": 0,
+          "weeklyRoundLosses": 0,
+          "tier": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/207?namespace=static-12.0.1_65617-eu"
+            },
+            "id": 207
+          },
+          "season": 40,
+          "lastUpdated": null,
+          "seasonStart": null,
+          "seasonEnd": null
+        },
+        "arena3v3": {
+          "rating": 1842,
+          "seasonWins": 30,
+          "seasonLosses": 20,
+          "weeklyWins": 2,
+          "weeklyLosses": 4,
+          "seasonRoundWins": 0,
+          "seasonRoundLosses": 0,
+          "weeklyRoundWins": 0,
+          "weeklyRoundLosses": 0,
+          "tier": {
+            "key": {
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/12?namespace=static-12.0.1_65617-eu"
+            },
+            "id": 12
+          },
+          "season": 40,
+          "lastUpdated": null,
+          "seasonStart": null,
+          "seasonEnd": null
+        },
+        "soloShuffle": [
+          {
+            "rating": 1375,
+            "seasonWins": 2,
+            "seasonLosses": 0,
+            "weeklyWins": 3,
+            "weeklyLosses": 0,
+            "seasonRoundWins": 7,
+            "seasonRoundLosses": 5,
+            "weeklyRoundWins": 8,
+            "weeklyRoundLosses": 6,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/310?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 310
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Unholy",
+              "id": 252
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          }
+        ]
+      },
+      "totalStats": {
+        "totalWins": 39,
+        "totalLosses": 25,
+        "totalGames": 64,
+        "winRate": 60.9375,
+        "highestRating": 1842,
+        "highestBracket": "3v3"
+      }
+    },
+    {
       "characterName": "Kviten",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:00.410Z",
+      "lastUpdated": "2026-02-18T00:42:09.368Z",
       "profile": {
         "lastLoginTimestamp": 1764017879000,
         "level": 80,
@@ -22481,7 +22772,7 @@
     {
       "characterName": "Annihilâtiøn",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:23:08.968Z",
+      "lastUpdated": "2026-02-18T00:41:18.634Z",
       "profile": {
         "lastLoginTimestamp": 1770406715000,
         "level": 80,
@@ -22582,7 +22873,7 @@
     {
       "characterName": "Saepenumero",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:53.416Z",
+      "lastUpdated": "2026-02-18T00:44:03.185Z",
       "profile": {
         "lastLoginTimestamp": 1769271353000,
         "level": 80,
@@ -22683,7 +22974,7 @@
     {
       "characterName": "Ateyst",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:23:53.488Z",
+      "lastUpdated": "2026-02-18T00:41:59.312Z",
       "profile": {
         "lastLoginTimestamp": 1769031073000,
         "level": 80,
@@ -22742,7 +23033,7 @@
     {
       "characterName": "Apximekmop",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:41.998Z",
+      "lastUpdated": "2026-02-18T00:40:51.471Z",
       "profile": {
         "lastLoginTimestamp": 1769728433000,
         "level": 80,
@@ -22852,7 +23143,7 @@
     {
       "characterName": "Svoboda",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:25:12.672Z",
+      "lastUpdated": "2026-02-18T00:43:20.228Z",
       "profile": {
         "lastLoginTimestamp": 1769351657000,
         "level": 80,
@@ -22962,7 +23253,7 @@
     {
       "characterName": "Soulare",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:41.998Z",
+      "lastUpdated": "2026-02-18T00:40:51.472Z",
       "profile": {
         "lastLoginTimestamp": 1770393139000,
         "level": 80,
@@ -23063,7 +23354,7 @@
     {
       "characterName": "Arrowìnass",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:41.417Z",
+      "lastUpdated": "2026-02-18T00:45:48.990Z",
       "profile": {
         "lastLoginTimestamp": 1770394580000,
         "level": 80,
@@ -23120,110 +23411,9 @@
       }
     },
     {
-      "characterName": "Slaughtér",
-      "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:22:45.263Z",
-      "profile": {
-        "lastLoginTimestamp": 1770406971000,
-        "level": 80,
-        "characterClass": "Druid",
-        "race": "Night Elf",
-        "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Restoration",
-        "pvpSummary": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/stormscale/slaught%C3%A9r/pvp-summary?namespace=profile-eu"
-        },
-        "statistics": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/stormscale/slaught%C3%A9r/statistics?namespace=profile-eu"
-        }
-      },
-      "brackets": {
-        "arena2v2": {
-          "rating": 1808,
-          "seasonWins": 29,
-          "seasonLosses": 22,
-          "weeklyWins": 0,
-          "weeklyLosses": 0,
-          "seasonRoundWins": 0,
-          "seasonRoundLosses": 0,
-          "weeklyRoundWins": 0,
-          "weeklyRoundLosses": 0,
-          "tier": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/4?namespace=static-12.0.0_65028-eu"
-            },
-            "id": 4
-          },
-          "season": 40,
-          "lastUpdated": null,
-          "seasonStart": null,
-          "seasonEnd": null
-        },
-        "arena3v3": {
-          "rating": 480,
-          "seasonWins": 5,
-          "seasonLosses": 6,
-          "weeklyWins": 0,
-          "weeklyLosses": 0,
-          "seasonRoundWins": 0,
-          "seasonRoundLosses": 0,
-          "weeklyRoundWins": 0,
-          "weeklyRoundLosses": 0,
-          "tier": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/8?namespace=static-12.0.0_65028-eu"
-            },
-            "id": 8
-          },
-          "season": 40,
-          "lastUpdated": null,
-          "seasonStart": null,
-          "seasonEnd": null
-        },
-        "soloShuffle": [
-          {
-            "rating": 192,
-            "seasonWins": 1,
-            "seasonLosses": 0,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 2,
-            "seasonRoundLosses": 4,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/312?namespace=static-12.0.0_65028-eu"
-              },
-              "id": 312
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/103?namespace=static-12.0.0_65028-eu"
-              },
-              "name": "Feral",
-              "id": 103
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          }
-        ]
-      },
-      "totalStats": {
-        "totalWins": 36,
-        "totalLosses": 32,
-        "totalGames": 68,
-        "winRate": 52.94117647058824,
-        "highestRating": 1808,
-        "highestBracket": "2v2"
-      }
-    },
-    {
       "characterName": "Loipoidk",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:34.026Z",
+      "lastUpdated": "2026-02-18T00:44:43.018Z",
       "profile": {
         "lastLoginTimestamp": 1765568115000,
         "level": 80,
@@ -23282,9 +23472,9 @@
     {
       "characterName": "Gorkhal",
       "realmSlug": "draenor",
-      "lastUpdated": "2026-02-15T00:25:33.661Z",
+      "lastUpdated": "2026-02-18T00:43:40.386Z",
       "profile": {
-        "lastLoginTimestamp": 1770928574000,
+        "lastLoginTimestamp": 1771169208000,
         "level": 80,
         "characterClass": "Warrior",
         "race": "Orc",
@@ -23372,15 +23562,15 @@
         ],
         "soloShuffle": [
           {
-            "rating": 1701,
+            "rating": 1788,
             "seasonWins": 104,
             "seasonLosses": 4,
-            "weeklyWins": 0,
+            "weeklyWins": 2,
             "weeklyLosses": 0,
             "seasonRoundWins": 313,
             "seasonRoundLosses": 319,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
+            "weeklyRoundWins": 5,
+            "weeklyRoundLosses": 7,
             "tier": {
               "key": {
                 "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/307?namespace=static-12.0.1_65617-eu"
@@ -23441,7 +23631,7 @@
     {
       "characterName": "Loipoimo",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:34.027Z",
+      "lastUpdated": "2026-02-18T00:44:43.018Z",
       "profile": {
         "lastLoginTimestamp": 1765568188000,
         "level": 80,
@@ -23521,7 +23711,7 @@
     {
       "characterName": "Noisestormx",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:22:38.735Z",
+      "lastUpdated": "2026-02-18T00:40:48.206Z",
       "profile": {
         "lastLoginTimestamp": 1770406758000,
         "level": 80,
@@ -23650,7 +23840,7 @@
     {
       "characterName": "Sfbbchv",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:17.090Z",
+      "lastUpdated": "2026-02-18T00:45:21.476Z",
       "profile": {
         "lastLoginTimestamp": 1770733145000,
         "level": 80,
@@ -23700,7 +23890,7 @@
     {
       "characterName": "Docker",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:43.722Z",
+      "lastUpdated": "2026-02-18T00:44:52.910Z",
       "profile": {
         "lastLoginTimestamp": 1769082876000,
         "level": 80,
@@ -23778,110 +23968,9 @@
       }
     },
     {
-      "characterName": "Hatredsoul",
-      "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:22:55.095Z",
-      "profile": {
-        "lastLoginTimestamp": 1771027488000,
-        "level": 80,
-        "characterClass": "Death Knight",
-        "race": "Night Elf",
-        "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Unholy",
-        "pvpSummary": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/stormscale/hatredsoul/pvp-summary?namespace=profile-eu"
-        },
-        "statistics": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/stormscale/hatredsoul/statistics?namespace=profile-eu"
-        }
-      },
-      "brackets": {
-        "arena2v2": {
-          "rating": 1734,
-          "seasonWins": 2,
-          "seasonLosses": 0,
-          "weeklyWins": 23,
-          "weeklyLosses": 16,
-          "seasonRoundWins": 0,
-          "seasonRoundLosses": 0,
-          "weeklyRoundWins": 0,
-          "weeklyRoundLosses": 0,
-          "tier": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/207?namespace=static-12.0.1_65617-eu"
-            },
-            "id": 207
-          },
-          "season": 40,
-          "lastUpdated": null,
-          "seasonStart": null,
-          "seasonEnd": null
-        },
-        "arena3v3": {
-          "rating": 1797,
-          "seasonWins": 30,
-          "seasonLosses": 20,
-          "weeklyWins": 0,
-          "weeklyLosses": 0,
-          "seasonRoundWins": 0,
-          "seasonRoundLosses": 0,
-          "weeklyRoundWins": 0,
-          "weeklyRoundLosses": 0,
-          "tier": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/210?namespace=static-12.0.1_65617-eu"
-            },
-            "id": 210
-          },
-          "season": 40,
-          "lastUpdated": null,
-          "seasonStart": null,
-          "seasonEnd": null
-        },
-        "soloShuffle": [
-          {
-            "rating": 672,
-            "seasonWins": 2,
-            "seasonLosses": 0,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 7,
-            "seasonRoundLosses": 5,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/312?namespace=static-12.0.1_65617-eu"
-              },
-              "id": 312
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.1_65617-eu"
-              },
-              "name": "Unholy",
-              "id": 252
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          }
-        ]
-      },
-      "totalStats": {
-        "totalWins": 39,
-        "totalLosses": 25,
-        "totalGames": 64,
-        "winRate": 60.9375,
-        "highestRating": 1797,
-        "highestBracket": "3v3"
-      }
-    },
-    {
       "characterName": "Ñeñ",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:27.125Z",
+      "lastUpdated": "2026-02-18T00:44:36.502Z",
       "profile": {
         "lastLoginTimestamp": 1770822618000,
         "level": 80,
@@ -23961,7 +24050,7 @@
     {
       "characterName": "Justice",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2026-02-15T00:25:37.183Z",
+      "lastUpdated": "2026-02-18T00:43:43.990Z",
       "profile": {
         "lastLoginTimestamp": 1766186135000,
         "level": 80,
@@ -24032,7 +24121,7 @@
     {
       "characterName": "Køs",
       "realmSlug": "dentarg",
-      "lastUpdated": "2026-02-15T00:27:03.734Z",
+      "lastUpdated": "2026-02-18T00:45:09.083Z",
       "profile": {
         "lastLoginTimestamp": 1771027257000,
         "level": 80,
@@ -24091,7 +24180,7 @@
     {
       "characterName": "Elnura",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:27.455Z",
+      "lastUpdated": "2026-02-18T00:42:36.021Z",
       "profile": {
         "lastLoginTimestamp": 1769713391000,
         "level": 80,
@@ -24192,7 +24281,7 @@
     {
       "characterName": "Sheerleader",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:38.150Z",
+      "lastUpdated": "2026-02-18T00:45:45.725Z",
       "profile": {
         "lastLoginTimestamp": 1766591117000,
         "level": 80,
@@ -24281,7 +24370,7 @@
     {
       "characterName": "Annihilatiøn",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:27.766Z",
+      "lastUpdated": "2026-02-18T00:40:37.733Z",
       "profile": {
         "lastLoginTimestamp": 1770406916000,
         "level": 80,
@@ -24410,7 +24499,7 @@
     {
       "characterName": "Doneulak",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:20.444Z",
+      "lastUpdated": "2026-02-18T00:44:30.023Z",
       "profile": {
         "lastLoginTimestamp": 1758403200000,
         "level": 80,
@@ -24460,7 +24549,7 @@
     {
       "characterName": "Worstinwrld",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:27:00.445Z",
+      "lastUpdated": "2026-02-18T00:45:09.082Z",
       "profile": {
         "lastLoginTimestamp": 1769346391000,
         "level": 80,
@@ -24561,7 +24650,7 @@
     {
       "characterName": "Yorjik",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:23.552Z",
+      "lastUpdated": "2026-02-18T00:46:27.720Z",
       "profile": {
         "lastLoginTimestamp": 1770661418000,
         "level": 80,
@@ -24671,7 +24760,7 @@
     {
       "characterName": "Shomen",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:24:03.731Z",
+      "lastUpdated": "2026-02-18T00:42:12.565Z",
       "profile": {
         "lastLoginTimestamp": 1769972543000,
         "level": 80,
@@ -24749,119 +24838,9 @@
       }
     },
     {
-      "characterName": "Shooterini",
-      "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:17.133Z",
-      "profile": {
-        "lastLoginTimestamp": 1770992395000,
-        "level": 80,
-        "characterClass": "Hunter",
-        "race": "Gnome",
-        "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Marksmanship",
-        "pvpSummary": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/silvermoon/shooterini/pvp-summary?namespace=profile-eu"
-        },
-        "statistics": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/silvermoon/shooterini/statistics?namespace=profile-eu"
-        }
-      },
-      "brackets": {
-        "arena2v2": {
-          "rating": 1444,
-          "seasonWins": 21,
-          "seasonLosses": 42,
-          "weeklyWins": 0,
-          "weeklyLosses": 0,
-          "seasonRoundWins": 0,
-          "seasonRoundLosses": 0,
-          "weeklyRoundWins": 0,
-          "weeklyRoundLosses": 0,
-          "tier": {
-            "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/3?namespace=static-12.0.1_65617-eu"
-            },
-            "id": 3
-          },
-          "season": 40,
-          "lastUpdated": null,
-          "seasonStart": null,
-          "seasonEnd": null
-        },
-        "soloBlitz": [
-          {
-            "rating": 1528,
-            "seasonWins": 50,
-            "seasonLosses": 76,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 0,
-            "seasonRoundLosses": 0,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/386?namespace=static-12.0.1_65617-eu"
-              },
-              "id": 386
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/254?namespace=static-12.0.1_65617-eu"
-              },
-              "name": "Marksmanship",
-              "id": 254
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          }
-        ],
-        "soloShuffle": [
-          {
-            "rating": 1691,
-            "seasonWins": 205,
-            "seasonLosses": 8,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 604,
-            "seasonRoundLosses": 614,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/307?namespace=static-12.0.1_65617-eu"
-              },
-              "id": 307
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/254?namespace=static-12.0.1_65617-eu"
-              },
-              "name": "Marksmanship",
-              "id": 254
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          }
-        ]
-      },
-      "totalStats": {
-        "totalWins": 675,
-        "totalLosses": 732,
-        "totalGames": 1407,
-        "winRate": 47.97441364605544,
-        "highestRating": 1691,
-        "highestBracket": "shuffle-marksmanship"
-      }
-    },
-    {
       "characterName": "Páiñ",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:26.879Z",
+      "lastUpdated": "2026-02-18T00:46:31.061Z",
       "profile": {
         "lastLoginTimestamp": 1766593076000,
         "level": 80,
@@ -24941,7 +24920,7 @@
     {
       "characterName": "Hetaxata",
       "realmSlug": "kazzak",
-      "lastUpdated": "2026-02-15T00:27:24.108Z",
+      "lastUpdated": "2026-02-18T00:45:32.060Z",
       "profile": {
         "lastLoginTimestamp": 1768998229000,
         "level": 80,
@@ -25000,9 +24979,9 @@
     {
       "characterName": "Darafar",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:03.907Z",
+      "lastUpdated": "2026-02-18T00:44:13.506Z",
       "profile": {
-        "lastLoginTimestamp": 1770814758000,
+        "lastLoginTimestamp": 1771267868000,
         "level": 80,
         "characterClass": "Paladin",
         "race": "Human",
@@ -25110,7 +25089,7 @@
     {
       "characterName": "Elyssa",
       "realmSlug": "sunstrider",
-      "lastUpdated": "2026-02-15T00:28:32.942Z",
+      "lastUpdated": "2026-02-18T00:46:40.563Z",
       "profile": {
         "lastLoginTimestamp": 1771021964000,
         "level": 80,
@@ -25211,7 +25190,7 @@
     {
       "characterName": "Adaloha",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:17.133Z",
+      "lastUpdated": "2026-02-18T00:46:21.318Z",
       "profile": {
         "lastLoginTimestamp": 1760648474000,
         "level": 80,
@@ -25321,7 +25300,7 @@
     {
       "characterName": "Miraclist",
       "realmSlug": "sunstrider",
-      "lastUpdated": "2026-02-15T00:28:36.165Z",
+      "lastUpdated": "2026-02-18T00:46:40.563Z",
       "profile": {
         "lastLoginTimestamp": 1771013725000,
         "level": 80,
@@ -25401,7 +25380,7 @@
     {
       "characterName": "Hypøthermia",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:13.523Z",
+      "lastUpdated": "2026-02-18T00:46:21.318Z",
       "profile": {
         "lastLoginTimestamp": 1769089537000,
         "level": 80,
@@ -25516,7 +25495,7 @@
     {
       "characterName": "Neonwraith",
       "realmSlug": "draenor",
-      "lastUpdated": "2026-02-15T00:25:53.416Z",
+      "lastUpdated": "2026-02-18T00:43:59.801Z",
       "profile": {
         "lastLoginTimestamp": 1763552491000,
         "level": 80,
@@ -25575,7 +25554,7 @@
     {
       "characterName": "Nextone",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:20.444Z",
+      "lastUpdated": "2026-02-18T00:44:26.623Z",
       "profile": {
         "lastLoginTimestamp": 1757874998000,
         "level": 80,
@@ -25646,7 +25625,7 @@
     {
       "characterName": "Exelit",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:50.543Z",
+      "lastUpdated": "2026-02-18T00:45:58.097Z",
       "profile": {
         "lastLoginTimestamp": 1768828426000,
         "level": 80,
@@ -25798,7 +25777,7 @@
     {
       "characterName": "Ghosting",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:26:50.449Z",
+      "lastUpdated": "2026-02-18T00:44:59.456Z",
       "profile": {
         "lastLoginTimestamp": 1770413252000,
         "level": 80,
@@ -25857,7 +25836,7 @@
     {
       "characterName": "Wls",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:06.992Z",
+      "lastUpdated": "2026-02-18T00:42:12.566Z",
       "profile": {
         "lastLoginTimestamp": 1770393610000,
         "level": 80,
@@ -25907,7 +25886,7 @@
     {
       "characterName": "Riddichka",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:38.149Z",
+      "lastUpdated": "2026-02-18T00:45:42.515Z",
       "profile": {
         "lastLoginTimestamp": 1770394425000,
         "level": 80,
@@ -25966,7 +25945,7 @@
     {
       "characterName": "Akùmù",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:24:34.197Z",
+      "lastUpdated": "2026-02-18T00:42:42.701Z",
       "profile": {
         "lastLoginTimestamp": 1771074025000,
         "level": 80,
@@ -26037,7 +26016,7 @@
     {
       "characterName": "Plaguehero",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:24:30.591Z",
+      "lastUpdated": "2026-02-18T00:42:39.235Z",
       "profile": {
         "lastLoginTimestamp": 1770929135000,
         "level": 80,
@@ -26138,7 +26117,7 @@
     {
       "characterName": "Djayer",
       "realmSlug": "doomhammer",
-      "lastUpdated": "2026-02-15T00:25:56.874Z",
+      "lastUpdated": "2026-02-18T00:44:03.185Z",
       "profile": {
         "lastLoginTimestamp": 1760730395000,
         "level": 80,
@@ -26218,7 +26197,7 @@
     {
       "characterName": "Otruta",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:13.237Z",
+      "lastUpdated": "2026-02-18T00:45:18.295Z",
       "profile": {
         "lastLoginTimestamp": 1768407236000,
         "level": 80,
@@ -26268,7 +26247,7 @@
     {
       "characterName": "Mistyfart",
       "realmSlug": "doomhammer",
-      "lastUpdated": "2026-02-15T00:25:19.364Z",
+      "lastUpdated": "2026-02-18T00:43:29.889Z",
       "profile": {
         "lastLoginTimestamp": 1763880942000,
         "level": 80,
@@ -26318,14 +26297,14 @@
     {
       "characterName": "Marzula",
       "realmSlug": "burning-blade",
-      "lastUpdated": "2026-02-15T00:24:54.859Z",
+      "lastUpdated": "2026-02-18T00:43:02.702Z",
       "profile": {
-        "lastLoginTimestamp": 1758731669000,
+        "lastLoginTimestamp": 1771154200000,
         "level": 80,
         "characterClass": "Mage",
         "race": "Void Elf",
         "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Arcane",
+        "activeSpec": "Fire",
         "pvpSummary": {
           "href": "https://eu.api.blizzard.com/profile/wow/character/burning-blade/marzula/pvp-summary?namespace=profile-eu"
         },
@@ -26347,13 +26326,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/312?namespace=static-11.2.0_62213-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/312?namespace=static-12.0.1_65617-eu"
               },
               "id": 312
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/64?namespace=static-11.2.0_62213-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/64?namespace=static-12.0.1_65617-eu"
               },
               "name": "Frost",
               "id": 64
@@ -26375,13 +26354,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/309?namespace=static-11.2.0_62213-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/309?namespace=static-12.0.1_65617-eu"
               },
               "id": 309
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/62?namespace=static-11.2.0_62213-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/62?namespace=static-12.0.1_65617-eu"
               },
               "name": "Arcane",
               "id": 62
@@ -26405,13 +26384,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-11.2.0_62213-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
               },
               "id": 383
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/63?namespace=static-11.2.0_62213-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/63?namespace=static-12.0.1_65617-eu"
               },
               "name": "Fire",
               "id": 63
@@ -26435,7 +26414,7 @@
     {
       "characterName": "Wrongplace",
       "realmSlug": "area-52",
-      "lastUpdated": "2026-02-15T00:25:46.496Z",
+      "lastUpdated": "2026-02-18T00:43:56.166Z",
       "profile": {
         "lastLoginTimestamp": 1759702556000,
         "level": 80,
@@ -26552,7 +26531,7 @@
     {
       "characterName": "Verif",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:14.071Z",
+      "lastUpdated": "2026-02-18T00:42:22.736Z",
       "profile": {
         "lastLoginTimestamp": 1759102820000,
         "level": 80,
@@ -26641,7 +26620,7 @@
     {
       "characterName": "Ratbulky",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:20.872Z",
+      "lastUpdated": "2026-02-18T00:42:32.934Z",
       "profile": {
         "lastLoginTimestamp": 1770393578000,
         "level": 80,
@@ -26691,7 +26670,7 @@
     {
       "characterName": "Spyfly",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:45.264Z",
+      "lastUpdated": "2026-02-18T00:40:54.808Z",
       "profile": {
         "lastLoginTimestamp": 1769732269000,
         "level": 80,
@@ -26750,7 +26729,7 @@
     {
       "characterName": "Tokuchi",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:10.486Z",
+      "lastUpdated": "2026-02-18T00:44:16.753Z",
       "profile": {
         "lastLoginTimestamp": 1765907642000,
         "level": 80,
@@ -26837,7 +26816,7 @@
     {
       "characterName": "Toodle",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:51.857Z",
+      "lastUpdated": "2026-02-18T00:41:01.472Z",
       "profile": {
         "lastLoginTimestamp": 1770393004000,
         "level": 80,
@@ -26887,7 +26866,7 @@
     {
       "characterName": "Mymedicine",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:26.880Z",
+      "lastUpdated": "2026-02-18T00:46:34.293Z",
       "profile": {
         "lastLoginTimestamp": 1767093377000,
         "level": 80,
@@ -26988,7 +26967,7 @@
     {
       "characterName": "Shinnock",
       "realmSlug": "teldrassil",
-      "lastUpdated": "2026-02-15T00:25:37.183Z",
+      "lastUpdated": "2026-02-18T00:43:46.926Z",
       "profile": {
         "lastLoginTimestamp": 1757160708000,
         "level": 80,
@@ -27089,7 +27068,7 @@
     {
       "characterName": "Oj",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:25:22.914Z",
+      "lastUpdated": "2026-02-18T00:43:29.889Z",
       "profile": {
         "lastLoginTimestamp": 1769627030000,
         "level": 80,
@@ -27160,9 +27139,9 @@
     {
       "characterName": "Softspine",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:24:40.456Z",
+      "lastUpdated": "2026-02-18T00:42:49.273Z",
       "profile": {
-        "lastLoginTimestamp": 1770406555000,
+        "lastLoginTimestamp": 1771256961000,
         "level": 80,
         "characterClass": "Death Knight",
         "race": "Undead",
@@ -27188,7 +27167,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/2?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/2?namespace=static-12.0.1_65617-eu"
             },
             "id": 2
           },
@@ -27209,7 +27188,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/209?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/209?namespace=static-12.0.1_65617-eu"
             },
             "id": 209
           },
@@ -27231,13 +27210,13 @@
             "weeklyRoundLosses": 0,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
               },
               "id": 383
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.1_65617-eu"
               },
               "name": "Unholy",
               "id": 252
@@ -27250,24 +27229,24 @@
         ],
         "soloShuffle": [
           {
-            "rating": 480,
+            "rating": 1056,
             "seasonWins": 1,
             "seasonLosses": 0,
-            "weeklyWins": 0,
+            "weeklyWins": 2,
             "weeklyLosses": 0,
             "seasonRoundWins": 5,
             "seasonRoundLosses": 1,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
+            "weeklyRoundWins": 6,
+            "weeklyRoundLosses": 6,
             "tier": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/312?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/311?namespace=static-12.0.1_65617-eu"
               },
-              "id": 312
+              "id": 311
             },
             "specialization": {
               "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.0_65028-eu"
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/252?namespace=static-12.0.1_65617-eu"
               },
               "name": "Unholy",
               "id": 252
@@ -27291,7 +27270,7 @@
     {
       "characterName": "Ammentes",
       "realmSlug": "outland",
-      "lastUpdated": "2026-02-15T00:22:55.095Z",
+      "lastUpdated": "2026-02-18T00:41:08.819Z",
       "profile": {
         "lastLoginTimestamp": 1756485260000,
         "level": 80,
@@ -27380,7 +27359,7 @@
     {
       "characterName": "Lvaisay",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:26.879Z",
+      "lastUpdated": "2026-02-18T00:46:31.061Z",
       "profile": {
         "lastLoginTimestamp": 1769636677000,
         "level": 80,
@@ -27481,7 +27460,7 @@
     {
       "characterName": "Lvaisay",
       "realmSlug": "magtheridon",
-      "lastUpdated": "2026-02-15T00:26:50.449Z",
+      "lastUpdated": "2026-02-18T00:44:56.239Z",
       "profile": {
         "lastLoginTimestamp": 1770738357000,
         "level": 80,
@@ -27552,7 +27531,7 @@
     {
       "characterName": "Pepesorcerer",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:23:18.946Z",
+      "lastUpdated": "2026-02-18T00:41:28.688Z",
       "profile": {
         "lastLoginTimestamp": 1770407077000,
         "level": 80,
@@ -27660,7 +27639,7 @@
     {
       "characterName": "Cokenose",
       "realmSlug": "twisting-nether",
-      "lastUpdated": "2026-02-15T00:25:43.212Z",
+      "lastUpdated": "2026-02-18T00:43:49.973Z",
       "profile": {
         "lastLoginTimestamp": 1770841114000,
         "level": 80,
@@ -27791,7 +27770,7 @@
     {
       "characterName": "Nebbiros",
       "realmSlug": "outland",
-      "lastUpdated": "2026-02-15T00:27:53.881Z",
+      "lastUpdated": "2026-02-18T00:45:58.097Z",
       "profile": {
         "lastLoginTimestamp": 1756405683000,
         "level": 80,
@@ -27880,7 +27859,7 @@
     {
       "characterName": "Turbofinger",
       "realmSlug": "doomhammer",
-      "lastUpdated": "2026-02-15T00:24:10.668Z",
+      "lastUpdated": "2026-02-18T00:42:22.736Z",
       "profile": {
         "lastLoginTimestamp": 1768124803000,
         "level": 80,
@@ -28009,7 +27988,7 @@
     {
       "characterName": "Rddck",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:20.387Z",
+      "lastUpdated": "2026-02-18T00:46:24.630Z",
       "profile": {
         "lastLoginTimestamp": 1770394373000,
         "level": 80,
@@ -28089,7 +28068,7 @@
     {
       "characterName": "Shpyh",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:20.572Z",
+      "lastUpdated": "2026-02-18T00:45:25.273Z",
       "profile": {
         "lastLoginTimestamp": 1770852482000,
         "level": 80,
@@ -28148,7 +28127,7 @@
     {
       "characterName": "Tvoiochi",
       "realmSlug": "kazzak",
-      "lastUpdated": "2026-02-15T00:27:13.237Z",
+      "lastUpdated": "2026-02-18T00:45:18.295Z",
       "profile": {
         "lastLoginTimestamp": 1769717577000,
         "level": 80,
@@ -28198,7 +28177,7 @@
     {
       "characterName": "Krivonis",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:24:40.457Z",
+      "lastUpdated": "2026-02-18T00:42:52.644Z",
       "profile": {
         "lastLoginTimestamp": 1768593803000,
         "level": 80,
@@ -28248,7 +28227,7 @@
     {
       "characterName": "Xapaktepnuk",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:41.999Z",
+      "lastUpdated": "2026-02-18T00:40:51.471Z",
       "profile": {
         "lastLoginTimestamp": 1770393206000,
         "level": 80,
@@ -28298,7 +28277,7 @@
     {
       "characterName": "Wrathfûl",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:22.476Z",
+      "lastUpdated": "2026-02-18T00:41:32.148Z",
       "profile": {
         "lastLoginTimestamp": 1770451993000,
         "level": 80,
@@ -28378,7 +28357,7 @@
     {
       "characterName": "Fivefeetnine",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:06.993Z",
+      "lastUpdated": "2026-02-18T00:42:15.833Z",
       "profile": {
         "lastLoginTimestamp": 1770393628000,
         "level": 80,
@@ -28428,7 +28407,7 @@
     {
       "characterName": "Sharpful",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:20.872Z",
+      "lastUpdated": "2026-02-18T00:42:29.688Z",
       "profile": {
         "lastLoginTimestamp": 1770452250000,
         "level": 80,
@@ -28508,7 +28487,7 @@
     {
       "characterName": "Vasylstus",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:22:48.408Z",
+      "lastUpdated": "2026-02-18T00:40:57.912Z",
       "profile": {
         "lastLoginTimestamp": 1771100223000,
         "level": 80,
@@ -28609,7 +28588,7 @@
     {
       "characterName": "Chidorixd",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:44.388Z",
+      "lastUpdated": "2026-02-18T00:45:48.990Z",
       "profile": {
         "lastLoginTimestamp": 1763564688000,
         "level": 80,
@@ -28680,7 +28659,7 @@
     {
       "characterName": "Hùñtér",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:26.879Z",
+      "lastUpdated": "2026-02-18T00:46:31.061Z",
       "profile": {
         "lastLoginTimestamp": 1766599424000,
         "level": 80,
@@ -28739,7 +28718,7 @@
     {
       "characterName": "Melanchøly",
       "realmSlug": "stormscale",
-      "lastUpdated": "2026-02-15T00:22:38.734Z",
+      "lastUpdated": "2026-02-18T00:40:48.205Z",
       "profile": {
         "lastLoginTimestamp": 1770406827000,
         "level": 80,
@@ -28819,7 +28798,7 @@
     {
       "characterName": "Beasticle",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:51.856Z",
+      "lastUpdated": "2026-02-18T00:41:01.471Z",
       "profile": {
         "lastLoginTimestamp": 1760465928000,
         "level": 80,
@@ -28869,7 +28848,7 @@
     {
       "characterName": "Rìddíck",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:34.417Z",
+      "lastUpdated": "2026-02-18T00:45:39.111Z",
       "profile": {
         "lastLoginTimestamp": 1770394544000,
         "level": 80,
@@ -28956,68 +28935,9 @@
       }
     },
     {
-      "characterName": "Cárnagè",
-      "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:31.646Z",
-      "profile": {
-        "lastLoginTimestamp": 1771000377000,
-        "level": 80,
-        "characterClass": "Druid",
-        "race": "Night Elf",
-        "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Balance",
-        "pvpSummary": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/ravencrest/c%C3%A1rnag%C3%A8/pvp-summary?namespace=profile-eu"
-        },
-        "statistics": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/ravencrest/c%C3%A1rnag%C3%A8/statistics?namespace=profile-eu"
-        }
-      },
-      "brackets": {
-        "soloBlitz": [
-          {
-            "rating": 576,
-            "seasonWins": 2,
-            "seasonLosses": 0,
-            "weeklyWins": 0,
-            "weeklyLosses": 0,
-            "seasonRoundWins": 0,
-            "seasonRoundLosses": 0,
-            "weeklyRoundWins": 0,
-            "weeklyRoundLosses": 0,
-            "tier": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
-              },
-              "id": 383
-            },
-            "specialization": {
-              "key": {
-                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/102?namespace=static-12.0.1_65617-eu"
-              },
-              "name": "Balance",
-              "id": 102
-            },
-            "season": 40,
-            "lastUpdated": null,
-            "seasonStart": null,
-            "seasonEnd": null
-          }
-        ]
-      },
-      "totalStats": {
-        "totalWins": 2,
-        "totalLosses": 0,
-        "totalGames": 2,
-        "winRate": 100,
-        "highestRating": 576,
-        "highestBracket": "blitz-balance"
-      }
-    },
-    {
       "characterName": "Ierrihon",
       "realmSlug": "outland",
-      "lastUpdated": "2026-02-15T00:22:31.647Z",
+      "lastUpdated": "2026-02-18T00:40:41.298Z",
       "profile": {
         "lastLoginTimestamp": 1756384140000,
         "level": 80,
@@ -29104,9 +29024,68 @@
       }
     },
     {
+      "characterName": "Cárnagè",
+      "realmSlug": "ravencrest",
+      "lastUpdated": "2026-02-18T00:40:41.299Z",
+      "profile": {
+        "lastLoginTimestamp": 1771000377000,
+        "level": 80,
+        "characterClass": "Druid",
+        "race": "Night Elf",
+        "guild": "CBITAHOK KPOBI",
+        "activeSpec": "Balance",
+        "pvpSummary": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/ravencrest/c%C3%A1rnag%C3%A8/pvp-summary?namespace=profile-eu"
+        },
+        "statistics": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/ravencrest/c%C3%A1rnag%C3%A8/statistics?namespace=profile-eu"
+        }
+      },
+      "brackets": {
+        "soloBlitz": [
+          {
+            "rating": 576,
+            "seasonWins": 2,
+            "seasonLosses": 0,
+            "weeklyWins": 0,
+            "weeklyLosses": 0,
+            "seasonRoundWins": 0,
+            "seasonRoundLosses": 0,
+            "weeklyRoundWins": 0,
+            "weeklyRoundLosses": 0,
+            "tier": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/383?namespace=static-12.0.1_65617-eu"
+              },
+              "id": 383
+            },
+            "specialization": {
+              "key": {
+                "href": "https://eu.api.blizzard.com/data/wow/playable-specialization/102?namespace=static-12.0.1_65617-eu"
+              },
+              "name": "Balance",
+              "id": 102
+            },
+            "season": 40,
+            "lastUpdated": null,
+            "seasonStart": null,
+            "seasonEnd": null
+          }
+        ]
+      },
+      "totalStats": {
+        "totalWins": 2,
+        "totalLosses": 0,
+        "totalGames": 2,
+        "winRate": 100,
+        "highestRating": 576,
+        "highestBracket": "blitz-balance"
+      }
+    },
+    {
       "characterName": "Vidtinok",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:05.646Z",
+      "lastUpdated": "2026-02-18T00:43:13.380Z",
       "profile": {
         "lastLoginTimestamp": 1755761116000,
         "level": 80,
@@ -29195,7 +29174,7 @@
     {
       "characterName": "Gnomik",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:25:12.672Z",
+      "lastUpdated": "2026-02-18T00:43:20.228Z",
       "profile": {
         "lastLoginTimestamp": 1770571751000,
         "level": 80,
@@ -29284,7 +29263,7 @@
     {
       "characterName": "ßøøm",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:17.133Z",
+      "lastUpdated": "2026-02-18T00:46:21.319Z",
       "profile": {
         "lastLoginTimestamp": 1767215091000,
         "level": 80,
@@ -29343,7 +29322,7 @@
     {
       "characterName": "Bergljörd",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:08.968Z",
+      "lastUpdated": "2026-02-18T00:41:18.634Z",
       "profile": {
         "lastLoginTimestamp": 1762287217000,
         "level": 80,
@@ -29402,9 +29381,9 @@
     {
       "characterName": "Xallyfeet",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:24.205Z",
+      "lastUpdated": "2026-02-18T00:42:29.688Z",
       "profile": {
-        "lastLoginTimestamp": 1770404331000,
+        "lastLoginTimestamp": 1771272971000,
         "level": 80,
         "characterClass": "Demon Hunter",
         "race": "Night Elf",
@@ -29430,7 +29409,7 @@
           "weeklyRoundLosses": 0,
           "tier": {
             "key": {
-              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/8?namespace=static-12.0.0_65028-eu"
+              "href": "https://eu.api.blizzard.com/data/wow/pvp-tier/8?namespace=static-12.0.1_65617-eu"
             },
             "id": 8
           },
@@ -29452,7 +29431,7 @@
     {
       "characterName": "Vitaminká",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:30.826Z",
+      "lastUpdated": "2026-02-18T00:45:35.433Z",
       "profile": {
         "lastLoginTimestamp": 1766833365000,
         "level": 80,
@@ -29502,7 +29481,7 @@
     {
       "characterName": "Zaknafenua",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:20.386Z",
+      "lastUpdated": "2026-02-18T00:46:24.630Z",
       "profile": {
         "lastLoginTimestamp": 1761486395000,
         "level": 80,
@@ -29589,7 +29568,7 @@
     {
       "characterName": "Nenwa",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:23:29.322Z",
+      "lastUpdated": "2026-02-18T00:41:38.897Z",
       "profile": {
         "lastLoginTimestamp": 1770821352000,
         "level": 80,
@@ -29697,7 +29676,7 @@
     {
       "characterName": "Loipoia",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:25:43.212Z",
+      "lastUpdated": "2026-02-18T00:43:49.973Z",
       "profile": {
         "lastLoginTimestamp": 1765732242000,
         "level": 80,
@@ -29756,7 +29735,7 @@
     {
       "characterName": "Milffinder",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:41.417Z",
+      "lastUpdated": "2026-02-18T00:45:45.725Z",
       "profile": {
         "lastLoginTimestamp": 1766853400000,
         "level": 80,
@@ -29815,14 +29794,14 @@
     {
       "characterName": "Åstrax",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:33.121Z",
+      "lastUpdated": "2026-02-18T00:41:46.339Z",
       "profile": {
-        "lastLoginTimestamp": 1771069072000,
+        "lastLoginTimestamp": 1771142228000,
         "level": 80,
         "characterClass": "Shaman",
         "race": "Draenei",
         "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Enhancement",
+        "activeSpec": "Elemental",
         "pvpSummary": {
           "href": "https://eu.api.blizzard.com/profile/wow/character/ravencrest/%C3%A5strax/pvp-summary?namespace=profile-eu"
         },
@@ -29895,7 +29874,7 @@
     {
       "characterName": "Kronesx",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:24:48.335Z",
+      "lastUpdated": "2026-02-18T00:42:56.126Z",
       "profile": {
         "lastLoginTimestamp": 1757093719000,
         "level": 80,
@@ -29954,7 +29933,7 @@
     {
       "characterName": "Shotindarcke",
       "realmSlug": "burning-blade",
-      "lastUpdated": "2026-02-15T00:25:46.496Z",
+      "lastUpdated": "2026-02-18T00:43:53.119Z",
       "profile": {
         "lastLoginTimestamp": 1769946200000,
         "level": 80,
@@ -30013,7 +29992,7 @@
     {
       "characterName": "Kkos",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:23.553Z",
+      "lastUpdated": "2026-02-18T00:46:27.720Z",
       "profile": {
         "lastLoginTimestamp": 1771028424000,
         "level": 80,
@@ -30072,7 +30051,7 @@
     {
       "characterName": "Snowbubble",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:44.637Z",
+      "lastUpdated": "2026-02-18T00:42:52.644Z",
       "profile": {
         "lastLoginTimestamp": 1769600891000,
         "level": 80,
@@ -30131,7 +30110,7 @@
     {
       "characterName": "Hyds",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:38.734Z",
+      "lastUpdated": "2026-02-18T00:40:48.205Z",
       "profile": {
         "lastLoginTimestamp": 1739792139000,
         "level": 80,
@@ -30162,7 +30141,7 @@
     {
       "characterName": "Discopium",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:48.408Z",
+      "lastUpdated": "2026-02-18T00:40:57.912Z",
       "profile": {
         "lastLoginTimestamp": 1730252053000,
         "level": 80,
@@ -30193,7 +30172,7 @@
     {
       "characterName": "Dragonkníght",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:22:55.095Z",
+      "lastUpdated": "2026-02-18T00:41:04.945Z",
       "profile": {
         "lastLoginTimestamp": 1729983680000,
         "level": 80,
@@ -30224,7 +30203,7 @@
     {
       "characterName": "Lostinmana",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:05.632Z",
+      "lastUpdated": "2026-02-18T00:41:15.358Z",
       "profile": {
         "lastLoginTimestamp": 1728841875000,
         "level": 80,
@@ -30255,7 +30234,7 @@
     {
       "characterName": "Heartsbaner",
       "realmSlug": "argent-dawn",
-      "lastUpdated": "2026-02-15T00:23:12.254Z",
+      "lastUpdated": "2026-02-18T00:41:21.888Z",
       "profile": {
         "lastLoginTimestamp": 1750893088000,
         "level": 80,
@@ -30286,7 +30265,7 @@
     {
       "characterName": "Qìrei",
       "realmSlug": "pozzo-delleternità",
-      "lastUpdated": "2026-02-15T00:23:15.703Z",
+      "lastUpdated": "2026-02-18T00:41:25.433Z",
       "profile": {
         "lastLoginTimestamp": 1730402932000,
         "level": 80,
@@ -30317,7 +30296,7 @@
     {
       "characterName": "Synoptick",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:18.946Z",
+      "lastUpdated": "2026-02-18T00:41:28.688Z",
       "profile": {
         "lastLoginTimestamp": 1751809635000,
         "level": 80,
@@ -30348,7 +30327,7 @@
     {
       "characterName": "Nsh",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:29.322Z",
+      "lastUpdated": "2026-02-18T00:41:38.897Z",
       "profile": {
         "lastLoginTimestamp": 1741522471000,
         "level": 80,
@@ -30379,7 +30358,7 @@
     {
       "characterName": "Bonecaller",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:33.121Z",
+      "lastUpdated": "2026-02-18T00:41:42.527Z",
       "profile": {
         "lastLoginTimestamp": 1729174989000,
         "level": 80,
@@ -30410,7 +30389,7 @@
     {
       "characterName": "Ogastes",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:23:50.407Z",
+      "lastUpdated": "2026-02-18T00:41:59.312Z",
       "profile": {
         "lastLoginTimestamp": 1741379149000,
         "level": 80,
@@ -30441,7 +30420,7 @@
     {
       "characterName": "Meowrly",
       "realmSlug": "ravencrest",
-      "lastUpdated": "2026-02-15T00:24:00.410Z",
+      "lastUpdated": "2026-02-18T00:42:09.368Z",
       "profile": {
         "lastLoginTimestamp": 1753041118000,
         "level": 80,
@@ -30470,40 +30449,9 @@
       }
     },
     {
-      "characterName": "Daikri",
-      "realmSlug": "draenor",
-      "lastUpdated": "2026-02-15T00:24:17.212Z",
-      "profile": {
-        "lastLoginTimestamp": 1754039241000,
-        "level": 80,
-        "characterClass": "Priest",
-        "race": "Blood Elf",
-        "guild": "CBITAHOK KPOBI",
-        "activeSpec": "Discipline",
-        "pvpSummary": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/draenor/daikri/pvp-summary?namespace=profile-eu"
-        },
-        "statistics": {
-          "href": "https://eu.api.blizzard.com/profile/wow/character/draenor/daikri/statistics?namespace=profile-eu"
-        }
-      },
-      "brackets": {
-        "soloShuffle": [],
-        "soloBlitz": []
-      },
-      "totalStats": {
-        "totalWins": 0,
-        "totalLosses": 0,
-        "totalGames": 0,
-        "winRate": 0,
-        "highestRating": 0,
-        "highestBracket": ""
-      }
-    },
-    {
       "characterName": "Kettil",
       "realmSlug": "draenor",
-      "lastUpdated": "2026-02-15T00:24:17.212Z",
+      "lastUpdated": "2026-02-18T00:42:26.016Z",
       "profile": {
         "lastLoginTimestamp": 1754045752000,
         "level": 80,
@@ -30532,9 +30480,40 @@
       }
     },
     {
+      "characterName": "Daikri",
+      "realmSlug": "draenor",
+      "lastUpdated": "2026-02-18T00:42:26.016Z",
+      "profile": {
+        "lastLoginTimestamp": 1754039241000,
+        "level": 80,
+        "characterClass": "Priest",
+        "race": "Blood Elf",
+        "guild": "CBITAHOK KPOBI",
+        "activeSpec": "Discipline",
+        "pvpSummary": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/draenor/daikri/pvp-summary?namespace=profile-eu"
+        },
+        "statistics": {
+          "href": "https://eu.api.blizzard.com/profile/wow/character/draenor/daikri/statistics?namespace=profile-eu"
+        }
+      },
+      "brackets": {
+        "soloShuffle": [],
+        "soloBlitz": []
+      },
+      "totalStats": {
+        "totalWins": 0,
+        "totalLosses": 0,
+        "totalGames": 0,
+        "winRate": 0,
+        "highestRating": 0,
+        "highestBracket": ""
+      }
+    },
+    {
       "characterName": "Baldbaby",
       "realmSlug": "argent-dawn",
-      "lastUpdated": "2026-02-15T00:24:58.351Z",
+      "lastUpdated": "2026-02-18T00:43:06.147Z",
       "profile": {
         "lastLoginTimestamp": 1745146848000,
         "level": 80,
@@ -30565,7 +30544,7 @@
     {
       "characterName": "Mi",
       "realmSlug": "darkmoon-faire",
-      "lastUpdated": "2026-02-15T00:25:09.327Z",
+      "lastUpdated": "2026-02-18T00:43:16.940Z",
       "profile": {
         "lastLoginTimestamp": 1743461010000,
         "level": 80,
@@ -30596,7 +30575,7 @@
     {
       "characterName": "Azovthyr",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:25:12.673Z",
+      "lastUpdated": "2026-02-18T00:43:20.228Z",
       "profile": {
         "lastLoginTimestamp": 1726836541000,
         "level": 80,
@@ -30627,7 +30606,7 @@
     {
       "characterName": "Paradigma",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:25:26.458Z",
+      "lastUpdated": "2026-02-18T00:43:33.421Z",
       "profile": {
         "lastLoginTimestamp": 1727732655000,
         "level": 80,
@@ -30658,7 +30637,7 @@
     {
       "characterName": "Artkow",
       "realmSlug": "argent-dawn",
-      "lastUpdated": "2026-02-15T00:25:33.662Z",
+      "lastUpdated": "2026-02-18T00:43:40.386Z",
       "profile": {
         "lastLoginTimestamp": 1754510708000,
         "level": 80,
@@ -30688,7 +30667,7 @@
     {
       "characterName": "Kruasan",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:25:49.841Z",
+      "lastUpdated": "2026-02-18T00:43:59.801Z",
       "profile": {
         "lastLoginTimestamp": 1754054869000,
         "level": 80,
@@ -30719,7 +30698,7 @@
     {
       "characterName": "Avesalom",
       "realmSlug": "stormreaver",
-      "lastUpdated": "2026-02-15T00:25:56.874Z",
+      "lastUpdated": "2026-02-18T00:44:03.185Z",
       "profile": {
         "lastLoginTimestamp": 1750062189000,
         "level": 80,
@@ -30750,7 +30729,7 @@
     {
       "characterName": "Shinnock",
       "realmSlug": "stormreaver",
-      "lastUpdated": "2026-02-15T00:26:00.407Z",
+      "lastUpdated": "2026-02-18T00:44:06.837Z",
       "profile": {
         "lastLoginTimestamp": 1745425482000,
         "level": 80,
@@ -30781,7 +30760,7 @@
     {
       "characterName": "Kurbi",
       "realmSlug": "stormreaver",
-      "lastUpdated": "2026-02-15T00:26:03.907Z",
+      "lastUpdated": "2026-02-18T00:44:10.334Z",
       "profile": {
         "lastLoginTimestamp": 1750963364000,
         "level": 80,
@@ -30812,7 +30791,7 @@
     {
       "characterName": "Motsny",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:07.387Z",
+      "lastUpdated": "2026-02-18T00:44:13.507Z",
       "profile": {
         "lastLoginTimestamp": 1734209736000,
         "level": 80,
@@ -30843,7 +30822,7 @@
     {
       "characterName": "Shinnøck",
       "realmSlug": "tarren-mill",
-      "lastUpdated": "2026-02-15T00:26:13.832Z",
+      "lastUpdated": "2026-02-18T00:44:20.077Z",
       "profile": {
         "lastLoginTimestamp": 1751745951000,
         "level": 80,
@@ -30874,7 +30853,7 @@
     {
       "characterName": "Panini",
       "realmSlug": "magtheridon",
-      "lastUpdated": "2026-02-15T00:26:20.444Z",
+      "lastUpdated": "2026-02-18T00:44:26.623Z",
       "profile": {
         "lastLoginTimestamp": 1739212065000,
         "level": 80,
@@ -30905,7 +30884,7 @@
     {
       "characterName": "Pidpolkovnuk",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:20.444Z",
+      "lastUpdated": "2026-02-18T00:44:30.023Z",
       "profile": {
         "lastLoginTimestamp": 1752252109000,
         "level": 80,
@@ -30936,7 +30915,7 @@
     {
       "characterName": "Purgebaby",
       "realmSlug": "terokkar",
-      "lastUpdated": "2026-02-15T00:26:37.306Z",
+      "lastUpdated": "2026-02-18T00:44:43.018Z",
       "profile": {
         "lastLoginTimestamp": 1752917067000,
         "level": 80,
@@ -30967,7 +30946,7 @@
     {
       "characterName": "Hildebrandus",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:24.108Z",
+      "lastUpdated": "2026-02-18T00:45:28.667Z",
       "profile": {
         "lastLoginTimestamp": 1742429985000,
         "level": 80,
@@ -30998,7 +30977,7 @@
     {
       "characterName": "Sorrowrogue",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:34.418Z",
+      "lastUpdated": "2026-02-18T00:45:39.111Z",
       "profile": {
         "lastLoginTimestamp": 1743210897000,
         "level": 80,
@@ -31029,7 +31008,7 @@
     {
       "characterName": "Íròh",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:38.150Z",
+      "lastUpdated": "2026-02-18T00:45:42.515Z",
       "profile": {
         "lastLoginTimestamp": 1751025663000,
         "level": 80,
@@ -31060,7 +31039,7 @@
     {
       "characterName": "Fenomenproj",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:27:38.150Z",
+      "lastUpdated": "2026-02-18T00:45:42.515Z",
       "profile": {
         "lastLoginTimestamp": 1766948263000,
         "level": 80,
@@ -31149,7 +31128,7 @@
     {
       "characterName": "Annunakì",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:07.346Z",
+      "lastUpdated": "2026-02-18T00:46:14.522Z",
       "profile": {
         "lastLoginTimestamp": 1748459145000,
         "level": 80,
@@ -31180,7 +31159,7 @@
     {
       "characterName": "Budanova",
       "realmSlug": "silvermoon",
-      "lastUpdated": "2026-02-15T00:28:13.523Z",
+      "lastUpdated": "2026-02-18T00:46:21.318Z",
       "profile": {
         "lastLoginTimestamp": 1753801591000,
         "level": 80,
@@ -31210,7 +31189,7 @@
     {
       "characterName": "Fiena",
       "realmSlug": "sunstrider",
-      "lastUpdated": "2026-02-15T00:28:36.165Z",
+      "lastUpdated": "2026-02-18T00:46:40.563Z",
       "profile": {
         "lastLoginTimestamp": 1769377689000,
         "level": 80,
@@ -31269,7 +31248,7 @@
     {
       "characterName": "Kotych",
       "realmSlug": "karazhan",
-      "lastUpdated": "2026-02-15T00:28:36.165Z",
+      "lastUpdated": "2026-02-18T00:46:40.563Z",
       "profile": {
         "lastLoginTimestamp": 1744551938000,
         "level": 80,

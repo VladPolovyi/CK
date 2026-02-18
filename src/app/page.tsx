@@ -38,7 +38,7 @@ export default function Home() {
               ukrainian pvp guild
             </div>
             <h1 className="text-6xl font-black text-white sm:text-7xl md:text-8xl mt-4 mb-4 tracking-wider drop-shadow-2xl">
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-red-500 to-red-700">
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-red-600 to-red-800">
                 CBITAHOK KPOBI
               </span>
             </h1>

@@ -58,21 +58,15 @@ async function blizzardGet(region, path, searchParams = {}) {
 
 async function fetchGuildRoster() {
   try {
-    console.log('🔍 Fetching guild roster from Blizzard API...')
-    
     const res = await blizzardGet('eu', '/data/wow/guild/ravencrest/cbitahok-kpobi/roster', {
       namespace: 'profile-eu',
       locale: 'en_US',
     })
-    
     const data = await res.json()
     const rosterMembers = Array.isArray(data?.members) ? data.members : []
-    
-    console.log(`✅ Fetched ${rosterMembers.length} guild members`)
     return rosterMembers
   } catch (error) {
     console.error('❌ Error fetching guild roster:', error.message)
-    console.log('⚠️  Using empty roster for build')
     return []
   }
 }
@@ -90,8 +84,6 @@ async function loadPvpTitles() {
 
 async function generateAchievementData() {
   try {
-    console.log('🚀 Starting advanced achievement data generation...')
-    
     // Fetch guild roster and PvP titles
     const [rosterMembers, titles] = await Promise.all([
       fetchGuildRoster(),
@@ -114,104 +106,42 @@ async function generateAchievementData() {
         : []
     )
     
-    // Process all the filtering logic that was previously done at runtime
-    const gladiatorMembers = sortedRoster.filter((m) => {
-      const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
-      return memberData && memberData.hasGladiatorEver && m.rank <= 5
-    })
-    
-    const rank1Members = sortedRoster.filter((m) => {
-      const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
-      return memberData && memberData.hasRank1Ever && m.rank <= 5
-    })
-    
-    const legendMembers = sortedRoster.filter((m) => {
-      const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
-      return memberData && memberData.hasLegendEver && m.rank <= 5
-    })
-    
-    const strategistMembers = sortedRoster.filter((m) => {
-      const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
-      return memberData && memberData.hasStrategistEver && m.rank <= 5
-    })
-    
-    const blitzRank1Members = sortedRoster.filter((m) => {
-      const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
-      return memberData && memberData.hasRank1BlitzEver && m.rank <= 5
-    })
-    
-    const soloRank1Members = sortedRoster.filter((m) => {
-      const memberData = byNameAndRealm.get(`${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`)
-      return memberData && memberData.hasRank1SoloEver && m.rank <= 5
-    })
-    
-    // Create the achievement data structure
+    // Build one list of players (rank <= 5) with per-type achievement counts
+    const players = sortedRoster
+      .filter((m) => (m?.rank ?? 99) <= 5)
+      .map((m) => {
+        const key = `${(m?.character?.name ?? '').toLowerCase()}-${(m?.character?.realm?.slug ?? '').toLowerCase()}`
+        const memberData = byNameAndRealm.get(key)
+        return {
+          id: m.character?.id,
+          name: m.character?.name,
+          realm: {
+            name: { en_US: m.character?.realm?.name || m.character?.realm?.slug || 'Unknown' },
+            slug: m.character?.realm?.slug || 'unknown'
+          },
+          rank: m.rank,
+          characterClass: memberData?.characterClass ?? m.character?.playable_class?.name ?? null,
+          rank1: memberData?.rank1 ?? 0,
+          rank1solo: memberData?.rank1solo ?? 0,
+          gladiator: memberData?.gladiator ?? 0,
+          legend: memberData?.legend ?? 0,
+          strategist: memberData?.strategist ?? 0,
+          blitzRank1: memberData?.blitzRank1 ?? 0
+        }
+      })
+
+    // Stats: count of players with at least one of each type (for summary cards)
     const achievementData = {
       generatedAt: new Date().toISOString(),
       stats: {
-        gladiatorCount: gladiatorMembers.length,
-        rank1Count: rank1Members.length,
-        legendCount: legendMembers.length,
-        strategistCount: strategistMembers.length,
-        blitzRank1Count: blitzRank1Members.length,
-        soloRank1Count: soloRank1Members.length
+        gladiatorCount: players.filter((p) => p.gladiator > 0).length,
+        rank1Count: players.filter((p) => p.rank1 > 0).length,
+        legendCount: players.filter((p) => p.legend > 0).length,
+        strategistCount: players.filter((p) => p.strategist > 0).length,
+        blitzRank1Count: players.filter((p) => p.blitzRank1 > 0).length,
+        soloRank1Count: players.filter((p) => p.rank1solo > 0).length
       },
-      members: {
-        gladiatorMembers: gladiatorMembers.map(m => ({
-          id: m.character?.id,
-          name: m.character?.name,
-          realm: {
-            name: { en_US: m.character?.realm?.name || m.character?.realm?.slug || 'Unknown' },
-            slug: m.character?.realm?.slug || 'unknown'
-          },
-          rank: m.rank
-        })),
-        rank1Members: rank1Members.map(m => ({
-          id: m.character?.id,
-          name: m.character?.name,
-          realm: {
-            name: { en_US: m.character?.realm?.name || m.character?.realm?.slug || 'Unknown' },
-            slug: m.character?.realm?.slug || 'unknown'
-          },
-          rank: m.rank
-        })),
-        legendMembers: legendMembers.map(m => ({
-          id: m.character?.id,
-          name: m.character?.name,
-          realm: {
-            name: { en_US: m.character?.realm?.name || m.character?.realm?.slug || 'Unknown' },
-            slug: m.character?.realm?.slug || 'unknown'
-          },
-          rank: m.rank
-        })),
-        strategistMembers: strategistMembers.map(m => ({
-          id: m.character?.id,
-          name: m.character?.name,
-          realm: {
-            name: { en_US: m.character?.realm?.name || m.character?.realm?.slug || 'Unknown' },
-            slug: m.character?.realm?.slug || 'unknown'
-          },
-          rank: m.rank
-        })),
-        blitzRank1Members: blitzRank1Members.map(m => ({
-          id: m.character?.id,
-          name: m.character?.name,
-          realm: {
-            name: { en_US: m.character?.realm?.name || m.character?.realm?.slug || 'Unknown' },
-            slug: m.character?.realm?.slug || 'unknown'
-          },
-          rank: m.rank
-        })),
-        soloRank1Members: soloRank1Members.map(m => ({
-          id: m.character?.id,
-          name: m.character?.name,
-          realm: {
-            name: { en_US: m.character?.realm?.name || m.character?.realm?.slug || 'Unknown' },
-            slug: m.character?.realm?.slug || 'unknown'
-          },
-          rank: m.rank
-        }))
-      }
+      players
     }
     
     // Ensure the generated directory exists
@@ -223,27 +153,15 @@ async function generateAchievementData() {
     // Write achievement data
     const achievementDataPath = join(generatedDir, 'achievements-data.json')
     await writeFile(achievementDataPath, JSON.stringify(achievementData, null, 2))
-    
-    console.log('✅ Achievement data generated successfully!')
-    console.log(`📁 Saved to: ${achievementDataPath}`)
-    console.log('📊 Stats:')
-    console.log(`   - Gladiators: ${achievementData.stats.gladiatorCount}`)
-    console.log(`   - Rank 1: ${achievementData.stats.rank1Count}`)
-    console.log(`   - Legends: ${achievementData.stats.legendCount}`)
-    console.log(`   - Strategists: ${achievementData.stats.strategistCount}`)
-    console.log(`   - Blitz Rank 1: ${achievementData.stats.blitzRank1Count}`)
-    console.log(`   - Solo Rank 1: ${achievementData.stats.soloRank1Count}`)
-    
-    // Also generate a simple stats file for the main page
+
     const statsData = {
       generatedAt: new Date().toISOString(),
       stats: achievementData.stats
     }
-    
     const statsDataPath = join(generatedDir, 'main-page-stats.json')
     await writeFile(statsDataPath, JSON.stringify(statsData, null, 2))
-    
-    console.log(`📊 Main page stats saved to: ${statsDataPath}`)
+
+    console.log('✅ Achievements data saved')
     
   } catch (error) {
     console.error('❌ Error generating achievement data:', error)

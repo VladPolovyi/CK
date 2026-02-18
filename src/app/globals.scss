@@ -225,6 +225,20 @@ body {
   @include blood-card;
 }
 
+.blood-card-no-hover {
+  transition: none;
+
+  &::before {
+    display: none;
+  }
+
+  &:hover {
+    transform: none;
+    box-shadow: inherit;
+    border-color: rgba(255, 0, 0, 0.3);
+  }
+}
+
 .blood-button {
   @include blood-button;
 }
@@ -318,12 +332,12 @@ body {
 
 // Responsive blood effects
 @media (max-width: 768px) {
-  .blood-card {
+  .blood-card:not(.blood-card-no-hover) {
     &:hover {
       transform: translateY(-2px);
     }
   }
-  
+
   .blood-button {
     &:hover {
       transform: translateY(-0.5px);
