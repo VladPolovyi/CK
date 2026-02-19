@@ -27,14 +27,15 @@ export default function Navigation() {
             </button>
           </div>
 
-          {/* Desktop Left Navigation */}
-          <div className="hidden md:flex items-center space-x-6">
+          {/* Desktop Left Navigation - equal width so logo stays centered */}
+          <div className="hidden md:flex md:flex-1 md:items-center md:justify-end md:space-x-6">
             <Link href="/achievements" className="text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors">Achievements</Link>
             <Link href="/activity" className="text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors">Activity</Link>
+            <Link href="/leaderboards" className="text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors">Leaderboards</Link>
           </div>
           
           {/* Centered Logo */}
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center md:static md:translate-x-0 md:translate-y-0 md:flex-1">
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center md:static md:translate-x-0 md:translate-y-0 md:flex-1 md:justify-center">
             <Link href="/" className="blood-logo flex items-center justify-center">
               <Image 
                 src="/images/logo_main.png" 
@@ -54,8 +55,8 @@ export default function Navigation() {
             </Link>
           </div>
           
-          {/* Desktop Right Navigation */}
-          <div className="hidden md:flex items-center space-x-6">
+          {/* Desktop Right Navigation - equal width so logo stays centered */}
+          <div className="hidden md:flex md:flex-1 md:items-center md:justify-end md:space-x-6">
             <Link href="/gallery" className="text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors">Gallery</Link>
             <Link href="https://discord.gg/9hgAHRfD9x" className="text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors">Discord</Link>
           </div>
@@ -81,6 +82,13 @@ export default function Navigation() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Activity
+              </Link>
+              <Link 
+                href="/leaderboards" 
+                className="block text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Leaderboards
               </Link>
               <Link 
                 href="/gallery" 

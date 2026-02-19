@@ -200,12 +200,12 @@ export default function MemberLists({ data }: MemberListsProps) {
                           href={url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="font-medium text-base hover:underline"
+                          className="font-medium text-base"
                           style={{ color: p.characterClass ? (WOW_CLASS_COLORS[p.characterClass] ?? '#9CA3AF') : '#FFFFFF' }}
                         >
                           {p.name ?? 'Unknown'}
+                          <span className="text-gray-400"> - {realmDisplayName}</span>
                         </a>
-                        <span className="text-gray-400"> · {realmDisplayName}</span>
                       </div>
                       <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 col-span-2 col-start-1 row-start-2 pt-2 md:pt-0 md:col-span-1 md:col-start-2 md:row-start-1">
                         <PlayerCounts player={p} />
