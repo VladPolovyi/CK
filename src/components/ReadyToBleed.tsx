@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function ReadyToBleed() {
   return (
     <div className="relative py-12 bg-cover bg-center bg-no-repeat" style={{ 
-      backgroundImage: 'url(/images/morok_glad.jpg)',
+      backgroundImage: 'url(/images/etazis_s3.png)',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat'
     }}>

@@ -18,7 +18,7 @@ export default async function GuildActivity() {
           <HeroSection 
             title="Guild Activity"
             subtitle="Monitor PvP performance and track guild member statistics across all competitive brackets."
-            backgroundImage="/images/maldr.jpg"
+            backgroundImage="/images/voidstorm_2.jpg"
           />
           
           <div className="py-12">
@@ -52,7 +52,7 @@ export default async function GuildActivity() {
         <HeroSection 
           title="Guild Activity"
           subtitle="Monitor PvP performance and track guild member statistics across all competitive brackets."
-          backgroundImage="/images/maldr.jpg"
+          backgroundImage="/images/voidstorm_2.jpg"
         />
 
         {/* Main Content */}
@@ -62,7 +62,7 @@ export default async function GuildActivity() {
             <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
               <div className="text-center mb-10">
                 <h3 className="text-3xl font-extrabold text-white sm:text-4xl">
-                  <span className="text-blood-light">Arena Activity (Weekly)</span>
+                  <span className="text-blood-light">Arena Activity </span><span className="text-yellow-400">(Weekly)</span>
                 </h3>
                 <p className="mt-4 text-lg text-gray-300">
                   Members with activity this week. Ranked by rating.

@@ -16,7 +16,7 @@ export default async function LeaderboardsPage() {
           <HeroSection
             title="Leaderboards"
             subtitle="PvP rankings by bracket"
-            backgroundImage="/images/maldr.jpg"
+            backgroundImage="/images/voidstorm.jpg"
           />
           <div className="py-12">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -28,7 +28,6 @@ export default async function LeaderboardsPage() {
                 <p className="text-lg text-gray-300 mb-6">
                   PvP activity data has not been generated yet. Run the build to generate data.
                 </p>
-                <code className="text-blood-light text-sm">npm run build</code>
               </div>
             </div>
           </div>
@@ -47,7 +46,7 @@ export default async function LeaderboardsPage() {
         <HeroSection
           title="Leaderboards"
           subtitle="PvP rankings by bracket — all members"
-          backgroundImage="/images/maldr.jpg"
+          backgroundImage="/images/voidstorm.jpg"
         />
 
         <div className="py-6 md:py-8">

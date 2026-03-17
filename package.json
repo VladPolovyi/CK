@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "generate:achievements": "node -r dotenv/config scripts/generate-achievements-advanced.mjs",
-    "generate:pvp-activity": "node -r dotenv/config scripts/generate-pvp-activity.mjs"
+    "generate:pvp-activity": "node -r dotenv/config scripts/generate-pvp-activity.mjs",
+    "test:character": "node -r dotenv/config scripts/test-character.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
