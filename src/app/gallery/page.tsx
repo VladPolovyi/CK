@@ -201,7 +201,7 @@ export default function Gallery() {
     {
       title: "Ebobola",
       description: "Win 50 games with more than 2400 arena rating during the The War Within",
-      image: "/images/ebo_s3.png",
+      image: "/images/karesh_glad_butthurtx.png",
       type: "gladiator",
       expansion:"The War Within",
       season:3,
@@ -231,7 +231,7 @@ export default function Gallery() {
     {
       title: "Nickrosh",
       description: "Win 50 games with more than 2400 arena rating during the The War Within",
-      image: "/images/nickrosh_s3.png",
+      image: "/images/nickrosh_s3.jpg",
       type: "gladiator",
       expansion:"The War Within",
       season:3,

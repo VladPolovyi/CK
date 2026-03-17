@@ -28,6 +28,7 @@ export default async function LeaderboardsPage() {
                 <p className="text-lg text-gray-300 mb-6">
                   PvP activity data has not been generated yet. Run the build to generate data.
                 </p>
+                <code className="text-blood-light text-sm">npm run build</code>
               </div>
             </div>
           </div>
