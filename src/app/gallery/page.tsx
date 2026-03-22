@@ -271,7 +271,6 @@ export default function Gallery() {
   ]
 
   // Group by expansion (big), then by season (smaller)
-  
   type GalleryItem = (typeof galleryItems)[number]
   const byExpansion = galleryItems.reduce<Record<string, Record<number, GalleryItem[]>>>((acc, item) => {
     const exp = item.expansion ?? 'Other'
