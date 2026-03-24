@@ -14,12 +14,35 @@ const eczar = Eczar({
 })
 
 export const metadata: Metadata = {
-  title: 'CBITAHOK KPOBI - Dawn of Blood',
-  description: 'Welcome to CBITAHOK KPOBI - Dawn of Blood. Where legends are forged in blood and darkness.',
+  title: 'CBITAHOK KPOBI - Ukrainian PvP Community',
+  description: 'Ukrainian PvP guild in World of Warcraft. Arena, Battleground & Solo Shuffle champions. Join the most competitive Ukrainian WoW community.',
   icons: {
     icon: '/images/logo2.png',
     shortcut: '/images/logo2.png',
     apple: '/images/logo2.png',
+  },
+  metadataBase: new URL('https://www.ckpvp.com'),
+  openGraph: {
+    title: 'CBITAHOK KPOBI - Ukrainian PvP Community',
+    description: 'Ukrainian PvP guild in World of Warcraft. Arena, Blitz & Solo Shuffle. Join the most competitive Ukrainian WoW community.',
+    url: 'https://www.ckpvp.com',
+    siteName: 'CBITAHOK KPOBI',
+    images: [
+      {
+        url: '/images/logo_main.png',
+        width: 1200,
+        height: 630,
+        alt: 'CBITAHOK KPOBI - Ukrainian PvP Guild',
+      },
+    ],
+    locale: 'uk_UA',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'CBITAHOK KPOBI - Ukrainian PvP Community',
+    description: 'Ukrainian PvP guild in World of Warcraft. Arena, Battleground & Solo Shuffle champions. Join the most competitive Ukrainian WoW community.',
+    images: ['/images/logo_main.png'],
   },
 }
 
