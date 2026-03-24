@@ -1,7 +1,7 @@
 import { AlertCircle } from 'lucide-react'
 import Navigation from '@/components/Navigation'
 import HeroSection from '@/components/HeroSection'
-import ReadyToBleed from '@/components/ReadyToBleed'
+import JoinUs from '@/components/JoinUs'
 import LeaderboardTabs from '@/components/LeaderboardTabs'
 import { getPvPActivityData, generateBracketSummaries } from '@/lib/pvp-activity'
 
@@ -32,7 +32,7 @@ export default async function LeaderboardsPage() {
               </div>
             </div>
           </div>
-          <ReadyToBleed />
+          <JoinUs />
         </div>
       </div>
     )
@@ -69,7 +69,7 @@ export default async function LeaderboardsPage() {
           </div>
         </div>
 
-        <ReadyToBleed />
+        <JoinUs />
       </div>
     </div>
   )

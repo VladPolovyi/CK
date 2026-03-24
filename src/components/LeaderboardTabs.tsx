@@ -92,7 +92,11 @@ export default function LeaderboardTabs({ brackets }: LeaderboardTabsProps) {
   const sortedBrackets = [...bracketsWithoutRbg].sort(
     (a, b) => TAB_ORDER.indexOf(a.bracketType) - TAB_ORDER.indexOf(b.bracketType)
   )
-  const [activeTab, setActiveTab] = useState<PvPBracketSummary['bracketType']>(sortedBrackets[0]?.bracketType ?? '2v2')
+  const defaultTab =
+    sortedBrackets.find((b) => b.bracketType === 'solo-shuffle')?.bracketType ??
+    sortedBrackets[0]?.bracketType ??
+    'solo-shuffle'
+  const [activeTab, setActiveTab] = useState<PvPBracketSummary['bracketType']>(defaultTab)
   const activeBracket = bracketsWithoutRbg.find(b => b.bracketType === activeTab)
   const sortedMembers = activeBracket
     ? [...activeBracket.members].sort((a, b) => b.rating - a.rating)

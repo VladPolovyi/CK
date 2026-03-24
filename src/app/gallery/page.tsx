@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Camera, Heart } from 'lucide-react'
 import Navigation from '@/components/Navigation'
 import HeroSection from '@/components/HeroSection'
-import ReadyToBleed from '@/components/ReadyToBleed'
+import JoinUs from '@/components/JoinUs'
 import Image from 'next/image'
 import Lightbox from 'yet-another-react-lightbox'
 import Zoom from 'yet-another-react-lightbox/plugins/zoom'
@@ -474,7 +474,7 @@ export default function Gallery() {
 
 
       {/* Ready to Bleed Section */}
-      <ReadyToBleed />
+      <JoinUs />
     </div>
   </div>
   )

@@ -15,7 +15,7 @@ const eczar = Eczar({
 
 export const metadata: Metadata = {
   title: 'CBITAHOK KPOBI - Ukrainian PvP Community',
-  description: 'Ukrainian PvP guild in World of Warcraft. Arena, Battleground & Solo Shuffle champions. Join the most competitive Ukrainian WoW community.',
+  description: 'Ukrainian PvP guild in World of Warcraft. Arena, Battleground & Solo Shuffle. Join the most competitive Ukrainian WoW community.',
   icons: {
     icon: '/images/logo2.png',
     shortcut: '/images/logo2.png',

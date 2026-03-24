@@ -2,7 +2,7 @@ import Navigation from '@/components/Navigation'
 import HeroSection from '@/components/HeroSection'
 import AchievementStats from '@/components/AchievementStats'
 import MemberLists from '@/components/MemberLists'
-import ReadyToBleed from '@/components/ReadyToBleed'
+import JoinUs from '@/components/JoinUs'
 import achievementData from '@/data/generated/achievements-data.json'
 
 export default function Achievements() {
@@ -36,7 +36,7 @@ export default function Achievements() {
         <MemberLists data={achievementData} />
 
         {/* Ready to Bleed Section */}
-        <ReadyToBleed />
+        <JoinUs />
       </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import { Shield, Users, Calendar, Trophy, Sword, Crown, Zap, Target, Skull, Flame, Droplets } from 'lucide-react'
 import Navigation from '@/components/Navigation'
-import ReadyToBleed from '@/components/ReadyToBleed'
+import JoinUs from '@/components/JoinUs'
 import AchievementStats from '@/components/AchievementStats'
 import GuildPvPOverview from '@/components/GuildPvPOverview'
 import styles from './page.module.scss'
@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center items-center">
             <a
-              href="#ready-to-bleed"
+              href="#join-us"
               className="inline-block rounded-xl px-16 py-5 bg-black/60 border border-red-500/50 text-white font-semibold text-lg tracking-widest uppercase cursor-pointer"
             >
               JOIN US
@@ -116,9 +116,9 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Ready to Bleed Section */}
-      <div id="ready-to-bleed">
-        <ReadyToBleed />
+      {/* Join Us Section */}
+      <div id="join-us">
+        <JoinUs />
       </div>
     </div>
   )
