@@ -13,6 +13,7 @@ const eczar = Eczar({
   variable: '--font-eczar'
 })
 
+
 export const metadata: Metadata = {
   title: 'CBITAHOK KPOBI - Ukrainian PvP Community',
   description: 'Ukrainian PvP guild in World of Warcraft. Arena, Battleground & Solo Shuffle. Join the most competitive Ukrainian WoW community.',
