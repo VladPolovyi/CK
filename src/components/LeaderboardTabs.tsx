@@ -83,11 +83,13 @@ function getSpecIconPath(spec: string | undefined, characterClass: string | unde
 
 interface LeaderboardTabsProps {
   brackets: PvPBracketSummary[]
+  /** Blizzard `pvp-reward` SHUFFLE `rating_cutoff` keyed by playable specialization id */
+  shuffleR1Cutoffs?: Record<number, number> | null
 }
 
 const TAB_ORDER: PvPBracketSummary['bracketType'][] = ['2v2', '3v3', 'solo-shuffle', 'solo-blitz']
 
-export default function LeaderboardTabs({ brackets }: LeaderboardTabsProps) {
+export default function LeaderboardTabs({ brackets, shuffleR1Cutoffs = null }: LeaderboardTabsProps) {
   const bracketsWithoutRbg = brackets.filter(b => b.bracketType !== 'rbg')
   const sortedBrackets = [...bracketsWithoutRbg].sort(
     (a, b) => TAB_ORDER.indexOf(a.bracketType) - TAB_ORDER.indexOf(b.bracketType)
@@ -131,6 +133,19 @@ export default function LeaderboardTabs({ brackets }: LeaderboardTabsProps) {
             sortedMembers.map((member, index) => {
               const realmDisplay = (member.realmSlug || '').replace(/-/g, ' ')
               const url = checkPvpUrl(member.realmSlug, member.name)
+              const cutoff =
+                shuffleR1Cutoffs != null &&
+                member.specializationId != null &&
+                shuffleR1Cutoffs[member.specializationId] != null
+                  ? shuffleR1Cutoffs[member.specializationId]
+                  : undefined
+              const isShuffleR1 =
+                activeTab === 'solo-shuffle' && cutoff != null && member.rating >= cutoff
+              const nameColor = isShuffleR1
+                ? '#fb923c'
+                : member.characterClass
+                  ? (classColors[member.characterClass] ?? '#FFFFFF')
+                  : '#FFFFFF'
               return (
                 <div
                   key={`${member.name}-${member.realmSlug}-${member.specialization ?? index}`}
@@ -181,12 +196,8 @@ export default function LeaderboardTabs({ brackets }: LeaderboardTabsProps) {
                       href={url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="font-medium text-base truncate min-w-0"
-                      style={{
-                        color: member.characterClass
-                          ? (classColors[member.characterClass] ?? '#FFFFFF')
-                          : '#FFFFFF'
-                      }}
+                      className={`text-base truncate min-w-0 ${isShuffleR1 ? 'font-bold' : 'font-medium'}`}
+                      style={{ color: nameColor }}
                     >
                       {member.name}
                       <span className="text-gray-400"> - {realmDisplay}</span>

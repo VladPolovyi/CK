@@ -4,6 +4,7 @@ import HeroSection from '@/components/HeroSection'
 import JoinUs from '@/components/JoinUs'
 import LeaderboardTabs from '@/components/LeaderboardTabs'
 import { getPvPActivityData, generateBracketSummaries } from '@/lib/pvp-activity'
+import { fetchShuffleR1CutoffsBySpecId } from '@/lib/pvp-shuffle-cutoffs'
 
 export default async function LeaderboardsPage() {
   const pvpData = await getPvPActivityData()
@@ -39,6 +40,7 @@ export default async function LeaderboardsPage() {
   }
 
   const bracketSummaries = generateBracketSummaries(pvpData)
+  const shuffleR1Cutoffs = await fetchShuffleR1CutoffsBySpecId(pvpData.region)
 
   return (
     <div className="min-h-screen bg-[#101010]">
@@ -62,7 +64,7 @@ export default async function LeaderboardsPage() {
             </div>
 
             {bracketSummaries.length > 0 ? (
-              <LeaderboardTabs brackets={bracketSummaries} />
+              <LeaderboardTabs brackets={bracketSummaries} shuffleR1Cutoffs={shuffleR1Cutoffs} />
             ) : (
               <div className="text-gray-400 text-sm py-2">No bracket data available.</div>
             )}

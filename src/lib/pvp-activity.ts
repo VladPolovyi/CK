@@ -51,6 +51,7 @@ export function generateBracketSummaries(data: GuildPvPSummary): PvPBracketSumma
             winRate,
             tier: bracketData.tier?.id?.toString(),
             specialization: bracketData.specialization?.name,
+            specializationId: bracketData.specialization?.id,
             characterClass: member.profile?.characterClass
           })
         }
@@ -119,6 +120,7 @@ export function generateWeeklyBracketSummaries(data: GuildPvPSummary): PvPBracke
           winRate,
           tier: bracketData.tier?.id?.toString(),
           specialization: bracketData.specialization?.name,
+          specializationId: bracketData.specialization?.id,
           characterClass: member.profile?.characterClass
         })
       })

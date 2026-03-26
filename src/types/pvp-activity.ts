@@ -66,6 +66,8 @@ export interface GuildPvPSummary {
   generatedAt: string
   guildName: string
   realmSlug: string
+  /** Region for Blizzard Game Data API (eu, us, …) when present in generated JSON */
+  region?: string
   memberCount: number
   activePvPMembers: number
   guildStats: {
@@ -93,6 +95,8 @@ export interface PvPBracketSummary {
     winRate: number
     tier?: string
     specialization?: string
+    /** Playable specialization id (Solo Shuffle / Blitz rows); matches Blizzard cutoffs */
+    specializationId?: number
     characterClass?: string
   }>
   averageRating: number

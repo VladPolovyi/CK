@@ -4,10 +4,12 @@ import HeroSection from '@/components/HeroSection'
 import JoinUs from '@/components/JoinUs'
 import GuildPvPOverview from '@/components/GuildPvPOverview'
 import { getPvPActivityData, generateWeeklyBracketSummaries } from '@/lib/pvp-activity'
+import { fetchShuffleR1CutoffsBySpecId } from '@/lib/pvp-shuffle-cutoffs'
 import LeaderboardTabs from '@/components/LeaderboardTabs'
 
 export default async function GuildActivity() {
   const pvpData = await getPvPActivityData()
+  const shuffleR1Cutoffs = pvpData ? await fetchShuffleR1CutoffsBySpecId(pvpData.region) : null
 
   // Handle case where no data is available
   if (!pvpData) {
@@ -71,7 +73,7 @@ export default async function GuildActivity() {
               {(() => {
                 const weeklyBrackets = generateWeeklyBracketSummaries(pvpData)
                 return weeklyBrackets.length > 0 ? (
-                  <LeaderboardTabs brackets={weeklyBrackets} />
+                  <LeaderboardTabs brackets={weeklyBrackets} shuffleR1Cutoffs={shuffleR1Cutoffs} />
                 ) : (
                   <div className="text-gray-400 text-sm py-2">No weekly activity this week.</div>
                 )
