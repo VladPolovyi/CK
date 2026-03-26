@@ -141,11 +141,9 @@ export default function LeaderboardTabs({ brackets, shuffleR1Cutoffs = null }: L
                   : undefined
               const isShuffleR1 =
                 activeTab === 'solo-shuffle' && cutoff != null && member.rating >= cutoff
-              const nameColor = isShuffleR1
-                ? '#fb923c'
-                : member.characterClass
-                  ? (classColors[member.characterClass] ?? '#FFFFFF')
-                  : '#FFFFFF'
+              const nameColor = member.characterClass
+                ? (classColors[member.characterClass] ?? '#FFFFFF')
+                : '#FFFFFF'
               return (
                 <div
                   key={`${member.name}-${member.realmSlug}-${member.specialization ?? index}`}
@@ -196,7 +194,7 @@ export default function LeaderboardTabs({ brackets, shuffleR1Cutoffs = null }: L
                       href={url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`text-base truncate min-w-0 ${isShuffleR1 ? 'font-bold' : 'font-medium'}`}
+                      className="font-medium text-base truncate min-w-0"
                       style={{ color: nameColor }}
                     >
                       {member.name}
@@ -206,7 +204,9 @@ export default function LeaderboardTabs({ brackets, shuffleR1Cutoffs = null }: L
 
                   {/* Stats: equal columns on desktop; flex row on mobile */}
                   <div className="col-span-2 col-start-1 row-start-2 pt-2 flex flex-wrap items-center gap-x-4 md:contents">
-                    <span className="font-bold text-white text-base md:text-lg tabular-nums md:text-left md:block">{member.rating}</span>
+                    <span className={`text-base md:text-lg tabular-nums md:text-left md:block ${isShuffleR1 ? 'font-bold text-orange-400' : 'font-bold text-white'}`}>
+                      {member.rating}
+                    </span>
                     <span className="text-sm inline-flex items-center gap-1.5">
                       <span className="text-green-500 font-medium">{member.wins}W</span>
                       <span className="text-gray-500">/</span>
