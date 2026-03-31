@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T13:41:29.525Z",
+  "generatedAt": "2026-03-30T17:46:11.125Z",
   "stats": {
     "gladiatorCount": 27,
     "rank1Count": 4,
@@ -1226,24 +1226,6 @@
       },
       "rank": 5,
       "characterClass": "Paladin",
-      "rank1": 0,
-      "rank1solo": 0,
-      "gladiator": 0,
-      "legend": 0,
-      "strategist": 0,
-      "blitzRank1": 0
-    },
-    {
-      "id": 176023633,
-      "name": "Berkinzee",
-      "realm": {
-        "name": {
-          "en_US": "ravencrest"
-        },
-        "slug": "ravencrest"
-      },
-      "rank": 5,
-      "characterClass": "Shaman",
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,

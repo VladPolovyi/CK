@@ -36,7 +36,7 @@ export interface PvPActivityData {
     level: number
     characterClass: string
     race: string
-    guild: string
+    guild: string | null
     activeSpec: string
     pvpSummary: {
       href: string
