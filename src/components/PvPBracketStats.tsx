@@ -53,7 +53,6 @@ export default function PvPBracketStats({ bracket }: PvPBracketStatsProps) {
   const iconColor = bracketColors[bracket.bracketType]
   const bracketName = bracketNames[bracket.bracketType]
   
-  
   const winRate = bracket.totalGames > 0 ? (bracket.totalWins / bracket.totalGames) * 100 : 0
 
   return (
