@@ -55,6 +55,7 @@ export default function PvPBracketStats({ bracket }: PvPBracketStatsProps) {
   
   
   const winRate = bracket.totalGames > 0 ? (bracket.totalWins / bracket.totalGames) * 100 : 0
+  
 
   return (
     <div className="blood-card rounded-lg p-6">
