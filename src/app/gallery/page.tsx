@@ -28,6 +28,7 @@ const typeOrder = ['gladiator', 'r1solo']
 
 const expansionLogos: Record<string, string> = {
   'The War Within': '/images/tww_logo.webp',
+  'Midnight': '/images/midnight_logo.png',
 }
 
 // Spec icons (same paths as PvPActivityTable); ambiguous specs use "Class-Spec"
@@ -99,6 +100,16 @@ function getDisplayTitle(item: { title?: string; title2?: string; title3?: strin
 export default function Gallery() {
   // Real gallery items based on files in public/images
   const galleryItems = [
+      {
+      title: "Shchoor",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/shchoor_midnight_s1.jpg",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:1, 
+      class: "Warrior",
+      spec: "Arms",
+    },
     {
       title: "Shchoor",
       description: "Win 50 games with more than 2400 arena rating during the The War Within",
