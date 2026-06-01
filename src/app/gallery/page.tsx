@@ -110,6 +110,16 @@ export default function Gallery() {
       class: "Warrior",
       spec: "Arms",
     },
+          {
+      title: "Butthurtx",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/butthurtx__mdn_s1.png",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:1, 
+      class: "Death Knight",
+      spec: "Unholy",
+    },
     {
       title: "Shchoor",
       description: "Win 50 games with more than 2400 arena rating during the The War Within",
@@ -212,7 +222,7 @@ export default function Gallery() {
     {
       title: "Ebobola",
       description: "Win 50 games with more than 2400 arena rating during the The War Within",
-      image: "/images/karesh_glad_butthurtx.png",
+      image: "/images/ebo_s3.png",
       type: "gladiator",
       expansion:"The War Within",
       season:3,

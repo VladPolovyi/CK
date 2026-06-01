@@ -1,5 +1,41 @@
 // PvP Achievement data - manually maintained for reliability
 export const PVP_ACHIEVEMENTS = [
+    // Midnight Season 1
+  {
+    id: 61188,
+    name: "Gladiator: Midnight Season 1",
+    type: "gladiator"
+  },
+  {
+    id: 61190,
+    name: "Legend: Midnight Season 1",
+    type: "legend"
+  },
+  {
+    id: 61194,
+    name: "Strategist: Midnight Season 1",
+    type: "strategist"
+  },
+  {
+    id: 61180,
+    name: "Rank 1: Midnight Season 1",
+    type: "rank1"
+  },
+  {
+    id: 61179,
+    name: "Rank 1 Solo: Midnight Season 1",
+    type: "rank1solo"
+  },
+  {
+    id: 61177,
+    name: "Rank 1 Blitz: Midnight Season 1 (Marshal)",
+    type: "rank1blitz"
+  },
+  {
+    id: 61178,
+    name: "Rank 1 Blitz: Midnight Season 1 (Warlord)",
+    type: "rank1blitz"
+  },
   // The War Within Season 1
   {
     id: 40393,
@@ -278,6 +314,117 @@ export const PVP_ACHIEVEMENTS = [
   {
     id: 13957,
     name: "Rank 1: Battle For Azeroth Season 4",
+    type: "rank1"
+  },
+  // Legion s1
+    {
+    id: 11011,
+    name: "Gladiator: Legion Season 1",
+    type: "gladiator"
+  },
+  {
+    id: 11012,
+    name: "Rank 1: Legion Season 1",
+    type: "rank1"
+  },
+  // Legion s2
+  {
+    id: 11013,
+    name: "Gladiator: Legion Season 2",
+    type: "gladiator"
+  },
+  {
+    id: 11014,
+    name: "Rank 1: Legion Season 2",
+    type: "rank1"
+  },
+  // Legion s3
+  {
+    id: 11038,
+    name: "Gladiator: Legion Season 3",
+    type: "gladiator"
+  },
+  {
+    id: 11037,
+    name: "Rank 1: Legion Season 3",
+    type: "rank1"
+  },
+  // Legion s4
+  {
+    id: 11061,
+    name: "Gladiator: Legion Season 4",
+    type: "gladiator"
+  },
+  {
+    id: 11062,
+    name: "Rank 1: Legion Season 4",
+    type: "rank1"
+  },
+  // Legion s5
+  {
+    id: 12045,
+    name: "Gladiator: Legion Season 5",
+    type: "gladiator"
+  },
+  {
+    id: 12010,
+    name: "Rank 1: Legion Season 5",
+    type: "rank1"
+  },
+  // Legion s6
+  {
+    id: 12167,
+    name: "Gladiator: Legion Season 6",
+    type: "gladiator"
+  },
+  {
+    id: 12134,
+    name: "Rank 1: Legion Season 6",
+    type: "rank1"
+  },
+  // Legion s7
+  {
+    id: 12168,
+    name: "Gladiator: Legion Season 7",
+    type: "gladiator"
+  },
+  {
+    id: 12185,
+    name: "Rank 1: Legion Season 7",
+    type: "rank1"
+  },
+
+  // warlords s1
+  {
+    id: 9239,
+    name: "Gladiator: Warlords Season 1",
+    type: "gladiator"
+  },
+  {
+    id: 9232,
+    name: "Rank 1: Warlords Season 1",
+    type: "rank1"
+  },
+  // warlords s2
+  {
+    id: 10098,
+    name: "Gladiator: Warlords Season 2",
+    type: "gladiator"
+  },
+  {
+    id: 10096,
+    name: "Rank 1: Warlords Season 2",
+    type: "rank1"
+  },
+  // warlords s3
+  {
+    id: 10110,
+    name: "Gladiator: Warlords Season 3",
+    type: "gladiator"
+  },
+  {
+    id: 10097,
+    name: "Rank 1: Warlords Season 3",
     type: "rank1"
   },
 ]
