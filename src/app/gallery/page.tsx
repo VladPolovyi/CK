@@ -173,12 +173,22 @@ export default function Gallery() {
       {
       title: "Riddick",
       description: "Win 50 games with more than 2300 arena rating during the Midnight",
-      image: "/images/logo.png",
+      image: "/images/riddick_midnight_s1_glad.jpg",
       type: "gladiator",
       expansion:"Midnight",
       season:1, 
       class: "Druid",
       spec: "Restoration",
+    },
+    {
+      title: "Etazis",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/etazis_midnight_s1_glad.png",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:1, 
+      class: "Evoker",
+      spec: "Devastation",
     },
     {
       title: "Shchoor",
