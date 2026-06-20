@@ -190,6 +190,26 @@ export default function Gallery() {
       class: "Evoker",
       spec: "Devastation",
     },
+     {
+      title: "Psiblades",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/psiblades_midnight_s1_glad.png",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:1, 
+      class: "Rogue",
+      spec: "Subtlety",
+    },
+         {
+      title: "Spamplague",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/spam_midnight_s1_glad.png",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:1, 
+      class: "Priest",
+      spec: "Shadow",
+    },
     {
       title: "Shchoor",
       description: "Win 50 games with more than 2400 arena rating during the The War Within",
@@ -394,7 +414,7 @@ export default function Gallery() {
       <HeroSection 
         title="Gallery"
         subtitle="View screenshots and achievements from our guild members' PvP victories and memorable moments."
-        backgroundImage="/images/etazis_s3.png"
+        backgroundImage="/images/spam_team.png"
       />
 
       {/* Gallery: big group by expansion, smaller group by season */}
