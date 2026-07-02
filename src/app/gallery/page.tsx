@@ -214,7 +214,7 @@ export default function Gallery() {
     {
       title: "Hormoned",
       description: "Win 50 games with more than 2300 arena rating during the Midnight",
-      image: "/images/hormone_midnigh_s1_glad.jpg",
+      image: "/images/hormoned_midnigh_s1_glad.jpg",
       type: "gladiator",
       expansion:"Midnight",
       season:1, 
@@ -224,7 +224,7 @@ export default function Gallery() {
         {
       title: "Hetman",
       description: "Win 50 games with more than 2300 arena rating during the Midnight",
-      image: "/images/hetman_midnight_s1_glad.jpg",
+      image: "/images/hetman1_midnight_s1_glad.jpg",
       type: "gladiator",
       expansion:"Midnight",
       season:1, 
