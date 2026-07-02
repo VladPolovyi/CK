@@ -221,6 +221,16 @@ export default function Gallery() {
       class: "Paladin",
       spec: "Retribution",
     },
+            {
+      title: "Darkradiance",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/darkradiance_midnight_s1_glad.png",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:1, 
+      class: "Evoker",
+      spec: "Preservation",
+    },
         {
       title: "Hetman",
       description: "Win 50 games with more than 2300 arena rating during the Midnight",
