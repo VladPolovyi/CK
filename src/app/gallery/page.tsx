@@ -242,6 +242,16 @@ export default function Gallery() {
       spec: "Devouver",
     },
     {
+      title: "Nuclearjke",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/nuc_midnight_s1_glad.jpg",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:1, 
+      class: "Warrior",
+      spec: "Arms",
+    },
+    {
       title: "Shchoor",
       description: "Win 50 games with more than 2400 arena rating during the The War Within",
       image: "/images/shchoor_glad_s1.jpg",
@@ -300,6 +310,16 @@ export default function Gallery() {
       season:2, 
       class: "Evoker",
       spec: "Devastation",
+    },
+     {
+      title: "Morok",
+      description: "Win 50 games with more than 2400 arena rating during the The War Within",
+      image: "/images/morok_tww_s2_glad.jpg",
+      type: "gladiator",
+      expansion:"The War Within",
+      season:2, 
+      class: "Paladin",
+      spec: "Retribution",
     },
     // {
     //   title: "Idoru & Shchoor R1 Solo",
