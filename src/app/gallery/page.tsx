@@ -251,6 +251,16 @@ export default function Gallery() {
       class: "Warrior",
       spec: "Arms",
     },
+     {
+      title: "Bajkaww",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/bajkaww_midnight_s1_glad.jpg",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:1, 
+      class: "Monk",
+      spec: "Windwalker",
+    },
     {
       title: "Spiritblaze",
       description: "Win 50 games with more than 2300 arena rating during the Midnight",
