@@ -48,7 +48,7 @@ export default function GuildPvPOverview({ data }: GuildPvPOverviewProps) {
         </div>
         <div className="mt-4">
                       <p className="text-sm text-gray-400">
-              Season 40 characters
+              Galactic season characters
             </p>
         </div>
       </div>
@@ -67,7 +67,7 @@ export default function GuildPvPOverview({ data }: GuildPvPOverviewProps) {
         </div>
         <div className="mt-4">
           <p className="text-sm text-gray-400">
-            Season 40 total matches
+            Galactic season total matches
           </p>
         </div>
       </div>
@@ -85,7 +85,7 @@ export default function GuildPvPOverview({ data }: GuildPvPOverviewProps) {
         </div>
         <div className="mt-4">
           <p className="text-sm text-gray-400">
-            Season 40 victories
+            Galactic season victories
           </p>
         </div>
       </div>
@@ -103,7 +103,7 @@ export default function GuildPvPOverview({ data }: GuildPvPOverviewProps) {
         </div>
         <div className="mt-4">
           <p className="text-sm text-gray-400">
-            Season 40 defeats
+            Galactic season defeats
           </p>
         </div>
       </div>
