@@ -144,7 +144,7 @@ export default function Gallery() {
     {
       title: "Ebobola",
       description: "Win 50 games with more than 2300 arena rating during the Midnight",
-      image: "/images/logo.png",
+      image: "/images/ebo_midnight_s1_glad.png",
       type: "gladiator",
       expansion:"Midnight",
       season:1, 
@@ -250,6 +250,16 @@ export default function Gallery() {
       season:1, 
       class: "Warrior",
       spec: "Arms",
+    },
+    {
+      title: "Spiritblaze",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/spiritblaze_midnight_s1_glad.png",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:1, 
+      class: "Evoker",
+      spec: "Preservation",
     },
     {
       title: "Shchoor",
@@ -528,8 +538,7 @@ export default function Gallery() {
                                 <Image
                                   src={item.image}
                                   alt={getDisplayTitle(item)}
-                                  width={400}
-                                  height={225}
+                                  fill
                                   quality={85}
                                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                                   className={`object-cover ${styles.image}`}
