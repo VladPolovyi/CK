@@ -271,6 +271,16 @@ export default function Gallery() {
       class: "Evoker",
       spec: "Preservation",
     },
+        {
+      title: "Untrust",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/untrust_midnight_s1_glad.png",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:1, 
+      class: "Shaman",
+      spec: "Enhancement",
+    },
     {
       title: "Shchoor",
       description: "Win 50 games with more than 2400 arena rating during the The War Within",
