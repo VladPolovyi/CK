@@ -46,10 +46,17 @@ export default function Home() {
               in World of Warcraft
             </div>
           </div>
-          <div className="flex justify-center items-center">
+          <div className="flex flex-wrap justify-center items-center gap-4">
+            <Link
+              href="/gallery"
+              className="inline-flex items-center gap-2 rounded-xl px-10 py-5 bg-black/60 border border-yellow-500/60 text-yellow-300 font-semibold text-lg tracking-widest uppercase hover:bg-yellow-500/10 transition-colors"
+            >
+              <Trophy className="h-5 w-5" />
+              Season Gladiators
+            </Link>
             <a
               href="#join-us"
-              className="inline-block rounded-xl px-16 py-5 bg-black/60 border border-red-500/50 text-white font-semibold text-lg tracking-widest uppercase cursor-pointer"
+              className="inline-block rounded-xl px-16 py-5 bg-black/60 border border-red-500/50 text-white font-semibold text-lg tracking-widest uppercase cursor-pointer hover:bg-red-500/10 transition-colors"
             >
               JOIN US
             </a>
