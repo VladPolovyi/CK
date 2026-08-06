@@ -19,7 +19,7 @@ export default function Home() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/karesh_glad.png"
+            src="/images/honta_main.png"
             alt="Blood Achievements Background"
             width={1920}
             height={1080}
@@ -28,7 +28,7 @@ export default function Home() {
             className="w-full h-full object-cover"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-black/30"></div>
+          {/* <div className="absolute inset-0 bg-black/30"></div> */}
         </div>
 
         {/* Content: text on top, button at bottom */}
