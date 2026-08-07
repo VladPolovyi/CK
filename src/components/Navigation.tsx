@@ -57,6 +57,8 @@ export default function Navigation() {
           
           {/* Desktop Right Navigation - equal width so logo stays centered */}
           <div className="hidden md:flex md:flex-1 md:items-center md:justify-end md:space-x-6">
+            <Link href="https://app.ckpvp.com" className="text-yellow-300 text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors">
+            Fantasy Arena</Link>
             <Link href="/gallery" className="text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors">Gallery</Link>
             <Link href="https://discord.gg/9hgAHRfD9x" target="_blank" className="text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors">Discord</Link>
           </div>
@@ -89,6 +91,13 @@ export default function Navigation() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Leaderboards
+              </Link>
+              <Link 
+                href="https://app.ckpvp.com" 
+                className="block text-yellow-300 text-gray-300 hover:text-blood-glow px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Fantasy Arena
               </Link>
               <Link 
                 href="/gallery" 
