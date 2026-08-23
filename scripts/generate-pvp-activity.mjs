@@ -250,7 +250,7 @@ async function main() {
     const pvpMembers = pvpDataResults.filter(data => data !== null)
     
     // Filter based on current season (41) - exclude players from previous seasons
-    const CURRENT_SEASON = 41
+    const CURRENT_SEASON = 42
     const activePvPMembers = pvpMembers.filter(member => {
       // Check if the character has any PvP data from the current season
       let hasCurrentSeasonData = false

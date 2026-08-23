@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-25T01:31:42.910Z",
+  "generatedAt": "2026-08-23T13:33:03.481Z",
   "stats": {
-    "gladiatorCount": 27,
+    "gladiatorCount": 40,
     "rank1Count": 4,
-    "legendCount": 22,
-    "strategistCount": 13,
+    "legendCount": 51,
+    "strategistCount": 25,
     "blitzRank1Count": 1,
     "soloRank1Count": 1
   },
@@ -22,8 +22,8 @@
       "characterClass": "Warrior",
       "rank1": 1,
       "rank1solo": 7,
-      "gladiator": 11,
-      "legend": 7,
+      "gladiator": 12,
+      "legend": 8,
       "strategist": 1,
       "blitzRank1": 0
     },
@@ -58,9 +58,9 @@
       "characterClass": "Death Knight",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 4,
+      "gladiator": 5,
       "legend": 0,
-      "strategist": 0,
+      "strategist": 1,
       "blitzRank1": 0
     },
     {
@@ -71,6 +71,24 @@
           "en_US": "ravencrest"
         },
         "slug": "ravencrest"
+      },
+      "rank": 1,
+      "characterClass": "Shaman",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 3,
+      "legend": 3,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 182616567,
+      "name": "Äßcypð",
+      "realm": {
+        "name": {
+          "en_US": "blackmoore"
+        },
+        "slug": "blackmoore"
       },
       "rank": 1,
       "characterClass": "Shaman",
@@ -112,8 +130,8 @@
       "characterClass": "Paladin",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 3,
-      "legend": 4,
+      "gladiator": 4,
+      "legend": 5,
       "strategist": 3,
       "blitzRank1": 0
     },
@@ -130,8 +148,8 @@
       "characterClass": "Evoker",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 2,
-      "legend": 3,
+      "gladiator": 3,
+      "legend": 4,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -148,26 +166,26 @@
       "characterClass": "Demon Hunter",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 0,
-      "legend": 0,
+      "gladiator": 1,
+      "legend": 1,
       "strategist": 1,
       "blitzRank1": 0
     },
     {
-      "id": 171112349,
-      "name": "Qìrei",
+      "id": 172026242,
+      "name": "Desiderium",
       "realm": {
         "name": {
-          "en_US": "pozzo-delleternità"
+          "en_US": "ravencrest"
         },
-        "slug": "pozzo-delleternità"
+        "slug": "ravencrest"
       },
       "rank": 4,
-      "characterClass": "Paladin",
-      "rank1": 1,
+      "characterClass": "Evoker",
+      "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 5,
-      "legend": 0,
+      "gladiator": 1,
+      "legend": 2,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -184,8 +202,8 @@
       "characterClass": "Warrior",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 1,
-      "legend": 5,
+      "gladiator": 2,
+      "legend": 6,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -202,8 +220,8 @@
       "characterClass": "Warrior",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 0,
-      "legend": 0,
+      "gladiator": 1,
+      "legend": 1,
       "strategist": 3,
       "blitzRank1": 0
     },
@@ -221,8 +239,8 @@
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 1,
-      "legend": 3,
-      "strategist": 3,
+      "legend": 4,
+      "strategist": 4,
       "blitzRank1": 0
     },
     {
@@ -238,7 +256,7 @@
       "characterClass": "Priest",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 1,
+      "gladiator": 2,
       "legend": 1,
       "strategist": 0,
       "blitzRank1": 0
@@ -256,8 +274,8 @@
       "characterClass": "Monk",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 0,
-      "legend": 0,
+      "gladiator": 1,
+      "legend": 1,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -274,28 +292,10 @@
       "characterClass": "Monk",
       "rank1": 1,
       "rank1solo": 0,
-      "gladiator": 6,
+      "gladiator": 10,
       "legend": 4,
-      "strategist": 3,
+      "strategist": 4,
       "blitzRank1": 2
-    },
-    {
-      "id": 176554589,
-      "name": "Worship",
-      "realm": {
-        "name": {
-          "en_US": "ravencrest"
-        },
-        "slug": "ravencrest"
-      },
-      "rank": 4,
-      "characterClass": "Hunter",
-      "rank1": 0,
-      "rank1solo": 0,
-      "gladiator": 0,
-      "legend": 0,
-      "strategist": 3,
-      "blitzRank1": 0
     },
     {
       "id": 177863694,
@@ -330,7 +330,7 @@
       "rank1solo": 0,
       "gladiator": 0,
       "legend": 0,
-      "strategist": 0,
+      "strategist": 1,
       "blitzRank1": 0
     },
     {
@@ -366,24 +366,6 @@
       "rank1solo": 0,
       "gladiator": 1,
       "legend": 2,
-      "strategist": 0,
-      "blitzRank1": 0
-    },
-    {
-      "id": 182616567,
-      "name": "Äßcypð",
-      "realm": {
-        "name": {
-          "en_US": "blackmoore"
-        },
-        "slug": "blackmoore"
-      },
-      "rank": 4,
-      "characterClass": "Shaman",
-      "rank1": 0,
-      "rank1solo": 0,
-      "gladiator": 1,
-      "legend": 1,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -436,8 +418,8 @@
       "characterClass": "Evoker",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 1,
-      "legend": 3,
+      "gladiator": 2,
+      "legend": 4,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -460,6 +442,24 @@
       "blitzRank1": 0
     },
     {
+      "id": 186746045,
+      "name": "Aìmbot",
+      "realm": {
+        "name": {
+          "en_US": "tarren-mill"
+        },
+        "slug": "tarren-mill"
+      },
+      "rank": 4,
+      "characterClass": "Hunter",
+      "rank1": 1,
+      "rank1solo": 0,
+      "gladiator": 7,
+      "legend": 1,
+      "strategist": 1,
+      "blitzRank1": 0
+    },
+    {
       "id": 186789088,
       "name": "Untrust",
       "realm": {
@@ -472,8 +472,8 @@
       "characterClass": "Priest",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 0,
-      "legend": 0,
+      "gladiator": 1,
+      "legend": 1,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -490,7 +490,7 @@
       "characterClass": "Shaman",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 7,
+      "gladiator": 8,
       "legend": 0,
       "strategist": 0,
       "blitzRank1": 0
@@ -508,9 +508,27 @@
       "characterClass": "Monk",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 1,
+      "gladiator": 2,
       "legend": 0,
       "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 190073761,
+      "name": "Nuclearjke",
+      "realm": {
+        "name": {
+          "en_US": "tarren-mill"
+        },
+        "slug": "tarren-mill"
+      },
+      "rank": 4,
+      "characterClass": "Warrior",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 1,
+      "legend": 1,
+      "strategist": 3,
       "blitzRank1": 0
     },
     {
@@ -544,8 +562,8 @@
       "characterClass": "Druid",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 1,
-      "legend": 1,
+      "gladiator": 2,
+      "legend": 2,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -562,7 +580,7 @@
       "characterClass": "Priest",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 1,
+      "gladiator": 2,
       "legend": 1,
       "strategist": 0,
       "blitzRank1": 0
@@ -689,7 +707,7 @@
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
-      "legend": 0,
+      "legend": 1,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -708,6 +726,24 @@
       "rank1solo": 0,
       "gladiator": 0,
       "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 163984131,
+      "name": "Freetraps",
+      "realm": {
+        "name": {
+          "en_US": "stormscale"
+        },
+        "slug": "stormscale"
+      },
+      "rank": 5,
+      "characterClass": "Hunter",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 1,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -766,24 +802,6 @@
       "blitzRank1": 0
     },
     {
-      "id": 164669763,
-      "name": "Spyfly",
-      "realm": {
-        "name": {
-          "en_US": "ravencrest"
-        },
-        "slug": "ravencrest"
-      },
-      "rank": 5,
-      "characterClass": "Druid",
-      "rank1": 0,
-      "rank1solo": 0,
-      "gladiator": 0,
-      "legend": 0,
-      "strategist": 0,
-      "blitzRank1": 0
-    },
-    {
       "id": 164763612,
       "name": "Watchmyburst",
       "realm": {
@@ -798,6 +816,24 @@
       "rank1solo": 0,
       "gladiator": 1,
       "legend": 1,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 165992388,
+      "name": "Bogdantotem",
+      "realm": {
+        "name": {
+          "en_US": "ravencrest"
+        },
+        "slug": "ravencrest"
+      },
+      "rank": 5,
+      "characterClass": "Shaman",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 3,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -977,26 +1013,8 @@
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
-      "legend": 0,
-      "strategist": 3,
-      "blitzRank1": 0
-    },
-    {
-      "id": 173676976,
-      "name": "Easyques",
-      "realm": {
-        "name": {
-          "en_US": "ravencrest"
-        },
-        "slug": "ravencrest"
-      },
-      "rank": 5,
-      "characterClass": "Rogue",
-      "rank1": 0,
-      "rank1solo": 0,
-      "gladiator": 0,
-      "legend": 0,
-      "strategist": 0,
+      "legend": 1,
+      "strategist": 4,
       "blitzRank1": 0
     },
     {
@@ -1144,24 +1162,6 @@
       "blitzRank1": 0
     },
     {
-      "id": 174839295,
-      "name": "Normiska",
-      "realm": {
-        "name": {
-          "en_US": "stormscale"
-        },
-        "slug": "stormscale"
-      },
-      "rank": 5,
-      "characterClass": "Priest",
-      "rank1": 0,
-      "rank1solo": 0,
-      "gladiator": 0,
-      "legend": 0,
-      "strategist": 0,
-      "blitzRank1": 0
-    },
-    {
       "id": 175442695,
       "name": "Kettil",
       "realm": {
@@ -1193,8 +1193,8 @@
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
-      "legend": 0,
-      "strategist": 0,
+      "legend": 1,
+      "strategist": 1,
       "blitzRank1": 0
     },
     {
@@ -1230,7 +1230,7 @@
       "rank1solo": 0,
       "gladiator": 0,
       "legend": 0,
-      "strategist": 0,
+      "strategist": 1,
       "blitzRank1": 0
     },
     {
@@ -1288,6 +1288,24 @@
       "blitzRank1": 0
     },
     {
+      "id": 176411162,
+      "name": "Sangushko",
+      "realm": {
+        "name": {
+          "en_US": "ravencrest"
+        },
+        "slug": "ravencrest"
+      },
+      "rank": 5,
+      "characterClass": "Mage",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 1,
+      "strategist": 1,
+      "blitzRank1": 0
+    },
+    {
       "id": 176728061,
       "name": "Kronesx",
       "realm": {
@@ -1298,6 +1316,24 @@
       },
       "rank": 5,
       "characterClass": "Warlock",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 176828904,
+      "name": "Tronium",
+      "realm": {
+        "name": {
+          "en_US": "ravencrest"
+        },
+        "slug": "ravencrest"
+      },
+      "rank": 5,
+      "characterClass": "Paladin",
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
@@ -1360,8 +1396,8 @@
       "blitzRank1": 0
     },
     {
-      "id": 177131555,
-      "name": "Únáuthorizéd",
+      "id": 177289772,
+      "name": "Astronn",
       "realm": {
         "name": {
           "en_US": "ravencrest"
@@ -1369,7 +1405,115 @@
         "slug": "ravencrest"
       },
       "rank": 5,
-      "characterClass": "Rogue",
+      "characterClass": "Druid",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 177581926,
+      "name": "Dreadfúl",
+      "realm": {
+        "name": {
+          "en_US": "stormscale"
+        },
+        "slug": "stormscale"
+      },
+      "rank": 5,
+      "characterClass": "Evoker",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 1,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 177618268,
+      "name": "Bajiro",
+      "realm": {
+        "name": {
+          "en_US": "ravencrest"
+        },
+        "slug": "ravencrest"
+      },
+      "rank": 5,
+      "characterClass": "Warrior",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 1,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 177677896,
+      "name": "Nubiko",
+      "realm": {
+        "name": {
+          "en_US": "ravencrest"
+        },
+        "slug": "ravencrest"
+      },
+      "rank": 5,
+      "characterClass": "Hunter",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 177677937,
+      "name": "Rikudosenin",
+      "realm": {
+        "name": {
+          "en_US": "ravencrest"
+        },
+        "slug": "ravencrest"
+      },
+      "rank": 5,
+      "characterClass": "Warrior",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 177680457,
+      "name": "Zarlax",
+      "realm": {
+        "name": {
+          "en_US": "ravencrest"
+        },
+        "slug": "ravencrest"
+      },
+      "rank": 5,
+      "characterClass": "Demon Hunter",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 177689495,
+      "name": "Itrius",
+      "realm": {
+        "name": {
+          "en_US": "tarren-mill"
+        },
+        "slug": "tarren-mill"
+      },
+      "rank": 5,
+      "characterClass": "Mage",
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
@@ -1396,8 +1540,8 @@
       "blitzRank1": 0
     },
     {
-      "id": 179174788,
-      "name": "Morteùs",
+      "id": 179058226,
+      "name": "Morteús",
       "realm": {
         "name": {
           "en_US": "tarren-mill"
@@ -1406,6 +1550,24 @@
       },
       "rank": 5,
       "characterClass": "Mage",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 179806650,
+      "name": "Romen",
+      "realm": {
+        "name": {
+          "en_US": "terokkar"
+        },
+        "slug": "terokkar"
+      },
+      "rank": 5,
+      "characterClass": "Paladin",
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
@@ -1427,7 +1589,7 @@
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
-      "legend": 0,
+      "legend": 1,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -1522,6 +1684,24 @@
       "blitzRank1": 0
     },
     {
+      "id": 181226453,
+      "name": "Brennor",
+      "realm": {
+        "name": {
+          "en_US": "tarren-mill"
+        },
+        "slug": "tarren-mill"
+      },
+      "rank": 5,
+      "characterClass": "Warlock",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 1,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
       "id": 181475882,
       "name": "Zeracsis",
       "realm": {
@@ -1537,6 +1717,24 @@
       "gladiator": 0,
       "legend": 0,
       "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 181554930,
+      "name": "Alesana",
+      "realm": {
+        "name": {
+          "en_US": "terokkar"
+        },
+        "slug": "terokkar"
+      },
+      "rank": 5,
+      "characterClass": "Druid",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 1,
+      "strategist": 3,
       "blitzRank1": 0
     },
     {
@@ -1648,6 +1846,24 @@
       "blitzRank1": 0
     },
     {
+      "id": 183323176,
+      "name": "Cosmopolitan",
+      "realm": {
+        "name": {
+          "en_US": "terokkar"
+        },
+        "slug": "terokkar"
+      },
+      "rank": 5,
+      "characterClass": "Warlock",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
       "id": 183859828,
       "name": "Darkradiance",
       "realm": {
@@ -1660,8 +1876,8 @@
       "characterClass": "Priest",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 0,
-      "legend": 0,
+      "gladiator": 1,
+      "legend": 1,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -1810,6 +2026,24 @@
       "blitzRank1": 0
     },
     {
+      "id": 185492466,
+      "name": "Saepenumero",
+      "realm": {
+        "name": {
+          "en_US": "tarren-mill"
+        },
+        "slug": "tarren-mill"
+      },
+      "rank": 5,
+      "characterClass": "Priest",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
       "id": 185508623,
       "name": "Painlord",
       "realm": {
@@ -1895,8 +2129,8 @@
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 1,
-      "legend": 0,
-      "strategist": 0,
+      "legend": 1,
+      "strategist": 1,
       "blitzRank1": 0
     },
     {
@@ -2116,6 +2350,42 @@
       "blitzRank1": 0
     },
     {
+      "id": 187915131,
+      "name": "Yevhendk",
+      "realm": {
+        "name": {
+          "en_US": "tarren-mill"
+        },
+        "slug": "tarren-mill"
+      },
+      "rank": 5,
+      "characterClass": "Death Knight",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 187998123,
+      "name": "Cipko",
+      "realm": {
+        "name": {
+          "en_US": "turalyon"
+        },
+        "slug": "turalyon"
+      },
+      "rank": 5,
+      "characterClass": "Rogue",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
       "id": 188257260,
       "name": "Trumper",
       "realm": {
@@ -2130,6 +2400,24 @@
       "rank1solo": 0,
       "gladiator": 0,
       "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 188352428,
+      "name": "Eldruin",
+      "realm": {
+        "name": {
+          "en_US": "tarren-mill"
+        },
+        "slug": "tarren-mill"
+      },
+      "rank": 5,
+      "characterClass": "Warrior",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 1,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -2206,6 +2494,42 @@
       "blitzRank1": 0
     },
     {
+      "id": 188920564,
+      "name": "Hadprurodna",
+      "realm": {
+        "name": {
+          "en_US": "terokkar"
+        },
+        "slug": "terokkar"
+      },
+      "rank": 5,
+      "characterClass": "Druid",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 3,
+      "blitzRank1": 0
+    },
+    {
+      "id": 188987805,
+      "name": "Dulroc",
+      "realm": {
+        "name": {
+          "en_US": "terokkar"
+        },
+        "slug": "terokkar"
+      },
+      "rank": 5,
+      "characterClass": "Paladin",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 1,
+      "legend": 1,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
       "id": 189041084,
       "name": "Rhythmymonk",
       "realm": {
@@ -2242,16 +2566,52 @@
       "blitzRank1": 0
     },
     {
-      "id": 189681335,
-      "name": "Yóitsme",
+      "id": 189416023,
+      "name": "Callmemommy",
       "realm": {
         "name": {
-          "en_US": "moonglade"
+          "en_US": "draenor"
         },
-        "slug": "moonglade"
+        "slug": "draenor"
       },
       "rank": 5,
-      "characterClass": "Demon Hunter",
+      "characterClass": "Mage",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 1,
+      "legend": 5,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 189560896,
+      "name": "Nachtigáll",
+      "realm": {
+        "name": {
+          "en_US": "terokkar"
+        },
+        "slug": "terokkar"
+      },
+      "rank": 5,
+      "characterClass": "Mage",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 189657020,
+      "name": "Binbinick",
+      "realm": {
+        "name": {
+          "en_US": "tarren-mill"
+        },
+        "slug": "tarren-mill"
+      },
+      "rank": 5,
+      "characterClass": "Hunter",
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
@@ -2296,6 +2656,42 @@
       "blitzRank1": 0
     },
     {
+      "id": 190435115,
+      "name": "Binbinikus",
+      "realm": {
+        "name": {
+          "en_US": "tarren-mill"
+        },
+        "slug": "tarren-mill"
+      },
+      "rank": 5,
+      "characterClass": "Shaman",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 190497459,
+      "name": "Chervonesuhe",
+      "realm": {
+        "name": {
+          "en_US": "tarren-mill"
+        },
+        "slug": "tarren-mill"
+      },
+      "rank": 5,
+      "characterClass": "Death Knight",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 1,
+      "blitzRank1": 0
+    },
+    {
       "id": 192389246,
       "name": "Mikeoxmall",
       "realm": {
@@ -2329,6 +2725,24 @@
       "gladiator": 0,
       "legend": 0,
       "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 205091842,
+      "name": "Ðeadghøul",
+      "realm": {
+        "name": {
+          "en_US": "silvermoon"
+        },
+        "slug": "silvermoon"
+      },
+      "rank": 5,
+      "characterClass": "Death Knight",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 2,
+      "legend": 0,
+      "strategist": 1,
       "blitzRank1": 0
     },
     {
@@ -2382,7 +2796,7 @@
       "rank1solo": 0,
       "gladiator": 0,
       "legend": 0,
-      "strategist": 0,
+      "strategist": 1,
       "blitzRank1": 0
     },
     {
@@ -2489,7 +2903,7 @@
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
-      "legend": 0,
+      "legend": 1,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -2503,7 +2917,7 @@
         "slug": "kazzak"
       },
       "rank": 5,
-      "characterClass": "Mage",
+      "characterClass": null,
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
@@ -2530,24 +2944,6 @@
       "blitzRank1": 0
     },
     {
-      "id": 214289410,
-      "name": "Exxorccist",
-      "realm": {
-        "name": {
-          "en_US": "kazzak"
-        },
-        "slug": "kazzak"
-      },
-      "rank": 5,
-      "characterClass": "Rogue",
-      "rank1": 0,
-      "rank1solo": 0,
-      "gladiator": 0,
-      "legend": 0,
-      "strategist": 0,
-      "blitzRank1": 0
-    },
-    {
       "id": 214801388,
       "name": "Darado",
       "realm": {
@@ -2558,6 +2954,24 @@
       },
       "rank": 5,
       "characterClass": "Druid",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 214821980,
+      "name": "Shannerinel",
+      "realm": {
+        "name": {
+          "en_US": "silvermoon"
+        },
+        "slug": "silvermoon"
+      },
+      "rank": 5,
+      "characterClass": "Hunter",
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
@@ -2638,6 +3052,42 @@
       "blitzRank1": 0
     },
     {
+      "id": 216590538,
+      "name": "Flsx",
+      "realm": {
+        "name": {
+          "en_US": "silvermoon"
+        },
+        "slug": "silvermoon"
+      },
+      "rank": 5,
+      "characterClass": "Priest",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 216933091,
+      "name": "Ssgalychyna",
+      "realm": {
+        "name": {
+          "en_US": "silvermoon"
+        },
+        "slug": "silvermoon"
+      },
+      "rank": 5,
+      "characterClass": "Evoker",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 2,
+      "legend": 2,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
       "id": 217038742,
       "name": "Çhmö",
       "realm": {
@@ -2669,7 +3119,7 @@
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
-      "legend": 0,
+      "legend": 1,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -2689,24 +3139,6 @@
       "gladiator": 0,
       "legend": 0,
       "strategist": 0,
-      "blitzRank1": 0
-    },
-    {
-      "id": 219131332,
-      "name": "Shadowgrimm",
-      "realm": {
-        "name": {
-          "en_US": "kazzak"
-        },
-        "slug": "kazzak"
-      },
-      "rank": 5,
-      "characterClass": "Priest",
-      "rank1": 0,
-      "rank1solo": 0,
-      "gladiator": 0,
-      "legend": 0,
-      "strategist": 1,
       "blitzRank1": 0
     },
     {
@@ -2741,7 +3173,7 @@
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
-      "legend": 0,
+      "legend": 1,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -2758,8 +3190,8 @@
       "characterClass": "Paladin",
       "rank1": 0,
       "rank1solo": 0,
-      "gladiator": 0,
-      "legend": 0,
+      "gladiator": 1,
+      "legend": 1,
       "strategist": 0,
       "blitzRank1": 0
     },
@@ -2872,6 +3304,24 @@
       "blitzRank1": 0
     },
     {
+      "id": 221519818,
+      "name": "Unbestigber",
+      "realm": {
+        "name": {
+          "en_US": "silvermoon"
+        },
+        "slug": "silvermoon"
+      },
+      "rank": 5,
+      "characterClass": "Priest",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
       "id": 221715914,
       "name": "Frilante",
       "realm": {
@@ -2944,6 +3394,60 @@
       "blitzRank1": 0
     },
     {
+      "id": 222444869,
+      "name": "Pandabecks",
+      "realm": {
+        "name": {
+          "en_US": "silvermoon"
+        },
+        "slug": "silvermoon"
+      },
+      "rank": 5,
+      "characterClass": "Monk",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 222464403,
+      "name": "Becksdk",
+      "realm": {
+        "name": {
+          "en_US": "silvermoon"
+        },
+        "slug": "silvermoon"
+      },
+      "rank": 5,
+      "characterClass": "Death Knight",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 222778313,
+      "name": "Beckshunt",
+      "realm": {
+        "name": {
+          "en_US": "silvermoon"
+        },
+        "slug": "silvermoon"
+      },
+      "rank": 5,
+      "characterClass": "Hunter",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
       "id": 222963735,
       "name": "Yorjik",
       "realm": {
@@ -2972,6 +3476,42 @@
       },
       "rank": 5,
       "characterClass": "Evoker",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 223848530,
+      "name": "Twistrage",
+      "realm": {
+        "name": {
+          "en_US": "silvermoon"
+        },
+        "slug": "silvermoon"
+      },
+      "rank": 5,
+      "characterClass": "Monk",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 1,
+      "legend": 1,
+      "strategist": 1,
+      "blitzRank1": 0
+    },
+    {
+      "id": 223862831,
+      "name": "Akalie",
+      "realm": {
+        "name": {
+          "en_US": "silvermoon"
+        },
+        "slug": "silvermoon"
+      },
+      "rank": 5,
+      "characterClass": "Rogue",
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
@@ -3052,6 +3592,78 @@
       "blitzRank1": 0
     },
     {
+      "id": 224947965,
+      "name": "Kotestyle",
+      "realm": {
+        "name": {
+          "en_US": "silvermoon"
+        },
+        "slug": "silvermoon"
+      },
+      "rank": 5,
+      "characterClass": "Paladin",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 225396477,
+      "name": "Aquamisteya",
+      "realm": {
+        "name": {
+          "en_US": "silvermoon"
+        },
+        "slug": "silvermoon"
+      },
+      "rank": 5,
+      "characterClass": "Hunter",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 225662830,
+      "name": "Onlas",
+      "realm": {
+        "name": {
+          "en_US": "silvermoon"
+        },
+        "slug": "silvermoon"
+      },
+      "rank": 5,
+      "characterClass": "Rogue",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
+      "id": 225960709,
+      "name": "Nikolazapper",
+      "realm": {
+        "name": {
+          "en_US": "silvermoon"
+        },
+        "slug": "silvermoon"
+      },
+      "rank": 5,
+      "characterClass": "Shaman",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
       "id": 257767834,
       "name": "Kapitoszka",
       "realm": {
@@ -3088,6 +3700,24 @@
       "blitzRank1": 0
     },
     {
+      "id": 260289149,
+      "name": "Elisana",
+      "realm": {
+        "name": {
+          "en_US": "sunstrider"
+        },
+        "slug": "sunstrider"
+      },
+      "rank": 5,
+      "characterClass": "Priest",
+      "rank1": 0,
+      "rank1solo": 0,
+      "gladiator": 0,
+      "legend": 0,
+      "strategist": 0,
+      "blitzRank1": 0
+    },
+    {
       "id": 262661537,
       "name": "Kotych",
       "realm": {
@@ -3098,24 +3728,6 @@
       },
       "rank": 5,
       "characterClass": "Druid",
-      "rank1": 0,
-      "rank1solo": 0,
-      "gladiator": 0,
-      "legend": 0,
-      "strategist": 0,
-      "blitzRank1": 0
-    },
-    {
-      "id": 265851763,
-      "name": "Relish",
-      "realm": {
-        "name": {
-          "en_US": "sylvanas"
-        },
-        "slug": "sylvanas"
-      },
-      "rank": 5,
-      "characterClass": "Warrior",
       "rank1": 0,
       "rank1solo": 0,
       "gladiator": 0,
