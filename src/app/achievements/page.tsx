@@ -14,7 +14,7 @@ export default function Achievements() {
         <HeroSection 
           title="PvP Achievements"
           subtitle="Unique players who have ever achieved these PvP titles"
-          backgroundImage="/images/ebo_glad.jpg"
+          backgroundImage="/images/glads_p2.png"
         />
 
         {/* Achievement Stats */}

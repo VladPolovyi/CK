@@ -354,7 +354,7 @@ export default function Gallery() {
     {
       title: "Shchoor",
       description: "Win 50 games with more than 2400 arena rating during the The War Within",
-      image: "/images/idoru_glad.jpg",
+      image: "/images/morok_tww_s2_glad.jpg",
       type: "gladiator",
       expansion:"The War Within",
       season:2,
@@ -364,7 +364,7 @@ export default function Gallery() {
     {
       title: "Jazzcore",
       description: "Win 50 games with more than 2400 arena rating during the The War Within",
-      image: "/images/jazzcore_glad.jpg",
+      image: "/images/not_found.png",
       type: "gladiator",
       expansion:"The War Within",
       season:2,
@@ -374,7 +374,7 @@ export default function Gallery() {
     {
       title: "Ebobola",
       description: "Win 50 games with more than 2400 arena rating during the The War Within",
-      image: "/images/ebo_glad.jpg",
+      image: "/images/not_found.png",
       type: "gladiator",
       expansion:"The War Within",
       season:2,
@@ -401,19 +401,11 @@ export default function Gallery() {
       class: "Paladin",
       spec: "Retribution",
     },
-    // {
-    //   title: "Idoru & Shchoor R1 Solo",
-    //   description: "Idoru & Shchoor R1 Solo",
-    //   image: "/images/etazis_glad_s2.jpg",
-    //   type: "r1solo",
-    //   expansion: "The War Within",
-    //   season: 2,
-    // },
    
     {
       title: "Shchoor",
       description: "Win 50 games with more than 2400 arena rating during the The War Within",
-      image: "/images/idoru_shchoor_glad_s3.jpg",
+      image: "/images/karesh_glad_butthurtx.png",
       type: "gladiator",
       expansion:"The War Within",
       season:3,
