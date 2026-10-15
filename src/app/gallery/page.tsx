@@ -101,6 +101,36 @@ function getDisplayTitle(item: { title?: string; title2?: string; title3?: strin
 export default function Gallery() {
   // Real gallery items based on files in public/images
   const galleryItems = [
+     {
+      title: "Morok",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/morok_glad_s2_midnight.png",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:2, 
+      class: "Paladin",
+      spec: "Retribution",
+    },
+         {
+      title: "Shchoor",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/shchoor_midnight_s2_glad.jpg",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:2, 
+      class: "Warrior",
+      spec: "Arms",
+    },
+             {
+      title: "Butthurtx",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/butthurtx_glad_s2_midnight.png",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:2, 
+      class: "Death Knight",
+      spec: "Unholy",
+    },
       {
       title: "Shchoor",
       description: "Win 50 games with more than 2300 arena rating during the Midnight",
@@ -502,6 +532,7 @@ export default function Gallery() {
       class: "Priest",
       spec: "Holy",
     },
+    
   ]
 
   // Group by expansion (big), then by season (smaller) 
@@ -535,9 +566,9 @@ export default function Gallery() {
       <div className="pt-20">
       {/* Hero Section */}
       <HeroSection 
-        title="Gallery"
+        title="Gallery" 
         subtitle="View screenshots and achievements from our guild members' PvP victories and memorable moments."
-        backgroundImage="/images/spam_team.png"
+        backgroundImage="/images/glads_p2.png"
       />
 
       {/* Gallery: big group by expansion, smaller group by season */}
