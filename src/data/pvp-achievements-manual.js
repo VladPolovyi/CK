@@ -1,5 +1,21 @@
 // PvP Achievement data - manually maintained for reliability
 export const PVP_ACHIEVEMENTS = [
+  // midnight season 2
+  {
+    id: 62922,
+    name: "Gladiator: Midnight Season 2",
+    type: "gladiator"
+  },
+    {
+    id: 62932,
+    name: "Legend: Midnight Season 2",
+    type: "legend"
+  },
+    {
+    id: 62950,
+    name: "Strategist: Midnight Season 2",
+    type: "strategist"
+  },
     // Midnight Season 1
   {
     id: 61188,

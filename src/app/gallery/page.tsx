@@ -111,6 +111,16 @@ export default function Gallery() {
       class: "Paladin",
       spec: "Retribution",
     },
+      {
+      title: "Jazzcore",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/not_found.png",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:2, 
+      class: "Shaman",
+      spec: "Restoration",
+    },
          {
       title: "Shchoor",
       description: "Win 50 games with more than 2300 arena rating during the Midnight",
@@ -121,7 +131,7 @@ export default function Gallery() {
       class: "Warrior",
       spec: "Arms",
     },
-             {
+    {
       title: "Butthurtx",
       description: "Win 50 games with more than 2300 arena rating during the Midnight",
       image: "/images/butthurtx_glad_s2_midnight.png",
@@ -131,6 +141,37 @@ export default function Gallery() {
       class: "Death Knight",
       spec: "Unholy",
     },
+    {
+      title: "Abcypd",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/abcypd_glad_s2_midnight.png",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:2, 
+      class: "Evoker",
+      spec: "Preservation",
+    },
+        {
+      title: "Darkradiance",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/radiance_glad_s2_midnight.png",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:2, 
+      class: "Evoker",
+      spec: "Preservation",
+    },
+    {
+      title: "Untrust",
+      description: "Win 50 games with more than 2300 arena rating during the Midnight",
+      image: "/images/untrust_glad_s2_midnight.png",
+      type: "gladiator",
+      expansion:"Midnight",
+      season:2, 
+      class: "Shaman",
+      spec: "Enhancement",
+    },
+      
       {
       title: "Shchoor",
       description: "Win 50 games with more than 2300 arena rating during the Midnight",
